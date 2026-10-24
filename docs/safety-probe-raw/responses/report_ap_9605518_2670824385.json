@@ -1,0 +1,544 @@
+{
+ "label": "ap_9605518_2670824385",
+ "n_edges": 122,
+ "modes": {
+  "strict": {
+   "metres": {
+    "A": 1162.0,
+    "C": 1665.0,
+    "D": 4817.0
+   },
+   "share": {
+    "A": 15.2,
+    "C": 21.78,
+    "D": 63.02
+   },
+   "total_m": 7644.0,
+   "named": {
+    "D": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": []
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": []
+     },
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 410.0,
+      "edges": 10,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": []
+     }
+    ],
+    "C": [
+     {
+      "street": "16th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 863.0,
+      "edges": 19,
+      "assumed_mph": []
+     },
+     {
+      "street": "Thornton Avenue Southwest",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 802.0,
+      "edges": 23,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "separated",
+      "m": 1162.0,
+      "edges": 17,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient": {
+   "metres": {
+    "A": 1162.0,
+    "C": 2005.0,
+    "D": 410.0,
+    "E": 1703.0,
+    "GAP": 2364.0
+   },
+   "share": {
+    "A": 15.2,
+    "C": 26.23,
+    "D": 5.36,
+    "E": 22.28,
+    "GAP": 30.93
+   },
+   "total_m": 7644.0,
+   "named": {
+    "C": [
+     {
+      "street": "16th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 863.0,
+      "edges": 19,
+      "assumed_mph": []
+     },
+     {
+      "street": "Thornton Avenue Southwest",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 802.0,
+      "edges": 23,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       39
+      ]
+     }
+    ],
+    "E": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": [
+       44
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 410.0,
+      "edges": 10,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "separated",
+      "m": 1162.0,
+      "edges": 17,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous": {
+   "metres": {
+    "A": 1162.0,
+    "C": 2005.0,
+    "D": 410.0,
+    "GAP": 4067.0
+   },
+   "share": {
+    "A": 15.2,
+    "C": 26.23,
+    "D": 5.36,
+    "GAP": 53.21
+   },
+   "total_m": 7644.0,
+   "named": {
+    "C": [
+     {
+      "street": "16th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 863.0,
+      "edges": 19,
+      "assumed_mph": []
+     },
+     {
+      "street": "Thornton Avenue Southwest",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 802.0,
+      "edges": 23,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 410.0,
+      "edges": 10,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "separated",
+      "m": 1162.0,
+      "edges": 17,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient_repair": {
+   "metres": {
+    "A": 1162.0,
+    "C": 2005.0,
+    "D": 2774.0,
+    "E": 1703.0
+   },
+   "share": {
+    "A": 15.2,
+    "C": 26.23,
+    "D": 36.29,
+    "E": 22.28
+   },
+   "total_m": 7644.0,
+   "named": {
+    "C": [
+     {
+      "street": "16th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 863.0,
+      "edges": 19,
+      "assumed_mph": []
+     },
+     {
+      "street": "Thornton Avenue Southwest",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 802.0,
+      "edges": 23,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 410.0,
+      "edges": 10,
+      "assumed_mph": []
+     }
+    ],
+    "E": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": [
+       44
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "separated",
+      "m": 1162.0,
+      "edges": 17,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous_repair": {
+   "metres": {
+    "A": 1162.0,
+    "C": 6072.0,
+    "D": 410.0
+   },
+   "share": {
+    "A": 15.2,
+    "C": 79.43,
+    "D": 5.36
+   },
+   "total_m": 7644.0,
+   "named": {
+    "C": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "16th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 863.0,
+      "edges": 19,
+      "assumed_mph": []
+     },
+     {
+      "street": "Thornton Avenue Southwest",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 802.0,
+      "edges": 23,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 410.0,
+      "edges": 10,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "separated",
+      "m": 1162.0,
+      "edges": 17,
+      "assumed_mph": []
+     }
+    ]
+   }
+  }
+ },
+ "route_summary": {
+  "has_time_restrictions": false,
+  "has_toll": false,
+  "has_highway": false,
+  "has_ferry": false,
+  "min_lat": 47.235471,
+  "min_lon": -122.277231,
+  "max_lat": 47.256555,
+  "max_lon": -122.237168,
+  "time": 1484.06,
+  "length": 7.646,
+  "cost": 2651.849
+ },
+ "arrival": {
+  "lat": 47.235561,
+  "lon": -122.237168
+ }
+}

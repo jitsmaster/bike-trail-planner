@@ -1,0 +1,539 @@
+{
+ "label": "ap_9605518_2670828266",
+ "n_edges": 100,
+ "modes": {
+  "strict": {
+   "metres": {
+    "A": 627.0,
+    "D": 5992.0
+   },
+   "share": {
+    "A": 9.47,
+    "D": 90.53
+   },
+   "total_m": 6619.0,
+   "named": {
+    "D": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": []
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": []
+     },
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 726.0,
+      "edges": 22,
+      "assumed_mph": []
+     },
+     {
+      "street": "Stewart Road",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 519.0,
+      "edges": 14,
+      "assumed_mph": []
+     },
+     {
+      "street": "Stewart Road Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 340.0,
+      "edges": 8,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 627.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient": {
+   "metres": {
+    "A": 627.0,
+    "C": 340.0,
+    "D": 726.0,
+    "E": 2562.0,
+    "GAP": 2364.0
+   },
+   "share": {
+    "A": 9.47,
+    "C": 5.14,
+    "D": 10.97,
+    "E": 38.71,
+    "GAP": 35.72
+   },
+   "total_m": 6619.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       39
+      ]
+     }
+    ],
+    "E": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": [
+       44
+      ]
+     },
+     {
+      "street": "Stewart Road",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 519.0,
+      "edges": 14,
+      "assumed_mph": [
+       44
+      ]
+     },
+     {
+      "street": "Stewart Road Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 340.0,
+      "edges": 8,
+      "assumed_mph": [
+       44
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 726.0,
+      "edges": 22,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 627.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous": {
+   "metres": {
+    "A": 627.0,
+    "C": 340.0,
+    "D": 726.0,
+    "GAP": 4926.0
+   },
+   "share": {
+    "A": 9.47,
+    "C": 5.14,
+    "D": 10.97,
+    "GAP": 74.42
+   },
+   "total_m": 6619.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Stewart Road",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 519.0,
+      "edges": 14,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Stewart Road Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 340.0,
+      "edges": 8,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 726.0,
+      "edges": 22,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 627.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient_repair": {
+   "metres": {
+    "A": 627.0,
+    "C": 340.0,
+    "D": 3090.0,
+    "E": 2562.0
+   },
+   "share": {
+    "A": 9.47,
+    "C": 5.14,
+    "D": 46.68,
+    "E": 38.71
+   },
+   "total_m": 6619.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 726.0,
+      "edges": 22,
+      "assumed_mph": []
+     }
+    ],
+    "E": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": [
+       44
+      ]
+     },
+     {
+      "street": "Stewart Road",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 519.0,
+      "edges": 14,
+      "assumed_mph": [
+       44
+      ]
+     },
+     {
+      "street": "Stewart Road Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 340.0,
+      "edges": 8,
+      "assumed_mph": [
+       44
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 627.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous_repair": {
+   "metres": {
+    "A": 627.0,
+    "C": 5266.0,
+    "D": 726.0
+   },
+   "share": {
+    "A": 9.47,
+    "C": 79.56,
+    "D": 10.97
+   },
+   "total_m": 6619.0,
+   "named": {
+    "C": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Stewart Road",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 519.0,
+      "edges": 14,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Stewart Road Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 340.0,
+      "edges": 8,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 726.0,
+      "edges": 22,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 627.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ]
+   }
+  }
+ }
+}

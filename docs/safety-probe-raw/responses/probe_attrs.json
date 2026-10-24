@@ -1,0 +1,34 @@
+{
+  "units": "kilometers",
+  "edges": [
+    {
+      "truck_route": false,
+      "bicycle_network": 0,
+      "use": "driveway",
+      "road_class": "service_other",
+      "speed": 25,
+      "length": 0.015,
+      "source_percent_along": 0.569
+    },
+    {
+      "truck_route": false,
+      "bicycle_network": 0,
+      "use": "driveway",
+      "road_class": "service_other",
+      "speed": 25,
+      "length": 0.045
+    },
+    {
+      "truck_route": false,
+      "bicycle_network": 0,
+      "use": "road",
+      "road_class": "residential",
+      "speed": 18,
+      "length": 0.181,
+      "names": [
+        "18th Street East"
+      ]
+    }
+  ],
+  "alternate_paths": []
+}

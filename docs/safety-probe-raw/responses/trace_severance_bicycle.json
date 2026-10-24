@@ -1,0 +1,1050 @@
+{
+ "units": "kilometers",
+ "edges": [
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 1,
+   "cycle_lane": "shared",
+   "weighted_grade": 1.666,
+   "way_id": 1433885326,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "cycleway",
+   "begin_shape_index": 0,
+   "road_class": "service_other",
+   "speed": 17,
+   "length": 0.013,
+   "names": [
+    "Sumner Link Trail"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 1,
+   "cycle_lane": "shared",
+   "weighted_grade": -1.666,
+   "way_id": 1433885326,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "cycleway",
+   "begin_shape_index": 1,
+   "road_class": "service_other",
+   "speed": 22,
+   "length": 0.065,
+   "names": [
+    "Sumner Link Trail"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 1,
+   "cycle_lane": "shared",
+   "weighted_grade": 0.0,
+   "way_id": 1433885326,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "cycleway",
+   "begin_shape_index": 3,
+   "road_class": "service_other",
+   "speed": 18,
+   "length": 0.078,
+   "names": [
+    "Sumner Link Trail"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 1,
+   "cycle_lane": "shared",
+   "weighted_grade": 0.0,
+   "way_id": 1433885326,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "cycleway",
+   "begin_shape_index": 5,
+   "road_class": "service_other",
+   "speed": 18,
+   "length": 0.316,
+   "names": [
+    "Sumner Link Trail"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 1,
+   "cycle_lane": "dedicated",
+   "weighted_grade": 0.0,
+   "way_id": 419747830,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "cycleway",
+   "begin_shape_index": 15,
+   "road_class": "service_other",
+   "speed": 18,
+   "length": 0.129,
+   "names": [
+    "Sumner Link Trail"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 1,
+   "cycle_lane": "shared",
+   "weighted_grade": 0.0,
+   "way_id": 1433885378,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "cycleway",
+   "begin_shape_index": 20,
+   "road_class": "service_other",
+   "speed": 18,
+   "length": 0.093,
+   "names": [
+    "Sumner Link Trail"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 1,
+   "cycle_lane": "dedicated",
+   "weighted_grade": 0.0,
+   "way_id": 419747832,
+   "surface": "paved",
+   "unpaved": false,
+   "use": "cycleway",
+   "begin_shape_index": 23,
+   "road_class": "service_other",
+   "speed": 18,
+   "length": 0.004
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 1,
+   "cycle_lane": "dedicated",
+   "weighted_grade": 0.0,
+   "way_id": 419747832,
+   "surface": "paved",
+   "unpaved": false,
+   "use": "cycleway",
+   "begin_shape_index": 24,
+   "road_class": "service_other",
+   "speed": 18,
+   "length": 0.01
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12233103,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 25,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.089,
+   "names": [
+    "Tacoma Avenue"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 25680605,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 30,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.076,
+   "names": [
+    "Tacoma Avenue"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 25680606,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 31,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.047,
+   "names": [
+    "Tacoma Avenue"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 25680606,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 35,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.016,
+   "names": [
+    "Tacoma Avenue"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 896480798,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 37,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.078,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 896480798,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 44,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.094,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 896480798,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 46,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.098,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 896480798,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 47,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.079,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 896480798,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 48,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.082,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 896480798,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 49,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.015,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 896480798,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 50,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.011,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 896480798,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 51,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.055,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 896480798,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 52,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.03,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 896480798,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 53,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.059,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 896480798,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 54,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.121,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12226110,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 55,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.107,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12226110,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 56,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.035,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12226110,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 57,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.009,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12226110,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 58,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.014,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12226110,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 59,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.065,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12226110,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 60,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.052,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12226110,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 61,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.046,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12226110,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 62,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.013,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12226110,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 63,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.127,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12226110,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 64,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.054,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12226110,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 65,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.012,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12226110,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 66,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.09,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12226110,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 67,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.026,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12226110,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 68,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.028,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12226110,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 69,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.047,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12226110,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 70,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.025,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12226110,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 71,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.091,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12226110,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 72,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.017,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12226110,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 73,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.067,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12226110,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 74,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.004,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12226110,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 75,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.019,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12226110,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 76,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.172,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12226110,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 77,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.116,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12226110,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 80,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.074,
+   "names": [
+    "142nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12245928,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 87,
+   "road_class": "residential",
+   "speed": 18,
+   "length": 0.032,
+   "names": [
+    "24th Street East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 12245928,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 91,
+   "road_class": "residential",
+   "speed": 22,
+   "length": 0.02,
+   "names": [
+    "24th Street East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12245928,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 94,
+   "road_class": "residential",
+   "speed": 18,
+   "length": 0.042,
+   "names": [
+    "24th Street East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12245928,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 96,
+   "road_class": "residential",
+   "speed": 18,
+   "length": 0.064,
+   "names": [
+    "24th Street East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12245928,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 97,
+   "road_class": "residential",
+   "speed": 18,
+   "length": 0.067,
+   "names": [
+    "24th Street East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12245928,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 98,
+   "road_class": "residential",
+   "speed": 18,
+   "length": 0.006,
+   "names": [
+    "24th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "separated",
+   "weighted_grade": 0.0,
+   "way_id": 691257989,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "cycleway",
+   "begin_shape_index": 99,
+   "road_class": "service_other",
+   "speed": 18,
+   "length": 0.014
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 1,
+   "cycle_lane": "shared",
+   "weighted_grade": 0.0,
+   "way_id": 98695977,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "cycleway",
+   "begin_shape_index": 100,
+   "road_class": "service_other",
+   "speed": 18,
+   "length": 0.042,
+   "names": [
+    "Sumner Link Trail"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 1,
+   "cycle_lane": "separated",
+   "weighted_grade": 0.0,
+   "way_id": 98696487,
+   "surface": "paved",
+   "unpaved": false,
+   "use": "cycleway",
+   "begin_shape_index": 101,
+   "road_class": "service_other",
+   "speed": 18,
+   "length": 0.127,
+   "names": [
+    "Sumner Link Trail"
+   ]
+  }
+ ],
+ "alternate_paths": []
+}

@@ -1,0 +1,6 @@
+{
+ "error_code": 137,
+ "error": "Failed to parse polygon: IsNumber()",
+ "status_code": 400,
+ "status": "Bad Request"
+}

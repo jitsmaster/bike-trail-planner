@@ -1,0 +1,414 @@
+--------- beginning of main
+09-16 09:44:19.485  5067  5067 W View    : requestLayout() improperly called by com.android.systemui.qs.QSTouchAwareFrameLayout{7cbadfe V.E...... ......ID 0,215-1440,3088 #7e0a0a4c com.android.systemui:id/qs_frame} during layout: running second layout pass
+09-16 09:44:19.486  5067  5067 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+09-16 09:44:19.489 12834 14701 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+09-16 09:44:19.511  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+09-16 09:44:19.511  2074  6277 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+09-16 09:44:19.624  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+09-16 09:44:19.624  2074  6277 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+09-16 09:44:19.624  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+09-16 09:44:19.631  5104  6312 I ScanController: onScanResult to scannerId: 1- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:8F:24, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-59, periodicAdvInt=0x0
+09-16 09:44:19.634 12834 14701 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+09-16 09:44:19.666  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+09-16 09:44:19.666  2074  6277 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+09-16 09:44:19.721  2567  2587 I GestureDetector: handleMessage TAP
+09-16 09:44:19.721  2567  2567 I GestureDetector: handleMessage TAP
+--------- beginning of system
+09-16 09:44:19.746  1123  1123 D io_stats: !@   8,0 r 38943602 739901003 w 22081637 293129764 d 1504134 322273924 f 685321 2131650 iot 23846112 0 th 0 0 0 pt 0 inp 0 0 444693.263
+09-16 09:44:19.817  2074  5555 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+09-16 09:44:20.075  2567  4845 D WifiConnectivityMonitor.NetworkStatsAnalyzer: Backhaul result - RSSI:-41, CE:11, PE:11, TI:19, PTI:19, TW:0, PTW:0, Tx:16, Rx:19, TxS:0, RxS:0, RESULT:true, IC:0, ICT:5, WC:0, WCT:5, R:0, RC:0, IE:0, EC:0
+09-16 09:44:20.087  2567  4706 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+09-16 09:44:20.090  2567  6801 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 53582, isSameBssidAndFreq true
+09-16 09:44:20.431  2094 17508 I sensors-hal: handle_sns_std_sensor_event:436, [SSC_LIGHT] P: 32(32),m:13,c:205,b:39,c0:18469,l:30,f(r):97,u(bl):100,j:32
+09-16 09:44:20.613  5125  5370 D SatelliteController: isInCarrierRoamingNbIotNtn: satellite is disabled
+09-16 09:44:20.614  5125  5370 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+09-16 09:44:20.615  5125  5370 V SatelliteController: getWwanIsInService: return true
+09-16 09:44:20.615  5125  5370 D SatelliteController: updateLastNotifiedCarrierRoamingNtnSignalStrengthAndNotify(1)
+09-16 09:44:20.615  5125  5370 D SatelliteController: updateLastNotifiedCarrierRoamingNtnSignalStrengthAndNotify(1) lastNotifiedSignalStrength level: 0
+09-16 09:44:20.615  5125  5370 D SatelliteController: updateLastNotifiedCarrierRoamingNtnSignalStrengthAndNotify(1) currSignalStrength level: 0
+09-16 09:44:20.624  5592  5592 I EPDG-0 [CellularProfiler]: onSignalStrengthsChanged: SignalStrength:{mCdma=Invalid,mGsm=Invalid,mWcdma=Invalid,mTdscdma=Invalid,mLte=Invalid,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiCqiTableIndex = 2147483647 csiCqiReport = [] ssRsrp = -107 ssRsrq = -14 ssSinr = -1 level = 1 parametersUseForLevel = 0 timingAdvance = 2147483647 },SignalBarInfo{ nrLevel=4 },rat=20,primary=CellSignalStrengthNr}
+09-16 09:44:20.624  5592  7488 I EPDG-0 [CellularProfiler]: lastNrRSRP is -104 currentNrRSRP is -107 lastNrRSRQ is -14 currentNrRSRQ is -14
+09-16 09:44:20.764  5080 10489 D IpClient/wlan0: interfaceLinkStateChanged: ifindex 54 up
+09-16 09:44:20.775 12834 32456 I gle.android.gms: Explicit concurrent mark compact GC freed 34MB AllocSpace bytes, 0(0B) LOS objects, 54% free, 39MB/87MB, paused 516us,2.629ms total 218.700ms
+09-16 09:44:20.785 12834 12840 V BluetoothSocket: close() Local Socket: Already closed
+09-16 09:44:20.913  2567  6821 E BatteryStatsService: Invalid uid for waking network packet: -1
+09-16 09:44:21.382  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+09-16 09:44:21.382  2074  6277 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+09-16 09:44:21.382  2074  6277 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+09-16 09:44:21.382  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+09-16 09:44:21.394  5104  6312 I ScanController: onScanResult to scannerId: 1- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:8F:24, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-61, periodicAdvInt=0x0
+09-16 09:44:21.400 12834 14701 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+09-16 09:44:21.434  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+09-16 09:44:21.435  2074  6277 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+09-16 09:44:21.476  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+09-16 09:44:21.476  2074  6277 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+09-16 09:44:21.476  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+09-16 09:44:21.483  5104  6312 I ScanController: onScanResult to scannerId: 14- eventType=0x1a, addressType=0, address=XX:XX:XX:XX:28:27, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-56, periodicAdvInt=0x0
+09-16 09:44:21.520  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+09-16 09:44:21.520  2074  6277 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+09-16 09:44:21.671  2074  5555 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+09-16 09:44:21.748  1123  1123 D io_stats: !@   8,0 r 38943635 739901571 w 22081637 293129764 d 1504134 322273924 f 685321 2131650 iot 23846128 0 th 0 0 0 pt 0 inp 0 0 444695.265
+09-16 09:44:21.749  1123  1123 D io_stats: !@ Read_top(KB): gle.android.gms(12834) 312 kworker/u16:1(32333) 256 rs.media.module(16394) 72
+09-16 09:44:21.749  1123  1123 D io_stats: !@ Write_top(KB): kworker/u16:3(30616) 7516 martsuggestions(16401) 200 gestions:search(25458) 32
+09-16 09:44:22.025 16536 17627 I SDHMS:x : SIOP:: AP:270 BAT:247 USB:241 CHG:269 PA:265 CP:263 WIFI:258 CF:253 BLK:0 SUBBAT:0 SKIN:274 SKINF:274 SKINB:258 LRP:273 LRP2:273 LRF2:274 LRB2:258 AP2:273 CHG2:273 WIFI2:267 UANT2:270 RCV2:270 SPK2:270 FCAM:241 UPSPK:253 DNSPK:241 VAP02:271 VWIFI:258 AMB:247 AMB2:204 AVGCUR:-6 POWER:-25
+09-16 09:44:22.419  2567  2624 D PowerManagerService: UserActivityStateListenerState: 0
+09-16 09:44:22.440 31319 31319 I VRI[MainActivity]@4e5f317: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@4e5f317
+09-16 09:44:22.449  2238  2238 I SurfaceFlinger: [com.biketrailplanner/com.biketrailplanner.MainActivity$_31319#25058] setFrameRateCategory: NoPreference
+09-16 09:44:22.452  2238  2456 I SurfaceFlinger: Current= 60, Period= 60, Distance= 0
+09-16 09:44:22.468  2238  2456 I SurfaceFlinger: Current= 60, Period= 60, Distance= 60
+09-16 09:44:22.731  2567  6821 D NetdEventListenerService: CSC Feature value: true
+09-16 09:44:22.731  2567  6821 D NetdEventListenerService: CSC Feature value: true
+09-16 09:44:22.731  2567  6821 D NetdEventListenerService: CSC Feature value: true
+09-16 09:44:23.134  2567  4706 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+09-16 09:44:23.143  5592  5592 I EPDG-0 [WifiProfiler]: handleWifiRssiIntent, rssi=-41
+09-16 09:44:23.143  2567  6801 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 53583, isSameBssidAndFreq true
+09-16 09:44:23.144  5592  5592 I EPDG-0 [WifiProfiler]: isProfiling, hash=267525074, started=true
+09-16 09:44:23.145  5592  5592 I EPDG-0 [LogMetrics]: set, type=WIFI_RSSI_LAST, value=-41
+09-16 09:44:23.145  5592  5592 I EPDG-0 [WifiProfiler]: isProfiling, hash=267525074, started=true
+09-16 09:44:23.146  5592  5592 I EPDG-0 [WifiProfiler]: Rssi : -41 highrange : -71 lowrange : -80 mIsRssiInHystersis : false
+09-16 09:44:23.147  5592  5592 I EPDG-0 [WifiProfiler]: Rssi : -41 highrange : -71 lowrange : -80 mIsRssiInHystersis : false
+09-16 09:44:23.147  5592  5592 I EPDG-0 [Subscription]: isEpdgAvailable, IwlanPsState=2/2
+09-16 09:44:23.147  5592  5592 I EPDG-0 [WifiProfiler]: getHandoverThresholdMet: value is: false
+09-16 09:44:23.177  5125  5370 D SatelliteController: isInCarrierRoamingNbIotNtn: satellite is disabled
+09-16 09:44:23.180  2567  4796 D SemCellularStateManager: onSignalStrengthsChanged: mCellularSignalLevel=0
+09-16 09:44:23.184  5125  5370 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+09-16 09:44:23.185  5067  5315 D MobileSignalTransitionManager: updateSignalTransition
+09-16 09:44:23.185  5125  5370 V SatelliteController: getWwanIsInService: return true
+09-16 09:44:23.185  5125  5370 D SatelliteController: updateLastNotifiedCarrierRoamingNtnSignalStrengthAndNotify(1)
+09-16 09:44:23.185  5125  5370 D SatelliteController: updateLastNotifiedCarrierRoamingNtnSignalStrengthAndNotify(1) lastNotifiedSignalStrength level: 0
+09-16 09:44:23.185  5125  5370 D SatelliteController: updateLastNotifiedCarrierRoamingNtnSignalStrengthAndNotify(1) currSignalStrength level: 0
+09-16 09:44:23.187  2074  2074 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+09-16 09:44:23.188  2074  2074 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+09-16 09:44:23.188  2074  2074 I vendor.qti.bluetooth@1.1-ibs_handler: DeviceWakeUp: Writing IBS_WAKE_IND
+09-16 09:44:23.188  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_ACK: 0xFC
+09-16 09:44:23.188  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Signal wack_cond_
+09-16 09:44:23.189  2074  2074 D vendor.qti.bluetooth@1.1-ibs_handler: DeviceWakeUp: Unblocked from waiting for FC, pthread_cond_timedwait ret = 0
+09-16 09:44:23.190  5592  5592 I EPDG-0 [CellularProfiler]: onSignalStrengthsChanged: SignalStrength:{mCdma=Invalid,mGsm=Invalid,mWcdma=Invalid,mTdscdma=Invalid,mLte=Invalid,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiCqiTableIndex = 2147483647 csiCqiReport = [] ssRsrp = -111 ssRsrq = -14 ssSinr = -1 level = 0 parametersUseForLevel = 0 timingAdvance = 2147483647 },SignalBarInfo{ nrLevel=3 },rat=20,primary=CellSignalStrengthNr}
+09-16 09:44:23.190  6096  6201 I HoneySpace.StatusIconTracker: invokeEvent() called with: event = Mobile(bundle=Bundle[mParcelledData.dataSize=256])
+09-16 09:44:23.190  5592  7488 I EPDG-0 [CellularProfiler]: lastNrRSRP is -107 currentNrRSRP is -111 lastNrRSRQ is -14 currentNrRSRQ is -14
+09-16 09:44:23.216  2094  6258 I sensors-hal: handle_sns_client_event:190, auto_rotation_debug_2 mode,255, type,1,0 acc,0.517,0.019,9.835, ar,0, ver,15, pedo,1,e,1,i,3
+09-16 09:44:23.277  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+09-16 09:44:23.277  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+09-16 09:44:23.288  5104  6312 I ScanController: onScanResult to scannerId: 1- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:8F:24, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-63, periodicAdvInt=0x0
+09-16 09:44:23.293 12834 14701 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+09-16 09:44:23.308  5104  6312 I ScanController: onScanResult to scannerId: 8- eventType=0x10, addressType=0, address=XX:XX:XX:XX:9C:2D, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-53, periodicAdvInt=0x0
+09-16 09:44:23.317 25769 26195 I [-0700]oneconnect[1.8.47.24_01][CORE]: DataConvert.parseBleVd - deviceBle : |name:|deviceType:TV|discoverType:_BLE|services:None|connected:false[TvStatusString]POWER_OFF[TvStatus]-128[TvService]110[TvMirrorChannel]1[TvRegisteredDB][94, 17, 78, -66, 42, 11][TvYear]2016[TvOcfInfo]0[TvAcmStatus]0[ExTvStatus]0[ExtendedStatus]-1[ModuloSn]-1
+09-16 09:44:23.347  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+09-16 09:44:23.440  2567  5725 I NSLocationMonitor: getGPSUsingApps() called
+09-16 09:44:23.441  5673  5703 I NSLocationManager_FLP: getGPSUsingApps, No change
+09-16 09:44:23.454  2567  5725 D FreecessHandler: skipping freeze com.biketrailplanner(10062) result : 12
+09-16 09:44:23.457  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+09-16 09:44:23.457  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+09-16 09:44:23.468  2094 17508 I sensors-hal: handle_sns_std_sensor_event:436, [SSC_LIGHT] P: 34(34),m:13,c:205,b:39,c0:18461,l:30,f(r):97,u(bl):100,j:35
+09-16 09:44:23.500  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+09-16 09:44:23.749  1123  1123 D io_stats: !@   8,0 r 38943636 739901575 w 22081730 293130400 d 1504134 322273924 f 685323 2131656 iot 23846152 0 th 0 0 0 pt 0 inp 0 0 444697.267
+09-16 09:44:23.851  2224  2252 D HeatmapThread: Updated plugType via uevent: 2
+09-16 09:44:23.858  2183  2202 E BatteryDump: !@new_battery_dump : 4181,25,475,550,84,246,241,268,246,0,274,269,0,Not-charging,NO_CHARGING,Normal,Good,USB,1,Normal,0,0,9300,0x0,0x1010000,0x0,0,0,0000,0000,00000000,0,0,0,0,326,4181,8454,1000,0,
+09-16 09:44:23.860  2183  2183 I sehhealth-service: updateLrpSysfs: write: 274
+09-16 09:44:24.190  2074  6281 I vendor.qti.bluetooth@1.1-ibs_handler: DeviceSleep: TX Awake, Sending SLEEP_IND
+09-16 09:44:24.190  2074  6281 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+09-16 09:44:24.239 12834 32596 I GmscoreIpa: Starting mediastore instant index [CONTEXT service_id=255 ]
+09-16 09:44:24.260 18681 18681 I adbd    : adbd service requested 'exec:screencap '-p''
+09-16 09:44:24.341  2074  5555 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+09-16 09:44:24.428 32600 32600 W libbinder.BackendUnifiedServiceManager: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+09-16 09:44:24.428 32600 32600 W libbinder.BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+09-16 09:44:24.429 32600 32600 W libbinder.BackendUnifiedServiceManager: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+09-16 09:44:24.429  2567  6803 I EDMNativeHelperService: isScreenCaptureEnabled
+09-16 09:44:24.429  2567  6803 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+09-16 09:44:24.429 32600 32600 W libbinder.ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+09-16 09:44:24.429 32600 32600 I SurfaceComposerClient: captureDisplay:Display-4630947093241269891
+09-16 09:44:24.432  2238  4452 I SurfaceFlinger: Capture layer list: 	 bce9fa SurfaceView[com.biketrailplanner/com.biketrailplanner.MainActivity]@0(BLAST)#25063(preserveDisplayColors:0)
+09-16 09:44:24.432  2238  4452 I SurfaceFlinger: Capture layer list: 	 com.biketrailplanner/com.biketrailplanner.MainActivity$_31319#25058(preserveDisplayColors:0)
+09-16 09:44:24.432  2238  4452 I SurfaceFlinger: Capture layer list: 	 StatusBar$_5067#103(preserveDisplayColors:0)
+09-16 09:44:24.432  2238  4452 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_6096#25044(preserveDisplayColors:0)
+09-16 09:44:24.432  2238  4452 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_5067#98(preserveDisplayColors:0)
+09-16 09:44:24.433  2238  2364 D SurfaceFlinger: [SEC_SF_EFFECTS] drawLayersInternal,1337, Rendering layer ScreenCaptureFillLayer at index 0
+09-16 09:44:24.434  2238  2364 D SurfaceFlinger: [SEC_SF_EFFECTS] drawLayersInternal,1337, Rendering layer bce9fa SurfaceView[com.biketrailplanner/com.biketrailplanner.MainActivity]@0(BLAST)#25063 at index 1
+09-16 09:44:24.434  2238  2364 D SurfaceFlinger: [SEC_SF_EFFECTS] drawLayersInternal,1337, Rendering layer com.biketrailplanner/com.biketrailplanner.MainActivity$_31319#25058 at index 2
+09-16 09:44:24.434  2238  2364 D SurfaceFlinger: [SEC_SF_EFFECTS] drawLayersInternal,1337, Rendering layer StatusBar$_5067#103 at index 3
+09-16 09:44:24.435  2238  2364 D SurfaceFlinger: [SEC_SF_EFFECTS] drawLayersInternal,1337, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_6096#25044 at index 4
+09-16 09:44:24.435  2238  2364 D SurfaceFlinger: [SEC_SF_EFFECTS] drawLayersInternal,1337, Rendering layer NavigationBar0$_5067#98 at index 5
+09-16 09:44:24.470  2238  2456 I SurfaceFlinger: Current= 60, Period= 60, Distance= 0
+09-16 09:44:24.475  5067  5067 W View    : requestLayout() improperly called by android.widget.FrameLayout{91975b9 V.E...... ......I. 0,0-1440,3088 #14} during layout: running second layout pass
+09-16 09:44:24.476  5067  5067 W View    : requestLayout() improperly called by com.android.systemui.qs.QSTouchAwareFrameLayout{7cbadfe V.E...... ......ID 0,215-1440,3088 #7e0a0a4c com.android.systemui:id/qs_frame} during layout: running second layout pass
+09-16 09:44:24.477  5067  5067 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+09-16 09:44:24.481  5067  5067 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 0
+09-16 09:44:24.481  5067  5067 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+09-16 09:44:24.484 32600 32601 I AdrenoUtils: <ReadGpuID:407>: Reading chip ID through GSL
+09-16 09:44:24.486  2238  2456 I SurfaceFlinger: Current= 60, Period= 60, Distance= 60
+09-16 09:44:24.489  6096  6201 I HoneySpace.StatusIconTracker: invokeEvent() called with: event = PrivacyInfo(visible=false)
+09-16 09:44:24.492  5067  5067 W View    : requestLayout() improperly called by android.widget.FrameLayout{91975b9 V.E...... ......I. 0,0-1440,3088 #14} during layout: running second layout pass
+09-16 09:44:24.492  5067  5067 W View    : requestLayout() improperly called by com.android.systemui.qs.QSTouchAwareFrameLayout{7cbadfe V.E...... ......ID 0,215-1440,3088 #7e0a0a4c com.android.systemui:id/qs_frame} during layout: running second layout pass
+09-16 09:44:24.493  5067  5067 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+09-16 09:44:24.815  2567  6803 E BatteryStatsService: Invalid uid for waking network packet: -1
+09-16 09:44:24.822 18681 18681 I adbd    : adbd service requested 'shell,v2,TERM=dumb,raw:uiautomator dump /sdcard/ui_after_tap.xml'
+09-16 09:44:24.869  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+09-16 09:44:24.869  2074  6277 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+09-16 09:44:24.869  2074  6277 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+09-16 09:44:24.869  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+09-16 09:44:24.878  5104  6312 I ScanController: onScanResult to scannerId: 8- eventType=0x10, addressType=0, address=XX:XX:XX:XX:9C:2D, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-69, periodicAdvInt=0x0
+09-16 09:44:24.880  5104  6312 I ScanController: onScanResult to scannerId: 1- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:8F:24, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-47, periodicAdvInt=0x0
+09-16 09:44:24.884 12834 14701 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+09-16 09:44:24.885 25769 26195 I [-0700]oneconnect[1.8.47.24_01][CORE]: DataConvert.parseBleVd - deviceBle : |name:|deviceType:TV|discoverType:_BLE|services:None|connected:false[TvStatusString]POWER_OFF[TvStatus]-128[TvService]110[TvMirrorChannel]1[TvRegisteredDB][94, 17, 78, -66, 42, 11][TvYear]2016[TvOcfInfo]0[TvAcmStatus]0[ExTvStatus]0[ExtendedStatus]-1[ModuloSn]-1
+09-16 09:44:24.921  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+09-16 09:44:24.921  2074  6277 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+09-16 09:44:24.945 32603 32603 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-16 09:44:24.948 32603 32603 I app_process: MMAP_TRYLOCK is supported in uffd errno:2 addr:0x7d400f8000 size:4096
+09-16 09:44:24.949 32603 32603 I AndroidRuntime: Using default boot image
+09-16 09:44:24.949 32603 32603 I AndroidRuntime: Leaving lock profiling enabled
+09-16 09:44:24.950 32603 32603 D SecNativeFeatureCppIf: encoded
+09-16 09:44:24.950 32603 32603 D SecNativeFeatureCppIf: decoding and unzip finish
+09-16 09:44:24.950 32603 32603 D SecNativeFeatureCppIf: use unCompDataBuff. encoded
+09-16 09:44:24.950 32603 32603 D SecNativeFeatureCppIf: Free unCompDataBuff
+09-16 09:44:24.950 32603 32603 D AndroidRuntime: addProductProperty not brand or 7
+09-16 09:44:24.952 32603 32603 I app_process: Using generational CollectorTypeCMC GC.
+09-16 09:44:24.993 32603 32603 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+09-16 09:44:25.001 32603 32603 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+09-16 09:44:25.001 32603 32603 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/9/icu") succeeded. 
+09-16 09:44:25.001 32603 32603 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt76l.dat
+09-16 09:44:25.002 32603 32603 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+09-16 09:44:25.002 32603 32603 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+09-16 09:44:25.003 32603 32603 I app_process: Priority-to-niceness mapping: 19, 16, 13, 10, 0, -2, -4, -5, -6, -8
+09-16 09:44:25.009  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+09-16 09:44:25.009  2074  6277 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+09-16 09:44:25.009  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+09-16 09:44:25.014 32603 32603 E SemDvfsManager_JNI: SemDvfsManager: registerfunction enter
+09-16 09:44:25.015 32603 32603 E SemAffinityControl: SemAffinityControl: registerfunction enter
+09-16 09:44:25.018  5104  6312 I ScanController: onScanResult to scannerId: 8- eventType=0x10, addressType=0, address=XX:XX:XX:XX:9C:2D, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-68, periodicAdvInt=0x0
+09-16 09:44:25.021 32603 32603 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+09-16 09:44:25.022 32603 32603 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+09-16 09:44:25.022 25769 26195 I [-0700]oneconnect[1.8.47.24_01][CORE]: DataConvert.parseBleVd - deviceBle : |name:|deviceType:TV|discoverType:_BLE|services:None|connected:false[TvStatusString]POWER_OFF[TvStatus]-128[TvService]110[TvMirrorChannel]1[TvRegisteredDB][94, 17, 78, -66, 42, 11][TvYear]2016[TvOcfInfo]0[TvAcmStatus]0[ExTvStatus]0[ExtendedStatus]-1[ModuloSn]-1
+09-16 09:44:25.024 32603 32603 W PlatformAconfigPackage: android.os.flagging.AconfigStorageReadException: ERROR_CANNOT_READ_STORAGE_FILE: Fail to mmap storage
+09-16 09:44:25.024 32603 32603 I AconfigPackage: com.android.art.flags is mapped to com.android.art
+09-16 09:44:25.024 32603 32603 I AconfigPackage: com.android.art.rw.flags is mapped to com.android.art
+09-16 09:44:25.024 32603 32603 I AconfigPackage: com.android.libcore is mapped to com.android.art
+09-16 09:44:25.024 32603 32603 I AconfigPackage: android.media.swcodec.flags is mapped to com.android.media.swcodec
+09-16 09:44:25.024 32603 32603 I AconfigPackage: com.android.ipsec.flags is mapped to com.android.ipsec
+09-16 09:44:25.024 32603 32603 I AconfigPackage: com.android.tethering.mainline.beta is mapped to com.android.tethering
+09-16 09:44:25.024 32603 32603 I AconfigPackage: android.net.http is mapped to com.android.tethering
+09-16 09:44:25.024 32603 32603 I AconfigPackage: com.android.tethering.readonly.flags is mapped to com.android.tethering
+09-16 09:44:25.024 32603 32603 I AconfigPackage: android.net.vcn is mapped to com.android.tethering
+09-16 09:44:25.024 32603 32603 I AconfigPackage: com.android.net.flags is mapped to com.android.tethering
+09-16 09:44:25.024 32603 32603 I AconfigPackage: com.android.tethering.flags is mapped to com.android.tethering
+09-16 09:44:25.024 32603 32603 I AconfigPackage: com.android.tethering.beta.test is mapped to com.android.tethering
+09-16 09:44:25.024 32603 32603 I AconfigPackage: com.android.nearby.flags is mapped to com.android.tethering
+09-16 09:44:25.024 32603 32603 I AconfigPackage: com.android.net.thread.flags is mapped to com.android.tethering
+09-16 09:44:25.024 32603 32603 I AconfigPackage: com.android.net.ct.flags is mapped to com.android.tethering
+09-16 09:44:25.024 32603 32603 I AconfigPackage: android.net.http.flags is mapped to com.android.tethering
+09-16 09:44:25.024 32603 32603 I AconfigPackage: com.android.healthfitness.flags is mapped to com.android.healthfitness
+09-16 09:44:25.025 32603 32603 I AconfigPackage: com.android.uwb.flags is mapped to com.android.uwb
+09-16 09:44:25.025 32603 32603 I AconfigPackage: com.android.ranging.flags is mapped to com.android.uwb
+09-16 09:44:25.025 32603 32603 I AconfigPackage: com.android.permission.flags is mapped to com.android.permission
+09-16 09:44:25.025 32603 32603 I AconfigPackage: com.android.permissioncontroller.flags is mapped to com.android.permission
+09-16 09:44:25.025 32603 32603 I AconfigPackage: com.android.wifi.flags is mapped to com.android.wifi
+09-16 09:44:25.025 32603 32603 I AconfigPackage: android.uprobestats.mainline.flags is mapped to com.android.uprobestats
+09-16 09:44:25.025 32603 32603 I AconfigPackage: android.provider.flags is mapped to com.android.configinfrastructure
+09-16 09:44:25.025 32603 32603 I AconfigPackage: com.android.server.deviceconfig is mapped to com.android.configinfrastructure
+09-16 09:44:25.025 32603 32603 I AconfigPackage: com.android.bluetooth.flags is mapped to com.android.bt
+09-16 09:44:25.025 32603 32603 I AconfigPackage: com.android.devicelock.flags is mapped to com.android.devicelock
+09-16 09:44:25.025 32603 32603 I AconfigPackage: com.android.os.statsd.flags is mapped to com.android.os.statsd
+09-16 09:44:25.025 32603 32603 I AconfigPackage: com.android.signature.flags is mapped to com.android.mediaprovider
+09-16 09:44:25.025 32603 32603 I AconfigPackage: com.android.providers.media.flags is mapped to com.android.mediaprovider
+09-16 09:44:25.025 32603 32603 I AconfigPackage: android.graphics.pdf.flags is mapped to com.android.mediaprovider
+09-16 09:44:25.025 32603 32603 I AconfigPackage: android.graphics.pdf.flags.readonly is mapped to com.android.mediaprovider
+09-16 09:44:25.025 32603 32603 I AconfigPackage: com.android.adservices.ondevicepersonalization.flags is mapped to com.android.ondevicepersonalization
+09-16 09:44:25.025 32603 32603 I AconfigPackage: android.os.profiling is mapped to com.android.profiling
+09-16 09:44:25.025 32603 32603 I AconfigPackage: android.os.profiling.anomaly.flags is mapped to com.android.profiling
+09-16 09:44:25.025 32603 32603 I AconfigPackage: com.android.icu is mapped to com.android.i18n
+09-16 09:44:25.025 32603 32603 I AconfigPackage: com.android.appsearch.flags is mapped to com.android.appsearch
+09-16 09:44:25.026 32603 32603 I AconfigPackage: com.android.adbd.flags is mapped to com.android.adbd
+09-16 09:44:25.026 32603 32603 I AconfigPackage: com.android.rkpd.flags is mapped to com.android.rkpd
+09-16 09:44:25.026 32603 32603 I AconfigPackage: com.android.adservices.flags is mapped to com.android.adservices
+09-16 09:44:25.026 32603 32603 I AconfigPackage: com.android.sdksandbox.flags is mapped to com.android.adservices
+09-16 09:44:25.026 32603 32603 I AconfigPackage: android.app.sdksandbox.flags is mapped to com.android.adservices
+09-16 09:44:25.026 32603 32603 I AconfigPackage: com.android.telephony.flags is mapped to com.android.telephonycore
+09-16 09:44:25.026 32603 32603 I AconfigPackage: com.android.media.extractor.flags is mapped to com.android.media
+09-16 09:44:25.026 32603 32603 I AconfigPackage: com.android.media.metrics.flags is mapped to com.android.media
+09-16 09:44:25.026 32603 32603 I AconfigPackage: com.android.media.mainline.flags is mapped to com.android.media
+09-16 09:44:25.026 32603 32603 I AconfigPackage: com.android.system.virtualmachine.flags is mapped to com.android.virt
+09-16 09:44:25.026 32603 32603 I AconfigPackage: com.android.cellbroadcastreceiver.flags is mapped to com.android.cellbroadcast
+09-16 09:44:25.026 32603 32603 I AconfigPackage: com.android.org.conscrypt.flags is mapped to com.android.conscrypt
+09-16 09:44:25.026 32603 32603 I AconfigPackage: com.android.org.conscrypt.net.flags is mapped to com.android.conscrypt
+09-16 09:44:25.026 32603 32603 E FeatureFlagsImplExport: android.os.flagging.AconfigStorageReadException: ERROR_PACKAGE_NOT_FOUND: package android.xr cannot be found on the device
+09-16 09:44:25.027 32603 32603 D UiAutomationConnection: Created on user UserHandle{0}
+09-16 09:44:25.027 32603 32603 I UiAutomation: Initialized for user 0 on display 0
+09-16 09:44:25.027 32603 32603 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+09-16 09:44:25.028  2567  6803 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+09-16 09:44:25.028  2567  6803 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+09-16 09:44:25.028  2567  6803 V AccessibilityManagerService: onUserStateChangedLocked for userId: 0, forceUpdate: false
+09-16 09:44:25.029  2567  6803 I ActivityManager: Changes in 10150 5 to 5, 511 to 440
+09-16 09:44:25.037  2238  2456 I SurfaceFlinger: Current= 60, Period= 60, Distance= 2
+09-16 09:44:25.040  2567  6803 D MagnificationConnectionManager: requestConnection :false mConnectionState : 3
+09-16 09:44:25.041  2567  6803 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+09-16 09:44:25.041  5104  6312 I ScanController: onScanResult to scannerId: 1- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:8F:24, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-47, periodicAdvInt=0x0
+09-16 09:44:25.042  2238  4452 I SurfaceFlinger: id=25077 createSurf, flag=84004, WindowToken{2af1bfd type=2032 android.os.Binder@a13f054}#25077
+09-16 09:44:25.043 12834 14701 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+09-16 09:44:25.048  2567  6803 V AccessibilityManagerService: onUserStateChangedLocked for userId: 0, forceUpdate: false
+09-16 09:44:25.048  2567  6803 D MagnificationConnectionManager: requestConnection :false mConnectionState : 3
+09-16 09:44:25.048  2567  6803 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+09-16 09:44:25.053  2238  2238 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{WindowToken{89313d0 type=2032 android.os.Binder@2fe6793}#25076 z=2} no children}] reparent to OffscreenRoot
+09-16 09:44:25.053  2238  2238 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{WindowToken{89313d0 type=2032 android.os.Binder@2fe6793}#25076 z=2} no children}] RelativeParent to null
+09-16 09:44:25.053  2238  2238 I SurfaceFlinger: [WindowToken{2af1bfd type=2032 android.os.Binder@a13f054}#25077] attach to parent LayerHierarchy{RequestedLayerState{Leaf:26:31#33 parentId=32} 3 children}
+09-16 09:44:25.054  2567  2567 I AccessibilityManagerService: semIsAccessibilityServiceEnabled()
+09-16 09:44:25.054  2567  2567 I AccessibilityManagerService: semIsAccessibilityServiceEnabled()
+09-16 09:44:25.054  2567  2567 D AS.AudioService: Accessibility volume enabled = false
+09-16 09:44:25.055  2238  2456 I SurfaceFlinger: Current= 60, Period= 60, Distance= 60
+09-16 09:44:25.055  2238  2238 I SurfaceFlinger: id=25076 Removed WindowToken{89313d0 type=2032 android.os.Binder@2fe6793}#25076 (158)
+09-16 09:44:25.060  2567  2567 I AccessibilityManagerService: semIsAccessibilityServiceEnabled()
+09-16 09:44:25.060  2567  2567 I AccessibilityManagerService: semIsAccessibilityServiceEnabled()
+09-16 09:44:25.060  2567  2567 D AS.AudioService: Accessibility volume enabled = false
+09-16 09:44:25.070  2238  2238 I SurfaceFlinger: RequestedLayer [WindowToken{2af1bfd type=2032 android.os.Binder@a13f054}#25077] hidden!! flag  from(1) --> to(0)
+09-16 09:44:25.070  2238  2238 I SurfaceFlinger: destroyed WindowToken{89313d0 type=2032 android.os.Binder@2fe6793}#25076 form LifecycleManager
+09-16 09:44:25.070  2238  2238 I SurfaceFlinger: id=25076 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{WindowToken{89313d0 type=2032 android.os.Binder@2fe6793}#25076 !handle z=2})
+09-16 09:44:25.070  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+09-16 09:44:25.071  2074  6277 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+09-16 09:44:25.071  2238  2238 I SurfaceFlinger: id=25076 Destroyed WindowToken{89313d0 type=2032 android.os.Binder@2fe6793}#25076
+09-16 09:44:25.221  2074  5555 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+09-16 09:44:25.651  2663  2663 I CNSS    : cnss_open_log_file: directory /data/vendor/log/wifi/ created
+09-16 09:44:25.750  1123  1123 D io_stats: !@   8,0 r 38943645 739901611 w 22081740 293130432 d 1504134 322273924 f 685324 2131658 iot 23846204 0 th 0 0 0 pt 0 inp 0 0 444699.267
+09-16 09:44:25.751  1123  1123 D io_stats: !@ Read_top(KB): kworker/u16:2(15606) 32 cnss_diag(2663) 4 f2fs_ckpt-254:6(1375) 4
+09-16 09:44:25.751  1123  1123 D io_stats: !@ Write_top(KB): kworker/u16:1(32333) 220 f2fs_ckpt-254:6(1375) 124 init(1) 32
+09-16 09:44:25.927 10473 10473 I wpa_supplicant: Heartbeat 4002
+09-16 09:44:26.034 31743 14738 I exvx    : (REDACTED) HDM. appOpsListener %s %s
+09-16 09:44:26.035 31743 14738 I exvx    : (REDACTED) HDM. Ignoring irrelevant audio permission changes for package %s
+09-16 09:44:26.067 32603 32603 D SemCscFeature: Encoded
+09-16 09:44:26.077 16394 24313 W MediaProvider: isAppCloneUserPair for user 0: false
+09-16 09:44:26.087  2567  6821 D SyncManager: userId - 0 auto - true
+09-16 09:44:26.093 32603 32603 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@991b; boundsInParent: Rect(0, 0 - 1440, 2907); boundsInScreen: Rect(0, 125 - 1440, 3032); boundsInWindow: Rect(0, 125 - 1440, 3032); packageName: com.biketrailplanner; className: androidx.compose.ui.viewinterop.ViewFactoryHolder; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: true; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]; isTextSelectable: false
+09-16 09:44:26.145 32603 32603 W AccessibilityNodeInfoDumper: Fetch time: 72ms
+09-16 09:44:26.148  2567  6821 V AccessibilityManagerService: onUserStateChangedLocked for userId: 0, forceUpdate: false
+09-16 09:44:26.152  2567  6821 I ActivityManager: Changes in 10150 5 to 5, 440 to 511
+09-16 09:44:26.155  2238  2456 I SurfaceFlinger: Current= 60, Period= 60, Distance= 1
+09-16 09:44:26.158  2567  6821 D MagnificationConnectionManager: requestConnection :false mConnectionState : 3
+09-16 09:44:26.158  2567  6821 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+09-16 09:44:26.158  2567  6821 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+09-16 09:44:26.159  2567  6821 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=0 based on lastOrientation=SCREEN_ORIENTATION_UNSPECIFIED (-1) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:82 com.android.server.wm.WindowManagerService.thawDisplayRotation:126 com.android.server.wm.WindowManagerService.thawRotation:2 android.view.IWindowManager$Stub.onTransact:3776 com.android.server.wm.WindowManagerService.onTransact:1 android.os.Binder.execTransactInternal:1509 
+09-16 09:44:26.161 32603 32618 W libbinder.IPCThreadState: call to talkWithDriver in joinThreadPool returned error: -9 (Bad file descriptor), FD: -1
+09-16 09:44:26.161 32603 32615 W libbinder.IPCThreadState: call to talkWithDriver in joinThreadPool returned error: -9 (Bad file descriptor), FD: -1
+09-16 09:44:26.161 32603 32613 W libbinder.IPCThreadState: call to talkWithDriver in joinThreadPool returned error: -9 (Bad file descriptor), FD: -1
+09-16 09:44:26.162 32603 32603 D AndroidRuntime: Shutting down VM
+09-16 09:44:26.165 31743 14738 I exvx    : (REDACTED) HDM. appOpsListener %s %s
+09-16 09:44:26.165 31743 14738 I exvx    : (REDACTED) HDM. Ignoring irrelevant audio permission changes for package %s
+09-16 09:44:26.166  2567  4788 D BackgroundInstallControlService: Package event received: 0
+09-16 09:44:26.166  2567  4788 D BackgroundInstallControlService: Package event received: 0
+09-16 09:44:26.167  2238  4521 I SurfaceFlinger: id=25078 createSurf, flag=84004, WindowToken{f05b497 type=2032 android.os.Binder@99d8316}#25078
+09-16 09:44:26.168  2567  2567 V AccessibilityManagerService: onUserStateChangedLocked for userId: 0, forceUpdate: false
+09-16 09:44:26.168  2567  4788 D BackgroundInstallControlService: Package event received: 0
+09-16 09:44:26.170  2567  2567 D MagnificationConnectionManager: requestConnection :false mConnectionState : 3
+09-16 09:44:26.170  2567  2567 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+09-16 09:44:26.170  2238  2238 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{WindowToken{2af1bfd type=2032 android.os.Binder@a13f054}#25077 z=2} no children}] reparent to OffscreenRoot
+09-16 09:44:26.170  2238  2238 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{WindowToken{2af1bfd type=2032 android.os.Binder@a13f054}#25077 z=2} no children}] RelativeParent to null
+09-16 09:44:26.170  2238  2238 I SurfaceFlinger: [WindowToken{f05b497 type=2032 android.os.Binder@99d8316}#25078] attach to parent LayerHierarchy{RequestedLayerState{Leaf:26:31#33 parentId=32} 3 children}
+09-16 09:44:26.172  2238  2456 I SurfaceFlinger: Current= 60, Period= 60, Distance= 60
+09-16 09:44:26.172  2238  2238 I SurfaceFlinger: id=25077 Removed WindowToken{2af1bfd type=2032 android.os.Binder@a13f054}#25077 (158)
+09-16 09:44:26.173  2567  2567 I AccessibilityManagerService: semIsAccessibilityServiceEnabled()
+09-16 09:44:26.173  2567  2567 I AccessibilityManagerService: semIsAccessibilityServiceEnabled()
+09-16 09:44:26.174  2567  2567 D AS.AudioService: Accessibility volume enabled = false
+09-16 09:44:26.183  2567  4706 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+09-16 09:44:26.185  2567  6801 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 53584, isSameBssidAndFreq true
+09-16 09:44:26.188  2238  2238 I SurfaceFlinger: RequestedLayer [WindowToken{f05b497 type=2032 android.os.Binder@99d8316}#25078] hidden!! flag  from(1) --> to(0)
+09-16 09:44:26.188  2238  2238 I SurfaceFlinger: destroyed WindowToken{2af1bfd type=2032 android.os.Binder@a13f054}#25077 form LifecycleManager
+09-16 09:44:26.188  2238  2238 I SurfaceFlinger: id=25077 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{WindowToken{2af1bfd type=2032 android.os.Binder@a13f054}#25077 !handle z=2})
+09-16 09:44:26.189  2238  2238 I SurfaceFlinger: id=25077 Destroyed WindowToken{2af1bfd type=2032 android.os.Binder@a13f054}#25077
+09-16 09:44:26.363  7662  7666 I shsusrd : shsusr_check_cpu_usage(): Output of /proc/7662/stat/ : 7662 (shsusrd0) S 1 7662 0 0 -1 1077936384 2626903 0 9456 0 12071 45436 0 0 20 0 11 0 6088 2471395328 627 18446744073709551615 433812574208 433812832664 548981921824 0 0 0 0 0 1073794810 0 0 0 17 3 0 0 0 0 0 433812855744 433812856680 434152816640 548981925901 548981925944 548981925944 548981931997 0
+09-16 09:44:26.363  7662  7666 I shsusrd : 
+09-16 09:44:26.363  7662  7666 I shsusrd : shsusr_check_cpu_usage(): utime 12071 stime 45436 cpu_time_last 57507
+09-16 09:44:26.363  7662  7666 I shsusrd : shsusr_check_cpu_usage(): user time = 12071 | system time = 45436 | total = 57507 | cpu_time_delta = 0, clk_tck 100
+09-16 09:44:26.363  7662  7666 I shsusrd : shsusr_check_cpu_usage(): time_cur 1789577066 time_last 1789577056
+09-16 09:44:26.363  7662  7666 I shsusrd : shsusr_check_cpu_usage(): shsusrd is using 0 pct of CPU - time_delta 10
+09-16 09:44:26.363  7662  7666 I shsusrd : shsusr_check_cpu_usage(): shsusrd usage 0
+09-16 09:44:26.363  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): time_delta for combined : 10 time_cur 1789577066 time_last_combined 1789577056
+09-16 09:44:26.364  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): Output of /proc/7662/task/7662/stat: 7662 (shsusrd0) S 1 7662 0 0 -1 1077936384 1193 0 8 0 1 2 0 0 20 0 11 0 6088 2471395328 627 18446744073709551615 433812574208 433812832664 548981921824 0 0 0 0 0 1073794810 1 0 0 17 3 0 0 0 0 0 433812855744 433812856680 434152816640 548981925901 548981925944 548981925944 548981931997 0
+09-16 09:44:26.364  7662  7666 I shsusrd : 
+09-16 09:44:26.364  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): tid 7662 utime 1 stime 2 time_delta 10 clk_tck 100, usage 0
+09-16 09:44:26.364  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): Output of /proc/7662/task/7663/stat: 7663 (shsusrd12) S 1 7662 0 0 -1 4194368 2341394 0 4880 0 7557 25021 0 0 20 0 11 0 6092 2471395328 627 18446744073709551615 433812574208 433812832664 548981921824 0 0 0 0 0 1073794810 1 0 0 -1 0 0 0 0 0 0 433812855744 433812856680 434152816640 548981925901 548981925944 548981925944 548981931997 0
+09-16 09:44:26.364  7662  7666 I shsusrd : 
+09-16 09:44:26.364  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): tid 7663 utime 7557 stime 25021 time_delta 10 clk_tck 100, usage 3200
+09-16 09:44:26.364  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): Output of /proc/7662/task/7664/stat: 7664 (shsusrd2) S 1 7662 0 0 -1 4194368 385 0 570 0 18 362 0 0 20 0 11 0 6092 2471395328 627 18446744073709551615 433812574208 433812832664 548981921824 0 0 0 0 0 1073794810 1 0 0 -1 0 0 0 0 0 0 433812855744 433812856680 434152816640 548981925901 548981925944 548981925944 548981931997 0
+09-16 09:44:26.364  7662  7666 I shsusrd : 
+09-16 09:44:26.364  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): tid 7664 utime 18 stime 362 time_delta 10 clk_tck 100, usage 0
+09-16 09:44:26.364  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): Output of /proc/7662/task/7665/stat: 7665 (shsusrd13) S 1 7662 0 0 -1 1077936192 72 0 336 0 180 747 0 0 20 0 11 0 6092 2471395328 627 18446744073709551615 433812574208 433812832664 548981921824 0 0 0 0 0 1073794810 1 0 0 -1 3 0 0 0 0 0 433812855744 433812856680 434152816640 548981925901 548981925944 548981925944 548981931997 0
+09-16 09:44:26.364  7662  7666 I shsusrd : 
+09-16 09:44:26.364  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): tid 7665 utime 180 stime 747 time_delta 10 clk_tck 100, usage 0
+09-16 09:44:26.364  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): Output of /proc/7662/task/7666/stat: 7666 (shsusrd42) R 1 7662 0 0 -1 4194368 301 0 1038 0 2915 11021 0 0 20 0 11 0 6092 2471395328 627 18446744073709551615 433812574208 433812832664 548981921824 0 0 0 0 0 1073794810 0 0 0 -1 1 0 0 0 0 0 433812855744 433812856680 434152816640 548981925901 548981925944 548981925944 548981931997 0
+09-16 09:44:26.364  7662  7666 I shsusrd : 
+09-16 09:44:26.364  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): tid 7666 utime 2915 stime 11021 time_delta 10 clk_tck 100, usage 1300
+09-16 09:44:26.365  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): Output of /proc/7662/task/7667/stat: 7667 (shsusrd4) S 1 7662 0 0 -1 4194368 1 0 0 0 2 291 0 0 20 0 11 0 6092 2471395328 627 18446744073709551615 433812574208 433812832664 548981921824 0 0 0 0 0 1073794810 1 0 0 -1 1 0 0 0 0 0 433812855744 433812856680 434152816640 548981925901 548981925944 548981925944 548981931997 0
+09-16 09:44:26.365  7662  7666 I shsusrd : 
+09-16 09:44:26.365  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): tid 7667 utime 2 stime 291 time_delta 10 clk_tck 100, usage 0
+09-16 09:44:26.365  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): Output of /proc/7662/task/7668/stat: 7668 (shsusrd14) S 1 7662 0 0 -1 4194368 273 0 787 0 7 354 0 0 20 0 11 0 6092 2471395328 627 18446744073709551615 433812574208 433812832664 548981921824 0 0 0 0 0 1073794810 1 0 0 -1 1 0 0 0 0 0 433812855744 433812856680 434152816640 548981925901 548981925944 548981925944 548981931997 0
+09-16 09:44:26.365  7662  7666 I shsusrd : 
+09-16 09:44:26.365  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): tid 7668 utime 7 stime 354 time_delta 10 clk_tck 100, usage 0
+09-16 09:44:26.365  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): Output of /proc/7662/task/7669/stat: 7669 (shsusrd7) S 1 7662 0 0 -1 4194368 0 0 98 0 2 302 0 0 20 0 11 0 6098 2471395328 627 18446744073709551615 433812574208 433812832664 548981921824 0 0 0 0 0 1073794810 1 0 0 -1 6 0 0 0 0 0 433812855744 433812856680 434152816640 548981925901 548981925944 548981925944 548981931997 0
+09-16 09:44:26.365  7662  7666 I shsusrd : 
+09-16 09:44:26.365  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): tid 7669 utime 2 stime 302 time_delta 10 clk_tck 100, usage 0
+09-16 09:44:26.365  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): Output of /proc/7662/task/7674/stat: 7674 (HwBinder:7662_1) S 1 7662 0 0 -1 1077936192 4 0 0 0 0 0 0 0 20 0 11 0 6231 2471395328 627 18446744073709551615 433812574208 433812832664 548981921824 0 0 0 0 0 1073794810 1 0 0 -1 0 0 0 0 0 0 433812855744 433812856680 434152816640 548981925901 548981925944 548981925944 548981931997 0
+09-16 09:44:26.365  7662  7666 I shsusrd : 
+09-16 09:44:26.365  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): tid 7674 utime 0 stime 0 time_delta 10 clk_tck 100, usage 0
+09-16 09:44:26.365  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): Output of /proc/7662/task/21047/stat: 21047 (shsusrd7) S 1 7662 0 0 -1 4194368 23 0 129 0 8 319 0 0 20 0 11 0 2479518 2471395328 627 18446744073709551615 433812574208 433812832664 548981921824 0 0 0 0 0 1073794810 1 0 0 -1 0 0 0 0 0 0 433812855744 433812856680 434152816640 548981925901 548981925944 548981925944 548981931997 0
+09-16 09:44:26.365  7662  7666 I shsusrd : 
+09-16 09:44:26.365  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): tid 21047 utime 8 stime 319 time_delta 10 clk_tck 100, usage 0
+09-16 09:44:26.365  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): Output of /proc/7662/task/21049/stat: 21049 (shsusrd5) S 1 7662 0 0 -1 4194368 9 0 115 0 2 282 0 0 20 0 11 0 2479520 2471395328 627 18446744073709551615 433812574208 433812832664 548981921824 0 0 0 0 0 1073794810 1 0 0 -1 1 0 0 0 0 0 433812855744 433812856680 434152816640 548981925901 548981925944 548981925944 548981931997 0
+09-16 09:44:26.365  7662  7666 I shsusrd : 
+09-16 09:44:26.366  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): tid 21049 utime 2 stime 282 time_delta 10 clk_tck 100, usage 0
+09-16 09:44:26.366  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): Combined CPU usage: total_utime 10692 total_stime 38701 total_cpu_time_seconds 0.00, clk_tck 100
+09-16 09:44:26.366  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): Combined shsusrd usage 0
+09-16 09:44:26.366  7662  7666 I shsusrd : shsusr_check_cpu_usage_combined(): Combined shsusrd usage FINAL 0
+09-16 09:44:26.508  2094 17508 I sensors-hal: handle_sns_std_sensor_event:436, [SSC_LIGHT] P: 31(31),m:13,c:205,b:39,c0:18539,l:30,f(r):97,u(bl):100,j:30
+09-16 09:44:26.594  2567  4412 I JobScheduler.HeavyJobController: #ObserverWorker#@androidx.work.systemjobscheduler@com.samsung.android.smartsuggestions/androidx.work.impl.background.systemjob.SystemJobService has heavy job's constraints.
+09-16 09:44:26.594  2567  4412 I JobScheduler: HeavyJobController::heavy job upper limit: 600000(1800000|1800000)
+09-16 09:44:26.607 16401 17454 W RemoteWorkerFactory: [RemoteWorkerFactory] ID=2745201e-57ed-43e7-81e9-9ee50f489777, TAG=[com.sec.android.app.myfiles, com.samsung.android.smartsuggestions.search.data.collector.base.ObserverWorker], WorkerClassName: androidx.work.multiprocess.RemoteListenableDelegatingWorker, RunAttemptCount=0
+09-16 09:44:26.614 25458 25458 I WM-RemoteWorkerService: Binding to RemoteWorkerService
+09-16 09:44:26.614  2567  4788 D BackgroundInstallControlService: Package event received: 0
+09-16 09:44:26.616 25458 25493 W RemoteWorkerFactory: [RemoteWorkerFactory] ID=2745201e-57ed-43e7-81e9-9ee50f489777, TAG=[com.sec.android.app.myfiles, com.samsung.android.smartsuggestions.search.data.collector.base.ObserverWorker], WorkerClassName: com.samsung.android.smartsuggestions.search.data.collector.base.ObserverWorker, RunAttemptCount=0
+09-16 09:44:26.617 25458 25458 I SSS@search user 0: (ObserverWorker::AOSP_MP) [main] entering in startWork triggered by [content://media/external/file/1000008741]():  
+09-16 09:44:26.622 25458 25458 I SSS@search user 0: (BaseCollector::AOSP_MP) [main] entering in onChange():  
+09-16 09:44:26.626 25458 25506 I SSS@search user 0: (BaseCollector::AOSP_MP) [AOSP_MP-0] entering in collectChanges():  
+09-16 09:44:26.626 16401 16401 I WM-RemoteWorkManagerSer: Binding to RemoteWorkManager
+09-16 09:44:26.626  2567  6803 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:4
+09-16 09:44:26.626  2567  6803 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+09-16 09:44:26.627  2567  6803 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:6
+09-16 09:44:26.627  2567  6803 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+09-16 09:44:26.664 25458 25506 I SSS@search user 0: (BaseCollector::AOSP_MP) fetchInternal values : maxSyncId: 1000008731 indexCount: 901 sourceCount: 901
+09-16 09:44:26.675 25458 25506 I SSS@search user 0: (IndexManager) [AOSP_MP-0] entering in addIndex():  
+09-16 09:44:26.676 25458 25506 I SSS@search user 0: (FileExtraInfoFetcher::aosp_mp) fetchNewExtraInfo observerName: aosp_mp
+09-16 09:44:26.681  2567  5354 I ActivityManager: Changes in 10063 6 to 5, 384 to 400
+09-16 09:44:26.685  2567  4788 D BackgroundInstallControlService: Package event received: 0
+09-16 09:44:26.685 25458 25506 I SSS@search user 0: (BaseCollector::AOSP_MP) fetch: fetching took  37 ms
+09-16 09:44:26.685 25458 25506 I SSS@search user 0: (BaseCollector::AOSP_MP) fetchChanges: applied 0 items
+09-16 09:44:26.685 25458 25506 I SSS@search user 0: (BaseCollector::AOSP_MP) Collect finished. Result: true
+09-16 09:44:26.685  2567  5354 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:4
+09-16 09:44:26.685  2567  5354 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+09-16 09:44:26.686  2567  5354 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:6
+09-16 09:44:26.686  2567  5354 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+09-16 09:44:26.688 25458 25506 I SSS@search user 0: (DeviceStatus::AOSP_MP) Collect Finished totalElapsedTime(62 ms)start[battery(84), charging(true), thermalLevel(0), temperature(0], finish[battery(84), charging(true), thermalLevel(0), temperature(0), syncCount(0), sourceCount(0)]
+09-16 09:44:26.697  2567  5354 I ActivityManager: Changes in 10063 5 to 6, 400 to 384
+09-16 09:44:26.699 25458 25458 I SSS@search user 0: (SearchProvider) onTrimMemory(): 40
+09-16 09:44:26.700 16401 17453 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=2745201e-57ed-43e7-81e9-9ee50f489777, tags={ com.sec.android.app.myfiles,com.samsung.android.smartsuggestions.search.data.collector.base.ObserverWorker } ]
+09-16 09:44:26.729  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+09-16 09:44:26.730  2074  6277 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+09-16 09:44:26.730  2074  6277 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+09-16 09:44:26.730  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+09-16 09:44:26.741  5104  6312 I ScanController: onScanResult to scannerId: 8- eventType=0x10, addressType=0, address=XX:XX:XX:XX:9C:2D, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-56, periodicAdvInt=0x0
+09-16 09:44:26.746 25769 26195 I [-0700]oneconnect[1.8.47.24_01][CORE]: DataConvert.parseBleVd - deviceBle : |name:|deviceType:TV|discoverType:_BLE|services:None|connected:false[TvStatusString]POWER_OFF[TvStatus]-128[TvService]110[TvMirrorChannel]1[TvRegisteredDB][94, 17, 78, -66, 42, 11][TvYear]2016[TvOcfInfo]0[TvAcmStatus]0[ExTvStatus]0[ExtendedStatus]-1[ModuloSn]-1
+09-16 09:44:26.766  5104  6312 I ScanController: onScanResult to scannerId: 1- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:8F:24, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-52, periodicAdvInt=0x0
+09-16 09:44:26.771 12834 14701 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+09-16 09:44:26.805  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+09-16 09:44:26.805  2074  6277 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+09-16 09:44:26.864  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+09-16 09:44:26.864  2074  6277 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+09-16 09:44:26.864  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+09-16 09:44:26.872  5104  6312 I ScanController: onScanResult to scannerId: 8- eventType=0x10, addressType=0, address=XX:XX:XX:XX:9C:2D, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-56, periodicAdvInt=0x0
+09-16 09:44:26.876 25769 26195 I [-0700]oneconnect[1.8.47.24_01][CORE]: DataConvert.parseBleVd - deviceBle : |name:|deviceType:TV|discoverType:_BLE|services:None|connected:false[TvStatusString]POWER_OFF[TvStatus]-128[TvService]110[TvMirrorChannel]1[TvRegisteredDB][94, 17, 78, -66, 42, 11][TvYear]2016[TvOcfInfo]0[TvAcmStatus]0[ExTvStatus]0[ExtendedStatus]-1[ModuloSn]-1
+09-16 09:44:26.911  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+09-16 09:44:26.911  2074  6277 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+09-16 09:44:26.929  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+09-16 09:44:26.929  2074  6277 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+09-16 09:44:26.930  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+09-16 09:44:26.936  5104  6312 I ScanController: onScanResult to scannerId: 1- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:8F:24, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-52, periodicAdvInt=0x0
+09-16 09:44:26.941 12834 14701 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+09-16 09:44:26.972  2074  6277 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+09-16 09:44:26.973  2074  6277 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+09-16 09:44:27.064 18681 18681 I adbd    : adbd service requested 'sync:'
+09-16 09:44:27.101 18681 18681 I adbd    : adbd service requested 'shell,v2,TERM=dumb:export ANDROID_LOG_TAGS=''; exec logcat '-d' '-t' '400''
+09-16 09:44:27.123  2074  5555 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 

@@ -1,0 +1,687 @@
+{
+ "label": "ap_9605518_2670824390",
+ "n_edges": 111,
+ "modes": {
+  "strict": {
+   "metres": {
+    "C": 703.0,
+    "D": 5574.0,
+    "GAP": 2051.0
+   },
+   "share": {
+    "C": 8.44,
+    "D": 66.93,
+    "GAP": 24.63
+   },
+   "total_m": 8328.0,
+   "named": {
+    "D": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1660.0,
+      "edges": 8,
+      "assumed_mph": []
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": []
+     },
+     {
+      "street": "24th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 649.0,
+      "edges": 10,
+      "assumed_mph": []
+     },
+     {
+      "street": "142nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 469.0,
+      "edges": 7,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 92.0,
+      "edges": 3,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": []
+     }
+    ],
+    "GAP": [
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1648.0,
+      "edges": 20,
+      "assumed_mph": []
+     },
+     {
+      "street": "24th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "dedicated",
+      "m": 403.0,
+      "edges": 9,
+      "assumed_mph": []
+     }
+    ],
+    "C": [
+     {
+      "street": "29th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 400.0,
+      "edges": 8,
+      "assumed_mph": []
+     },
+     {
+      "street": "146th Avenue East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 156.0,
+      "edges": 3,
+      "assumed_mph": []
+     },
+     {
+      "street": "30th Street Court East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 147.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient": {
+   "metres": {
+    "C": 1043.0,
+    "D": 1210.0,
+    "E": 1660.0,
+    "GAP": 4415.0
+   },
+   "share": {
+    "C": 12.52,
+    "D": 14.53,
+    "E": 19.93,
+    "GAP": 53.01
+   },
+   "total_m": 8328.0,
+   "named": {
+    "C": [
+     {
+      "street": "29th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 400.0,
+      "edges": 8,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "146th Avenue East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 156.0,
+      "edges": 3,
+      "assumed_mph": []
+     },
+     {
+      "street": "30th Street Court East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 147.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1648.0,
+      "edges": 20,
+      "assumed_mph": []
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "24th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "dedicated",
+      "m": 403.0,
+      "edges": 9,
+      "assumed_mph": []
+     }
+    ],
+    "E": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1660.0,
+      "edges": 8,
+      "assumed_mph": [
+       44
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "24th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 649.0,
+      "edges": 10,
+      "assumed_mph": []
+     },
+     {
+      "street": "142nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 469.0,
+      "edges": 7,
+      "assumed_mph": []
+     },
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 92.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous": {
+   "metres": {
+    "C": 1043.0,
+    "D": 1210.0,
+    "GAP": 6075.0
+   },
+   "share": {
+    "C": 12.52,
+    "D": 14.53,
+    "GAP": 72.95
+   },
+   "total_m": 8328.0,
+   "named": {
+    "C": [
+     {
+      "street": "29th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 400.0,
+      "edges": 8,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "146th Avenue East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 156.0,
+      "edges": 3,
+      "assumed_mph": []
+     },
+     {
+      "street": "30th Street Court East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 147.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1660.0,
+      "edges": 8,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1648.0,
+      "edges": 20,
+      "assumed_mph": []
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "24th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "dedicated",
+      "m": 403.0,
+      "edges": 9,
+      "assumed_mph": []
+     }
+    ],
+    "D": [
+     {
+      "street": "24th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 649.0,
+      "edges": 10,
+      "assumed_mph": []
+     },
+     {
+      "street": "142nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 469.0,
+      "edges": 7,
+      "assumed_mph": []
+     },
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 92.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient_repair": {
+   "metres": {
+    "B": 403.0,
+    "C": 1043.0,
+    "D": 3574.0,
+    "E": 1660.0,
+    "GAP": 1648.0
+   },
+   "share": {
+    "B": 4.84,
+    "C": 12.52,
+    "D": 42.92,
+    "E": 19.93,
+    "GAP": 19.79
+   },
+   "total_m": 8328.0,
+   "named": {
+    "C": [
+     {
+      "street": "29th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 400.0,
+      "edges": 8,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "146th Avenue East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 156.0,
+      "edges": 3,
+      "assumed_mph": []
+     },
+     {
+      "street": "30th Street Court East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 147.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "24th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 649.0,
+      "edges": 10,
+      "assumed_mph": []
+     },
+     {
+      "street": "142nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 469.0,
+      "edges": 7,
+      "assumed_mph": []
+     },
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 92.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ],
+    "E": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1660.0,
+      "edges": 8,
+      "assumed_mph": [
+       44
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1648.0,
+      "edges": 20,
+      "assumed_mph": []
+     }
+    ],
+    "B": [
+     {
+      "street": "24th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "dedicated",
+      "m": 403.0,
+      "edges": 9,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous_repair": {
+   "metres": {
+    "B": 403.0,
+    "C": 5067.0,
+    "D": 1210.0,
+    "GAP": 1648.0
+   },
+   "share": {
+    "B": 4.84,
+    "C": 60.84,
+    "D": 14.53,
+    "GAP": 19.79
+   },
+   "total_m": 8328.0,
+   "named": {
+    "C": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1660.0,
+      "edges": 8,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "29th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 400.0,
+      "edges": 8,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "146th Avenue East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 156.0,
+      "edges": 3,
+      "assumed_mph": []
+     },
+     {
+      "street": "30th Street Court East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 147.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "24th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 649.0,
+      "edges": 10,
+      "assumed_mph": []
+     },
+     {
+      "street": "142nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 469.0,
+      "edges": 7,
+      "assumed_mph": []
+     },
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 92.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ],
+    "GAP": [
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1648.0,
+      "edges": 20,
+      "assumed_mph": []
+     }
+    ],
+    "B": [
+     {
+      "street": "24th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "dedicated",
+      "m": 403.0,
+      "edges": 9,
+      "assumed_mph": []
+     }
+    ]
+   }
+  }
+ }
+}

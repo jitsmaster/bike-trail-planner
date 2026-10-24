@@ -1,0 +1,6 @@
+{
+ "error_code": 176,
+ "error": "Exceeded maximum number of vertices for exclude_polygons: 100",
+ "status_code": 400,
+ "status": "Bad Request"
+}

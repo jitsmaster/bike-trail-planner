@@ -1,0 +1,201 @@
+{
+ "trip": {
+  "locations": [
+   {
+    "type": "break",
+    "lat": 47.218444,
+    "lon": -122.231109,
+    "original_index": 0
+   },
+   {
+    "type": "break",
+    "lat": 47.235528,
+    "lon": -122.234937,
+    "original_index": 1
+   }
+  ],
+  "legs": [
+   {
+    "maneuvers": [
+     {
+      "type": 1,
+      "instruction": "Walk southwest on Sumner Link Trail.",
+      "verbal_succinct_transition_instruction": "Walk southwest. Then Make a sharp left onto the walkway.",
+      "verbal_pre_transition_instruction": "Walk southwest on Sumner Link Trail. Then Make a sharp left onto the walkway.",
+      "verbal_post_transition_instruction": "Continue for 10 meters.",
+      "street_names": [
+       "Sumner Link Trail"
+      ],
+      "bearing_after": 233,
+      "time": 10.094,
+      "length": 0.013,
+      "cost": 10.094,
+      "begin_shape_index": 0,
+      "end_shape_index": 1,
+      "verbal_multi_cue": true,
+      "travel_mode": "pedestrian",
+      "travel_type": "foot"
+     },
+     {
+      "type": 14,
+      "instruction": "Make a sharp left onto the walkway.",
+      "verbal_transition_alert_instruction": "Make a sharp left onto the walkway.",
+      "verbal_succinct_transition_instruction": "Make a sharp left.",
+      "verbal_pre_transition_instruction": "Make a sharp left onto the walkway.",
+      "verbal_post_transition_instruction": "Continue for 200 meters.",
+      "bearing_before": 233,
+      "bearing_after": 77,
+      "time": 134.411,
+      "length": 0.189,
+      "cost": 139.411,
+      "begin_shape_index": 1,
+      "end_shape_index": 20,
+      "rough": true,
+      "travel_mode": "pedestrian",
+      "travel_type": "foot"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right.",
+      "verbal_transition_alert_instruction": "Turn right.",
+      "verbal_succinct_transition_instruction": "Turn right. Then Turn left onto 150th Avenue Court East.",
+      "verbal_pre_transition_instruction": "Turn right. Then Turn left onto 150th Avenue Court East.",
+      "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+      "bearing_before": 3,
+      "bearing_after": 89,
+      "time": 5.647,
+      "length": 0.008,
+      "cost": 5.647,
+      "begin_shape_index": 20,
+      "end_shape_index": 21,
+      "verbal_multi_cue": true,
+      "travel_mode": "pedestrian",
+      "travel_type": "foot"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto 150th Avenue Court East.",
+      "verbal_transition_alert_instruction": "Turn left onto 150th Avenue Court East.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto 150th Avenue Court East.",
+      "verbal_post_transition_instruction": "Continue for 500 meters.",
+      "street_names": [
+       "150th Avenue Court East"
+      ],
+      "bearing_before": 89,
+      "bearing_after": 360,
+      "time": 345.035,
+      "length": 0.485,
+      "cost": 350.035,
+      "begin_shape_index": 21,
+      "end_shape_index": 37,
+      "travel_mode": "pedestrian",
+      "travel_type": "foot"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right.",
+      "verbal_transition_alert_instruction": "Turn right.",
+      "verbal_succinct_transition_instruction": "Turn right.",
+      "verbal_pre_transition_instruction": "Turn right.",
+      "verbal_post_transition_instruction": "Continue for 60 meters.",
+      "bearing_before": 40,
+      "bearing_after": 126,
+      "time": 109.482,
+      "length": 0.061,
+      "cost": 135.752,
+      "begin_shape_index": 37,
+      "end_shape_index": 43,
+      "travel_mode": "pedestrian",
+      "travel_type": "foot"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto East Valley Highway East.",
+      "verbal_transition_alert_instruction": "Turn left onto East Valley Highway East.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto East Valley Highway East.",
+      "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+      "street_names": [
+       "East Valley Highway East"
+      ],
+      "bearing_before": 85,
+      "bearing_after": 352,
+      "time": 1006.275,
+      "length": 1.4,
+      "cost": 1011.275,
+      "begin_shape_index": 43,
+      "end_shape_index": 90,
+      "travel_mode": "pedestrian",
+      "travel_type": "foot"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto 24th Street East.",
+      "verbal_transition_alert_instruction": "Turn left onto 24th Street East.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto 24th Street East.",
+      "verbal_post_transition_instruction": "Continue for 700 meters.",
+      "street_names": [
+       "24th Street East"
+      ],
+      "bearing_before": 337,
+      "bearing_after": 269,
+      "time": 472.475,
+      "length": 0.667,
+      "cost": 487.475,
+      "begin_shape_index": 90,
+      "end_shape_index": 100,
+      "travel_mode": "pedestrian",
+      "travel_type": "foot"
+     },
+     {
+      "type": 4,
+      "instruction": "You have arrived at your destination.",
+      "verbal_transition_alert_instruction": "You will arrive at your destination.",
+      "verbal_pre_transition_instruction": "You have arrived at your destination.",
+      "bearing_before": 272,
+      "time": 0.0,
+      "length": 0.0,
+      "cost": 0.0,
+      "begin_shape_index": 100,
+      "end_shape_index": 100,
+      "travel_mode": "pedestrian",
+      "travel_type": "foot"
+     }
+    ],
+    "summary": {
+     "has_time_restrictions": false,
+     "has_toll": false,
+     "has_highway": false,
+     "has_ferry": false,
+     "min_lat": 47.218374,
+     "min_lon": -122.233901,
+     "max_lat": 47.235523,
+     "max_lon": -122.224405,
+     "time": 2083.421,
+     "length": 2.823,
+     "cost": 2139.691
+    },
+    "shape": "yo~`yAjskchFjClGk@qH{Gef@qC_Sm@{Cs@}BeAwC}@qBiAyBoAkBaAsA}AcB}BmBiBmA_CmAgBo@aCa@iAM}BMsB?A_Fsa@DyI@}WBeYBkI@ySB{a@DmD?iTBiB?gGcCkH_GeGqN}Scg@_GwIc@[tEkLj@}GLwDC{BKkEQuGeHfAiIPsXe@{iAoB_c@qAkR_C_LeBeMcCyMgEqKyE}MsGmFkBaV_HgMcBiSaBuOmB{FiAy^wK}Z}EgL{C{HoCg^_TsQuIiJ}DwHuB}UwGmSyFaPiEcPiEoQ}E{Bk@oYyHiMcCeE[iJ@yOv@aIx@iPhAmLtBsPzCoDfAeCtAuCbByDjCmFpEeF~CeFdCRve@KlgBAnSBlNo@|TAvBOnl@gAhcDIbPgA`vB"
+   }
+  ],
+  "summary": {
+   "has_time_restrictions": false,
+   "has_toll": false,
+   "has_highway": false,
+   "has_ferry": false,
+   "min_lat": 47.218374,
+   "min_lon": -122.233901,
+   "max_lat": 47.235523,
+   "max_lon": -122.224405,
+   "time": 2083.421,
+   "length": 2.823,
+   "cost": 2139.691
+  },
+  "status_message": "Found route between points",
+  "status": 0,
+  "units": "kilometers",
+  "language": "en-US"
+ }
+}

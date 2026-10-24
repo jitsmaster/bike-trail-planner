@@ -1,0 +1,612 @@
+{
+ "label": "ap_9605517_6486202537",
+ "n_edges": 131,
+ "modes": {
+  "strict": {
+   "metres": {
+    "C": 1671.0,
+    "D": 5368.0,
+    "GAP": 606.0
+   },
+   "share": {
+    "C": 21.86,
+    "D": 70.22,
+    "GAP": 7.93
+   },
+   "total_m": 7645.0,
+   "named": {
+    "D": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 2581.0,
+      "edges": 53,
+      "assumed_mph": []
+     },
+     {
+      "street": "Milwaukee Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1246.0,
+      "edges": 26,
+      "assumed_mph": []
+     },
+     {
+      "street": "48th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 632.0,
+      "edges": 10,
+      "assumed_mph": []
+     },
+     {
+      "street": "5th Street Northeast",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 472.0,
+      "edges": 11,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "Chrisella Road East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 97.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": []
+     }
+    ],
+    "C": [
+     {
+      "street": "43rd Street Court East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 812.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 546.0,
+      "edges": 11,
+      "assumed_mph": []
+     },
+     {
+      "street": "7th Street Northeast",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 176.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "4th Avenue Northeast",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 137.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ],
+    "GAP": [
+     {
+      "street": "Chrisella Road East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 606.0,
+      "edges": 4,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient": {
+   "metres": {
+    "C": 2011.0,
+    "GAP": 5634.0
+   },
+   "share": {
+    "C": 26.3,
+    "GAP": 73.7
+   },
+   "total_m": 7645.0,
+   "named": {
+    "C": [
+     {
+      "street": "43rd Street Court East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 812.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 546.0,
+      "edges": 11,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "7th Street Northeast",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 176.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "4th Avenue Northeast",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 137.0,
+      "edges": 3,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 2581.0,
+      "edges": 53,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Milwaukee Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1246.0,
+      "edges": 26,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Chrisella Road East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 703.0,
+      "edges": 5,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "48th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 632.0,
+      "edges": 10,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "5th Street Northeast",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 472.0,
+      "edges": 11,
+      "assumed_mph": [
+       39
+      ]
+     }
+    ]
+   }
+  },
+  "generous": {
+   "metres": {
+    "C": 2011.0,
+    "GAP": 5634.0
+   },
+   "share": {
+    "C": 26.3,
+    "GAP": 73.7
+   },
+   "total_m": 7645.0,
+   "named": {
+    "C": [
+     {
+      "street": "43rd Street Court East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 812.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 546.0,
+      "edges": 11,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "7th Street Northeast",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 176.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "4th Avenue Northeast",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 137.0,
+      "edges": 3,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 2581.0,
+      "edges": 53,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Milwaukee Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1246.0,
+      "edges": 26,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Chrisella Road East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 703.0,
+      "edges": 5,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "48th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 632.0,
+      "edges": 10,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "5th Street Northeast",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 472.0,
+      "edges": 11,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ]
+   }
+  },
+  "lenient_repair": {
+   "metres": {
+    "C": 2714.0,
+    "D": 4931.0
+   },
+   "share": {
+    "C": 35.5,
+    "D": 64.5
+   },
+   "total_m": 7645.0,
+   "named": {
+    "C": [
+     {
+      "street": "43rd Street Court East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 812.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "Chrisella Road East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 703.0,
+      "edges": 5,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 546.0,
+      "edges": 11,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "7th Street Northeast",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 176.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "4th Avenue Northeast",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 137.0,
+      "edges": 3,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 2581.0,
+      "edges": 53,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Milwaukee Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1246.0,
+      "edges": 26,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "48th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 632.0,
+      "edges": 10,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "5th Street Northeast",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 472.0,
+      "edges": 11,
+      "assumed_mph": [
+       39
+      ]
+     }
+    ]
+   }
+  },
+  "generous_repair": {
+   "metres": {
+    "C": 7645.0
+   },
+   "share": {
+    "C": 100.0
+   },
+   "total_m": 7645.0,
+   "named": {
+    "C": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 2581.0,
+      "edges": 53,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Milwaukee Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1246.0,
+      "edges": 26,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "43rd Street Court East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 812.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "Chrisella Road East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 703.0,
+      "edges": 5,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "48th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 632.0,
+      "edges": 10,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 546.0,
+      "edges": 11,
+      "assumed_mph": []
+     },
+     {
+      "street": "5th Street Northeast",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 472.0,
+      "edges": 11,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "7th Street Northeast",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 176.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "4th Avenue Northeast",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 137.0,
+      "edges": 3,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "route_summary": {
+  "has_time_restrictions": false,
+  "has_toll": false,
+  "has_highway": false,
+  "has_ferry": false,
+  "min_lat": 47.192702,
+  "min_lon": -122.287703,
+  "max_lat": 47.241057,
+  "max_lon": -122.262046,
+  "time": 1464.144,
+  "length": 7.646,
+  "cost": 2765.882
+ },
+ "arrival": {
+  "lat": 47.192702,
+  "lon": -122.28578
+ }
+}

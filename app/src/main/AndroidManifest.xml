@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- D51: the ride recorder is a FOREGROUND location service, so it keeps logging GPS while the
+         rider is in Google Maps or Velotric WITHOUT any background-location permission. -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+    <!-- D36: the end-of-ride prompt is a notification. Runtime permission on API 33+. -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- Only to ask whether Google Maps is installed for the hand-off URL (D18, SEC-17). -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="https" />
+        </intent>
+        <!--
+          D35 (docs/VELOTRIC-LINK.md option A): needed to ask whether the Velotric app is installed
+          before showing the assist button. Android 11+ package visibility hides it without this
+          declaration, which made VelotricLauncher.available() always return false on the phone.
+        -->
+        <package android:name="com.mddoscar.velotricbike" />
+    </queries>
+
+    <application
+        android:name=".BikeTrailPlannerApp"
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BikeTrailPlanner">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+          D36 (docs/VELOTRIC-LINK.md): watches the Google Maps navigation notification so the rider
+          can be told to stop their Velotric ride when navigation ends. Notification access is a
+          special permission the rider grants by hand; without it the app falls back to the
+          return-to-start nudge and this service is simply never bound.
+        -->
+        <service
+            android:name=".nav.RideWatchService"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name=".nav.RideWatchDismissReceiver"
+            android:exported="false" />
+
+        <!--
+          D51 (docs/RIDE-RECORDER.md): the in-app ride recorder. A foreground location service, so it
+          keeps collecting GPS while the rider is in Google Maps or Velotric; it needs no
+          background-location permission. The recording notification carries the Stop control.
+        -->
+        <service
+            android:name=".nav.RideRecordingService"
+            android:exported="false"
+            android:foregroundServiceType="location" />
+    </application>
+</manifest>

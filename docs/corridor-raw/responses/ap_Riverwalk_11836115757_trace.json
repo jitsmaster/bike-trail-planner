@@ -1,0 +1,2207 @@
+{
+ "units": "kilometers",
+ "edges": [
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 736260642,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "driveway",
+   "traversability": "both",
+   "end_shape_index": 1,
+   "begin_shape_index": 0,
+   "road_class": "service_other",
+   "speed": 25,
+   "length": 0.015,
+   "source_percent_along": 0.569
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 736260642,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "driveway",
+   "traversability": "both",
+   "end_shape_index": 4,
+   "begin_shape_index": 1,
+   "road_class": "service_other",
+   "speed": 25,
+   "length": 0.045
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 1372717282,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 15,
+   "begin_shape_index": 4,
+   "road_class": "residential",
+   "speed": 18,
+   "length": 0.181,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 1372717282,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 18,
+   "begin_shape_index": 15,
+   "road_class": "residential",
+   "speed": 18,
+   "length": 0.099,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 19,
+   "begin_shape_index": 18,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.048,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 20,
+   "begin_shape_index": 19,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.02,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 21,
+   "begin_shape_index": 20,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.051,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 22,
+   "begin_shape_index": 21,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.024,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 23,
+   "begin_shape_index": 22,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.056,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 24,
+   "begin_shape_index": 23,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.071,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 25,
+   "begin_shape_index": 24,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.027,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 26,
+   "begin_shape_index": 25,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.035,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 27,
+   "begin_shape_index": 26,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.014,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 28,
+   "begin_shape_index": 27,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.026,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 29,
+   "begin_shape_index": 28,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.024,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 30,
+   "begin_shape_index": 29,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.058,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 31,
+   "begin_shape_index": 30,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.015,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 32,
+   "begin_shape_index": 31,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.016,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 33,
+   "begin_shape_index": 32,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.015,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 34,
+   "begin_shape_index": 33,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.098,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 35,
+   "begin_shape_index": 34,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.053,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 36,
+   "begin_shape_index": 35,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.045,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 37,
+   "begin_shape_index": 36,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.007,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 38,
+   "begin_shape_index": 37,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.035,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 39,
+   "begin_shape_index": 38,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.139,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 40,
+   "begin_shape_index": 39,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.027,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 41,
+   "begin_shape_index": 40,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.05,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 42,
+   "begin_shape_index": 41,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.057,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 43,
+   "begin_shape_index": 42,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.048,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 44,
+   "begin_shape_index": 43,
+   "road_class": "tertiary",
+   "speed": 14,
+   "length": 0.046,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 45,
+   "begin_shape_index": 44,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.002,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 46,
+   "begin_shape_index": 45,
+   "road_class": "tertiary",
+   "speed": 14,
+   "length": 0.101,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 47,
+   "begin_shape_index": 46,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.011,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 48,
+   "begin_shape_index": 47,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.073,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 49,
+   "begin_shape_index": 48,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.014,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 50,
+   "begin_shape_index": 49,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.109,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 51,
+   "begin_shape_index": 50,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.051,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 52,
+   "begin_shape_index": 51,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.102,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 53,
+   "begin_shape_index": 52,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.007,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 54,
+   "begin_shape_index": 53,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.081,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 55,
+   "begin_shape_index": 54,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.062,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 57,
+   "begin_shape_index": 55,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.104,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 58,
+   "begin_shape_index": 57,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.016,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 59,
+   "begin_shape_index": 58,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.055,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 61,
+   "begin_shape_index": 59,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.079,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 62,
+   "begin_shape_index": 61,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.056,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 63,
+   "begin_shape_index": 62,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.027,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 64,
+   "begin_shape_index": 63,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.006,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 66,
+   "begin_shape_index": 64,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.093,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 67,
+   "begin_shape_index": 66,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.072,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 68,
+   "begin_shape_index": 67,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.096,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 69,
+   "begin_shape_index": 68,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.034,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 70,
+   "begin_shape_index": 69,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.069,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 71,
+   "begin_shape_index": 70,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.002,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 72,
+   "begin_shape_index": 71,
+   "road_class": "tertiary",
+   "speed": 14,
+   "length": 0.055,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 73,
+   "begin_shape_index": 72,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.029,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 74,
+   "begin_shape_index": 73,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.07,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12234363,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 75,
+   "begin_shape_index": 74,
+   "road_class": "residential",
+   "speed": 17,
+   "length": 0.375,
+   "names": [
+    "43rd Street Court East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12234363,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 77,
+   "begin_shape_index": 75,
+   "road_class": "residential",
+   "speed": 22,
+   "length": 0.041,
+   "names": [
+    "43rd Street Court East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12234363,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 78,
+   "begin_shape_index": 77,
+   "road_class": "residential",
+   "speed": 25,
+   "length": 0.195,
+   "names": [
+    "43rd Street Court East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12234363,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 79,
+   "begin_shape_index": 78,
+   "road_class": "residential",
+   "speed": 17,
+   "length": 0.201,
+   "names": [
+    "43rd Street Court East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12238207,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 80,
+   "begin_shape_index": 79,
+   "road_class": "residential",
+   "speed": 18,
+   "length": 0.043,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12238207,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 81,
+   "begin_shape_index": 80,
+   "road_class": "residential",
+   "speed": 18,
+   "length": 0.007,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12238207,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 82,
+   "begin_shape_index": 81,
+   "road_class": "residential",
+   "speed": 22,
+   "length": 0.053,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12238207,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 83,
+   "begin_shape_index": 82,
+   "road_class": "residential",
+   "speed": 22,
+   "length": 0.037,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12238207,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 84,
+   "begin_shape_index": 83,
+   "road_class": "residential",
+   "speed": 18,
+   "length": 0.011,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12238207,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 85,
+   "begin_shape_index": 84,
+   "road_class": "residential",
+   "speed": 22,
+   "length": 0.101,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12238207,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 86,
+   "begin_shape_index": 85,
+   "road_class": "residential",
+   "speed": 18,
+   "length": 0.007,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12238207,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 87,
+   "begin_shape_index": 86,
+   "road_class": "residential",
+   "speed": 18,
+   "length": 0.061,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12238207,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 88,
+   "begin_shape_index": 87,
+   "road_class": "residential",
+   "speed": 22,
+   "length": 0.088,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12238207,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 90,
+   "begin_shape_index": 88,
+   "road_class": "residential",
+   "speed": 22,
+   "length": 0.087,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12238207,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 91,
+   "begin_shape_index": 90,
+   "road_class": "residential",
+   "speed": 34,
+   "length": 0.051,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12189821,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 94,
+   "begin_shape_index": 91,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.05,
+   "names": [
+    "48th Street East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12189821,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 95,
+   "begin_shape_index": 94,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.009,
+   "names": [
+    "48th Street East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12189821,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 106,
+   "begin_shape_index": 95,
+   "road_class": "tertiary",
+   "speed": 34,
+   "length": 0.204,
+   "names": [
+    "48th Street East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12189821,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 110,
+   "begin_shape_index": 106,
+   "road_class": "tertiary",
+   "speed": 34,
+   "length": 0.083,
+   "names": [
+    "48th Street East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12189821,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 113,
+   "begin_shape_index": 110,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.067,
+   "names": [
+    "48th Street East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12189821,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 114,
+   "begin_shape_index": 113,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.016,
+   "names": [
+    "48th Street East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12189821,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 117,
+   "begin_shape_index": 114,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.063,
+   "names": [
+    "48th Street East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12189821,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 118,
+   "begin_shape_index": 117,
+   "road_class": "tertiary",
+   "speed": 31,
+   "length": 0.044,
+   "names": [
+    "48th Street East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12189821,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 120,
+   "begin_shape_index": 118,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.074,
+   "names": [
+    "48th Street East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12189821,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 121,
+   "begin_shape_index": 120,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.022,
+   "names": [
+    "48th Street East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 1256742040,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 147,
+   "begin_shape_index": 121,
+   "road_class": "tertiary",
+   "speed": 34,
+   "length": 0.314,
+   "names": [
+    "Chrisella Road East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 1256742040,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 158,
+   "begin_shape_index": 147,
+   "road_class": "tertiary",
+   "speed": 31,
+   "length": 0.15,
+   "names": [
+    "Chrisella Road East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 1256742040,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 164,
+   "begin_shape_index": 158,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.069,
+   "names": [
+    "Chrisella Road East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 1256742041,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 167,
+   "begin_shape_index": 164,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.073,
+   "names": [
+    "Chrisella Road East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 1256742039,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 175,
+   "begin_shape_index": 167,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.097,
+   "names": [
+    "Chrisella Road East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 176,
+   "begin_shape_index": 175,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.029,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 178,
+   "begin_shape_index": 176,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.044,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 179,
+   "begin_shape_index": 178,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.025,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 181,
+   "begin_shape_index": 179,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.153,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 182,
+   "begin_shape_index": 181,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.017,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 183,
+   "begin_shape_index": 182,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.015,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 184,
+   "begin_shape_index": 183,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.008,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 185,
+   "begin_shape_index": 184,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.045,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 186,
+   "begin_shape_index": 185,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.014,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 188,
+   "begin_shape_index": 186,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.024,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 191,
+   "begin_shape_index": 188,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.187,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 192,
+   "begin_shape_index": 191,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.044,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 193,
+   "begin_shape_index": 192,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.104,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 194,
+   "begin_shape_index": 193,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.043,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 195,
+   "begin_shape_index": 194,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.023,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 196,
+   "begin_shape_index": 195,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.014,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 197,
+   "begin_shape_index": 196,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.056,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 198,
+   "begin_shape_index": 197,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.041,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 199,
+   "begin_shape_index": 198,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.013,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 203,
+   "begin_shape_index": 199,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.065,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 204,
+   "begin_shape_index": 203,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.057,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 205,
+   "begin_shape_index": 204,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.051,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 207,
+   "begin_shape_index": 205,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.029,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 209,
+   "begin_shape_index": 207,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.058,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 23689610,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 210,
+   "begin_shape_index": 209,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.007,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12243373,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 211,
+   "begin_shape_index": 210,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.08,
+   "names": [
+    "Milwaukee Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 1305579954,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 215,
+   "begin_shape_index": 211,
+   "road_class": "tertiary",
+   "speed": 12,
+   "length": 0.051,
+   "names": [
+    "5th Street Northeast"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12236770,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 217,
+   "begin_shape_index": 215,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.023,
+   "names": [
+    "5th Street Northeast"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "shared",
+   "way_id": 1383899793,
+   "surface": "compacted",
+   "unpaved": true,
+   "use": "path",
+   "traversability": "both",
+   "end_shape_index": 229,
+   "begin_shape_index": 217,
+   "road_class": "service_other",
+   "speed": 20,
+   "length": 0.07
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "shared",
+   "way_id": 1383899795,
+   "surface": "compacted",
+   "unpaved": true,
+   "use": "path",
+   "traversability": "both",
+   "end_shape_index": 230,
+   "begin_shape_index": 229,
+   "road_class": "service_other",
+   "speed": 14,
+   "length": 0.014
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "shared",
+   "way_id": 1383899794,
+   "surface": "compacted",
+   "unpaved": true,
+   "use": "path",
+   "traversability": "both",
+   "end_shape_index": 238,
+   "begin_shape_index": 230,
+   "road_class": "service_other",
+   "speed": 14,
+   "length": 0.053
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 1,
+   "cycle_lane": "shared",
+   "way_id": 1274743332,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "cycleway",
+   "traversability": "both",
+   "end_shape_index": 247,
+   "begin_shape_index": 238,
+   "road_class": "service_other",
+   "speed": 18,
+   "length": 0.055,
+   "names": [
+    "Riverwalk Trail"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 1,
+   "cycle_lane": "shared",
+   "way_id": 1274743332,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "cycleway",
+   "traversability": "both",
+   "end_shape_index": 259,
+   "begin_shape_index": 247,
+   "road_class": "service_other",
+   "speed": 18,
+   "length": 0.477,
+   "names": [
+    "Riverwalk Trail"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 1,
+   "cycle_lane": "shared",
+   "way_id": 1274743332,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "cycleway",
+   "traversability": "both",
+   "end_shape_index": 262,
+   "begin_shape_index": 259,
+   "road_class": "service_other",
+   "speed": 18,
+   "length": 0.054,
+   "names": [
+    "Riverwalk Trail"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 1,
+   "cycle_lane": "shared",
+   "way_id": 1274743331,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "cycleway",
+   "traversability": "both",
+   "end_shape_index": 265,
+   "begin_shape_index": 262,
+   "road_class": "service_other",
+   "speed": 18,
+   "length": 0.043,
+   "names": [
+    "Riverwalk Trail"
+   ]
+  }
+ ],
+ "alternate_paths": []
+}

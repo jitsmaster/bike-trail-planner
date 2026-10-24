@@ -1,0 +1,567 @@
+{
+ "label": "ap_9605518_2670828198",
+ "n_edges": 116,
+ "modes": {
+  "strict": {
+   "metres": {
+    "A": 930.0,
+    "C": 2090.0,
+    "D": 4817.0
+   },
+   "share": {
+    "A": 11.87,
+    "C": 26.67,
+    "D": 61.46
+   },
+   "total_m": 7837.0,
+   "named": {
+    "D": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": []
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": []
+     },
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 410.0,
+      "edges": 10,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": []
+     }
+    ],
+    "C": [
+     {
+      "street": "16th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 1288.0,
+      "edges": 28,
+      "assumed_mph": []
+     },
+     {
+      "street": "Thornton Avenue Southwest",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 802.0,
+      "edges": 23,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 890.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 40.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient": {
+   "metres": {
+    "A": 930.0,
+    "C": 2430.0,
+    "D": 410.0,
+    "E": 1703.0,
+    "GAP": 2364.0
+   },
+   "share": {
+    "A": 11.87,
+    "C": 31.01,
+    "D": 5.23,
+    "E": 21.73,
+    "GAP": 30.16
+   },
+   "total_m": 7837.0,
+   "named": {
+    "C": [
+     {
+      "street": "16th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 1288.0,
+      "edges": 28,
+      "assumed_mph": []
+     },
+     {
+      "street": "Thornton Avenue Southwest",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 802.0,
+      "edges": 23,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       39
+      ]
+     }
+    ],
+    "E": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": [
+       44
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 410.0,
+      "edges": 10,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 890.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 40.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous": {
+   "metres": {
+    "A": 930.0,
+    "C": 2430.0,
+    "D": 410.0,
+    "GAP": 4067.0
+   },
+   "share": {
+    "A": 11.87,
+    "C": 31.01,
+    "D": 5.23,
+    "GAP": 51.89
+   },
+   "total_m": 7837.0,
+   "named": {
+    "C": [
+     {
+      "street": "16th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 1288.0,
+      "edges": 28,
+      "assumed_mph": []
+     },
+     {
+      "street": "Thornton Avenue Southwest",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 802.0,
+      "edges": 23,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 410.0,
+      "edges": 10,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 890.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 40.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient_repair": {
+   "metres": {
+    "A": 930.0,
+    "C": 2430.0,
+    "D": 2774.0,
+    "E": 1703.0
+   },
+   "share": {
+    "A": 11.87,
+    "C": 31.01,
+    "D": 35.4,
+    "E": 21.73
+   },
+   "total_m": 7837.0,
+   "named": {
+    "C": [
+     {
+      "street": "16th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 1288.0,
+      "edges": 28,
+      "assumed_mph": []
+     },
+     {
+      "street": "Thornton Avenue Southwest",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 802.0,
+      "edges": 23,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 410.0,
+      "edges": 10,
+      "assumed_mph": []
+     }
+    ],
+    "E": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": [
+       44
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 890.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 40.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous_repair": {
+   "metres": {
+    "A": 930.0,
+    "C": 6497.0,
+    "D": 410.0
+   },
+   "share": {
+    "A": 11.87,
+    "C": 82.9,
+    "D": 5.23
+   },
+   "total_m": 7837.0,
+   "named": {
+    "C": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "16th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 1288.0,
+      "edges": 28,
+      "assumed_mph": []
+     },
+     {
+      "street": "Thornton Avenue Southwest",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 802.0,
+      "edges": 23,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 410.0,
+      "edges": 10,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 890.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 40.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ]
+   }
+  }
+ }
+}

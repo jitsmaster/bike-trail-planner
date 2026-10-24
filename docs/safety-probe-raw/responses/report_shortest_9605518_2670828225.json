@@ -1,0 +1,667 @@
+{
+ "label": "shortest_9605518_2670828225",
+ "n_edges": 114,
+ "modes": {
+  "strict": {
+   "metres": {
+    "A": 967.0,
+    "D": 5957.0
+   },
+   "share": {
+    "A": 13.97,
+    "D": 86.03
+   },
+   "total_m": 6924.0,
+   "named": {
+    "D": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": []
+     },
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 991.0,
+      "edges": 21,
+      "assumed_mph": []
+     },
+     {
+      "street": "8th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 788.0,
+      "edges": 15,
+      "assumed_mph": []
+     },
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 726.0,
+      "edges": 22,
+      "assumed_mph": []
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 553.0,
+      "edges": 12,
+      "assumed_mph": []
+     },
+     {
+      "street": "Stewart Road",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 504.0,
+      "edges": 13,
+      "assumed_mph": []
+     },
+     {
+      "street": "Stewart Road Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 340.0,
+      "edges": 8,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 72.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 903.0,
+      "edges": 5,
+      "assumed_mph": []
+     },
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "separated",
+      "m": 49.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "Lake Tapps Parkway Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 15.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient": {
+   "metres": {
+    "A": 967.0,
+    "C": 352.0,
+    "D": 726.0,
+    "E": 2547.0,
+    "GAP": 2332.0
+   },
+   "share": {
+    "A": 13.97,
+    "C": 5.08,
+    "D": 10.49,
+    "E": 36.79,
+    "GAP": 33.68
+   },
+   "total_m": 6924.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 72.0,
+      "edges": 3,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 991.0,
+      "edges": 21,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "8th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 788.0,
+      "edges": 15,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 553.0,
+      "edges": 12,
+      "assumed_mph": [
+       39
+      ]
+     }
+    ],
+    "E": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": [
+       44
+      ]
+     },
+     {
+      "street": "Stewart Road",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 504.0,
+      "edges": 13,
+      "assumed_mph": [
+       44
+      ]
+     },
+     {
+      "street": "Stewart Road Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 340.0,
+      "edges": 8,
+      "assumed_mph": [
+       44
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 726.0,
+      "edges": 22,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 903.0,
+      "edges": 5,
+      "assumed_mph": []
+     },
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "separated",
+      "m": 49.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "Lake Tapps Parkway Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 15.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous": {
+   "metres": {
+    "A": 967.0,
+    "C": 352.0,
+    "D": 726.0,
+    "GAP": 4879.0
+   },
+   "share": {
+    "A": 13.97,
+    "C": 5.08,
+    "D": 10.49,
+    "GAP": 70.47
+   },
+   "total_m": 6924.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 72.0,
+      "edges": 3,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 991.0,
+      "edges": 21,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "8th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 788.0,
+      "edges": 15,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 553.0,
+      "edges": 12,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Stewart Road",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 504.0,
+      "edges": 13,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Stewart Road Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 340.0,
+      "edges": 8,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 726.0,
+      "edges": 22,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 903.0,
+      "edges": 5,
+      "assumed_mph": []
+     },
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "separated",
+      "m": 49.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "Lake Tapps Parkway Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 15.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient_repair": {
+   "metres": {
+    "A": 967.0,
+    "C": 352.0,
+    "D": 3058.0,
+    "E": 2547.0
+   },
+   "share": {
+    "A": 13.97,
+    "C": 5.08,
+    "D": 44.17,
+    "E": 36.79
+   },
+   "total_m": 6924.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 72.0,
+      "edges": 3,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 991.0,
+      "edges": 21,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "8th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 788.0,
+      "edges": 15,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 726.0,
+      "edges": 22,
+      "assumed_mph": []
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 553.0,
+      "edges": 12,
+      "assumed_mph": [
+       39
+      ]
+     }
+    ],
+    "E": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": [
+       44
+      ]
+     },
+     {
+      "street": "Stewart Road",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 504.0,
+      "edges": 13,
+      "assumed_mph": [
+       44
+      ]
+     },
+     {
+      "street": "Stewart Road Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 340.0,
+      "edges": 8,
+      "assumed_mph": [
+       44
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 903.0,
+      "edges": 5,
+      "assumed_mph": []
+     },
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "separated",
+      "m": 49.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "Lake Tapps Parkway Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 15.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous_repair": {
+   "metres": {
+    "A": 967.0,
+    "C": 5231.0,
+    "D": 726.0
+   },
+   "share": {
+    "A": 13.97,
+    "C": 75.55,
+    "D": 10.49
+   },
+   "total_m": 6924.0,
+   "named": {
+    "C": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 991.0,
+      "edges": 21,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "8th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 788.0,
+      "edges": 15,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 553.0,
+      "edges": 12,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Stewart Road",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 504.0,
+      "edges": 13,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Stewart Road Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 340.0,
+      "edges": 8,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 72.0,
+      "edges": 3,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 726.0,
+      "edges": 22,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 903.0,
+      "edges": 5,
+      "assumed_mph": []
+     },
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "separated",
+      "m": 49.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "Lake Tapps Parkway Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 15.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ]
+   }
+  }
+ }
+}

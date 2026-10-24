@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SEC-3 / SEC-16: the tailnet has HTTPS certificates disabled, so the Valhalla
+  endpoint is plain HTTP. Cleartext is permitted for exactly two hosts and
+  nothing else. Never set android:usesCleartextTraffic="true".
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false" />
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- the Mac that runs Valhalla, reached over Tailscale -->
+        <domain includeSubdomains="false">admins-mac-mini.taile1279d.ts.net</domain>
+        <!-- local testing only: adb reverse tcp:8002 tcp:8002 on the emulator/device -->
+        <domain includeSubdomains="false">127.0.0.1</domain>
+    </domain-config>
+</network-security-config>

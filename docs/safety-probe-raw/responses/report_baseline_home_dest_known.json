@@ -1,0 +1,835 @@
+{
+ "label": "baseline_home_dest_known",
+ "n_edges": 178,
+ "modes": {
+  "strict": {
+   "metres": {
+    "A": 817.0,
+    "B": 345.0,
+    "D": 7349.0,
+    "GAP": 675.0
+   },
+   "share": {
+    "A": 8.89,
+    "B": 3.76,
+    "D": 80.0,
+    "GAP": 7.35
+   },
+   "total_m": 9186.0,
+   "named": {
+    "D": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 3038.0,
+      "edges": 63,
+      "assumed_mph": []
+     },
+     {
+      "street": "Edgewood Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1371.0,
+      "edges": 17,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 888.0,
+      "edges": 7,
+      "assumed_mph": []
+     },
+     {
+      "street": "Tacoma Avenue",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 572.0,
+      "edges": 14,
+      "assumed_mph": []
+     },
+     {
+      "street": "48th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 501.0,
+      "edges": 12,
+      "assumed_mph": []
+     },
+     {
+      "street": "142nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 446.0,
+      "edges": 6,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "Sumner Heights Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 231.0,
+      "edges": 3,
+      "assumed_mph": []
+     },
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 22.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ],
+    "B": [
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "dedicated",
+      "m": 181.0,
+      "edges": 5,
+      "assumed_mph": []
+     },
+     {
+      "street": "Fryar Avenue",
+      "road_class": "tertiary",
+      "cycle_lane": "dedicated",
+      "m": 164.0,
+      "edges": 5,
+      "assumed_mph": []
+     }
+    ],
+    "GAP": [
+     {
+      "street": "Puyallup Street",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 468.0,
+      "edges": 14,
+      "assumed_mph": []
+     },
+     {
+      "street": "Bridge Street",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 182.0,
+      "edges": 7,
+      "assumed_mph": []
+     },
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 25.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Fryar Avenue",
+      "road_class": "tertiary",
+      "cycle_lane": "dedicated",
+      "m": 672.0,
+      "edges": 18,
+      "assumed_mph": []
+     },
+     {
+      "street": "Fryar Avenue",
+      "road_class": "tertiary",
+      "cycle_lane": "shared",
+      "m": 145.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient": {
+   "metres": {
+    "A": 817.0,
+    "B": 345.0,
+    "C": 1168.0,
+    "D": 1040.0,
+    "GAP": 5816.0
+   },
+   "share": {
+    "A": 8.89,
+    "B": 3.76,
+    "C": 12.72,
+    "D": 11.32,
+    "GAP": 63.31
+   },
+   "total_m": 9186.0,
+   "named": {
+    "C": [
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 888.0,
+      "edges": 7,
+      "assumed_mph": [
+       9
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 3038.0,
+      "edges": 63,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Edgewood Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1371.0,
+      "edges": 17,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "48th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 501.0,
+      "edges": 12,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Puyallup Street",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 468.0,
+      "edges": 14,
+      "assumed_mph": []
+     },
+     {
+      "street": "Sumner Heights Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 231.0,
+      "edges": 3,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Bridge Street",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 182.0,
+      "edges": 7,
+      "assumed_mph": []
+     },
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 25.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ],
+    "D": [
+     {
+      "street": "Tacoma Avenue",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 572.0,
+      "edges": 14,
+      "assumed_mph": []
+     },
+     {
+      "street": "142nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 446.0,
+      "edges": 6,
+      "assumed_mph": []
+     },
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 22.0,
+      "edges": 1,
+      "assumed_mph": [
+       35
+      ]
+     }
+    ],
+    "B": [
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "dedicated",
+      "m": 181.0,
+      "edges": 5,
+      "assumed_mph": []
+     },
+     {
+      "street": "Fryar Avenue",
+      "road_class": "tertiary",
+      "cycle_lane": "dedicated",
+      "m": 164.0,
+      "edges": 5,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Fryar Avenue",
+      "road_class": "tertiary",
+      "cycle_lane": "dedicated",
+      "m": 672.0,
+      "edges": 18,
+      "assumed_mph": []
+     },
+     {
+      "street": "Fryar Avenue",
+      "road_class": "tertiary",
+      "cycle_lane": "shared",
+      "m": 145.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous": {
+   "metres": {
+    "A": 817.0,
+    "B": 345.0,
+    "C": 1168.0,
+    "D": 1018.0,
+    "GAP": 5838.0
+   },
+   "share": {
+    "A": 8.89,
+    "B": 3.76,
+    "C": 12.72,
+    "D": 11.08,
+    "GAP": 63.55
+   },
+   "total_m": 9186.0,
+   "named": {
+    "C": [
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 888.0,
+      "edges": 7,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 3038.0,
+      "edges": 63,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Edgewood Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1371.0,
+      "edges": 17,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "48th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 501.0,
+      "edges": 12,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Puyallup Street",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 468.0,
+      "edges": 14,
+      "assumed_mph": []
+     },
+     {
+      "street": "Sumner Heights Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 231.0,
+      "edges": 3,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Bridge Street",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 182.0,
+      "edges": 7,
+      "assumed_mph": []
+     },
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 25.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 22.0,
+      "edges": 1,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "B": [
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "dedicated",
+      "m": 181.0,
+      "edges": 5,
+      "assumed_mph": []
+     },
+     {
+      "street": "Fryar Avenue",
+      "road_class": "tertiary",
+      "cycle_lane": "dedicated",
+      "m": 164.0,
+      "edges": 5,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Fryar Avenue",
+      "road_class": "tertiary",
+      "cycle_lane": "dedicated",
+      "m": 672.0,
+      "edges": 18,
+      "assumed_mph": []
+     },
+     {
+      "street": "Fryar Avenue",
+      "road_class": "tertiary",
+      "cycle_lane": "shared",
+      "m": 145.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ],
+    "D": [
+     {
+      "street": "Tacoma Avenue",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 572.0,
+      "edges": 14,
+      "assumed_mph": []
+     },
+     {
+      "street": "142nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 446.0,
+      "edges": 6,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient_repair": {
+   "metres": {
+    "A": 817.0,
+    "B": 345.0,
+    "C": 1843.0,
+    "D": 6181.0
+   },
+   "share": {
+    "A": 8.89,
+    "B": 3.76,
+    "C": 20.06,
+    "D": 67.29
+   },
+   "total_m": 9186.0,
+   "named": {
+    "C": [
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 888.0,
+      "edges": 7,
+      "assumed_mph": [
+       9
+      ]
+     },
+     {
+      "street": "Puyallup Street",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 468.0,
+      "edges": 14,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "Bridge Street",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 182.0,
+      "edges": 7,
+      "assumed_mph": []
+     },
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 25.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ],
+    "D": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 3038.0,
+      "edges": 63,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Edgewood Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1371.0,
+      "edges": 17,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Tacoma Avenue",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 572.0,
+      "edges": 14,
+      "assumed_mph": []
+     },
+     {
+      "street": "48th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 501.0,
+      "edges": 12,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "142nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 446.0,
+      "edges": 6,
+      "assumed_mph": []
+     },
+     {
+      "street": "Sumner Heights Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 231.0,
+      "edges": 3,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 22.0,
+      "edges": 1,
+      "assumed_mph": [
+       35
+      ]
+     }
+    ],
+    "B": [
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "dedicated",
+      "m": 181.0,
+      "edges": 5,
+      "assumed_mph": []
+     },
+     {
+      "street": "Fryar Avenue",
+      "road_class": "tertiary",
+      "cycle_lane": "dedicated",
+      "m": 164.0,
+      "edges": 5,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Fryar Avenue",
+      "road_class": "tertiary",
+      "cycle_lane": "dedicated",
+      "m": 672.0,
+      "edges": 18,
+      "assumed_mph": []
+     },
+     {
+      "street": "Fryar Avenue",
+      "road_class": "tertiary",
+      "cycle_lane": "shared",
+      "m": 145.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous_repair": {
+   "metres": {
+    "A": 817.0,
+    "B": 345.0,
+    "C": 7006.0,
+    "D": 1018.0
+   },
+   "share": {
+    "A": 8.89,
+    "B": 3.76,
+    "C": 76.27,
+    "D": 11.08
+   },
+   "total_m": 9186.0,
+   "named": {
+    "C": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 3038.0,
+      "edges": 63,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Edgewood Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1371.0,
+      "edges": 17,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 888.0,
+      "edges": 7,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "48th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 501.0,
+      "edges": 12,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Puyallup Street",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 468.0,
+      "edges": 14,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Sumner Heights Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 231.0,
+      "edges": 3,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Bridge Street",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 182.0,
+      "edges": 7,
+      "assumed_mph": []
+     },
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 25.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 22.0,
+      "edges": 1,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "B": [
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "dedicated",
+      "m": 181.0,
+      "edges": 5,
+      "assumed_mph": []
+     },
+     {
+      "street": "Fryar Avenue",
+      "road_class": "tertiary",
+      "cycle_lane": "dedicated",
+      "m": 164.0,
+      "edges": 5,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Fryar Avenue",
+      "road_class": "tertiary",
+      "cycle_lane": "dedicated",
+      "m": 672.0,
+      "edges": 18,
+      "assumed_mph": []
+     },
+     {
+      "street": "Fryar Avenue",
+      "road_class": "tertiary",
+      "cycle_lane": "shared",
+      "m": 145.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ],
+    "D": [
+     {
+      "street": "Tacoma Avenue",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 572.0,
+      "edges": 14,
+      "assumed_mph": []
+     },
+     {
+      "street": "142nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 446.0,
+      "edges": 6,
+      "assumed_mph": []
+     }
+    ]
+   }
+  }
+ }
+}

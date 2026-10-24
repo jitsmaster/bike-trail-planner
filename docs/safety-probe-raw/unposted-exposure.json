@@ -1,0 +1,130 @@
+{
+ "3508527": {
+  "trail": "White River Trail",
+  "km": 8.175,
+  "total_m": 8174,
+  "posted_m": 1447,
+  "unposted_m": 6727,
+  "unposted_pct": 82.3,
+  "posted": {
+   "Stewart Road Southwest [secondary]": 726,
+   "A Street Southeast [secondary]": 721
+  },
+  "unposted": {
+   "Jovita Boulevard East [secondary]": 1703,
+   "114th Avenue East [tertiary]": 1563,
+   "18th Street East [tertiary]": 801,
+   "Stewart Road [secondary]": 710,
+   "East Valley Highway East [secondary]": 618,
+   "Lake Tapps Parkway Trail [service_other]": 559,
+   "Stewart Road Southeast [secondary]": 340,
+   "18th Street East [residential]": 280,
+   "(no name) [service_other]": 153
+  }
+ },
+ "6554034": {
+  "trail": "Interurban Trail Milton",
+  "km": 5.415,
+  "total_m": 5415,
+  "posted_m": 0,
+  "unposted_m": 5415,
+  "unposted_pct": 100.0,
+  "posted": {},
+  "unposted": {
+   "Taylor Street [tertiary]": 1263,
+   "16th Street East [tertiary]": 1117,
+   "18th Street East [tertiary]": 1006,
+   "Taylor Street East [tertiary]": 807,
+   "Porter Way [tertiary]": 609,
+   "18th Street East [residential]": 280,
+   "112th Avenue East [tertiary]": 193,
+   "(no name) [service_other]": 77,
+   "Milton Interurban Trail [service_other]": 63
+  }
+ },
+ "8826064": {
+  "trail": "Interurban Trail Edgewood",
+  "km": 2.99,
+  "total_m": 2990,
+  "posted_m": 0,
+  "unposted_m": 2990,
+  "unposted_pct": 100.0,
+  "posted": {},
+  "unposted": {
+   "114th Avenue East [tertiary]": 1683,
+   "18th Street East [tertiary]": 801,
+   "18th Street East [residential]": 280,
+   "Interurban Trail [service_other]": 166,
+   "(no name) [service_other]": 60
+  }
+ },
+ "9605517": {
+  "trail": "Riverwalk Trail",
+  "km": 6.88,
+  "total_m": 6880,
+  "posted_m": 381,
+  "unposted_m": 6499,
+  "unposted_pct": 94.5,
+  "posted": {
+   "Valley Avenue East [secondary]": 206,
+   "Bridge Street [secondary]": 175
+  },
+  "unposted": {
+   "122nd Avenue East [tertiary]": 3038,
+   "Edgewood Drive East [tertiary]": 1371,
+   "Traffic Avenue [secondary]": 568,
+   "48th Street East [tertiary]": 501,
+   "(no name) [service_other]": 318,
+   "18th Street East [residential]": 280,
+   "Sumner Heights Drive East [tertiary]": 231,
+   "Sumner Link Trail [service_other]": 137,
+   "West Valley Highway East [tertiary]": 22,
+   "Thompson Street [tertiary]": 21,
+   "Main Street [secondary]": 12
+  }
+ },
+ "9605518": {
+  "trail": "Sumner Link Trail",
+  "km": 6.008,
+  "total_m": 6008,
+  "posted_m": 364,
+  "unposted_m": 5644,
+  "unposted_pct": 93.9,
+  "posted": {
+   "Valley Avenue East [secondary]": 206,
+   "Bridge Street [secondary]": 158
+  },
+  "unposted": {
+   "122nd Avenue East [tertiary]": 3038,
+   "Edgewood Drive East [tertiary]": 1371,
+   "48th Street East [tertiary]": 501,
+   "18th Street East [residential]": 280,
+   "Sumner Heights Drive East [tertiary]": 231,
+   "Sumner Link Trail [service_other]": 141,
+   "(no name) [service_other]": 60,
+   "West Valley Highway East [tertiary]": 22
+  }
+ },
+ "9605519": {
+  "trail": "Lake Tapps Parkway Trail",
+  "km": 6.051,
+  "total_m": 6051,
+  "posted_m": 726,
+  "unposted_m": 5325,
+  "unposted_pct": 88.0,
+  "posted": {
+   "Stewart Road Southwest [secondary]": 726
+  },
+  "unposted": {
+   "Jovita Boulevard East [secondary]": 1703,
+   "114th Avenue East [tertiary]": 1563,
+   "18th Street East [tertiary]": 801,
+   "Stewart Road [secondary]": 519,
+   "Stewart Road Southeast [secondary]": 340,
+   "18th Street East [residential]": 280,
+   "(no name) [service_other]": 60,
+   "Lake Tapps Parkway Trail [service_other]": 46,
+   "Sumner Link Trail [service_other]": 13
+  }
+ }
+}

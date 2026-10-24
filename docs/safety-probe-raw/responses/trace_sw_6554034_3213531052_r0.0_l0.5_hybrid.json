@@ -1,0 +1,1633 @@
+{
+ "units": "kilometers",
+ "edges": [
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 736260642,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "driveway",
+   "begin_shape_index": 0,
+   "road_class": "service_other",
+   "speed": 25,
+   "length": 0.015,
+   "source_percent_along": 0.569
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 736260642,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "driveway",
+   "begin_shape_index": 1,
+   "road_class": "service_other",
+   "speed": 25,
+   "length": 0.045
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1372717282,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 4,
+   "road_class": "residential",
+   "speed": 18,
+   "length": 0.181,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1372717282,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 15,
+   "road_class": "residential",
+   "speed": 18,
+   "length": 0.099,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 18,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.24,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 20,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.15,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 21,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.152,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 22,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.025,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 3.333,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 23,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.048,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 24,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.024,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 3.333,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 25,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.041,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 26,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.045,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 27,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.076,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 3.333,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 28,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.205,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 12199487,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 30,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.19,
+   "names": [
+    "112th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12199487,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 36,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.003,
+   "names": [
+    "112th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -5.0,
+   "way_id": 51130730,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 37,
+   "road_class": "tertiary",
+   "speed": 31,
+   "length": 0.211,
+   "names": [
+    "16th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 51130730,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 42,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.059,
+   "names": [
+    "16th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 51130730,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 43,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.043,
+   "names": [
+    "16th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 51130730,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 44,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.053,
+   "names": [
+    "16th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 51130730,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 45,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.071,
+   "names": [
+    "16th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 51130730,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 46,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.111,
+   "names": [
+    "16th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 51130730,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 48,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.002,
+   "names": [
+    "16th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 3.333,
+   "way_id": 51130730,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 49,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.034,
+   "names": [
+    "16th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 51130730,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 50,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.029,
+   "names": [
+    "16th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 3.333,
+   "way_id": 51130730,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 51,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.087,
+   "names": [
+    "16th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 51130730,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 52,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.039,
+   "names": [
+    "16th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 51130730,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 53,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.034,
+   "names": [
+    "16th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 51130730,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 54,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.044,
+   "names": [
+    "16th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 51130730,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 55,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.037,
+   "names": [
+    "16th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -5.0,
+   "way_id": 51130730,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 56,
+   "road_class": "tertiary",
+   "speed": 31,
+   "length": 0.034,
+   "names": [
+    "16th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 51130730,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 57,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.08,
+   "names": [
+    "16th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 51130730,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 58,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.1,
+   "names": [
+    "16th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 51130730,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 59,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.006,
+   "names": [
+    "16th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 51130730,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 60,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.03,
+   "names": [
+    "16th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 51130730,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 61,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.013,
+   "names": [
+    "16th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1178271074,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 62,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.01,
+   "names": [
+    "Taylor Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1178271073,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 63,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.01,
+   "names": [
+    "Taylor Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 1178271073,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 64,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.018,
+   "names": [
+    "Taylor Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 3.333,
+   "way_id": 229324697,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 66,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.063,
+   "names": [
+    "Taylor Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 229324697,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 67,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.096,
+   "names": [
+    "Taylor Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 229324697,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 68,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.098,
+   "names": [
+    "Taylor Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 229324697,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 70,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.096,
+   "names": [
+    "Taylor Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 229324697,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 71,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.025,
+   "names": [
+    "Taylor Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 229324697,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 72,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.028,
+   "names": [
+    "Taylor Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 229324697,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 73,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.016,
+   "names": [
+    "Taylor Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -5.0,
+   "way_id": 229324697,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 74,
+   "road_class": "tertiary",
+   "speed": 31,
+   "length": 0.053,
+   "names": [
+    "Taylor Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 229324697,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 76,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.037,
+   "names": [
+    "Taylor Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 229324697,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 77,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.046,
+   "names": [
+    "Taylor Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 229324697,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 78,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.023,
+   "names": [
+    "Taylor Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 229324697,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 79,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.037,
+   "names": [
+    "Taylor Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 229324697,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 80,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.043,
+   "names": [
+    "Taylor Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 229324697,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 81,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.05,
+   "names": [
+    "Taylor Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 229324697,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 82,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.058,
+   "names": [
+    "Taylor Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 83,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.077,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 85,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.122,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 86,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.013,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 87,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.04,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 88,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.022,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 89,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.022,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 90,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.012,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 3.333,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 91,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.047,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 92,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.008,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 93,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.078,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 96,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.031,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 97,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.03,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 98,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.024,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 99,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.021,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 100,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.024,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 101,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.032,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 102,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.097,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 103,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.059,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 104,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.043,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -5.0,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 105,
+   "road_class": "tertiary",
+   "speed": 31,
+   "length": 0.104,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 106,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.035,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 107,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.064,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 108,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.074,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 109,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.133,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -5.0,
+   "way_id": 12234392,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 111,
+   "road_class": "tertiary",
+   "speed": 31,
+   "length": 0.051,
+   "names": [
+    "Taylor Street"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -6.666,
+   "way_id": 23349969,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 116,
+   "road_class": "tertiary",
+   "speed": 34,
+   "length": 0.117,
+   "names": [
+    "Porter Way"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -5.0,
+   "way_id": 23349969,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 119,
+   "road_class": "tertiary",
+   "speed": 31,
+   "length": 0.035,
+   "names": [
+    "Porter Way"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -10.0,
+   "way_id": 23349969,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 121,
+   "road_class": "tertiary",
+   "speed": 40,
+   "length": 0.059,
+   "names": [
+    "Porter Way"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 23349969,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 123,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.009,
+   "names": [
+    "Porter Way"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 23349969,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 124,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.013,
+   "names": [
+    "Porter Way"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -5.0,
+   "way_id": 23349969,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 125,
+   "road_class": "tertiary",
+   "speed": 31,
+   "length": 0.071,
+   "names": [
+    "Porter Way"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -10.0,
+   "way_id": 23349969,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 126,
+   "road_class": "tertiary",
+   "speed": 40,
+   "length": 0.059,
+   "names": [
+    "Porter Way"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -6.666,
+   "way_id": 23349969,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 132,
+   "road_class": "tertiary",
+   "speed": 34,
+   "length": 0.224,
+   "names": [
+    "Porter Way"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1445440192,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 141,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.022,
+   "names": [
+    "Porter Way"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 1317769728,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "service_road",
+   "begin_shape_index": 142,
+   "road_class": "service_other",
+   "speed": 22,
+   "length": 0.012
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1317769728,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "service_road",
+   "begin_shape_index": 143,
+   "road_class": "service_other",
+   "speed": 18,
+   "length": 0.005
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 1,
+   "cycle_lane": "shared",
+   "weighted_grade": -1.666,
+   "way_id": 1317769726,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "cycleway",
+   "begin_shape_index": 144,
+   "road_class": "service_other",
+   "speed": 22,
+   "length": 0.073,
+   "names": [
+    "Milton Interurban Trail"
+   ]
+  }
+ ],
+ "alternate_paths": []
+}

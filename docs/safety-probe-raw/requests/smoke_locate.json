@@ -1,0 +1,10 @@
+{
+  "locations": [
+    {
+      "lat": 47.222762,
+      "lon": -122.233665
+    }
+  ],
+  "costing": "bicycle",
+  "verbose": true
+}

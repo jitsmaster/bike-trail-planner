@@ -1,0 +1,49 @@
+{
+ "way_1297893064": {
+  "tags": {
+   "highway": "path",
+   "informal": "yes"
+  },
+  "nodes": [
+   12024618758,
+   12024618759,
+   12024618760,
+   12024618761,
+   12024618762,
+   12024618763,
+   12024618764,
+   12024618765,
+   12024618766,
+   12024618767,
+   12024618768,
+   12024618769,
+   12024618770,
+   12024618771
+  ]
+ },
+ "way_419747831_tags": {
+  "access": "no",
+  "bicycle": "no",
+  "foot": "no",
+  "highway": "unclassified",
+  "name": "Sumner Link Trail",
+  "segregated": "no"
+ },
+ "shared_nodes_with_419747831": [
+  12024618771
+ ],
+ "shared_node_coords": {
+  "12024618771": [
+   47.2226255,
+   -122.2336772
+  ]
+ },
+ "way_569772368": {
+  "tags": {
+   "highway": "service"
+  }
+ },
+ "shared_nodes_with_569772368": [],
+ "min_node_to_node_m_separation_1297893064_to_569772368": 39.81,
+ "min_point_to_segment_m_separation_1297893064_to_569772368": 39.77
+}

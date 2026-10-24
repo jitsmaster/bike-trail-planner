@@ -1,0 +1,309 @@
+{
+ "request": {
+  "locations": [
+   {
+    "lat": 47.22329,
+    "lon": -122.24273
+   },
+   {
+    "lat": 47.222762,
+    "lon": -122.233665
+   },
+   {
+    "lat": 47.2647465,
+    "lon": -122.2292132
+   },
+   {
+    "lat": 47.2475373,
+    "lon": -122.3249129
+   },
+   {
+    "lat": 47.2560654,
+    "lon": -122.2773296
+   },
+   {
+    "lat": 47.1964871,
+    "lon": -122.2510719
+   },
+   {
+    "lat": 47.2033999,
+    "lon": -122.2445285
+   },
+   {
+    "lat": 47.2499873,
+    "lon": -122.2387474
+   }
+  ],
+  "costing": "bicycle",
+  "verbose": true
+ },
+ "results": [
+  {
+   "name": "baseline_task_dest",
+   "input": [
+    47.22329,
+    -122.24273
+   ],
+   "snapped": [
+    47.223182,
+    -122.242729
+   ],
+   "dist_m": 11.9,
+   "way_id": 432920226,
+   "names": [],
+   "speed_limit": 0,
+   "mean_elev": 16,
+   "access_restriction": false,
+   "start_bike_restricted": false,
+   "n_edges_returned": 2,
+   "next": [
+    {
+     "way_id": 432920226,
+     "dist": 11.9,
+     "names": []
+    }
+   ]
+  },
+  {
+   "name": "server_md_trail_vertex",
+   "input": [
+    47.222762,
+    -122.233665
+   ],
+   "snapped": [
+    47.222709,
+    -122.233769
+   ],
+   "dist_m": 9.7,
+   "way_id": 1297893064,
+   "names": [],
+   "speed_limit": 0,
+   "mean_elev": 14,
+   "access_restriction": false,
+   "start_bike_restricted": false,
+   "n_edges_returned": 4,
+   "next": [
+    {
+     "way_id": 1297893064,
+     "dist": 9.7,
+     "names": []
+    },
+    {
+     "way_id": 569772368,
+     "dist": 59.9,
+     "names": []
+    }
+   ]
+  },
+  {
+   "name": "bestAP_3508527_White_River_Trail",
+   "input": [
+    47.2647465,
+    -122.2292132
+   ],
+   "snapped": [
+    47.264746,
+    -122.229213
+   ],
+   "dist_m": 0.0,
+   "way_id": 674202154,
+   "names": [],
+   "speed_limit": 0,
+   "mean_elev": 28,
+   "access_restriction": false,
+   "start_bike_restricted": false,
+   "n_edges_returned": 6,
+   "next": [
+    {
+     "way_id": 674202154,
+     "dist": 0.0,
+     "names": []
+    },
+    {
+     "way_id": 674202154,
+     "dist": 0.0,
+     "names": []
+    }
+   ]
+  },
+  {
+   "name": "bestAP_6554034_Interurban_Trail_Milton",
+   "input": [
+    47.2475373,
+    -122.3249129
+   ],
+   "snapped": [
+    47.247537,
+    -122.324912
+   ],
+   "dist_m": 0.0,
+   "way_id": 1317769726,
+   "names": [
+    "Milton Interurban Trail"
+   ],
+   "speed_limit": 0,
+   "mean_elev": 10,
+   "access_restriction": false,
+   "start_bike_restricted": false,
+   "n_edges_returned": 6,
+   "next": [
+    {
+     "way_id": 1317769726,
+     "dist": 0.0,
+     "names": [
+      "Milton Interurban Trail"
+     ]
+    },
+    {
+     "way_id": 1317769726,
+     "dist": 0.0,
+     "names": [
+      "Milton Interurban Trail"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "bestAP_8826064_Interurban_Trail_Edgewood",
+   "input": [
+    47.2560654,
+    -122.2773296
+   ],
+   "snapped": [
+    47.256065,
+    -122.277329
+   ],
+   "dist_m": 0.0,
+   "way_id": 765606369,
+   "names": [
+    "114th Avenue East"
+   ],
+   "speed_limit": 0,
+   "mean_elev": 64,
+   "access_restriction": true,
+   "start_bike_restricted": false,
+   "n_edges_returned": 6,
+   "next": [
+    {
+     "way_id": 765606369,
+     "dist": 0.0,
+     "names": [
+      "114th Avenue East"
+     ]
+    },
+    {
+     "way_id": 765606369,
+     "dist": 0.0,
+     "names": [
+      "114th Avenue East"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "bestAP_9605517_Riverwalk_Trail",
+   "input": [
+    47.1964871,
+    -122.2510719
+   ],
+   "snapped": [
+    47.196487,
+    -122.251071
+   ],
+   "dist_m": 0.0,
+   "way_id": 691257975,
+   "names": [
+    "Sumner Link Trail"
+   ],
+   "speed_limit": 0,
+   "mean_elev": 14,
+   "access_restriction": false,
+   "start_bike_restricted": false,
+   "n_edges_returned": 4,
+   "next": [
+    {
+     "way_id": 691257975,
+     "dist": 0.0,
+     "names": [
+      "Sumner Link Trail"
+     ]
+    },
+    {
+     "way_id": 691257977,
+     "dist": 0.0,
+     "names": [
+      "Riverwalk Trail"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "bestAP_9605518_Sumner_Link_Trail",
+   "input": [
+    47.2033999,
+    -122.2445285
+   ],
+   "snapped": [
+    47.203399,
+    -122.244528
+   ],
+   "dist_m": 0.0,
+   "way_id": 98689245,
+   "names": [
+    "Bridge Street"
+   ],
+   "speed_limit": 40,
+   "mean_elev": 20,
+   "access_restriction": false,
+   "start_bike_restricted": false,
+   "n_edges_returned": 8,
+   "next": [
+    {
+     "way_id": 98689245,
+     "dist": 0.0,
+     "names": [
+      "Bridge Street"
+     ]
+    },
+    {
+     "way_id": 98689245,
+     "dist": 0.0,
+     "names": [
+      "Bridge Street"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "bestAP_9605519_Lake_Tapps_Parkway_Trail",
+   "input": [
+    47.2499873,
+    -122.2387474
+   ],
+   "snapped": [
+    47.249987,
+    -122.238747
+   ],
+   "dist_m": 0.0,
+   "way_id": 569456368,
+   "names": [],
+   "speed_limit": 0,
+   "mean_elev": 20,
+   "access_restriction": false,
+   "start_bike_restricted": false,
+   "n_edges_returned": 8,
+   "next": [
+    {
+     "way_id": 569456368,
+     "dist": 0.0,
+     "names": []
+    },
+    {
+     "way_id": 569456368,
+     "dist": 0.0,
+     "names": []
+    }
+   ]
+  }
+ ]
+}

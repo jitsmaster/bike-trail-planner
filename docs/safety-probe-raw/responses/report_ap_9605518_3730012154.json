@@ -1,0 +1,684 @@
+{
+ "label": "ap_9605518_3730012154",
+ "n_edges": 118,
+ "modes": {
+  "strict": {
+   "metres": {
+    "A": 424.0,
+    "B": 181.0,
+    "D": 5503.0,
+    "GAP": 183.0
+   },
+   "share": {
+    "A": 6.74,
+    "B": 2.88,
+    "D": 87.47,
+    "GAP": 2.91
+   },
+   "total_m": 6291.0,
+   "named": {
+    "D": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 3038.0,
+      "edges": 63,
+      "assumed_mph": []
+     },
+     {
+      "street": "Edgewood Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1371.0,
+      "edges": 17,
+      "assumed_mph": []
+     },
+     {
+      "street": "48th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 501.0,
+      "edges": 12,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "Sumner Heights Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 231.0,
+      "edges": 3,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 22.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ],
+    "B": [
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "dedicated",
+      "m": 181.0,
+      "edges": 5,
+      "assumed_mph": []
+     }
+    ],
+    "GAP": [
+     {
+      "street": "Bridge Street",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 158.0,
+      "edges": 5,
+      "assumed_mph": []
+     },
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 25.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 416.0,
+      "edges": 6,
+      "assumed_mph": []
+     },
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 8.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient": {
+   "metres": {
+    "A": 424.0,
+    "B": 181.0,
+    "C": 340.0,
+    "D": 22.0,
+    "GAP": 5324.0
+   },
+   "share": {
+    "A": 6.74,
+    "B": 2.88,
+    "C": 5.4,
+    "D": 0.35,
+    "GAP": 84.63
+   },
+   "total_m": 6291.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 3038.0,
+      "edges": 63,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Edgewood Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1371.0,
+      "edges": 17,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "48th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 501.0,
+      "edges": 12,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Sumner Heights Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 231.0,
+      "edges": 3,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Bridge Street",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 158.0,
+      "edges": 5,
+      "assumed_mph": []
+     },
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 25.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ],
+    "D": [
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 22.0,
+      "edges": 1,
+      "assumed_mph": [
+       35
+      ]
+     }
+    ],
+    "B": [
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "dedicated",
+      "m": 181.0,
+      "edges": 5,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 416.0,
+      "edges": 6,
+      "assumed_mph": []
+     },
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 8.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous": {
+   "metres": {
+    "A": 424.0,
+    "B": 181.0,
+    "C": 340.0,
+    "GAP": 5346.0
+   },
+   "share": {
+    "A": 6.74,
+    "B": 2.88,
+    "C": 5.4,
+    "GAP": 84.98
+   },
+   "total_m": 6291.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 3038.0,
+      "edges": 63,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Edgewood Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1371.0,
+      "edges": 17,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "48th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 501.0,
+      "edges": 12,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Sumner Heights Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 231.0,
+      "edges": 3,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Bridge Street",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 158.0,
+      "edges": 5,
+      "assumed_mph": []
+     },
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 25.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 22.0,
+      "edges": 1,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "B": [
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "dedicated",
+      "m": 181.0,
+      "edges": 5,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 416.0,
+      "edges": 6,
+      "assumed_mph": []
+     },
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 8.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient_repair": {
+   "metres": {
+    "A": 424.0,
+    "B": 181.0,
+    "C": 523.0,
+    "D": 5163.0
+   },
+   "share": {
+    "A": 6.74,
+    "B": 2.88,
+    "C": 8.31,
+    "D": 82.07
+   },
+   "total_m": 6291.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "Bridge Street",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 158.0,
+      "edges": 5,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     },
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 25.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ],
+    "D": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 3038.0,
+      "edges": 63,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Edgewood Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1371.0,
+      "edges": 17,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "48th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 501.0,
+      "edges": 12,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Sumner Heights Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 231.0,
+      "edges": 3,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 22.0,
+      "edges": 1,
+      "assumed_mph": [
+       35
+      ]
+     }
+    ],
+    "B": [
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "dedicated",
+      "m": 181.0,
+      "edges": 5,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 416.0,
+      "edges": 6,
+      "assumed_mph": []
+     },
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 8.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous_repair": {
+   "metres": {
+    "A": 424.0,
+    "B": 181.0,
+    "C": 5686.0
+   },
+   "share": {
+    "A": 6.74,
+    "B": 2.88,
+    "C": 90.38
+   },
+   "total_m": 6291.0,
+   "named": {
+    "C": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 3038.0,
+      "edges": 63,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Edgewood Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1371.0,
+      "edges": 17,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "48th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 501.0,
+      "edges": 12,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Sumner Heights Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 231.0,
+      "edges": 3,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Bridge Street",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 158.0,
+      "edges": 5,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 25.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 22.0,
+      "edges": 1,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "B": [
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "dedicated",
+      "m": 181.0,
+      "edges": 5,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 416.0,
+      "edges": 6,
+      "assumed_mph": []
+     },
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 8.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ]
+   }
+  }
+ },
+ "route_summary": {
+  "has_time_restrictions": false,
+  "has_toll": false,
+  "has_highway": false,
+  "has_ferry": false,
+  "min_lat": 47.202282,
+  "min_lon": -122.267383,
+  "max_lat": 47.241057,
+  "max_lon": -122.244484,
+  "time": 1183.746,
+  "length": 6.292,
+  "cost": 2309.729
+ },
+ "arrival": {
+  "lat": 47.202291,
+  "lon": -122.249517
+ }
+}

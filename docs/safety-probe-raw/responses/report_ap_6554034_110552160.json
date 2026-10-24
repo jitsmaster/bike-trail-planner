@@ -1,0 +1,484 @@
+{
+ "label": "ap_6554034_110552160",
+ "n_edges": 89,
+ "modes": {
+  "strict": {
+   "metres": {
+    "D": 5398.0
+   },
+   "share": {
+    "D": 100.0
+   },
+   "total_m": 5398.0,
+   "named": {
+    "D": [
+     {
+      "street": "Taylor Street",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1263.0,
+      "edges": 25,
+      "assumed_mph": []
+     },
+     {
+      "street": "16th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1117.0,
+      "edges": 20,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1006.0,
+      "edges": 10,
+      "assumed_mph": []
+     },
+     {
+      "street": "Taylor Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 807.0,
+      "edges": 18,
+      "assumed_mph": []
+     },
+     {
+      "street": "Porter Way",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 672.0,
+      "edges": 10,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "112th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 193.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient": {
+   "metres": {
+    "C": 340.0,
+    "GAP": 5058.0
+   },
+   "share": {
+    "C": 6.3,
+    "GAP": 93.7
+   },
+   "total_m": 5398.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "Taylor Street",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1263.0,
+      "edges": 25,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "16th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1117.0,
+      "edges": 20,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1006.0,
+      "edges": 10,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Taylor Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 807.0,
+      "edges": 18,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Porter Way",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 672.0,
+      "edges": 10,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "112th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 193.0,
+      "edges": 2,
+      "assumed_mph": [
+       39
+      ]
+     }
+    ]
+   }
+  },
+  "generous": {
+   "metres": {
+    "C": 340.0,
+    "GAP": 5058.0
+   },
+   "share": {
+    "C": 6.3,
+    "GAP": 93.7
+   },
+   "total_m": 5398.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "Taylor Street",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1263.0,
+      "edges": 25,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "16th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1117.0,
+      "edges": 20,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1006.0,
+      "edges": 10,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Taylor Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 807.0,
+      "edges": 18,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Porter Way",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 672.0,
+      "edges": 10,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "112th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 193.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ]
+   }
+  },
+  "lenient_repair": {
+   "metres": {
+    "C": 340.0,
+    "D": 5058.0
+   },
+   "share": {
+    "C": 6.3,
+    "D": 93.7
+   },
+   "total_m": 5398.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "Taylor Street",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1263.0,
+      "edges": 25,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "16th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1117.0,
+      "edges": 20,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1006.0,
+      "edges": 10,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Taylor Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 807.0,
+      "edges": 18,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Porter Way",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 672.0,
+      "edges": 10,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "112th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 193.0,
+      "edges": 2,
+      "assumed_mph": [
+       39
+      ]
+     }
+    ]
+   }
+  },
+  "generous_repair": {
+   "metres": {
+    "C": 5398.0
+   },
+   "share": {
+    "C": 100.0
+   },
+   "total_m": 5398.0,
+   "named": {
+    "C": [
+     {
+      "street": "Taylor Street",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1263.0,
+      "edges": 25,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "16th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1117.0,
+      "edges": 20,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1006.0,
+      "edges": 10,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Taylor Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 807.0,
+      "edges": 18,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Porter Way",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 672.0,
+      "edges": 10,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "112th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 193.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "route_summary": {
+  "has_time_restrictions": false,
+  "has_toll": false,
+  "has_highway": false,
+  "has_ferry": false,
+  "min_lat": 47.240623,
+  "min_lon": -122.324788,
+  "max_lat": 47.248058,
+  "max_lon": -122.262046,
+  "time": 996.926,
+  "length": 5.398,
+  "cost": 1958.416
+ },
+ "arrival": {
+  "lat": 47.248058,
+  "lon": -122.324666
+ }
+}

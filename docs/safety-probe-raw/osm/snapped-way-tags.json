@@ -1,0 +1,83 @@
+{
+ "source": "api.openstreetmap.org /api/0.6/ways.json",
+ "ways": {
+  "98689245": {
+   "highway": "secondary",
+   "lanes": "2",
+   "maxspeed": "25 mph",
+   "name": "Bridge Street",
+   "surface": "asphalt",
+   "tiger:cfcc": "A41",
+   "tiger:county": "Pierce, WA"
+  },
+  "261467897": {
+   "bicycle": "yes",
+   "foot": "designated",
+   "highway": "cycleway",
+   "horse": "no",
+   "lit": "no",
+   "name": "Sumner Link Trail",
+   "oneway": "no",
+   "segregated": "no",
+   "surface": "asphalt",
+   "width": "6"
+  },
+  "419747831": {
+   "access": "no",
+   "bicycle": "no",
+   "foot": "no",
+   "highway": "unclassified",
+   "name": "Sumner Link Trail",
+   "segregated": "no"
+  },
+  "432920226": {
+   "highway": "service",
+   "service": "driveway"
+  },
+  "569456368": {
+   "highway": "service",
+   "surface": "asphalt"
+  },
+  "569772368": {
+   "highway": "service"
+  },
+  "674202154": {
+   "highway": "service",
+   "motor_vehicle": "destination"
+  },
+  "691257975": {
+   "bicycle": "designated",
+   "bridge": "yes",
+   "foot": "designated",
+   "highway": "cycleway",
+   "layer": "1",
+   "name": "Sumner Link Trail",
+   "segregated": "no",
+   "surface": "concrete"
+  },
+  "765606369": {
+   "highway": "tertiary",
+   "maxweight": "12 st",
+   "name": "114th Avenue East",
+   "surface": "asphalt",
+   "tiger:cfcc": "A41",
+   "tiger:county": "Pierce, WA",
+   "tiger:name_base": "114th",
+   "tiger:name_direction_suffix": "E"
+  },
+  "1297893064": {
+   "highway": "path",
+   "informal": "yes"
+  },
+  "1317769726": {
+   "bicycle": "yes",
+   "foot": "designated",
+   "highway": "cycleway",
+   "lit": "no",
+   "name": "Milton Interurban Trail",
+   "railway": "abandoned",
+   "segregated": "no",
+   "surface": "asphalt"
+  }
+ }
+}

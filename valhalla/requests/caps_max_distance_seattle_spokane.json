@@ -1,0 +1,18 @@
+{
+  "locations": [
+    {
+      "lat": 47.6062,
+      "lon": -122.3321
+    },
+    {
+      "lat": 47.6588,
+      "lon": -117.426
+    }
+  ],
+  "costing": "bicycle",
+  "costing_options": {
+    "bicycle": {
+      "bicycle_type": "hybrid"
+    }
+  }
+}

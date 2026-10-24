@@ -1,0 +1,556 @@
+{
+ "label": "ap_9605519_2670829822",
+ "n_edges": 110,
+ "modes": {
+  "strict": {
+   "metres": {
+    "A": 2070.0,
+    "D": 6183.0
+   },
+   "share": {
+    "A": 25.08,
+    "D": 74.92
+   },
+   "total_m": 8253.0,
+   "named": {
+    "D": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": []
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": []
+     },
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 726.0,
+      "edges": 22,
+      "assumed_mph": []
+     },
+     {
+      "street": "Stewart Road",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 710.0,
+      "edges": 17,
+      "assumed_mph": []
+     },
+     {
+      "street": "Stewart Road Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 340.0,
+      "edges": 8,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Lake Tapps Parkway Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 2070.0,
+      "edges": 10,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient": {
+   "metres": {
+    "A": 2070.0,
+    "C": 340.0,
+    "D": 726.0,
+    "E": 2753.0,
+    "GAP": 2364.0
+   },
+   "share": {
+    "A": 25.08,
+    "C": 4.12,
+    "D": 8.8,
+    "E": 33.36,
+    "GAP": 28.64
+   },
+   "total_m": 8253.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       39
+      ]
+     }
+    ],
+    "E": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": [
+       44
+      ]
+     },
+     {
+      "street": "Stewart Road",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 710.0,
+      "edges": 17,
+      "assumed_mph": [
+       44
+      ]
+     },
+     {
+      "street": "Stewart Road Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 340.0,
+      "edges": 8,
+      "assumed_mph": [
+       44
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 726.0,
+      "edges": 22,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Lake Tapps Parkway Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 2070.0,
+      "edges": 10,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous": {
+   "metres": {
+    "A": 2070.0,
+    "C": 340.0,
+    "D": 726.0,
+    "GAP": 5117.0
+   },
+   "share": {
+    "A": 25.08,
+    "C": 4.12,
+    "D": 8.8,
+    "GAP": 62.0
+   },
+   "total_m": 8253.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Stewart Road",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 710.0,
+      "edges": 17,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Stewart Road Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 340.0,
+      "edges": 8,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 726.0,
+      "edges": 22,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Lake Tapps Parkway Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 2070.0,
+      "edges": 10,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient_repair": {
+   "metres": {
+    "A": 2070.0,
+    "C": 340.0,
+    "D": 3090.0,
+    "E": 2753.0
+   },
+   "share": {
+    "A": 25.08,
+    "C": 4.12,
+    "D": 37.44,
+    "E": 33.36
+   },
+   "total_m": 8253.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 726.0,
+      "edges": 22,
+      "assumed_mph": []
+     }
+    ],
+    "E": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": [
+       44
+      ]
+     },
+     {
+      "street": "Stewart Road",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 710.0,
+      "edges": 17,
+      "assumed_mph": [
+       44
+      ]
+     },
+     {
+      "street": "Stewart Road Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 340.0,
+      "edges": 8,
+      "assumed_mph": [
+       44
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Lake Tapps Parkway Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 2070.0,
+      "edges": 10,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous_repair": {
+   "metres": {
+    "A": 2070.0,
+    "C": 5457.0,
+    "D": 726.0
+   },
+   "share": {
+    "A": 25.08,
+    "C": 66.12,
+    "D": 8.8
+   },
+   "total_m": 8253.0,
+   "named": {
+    "C": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Stewart Road",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 710.0,
+      "edges": 17,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Stewart Road Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 340.0,
+      "edges": 8,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 726.0,
+      "edges": 22,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Lake Tapps Parkway Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 2070.0,
+      "edges": 10,
+      "assumed_mph": []
+     }
+    ]
+   }
+  }
+ },
+ "route_summary": {
+  "has_time_restrictions": false,
+  "has_toll": false,
+  "has_highway": false,
+  "has_ferry": false,
+  "min_lat": 47.240623,
+  "min_lon": -122.277231,
+  "max_lat": 47.256555,
+  "max_lon": -122.214843,
+  "time": 1823.515,
+  "length": 8.254,
+  "cost": 4723.03
+ },
+ "arrival": {
+  "lat": 47.244024,
+  "lon": -122.214843
+ }
+}

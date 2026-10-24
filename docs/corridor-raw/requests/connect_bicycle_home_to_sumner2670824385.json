@@ -1,0 +1,14 @@
+{
+ "locations": [
+  {
+   "lat": 47.240371,
+   "lon": -122.262019
+  },
+  {
+   "lat": 47.235561,
+   "lon": -122.2371681
+  }
+ ],
+ "costing": "bicycle",
+ "units": "kilometers"
+}

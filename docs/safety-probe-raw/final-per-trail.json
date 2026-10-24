@@ -1,0 +1,830 @@
+{
+ "3508527": {
+  "trail": "White River Trail",
+  "rid": 3508527,
+  "node": 2669374349,
+  "lat": 47.264747,
+  "lon": -122.229213,
+  "road": null,
+  "highway": "service",
+  "shared_node": true,
+  "route_km": 8.175,
+  "snap_offset_m": 0.1,
+  "trail_m_ridden": 559,
+  "use_m": {
+   "driveway": 60,
+   "road": 7462,
+   "cycleway": 559,
+   "service_road": 93
+  },
+  "unposted_pct": 82.3,
+  "posted_m": 1447,
+  "unposted_m": 6727,
+  "verdicts": {
+   "strict": {
+    "mode": "strict",
+    "pass": false,
+    "fails": [
+     "D = 7615 m > 805 m cap",
+     "D = 93.2% > 10% cap"
+    ],
+    "A_m": 559.0,
+    "B_m": 0.0,
+    "C_m": 0.0,
+    "D_m": 7615.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 8174.0,
+    "D_share_pct": 93.16
+   },
+   "lenient": {
+    "mode": "lenient",
+    "pass": false,
+    "fails": [
+     "E = 2753 m",
+     "GAP (ladder-unclassified) = 2982 m",
+     "D = 1447 m > 805 m cap",
+     "D = 17.7% > 10% cap"
+    ],
+    "A_m": 559.0,
+    "B_m": 0.0,
+    "C_m": 433.0,
+    "D_m": 1447.0,
+    "E_m": 2753.0,
+    "GAP_m": 2982.0,
+    "REJECT_m": 0.0,
+    "total_m": 8174.0,
+    "D_share_pct": 17.7
+   },
+   "generous": {
+    "mode": "generous",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 5735 m",
+     "D = 1447 m > 805 m cap",
+     "D = 17.7% > 10% cap"
+    ],
+    "A_m": 559.0,
+    "B_m": 0.0,
+    "C_m": 433.0,
+    "D_m": 1447.0,
+    "E_m": 0.0,
+    "GAP_m": 5735.0,
+    "REJECT_m": 0.0,
+    "total_m": 8174.0,
+    "D_share_pct": 17.7
+   },
+   "lenient_repair": {
+    "mode": "lenient_repair",
+    "pass": false,
+    "fails": [
+     "E = 2753 m",
+     "D = 3811 m > 805 m cap",
+     "D = 46.6% > 10% cap"
+    ],
+    "A_m": 559.0,
+    "B_m": 0.0,
+    "C_m": 1051.0,
+    "D_m": 3811.0,
+    "E_m": 2753.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 8174.0,
+    "D_share_pct": 46.62
+   },
+   "generous_repair": {
+    "mode": "generous_repair",
+    "pass": false,
+    "fails": [
+     "D = 1447 m > 805 m cap",
+     "D = 17.7% > 10% cap"
+    ],
+    "A_m": 559.0,
+    "B_m": 0.0,
+    "C_m": 6168.0,
+    "D_m": 1447.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 8174.0,
+    "D_share_pct": 17.7
+   }
+  },
+  "D_lenient": [
+   [
+    "Stewart Road Southwest",
+    726,
+    "secondary"
+   ],
+   [
+    "A Street Southeast",
+    721,
+    "secondary"
+   ]
+  ],
+  "E_lenient": [
+   [
+    "Jovita Boulevard East",
+    1703,
+    "secondary"
+   ],
+   [
+    "Stewart Road",
+    710,
+    "secondary"
+   ],
+   [
+    "Stewart Road Southeast",
+    340,
+    "secondary"
+   ]
+  ],
+  "D_generous": [
+   [
+    "Stewart Road Southwest",
+    726,
+    "secondary"
+   ],
+   [
+    "A Street Southeast",
+    721,
+    "secondary"
+   ]
+  ],
+  "E_generous": [],
+  "unposted_streets": {
+   "Jovita Boulevard East [secondary]": 1703,
+   "114th Avenue East [tertiary]": 1563,
+   "18th Street East [tertiary]": 801,
+   "Stewart Road [secondary]": 710,
+   "East Valley Highway East [secondary]": 618,
+   "Lake Tapps Parkway Trail [service_other]": 559,
+   "Stewart Road Southeast [secondary]": 340,
+   "18th Street East [residential]": 280,
+   "(no name) [service_other]": 153
+  },
+  "posted_streets": {
+   "Stewart Road Southwest [secondary]": 726,
+   "A Street Southeast [secondary]": 721
+  }
+ },
+ "6554034": {
+  "trail": "Interurban Trail Milton",
+  "rid": 6554034,
+  "node": 12196160803,
+  "lat": 47.24805,
+  "lon": -122.32475,
+  "road": "(trail endpoint)",
+  "highway": null,
+  "shared_node": null,
+  "route_km": 5.415,
+  "snap_offset_m": 0.1,
+  "trail_m_ridden": 63,
+  "use_m": {
+   "driveway": 60,
+   "road": 5275,
+   "service_road": 17,
+   "cycleway": 63
+  },
+  "unposted_pct": 100.0,
+  "posted_m": 0,
+  "unposted_m": 5415,
+  "verdicts": {
+   "strict": {
+    "mode": "strict",
+    "pass": false,
+    "fails": [
+     "D = 5352 m > 805 m cap",
+     "D = 98.8% > 10% cap"
+    ],
+    "A_m": 63.0,
+    "B_m": 0.0,
+    "C_m": 0.0,
+    "D_m": 5352.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 5415.0,
+    "D_share_pct": 98.84
+   },
+   "lenient": {
+    "mode": "lenient",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 4995 m"
+    ],
+    "A_m": 63.0,
+    "B_m": 0.0,
+    "C_m": 357.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 4995.0,
+    "REJECT_m": 0.0,
+    "total_m": 5415.0,
+    "D_share_pct": 0.0
+   },
+   "generous": {
+    "mode": "generous",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 4995 m"
+    ],
+    "A_m": 63.0,
+    "B_m": 0.0,
+    "C_m": 357.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 4995.0,
+    "REJECT_m": 0.0,
+    "total_m": 5415.0,
+    "D_share_pct": 0.0
+   },
+   "lenient_repair": {
+    "mode": "lenient_repair",
+    "pass": false,
+    "fails": [
+     "D = 4995 m > 805 m cap",
+     "D = 92.2% > 10% cap"
+    ],
+    "A_m": 63.0,
+    "B_m": 0.0,
+    "C_m": 357.0,
+    "D_m": 4995.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 5415.0,
+    "D_share_pct": 92.24
+   },
+   "generous_repair": {
+    "mode": "generous_repair",
+    "pass": true,
+    "fails": [],
+    "A_m": 63.0,
+    "B_m": 0.0,
+    "C_m": 5352.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 5415.0,
+    "D_share_pct": 0.0
+   }
+  },
+  "D_lenient": [],
+  "E_lenient": [],
+  "D_generous": [],
+  "E_generous": [],
+  "unposted_streets": {
+   "Taylor Street [tertiary]": 1263,
+   "16th Street East [tertiary]": 1117,
+   "18th Street East [tertiary]": 1006,
+   "Taylor Street East [tertiary]": 807,
+   "Porter Way [tertiary]": 609,
+   "18th Street East [residential]": 280,
+   "112th Avenue East [tertiary]": 193,
+   "(no name) [service_other]": 77,
+   "Milton Interurban Trail [service_other]": 63
+  },
+  "posted_streets": {}
+ },
+ "8826064": {
+  "trail": "Interurban Trail Edgewood",
+  "rid": 8826064,
+  "node": 12882604560,
+  "lat": 47.255565,
+  "lon": -122.279397,
+  "road": "(trail endpoint)",
+  "highway": null,
+  "shared_node": null,
+  "route_km": 2.99,
+  "snap_offset_m": 0.0,
+  "trail_m_ridden": 166,
+  "use_m": {
+   "driveway": 60,
+   "road": 2764,
+   "cycleway": 166
+  },
+  "unposted_pct": 100.0,
+  "posted_m": 0,
+  "unposted_m": 2990,
+  "verdicts": {
+   "strict": {
+    "mode": "strict",
+    "pass": false,
+    "fails": [
+     "D = 2824 m > 805 m cap",
+     "D = 94.4% > 10% cap"
+    ],
+    "A_m": 166.0,
+    "B_m": 0.0,
+    "C_m": 0.0,
+    "D_m": 2824.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 2990.0,
+    "D_share_pct": 94.45
+   },
+   "lenient": {
+    "mode": "lenient",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 2484 m"
+    ],
+    "A_m": 166.0,
+    "B_m": 0.0,
+    "C_m": 340.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 2484.0,
+    "REJECT_m": 0.0,
+    "total_m": 2990.0,
+    "D_share_pct": 0.0
+   },
+   "generous": {
+    "mode": "generous",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 2484 m"
+    ],
+    "A_m": 166.0,
+    "B_m": 0.0,
+    "C_m": 340.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 2484.0,
+    "REJECT_m": 0.0,
+    "total_m": 2990.0,
+    "D_share_pct": 0.0
+   },
+   "lenient_repair": {
+    "mode": "lenient_repair",
+    "pass": false,
+    "fails": [
+     "D = 2484 m > 805 m cap",
+     "D = 83.1% > 10% cap"
+    ],
+    "A_m": 166.0,
+    "B_m": 0.0,
+    "C_m": 340.0,
+    "D_m": 2484.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 2990.0,
+    "D_share_pct": 83.08
+   },
+   "generous_repair": {
+    "mode": "generous_repair",
+    "pass": true,
+    "fails": [],
+    "A_m": 166.0,
+    "B_m": 0.0,
+    "C_m": 2824.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 2990.0,
+    "D_share_pct": 0.0
+   }
+  },
+  "D_lenient": [],
+  "E_lenient": [],
+  "D_generous": [],
+  "E_generous": [],
+  "unposted_streets": {
+   "114th Avenue East [tertiary]": 1683,
+   "18th Street East [tertiary]": 801,
+   "18th Street East [residential]": 280,
+   "Interurban Trail [service_other]": 166,
+   "(no name) [service_other]": 60
+  },
+  "posted_streets": {}
+ },
+ "9605517": {
+  "trail": "Riverwalk Trail",
+  "rid": 9605517,
+  "node": 6486202530,
+  "lat": 47.196487,
+  "lon": -122.251072,
+  "road": "Sumner Link Trail",
+  "highway": "cycleway",
+  "shared_node": true,
+  "route_km": 6.88,
+  "snap_offset_m": 0.1,
+  "trail_m_ridden": 395,
+  "use_m": {
+   "driveway": 60,
+   "road": 6425,
+   "cycleway": 395
+  },
+  "unposted_pct": 94.5,
+  "posted_m": 381,
+  "unposted_m": 6499,
+  "verdicts": {
+   "strict": {
+    "mode": "strict",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 200 m",
+     "D = 6104 m > 805 m cap",
+     "D = 88.7% > 10% cap"
+    ],
+    "A_m": 395.0,
+    "B_m": 181.0,
+    "C_m": 0.0,
+    "D_m": 6104.0,
+    "E_m": 0.0,
+    "GAP_m": 200.0,
+    "REJECT_m": 0.0,
+    "total_m": 6880.0,
+    "D_share_pct": 88.72
+   },
+   "lenient": {
+    "mode": "lenient",
+    "pass": false,
+    "fails": [
+     "E = 568 m",
+     "GAP (ladder-unclassified) = 5374 m"
+    ],
+    "A_m": 395.0,
+    "B_m": 181.0,
+    "C_m": 340.0,
+    "D_m": 22.0,
+    "E_m": 568.0,
+    "GAP_m": 5374.0,
+    "REJECT_m": 0.0,
+    "total_m": 6880.0,
+    "D_share_pct": 0.32
+   },
+   "generous": {
+    "mode": "generous",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 5964 m"
+    ],
+    "A_m": 395.0,
+    "B_m": 181.0,
+    "C_m": 340.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 5964.0,
+    "REJECT_m": 0.0,
+    "total_m": 6880.0,
+    "D_share_pct": 0.0
+   },
+   "lenient_repair": {
+    "mode": "lenient_repair",
+    "pass": false,
+    "fails": [
+     "E = 568 m",
+     "D = 5184 m > 805 m cap",
+     "D = 75.3% > 10% cap"
+    ],
+    "A_m": 395.0,
+    "B_m": 181.0,
+    "C_m": 552.0,
+    "D_m": 5184.0,
+    "E_m": 568.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 6880.0,
+    "D_share_pct": 75.35
+   },
+   "generous_repair": {
+    "mode": "generous_repair",
+    "pass": true,
+    "fails": [],
+    "A_m": 395.0,
+    "B_m": 181.0,
+    "C_m": 6304.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 6880.0,
+    "D_share_pct": 0.0
+   }
+  },
+  "D_lenient": [
+   [
+    "West Valley Highway East",
+    22,
+    "tertiary"
+   ]
+  ],
+  "E_lenient": [
+   [
+    "Traffic Avenue",
+    568,
+    "secondary"
+   ]
+  ],
+  "D_generous": [],
+  "E_generous": [],
+  "unposted_streets": {
+   "122nd Avenue East [tertiary]": 3038,
+   "Edgewood Drive East [tertiary]": 1371,
+   "Traffic Avenue [secondary]": 568,
+   "48th Street East [tertiary]": 501,
+   "(no name) [service_other]": 318,
+   "18th Street East [residential]": 280,
+   "Sumner Heights Drive East [tertiary]": 231,
+   "Sumner Link Trail [service_other]": 137,
+   "West Valley Highway East [tertiary]": 22,
+   "Thompson Street [tertiary]": 21,
+   "Main Street [secondary]": 12
+  },
+  "posted_streets": {
+   "Valley Avenue East [secondary]": 206,
+   "Bridge Street [secondary]": 175
+  }
+ },
+ "9605518": {
+  "trail": "Sumner Link Trail",
+  "rid": 9605518,
+  "node": 13179055162,
+  "lat": 47.2028,
+  "lon": -122.245915,
+  "road": "(trail endpoint)",
+  "highway": null,
+  "shared_node": null,
+  "route_km": 6.008,
+  "snap_offset_m": 0.1,
+  "trail_m_ridden": 133,
+  "use_m": {
+   "driveway": 60,
+   "road": 5807,
+   "pedestrian_crossing": 8,
+   "cycleway": 133
+  },
+  "unposted_pct": 93.9,
+  "posted_m": 364,
+  "unposted_m": 5644,
+  "verdicts": {
+   "strict": {
+    "mode": "strict",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 183 m",
+     "D = 5503 m > 805 m cap",
+     "D = 91.6% > 10% cap"
+    ],
+    "A_m": 141.0,
+    "B_m": 181.0,
+    "C_m": 0.0,
+    "D_m": 5503.0,
+    "E_m": 0.0,
+    "GAP_m": 183.0,
+    "REJECT_m": 0.0,
+    "total_m": 6008.0,
+    "D_share_pct": 91.59
+   },
+   "lenient": {
+    "mode": "lenient",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 5324 m"
+    ],
+    "A_m": 141.0,
+    "B_m": 181.0,
+    "C_m": 340.0,
+    "D_m": 22.0,
+    "E_m": 0.0,
+    "GAP_m": 5324.0,
+    "REJECT_m": 0.0,
+    "total_m": 6008.0,
+    "D_share_pct": 0.37
+   },
+   "generous": {
+    "mode": "generous",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 5346 m"
+    ],
+    "A_m": 141.0,
+    "B_m": 181.0,
+    "C_m": 340.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 5346.0,
+    "REJECT_m": 0.0,
+    "total_m": 6008.0,
+    "D_share_pct": 0.0
+   },
+   "lenient_repair": {
+    "mode": "lenient_repair",
+    "pass": false,
+    "fails": [
+     "D = 5163 m > 805 m cap",
+     "D = 85.9% > 10% cap"
+    ],
+    "A_m": 141.0,
+    "B_m": 181.0,
+    "C_m": 523.0,
+    "D_m": 5163.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 6008.0,
+    "D_share_pct": 85.94
+   },
+   "generous_repair": {
+    "mode": "generous_repair",
+    "pass": true,
+    "fails": [],
+    "A_m": 141.0,
+    "B_m": 181.0,
+    "C_m": 5686.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 6008.0,
+    "D_share_pct": 0.0
+   }
+  },
+  "D_lenient": [
+   [
+    "West Valley Highway East",
+    22,
+    "tertiary"
+   ]
+  ],
+  "E_lenient": [],
+  "D_generous": [],
+  "E_generous": [],
+  "unposted_streets": {
+   "122nd Avenue East [tertiary]": 3038,
+   "Edgewood Drive East [tertiary]": 1371,
+   "48th Street East [tertiary]": 501,
+   "18th Street East [residential]": 280,
+   "Sumner Heights Drive East [tertiary]": 231,
+   "Sumner Link Trail [service_other]": 141,
+   "(no name) [service_other]": 60,
+   "West Valley Highway East [tertiary]": 22
+  },
+  "posted_streets": {
+   "Valley Avenue East [secondary]": 206,
+   "Bridge Street [secondary]": 158
+  }
+ },
+ "9605519": {
+  "trail": "Lake Tapps Parkway Trail",
+  "rid": 9605519,
+  "node": 10900530370,
+  "lat": 47.249971,
+  "lon": -122.236886,
+  "road": null,
+  "highway": "path",
+  "shared_node": true,
+  "route_km": 6.051,
+  "snap_offset_m": 0.0,
+  "trail_m_ridden": 59,
+  "use_m": {
+   "driveway": 60,
+   "road": 5932,
+   "cycleway": 59
+  },
+  "unposted_pct": 88.0,
+  "posted_m": 726,
+  "unposted_m": 5325,
+  "verdicts": {
+   "strict": {
+    "mode": "strict",
+    "pass": false,
+    "fails": [
+     "D = 5992 m > 805 m cap",
+     "D = 99.0% > 10% cap"
+    ],
+    "A_m": 59.0,
+    "B_m": 0.0,
+    "C_m": 0.0,
+    "D_m": 5992.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 6051.0,
+    "D_share_pct": 99.02
+   },
+   "lenient": {
+    "mode": "lenient",
+    "pass": false,
+    "fails": [
+     "E = 2562 m",
+     "GAP (ladder-unclassified) = 2364 m",
+     "D = 12.0% > 10% cap"
+    ],
+    "A_m": 59.0,
+    "B_m": 0.0,
+    "C_m": 340.0,
+    "D_m": 726.0,
+    "E_m": 2562.0,
+    "GAP_m": 2364.0,
+    "REJECT_m": 0.0,
+    "total_m": 6051.0,
+    "D_share_pct": 12.0
+   },
+   "generous": {
+    "mode": "generous",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 4926 m",
+     "D = 12.0% > 10% cap"
+    ],
+    "A_m": 59.0,
+    "B_m": 0.0,
+    "C_m": 340.0,
+    "D_m": 726.0,
+    "E_m": 0.0,
+    "GAP_m": 4926.0,
+    "REJECT_m": 0.0,
+    "total_m": 6051.0,
+    "D_share_pct": 12.0
+   },
+   "lenient_repair": {
+    "mode": "lenient_repair",
+    "pass": false,
+    "fails": [
+     "E = 2562 m",
+     "D = 3090 m > 805 m cap",
+     "D = 51.1% > 10% cap"
+    ],
+    "A_m": 59.0,
+    "B_m": 0.0,
+    "C_m": 340.0,
+    "D_m": 3090.0,
+    "E_m": 2562.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 6051.0,
+    "D_share_pct": 51.07
+   },
+   "generous_repair": {
+    "mode": "generous_repair",
+    "pass": false,
+    "fails": [
+     "D = 12.0% > 10% cap"
+    ],
+    "A_m": 59.0,
+    "B_m": 0.0,
+    "C_m": 5266.0,
+    "D_m": 726.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 6051.0,
+    "D_share_pct": 12.0
+   }
+  },
+  "D_lenient": [
+   [
+    "Stewart Road Southwest",
+    726,
+    "secondary"
+   ]
+  ],
+  "E_lenient": [
+   [
+    "Jovita Boulevard East",
+    1703,
+    "secondary"
+   ],
+   [
+    "Stewart Road",
+    519,
+    "secondary"
+   ],
+   [
+    "Stewart Road Southeast",
+    340,
+    "secondary"
+   ]
+  ],
+  "D_generous": [
+   [
+    "Stewart Road Southwest",
+    726,
+    "secondary"
+   ]
+  ],
+  "E_generous": [],
+  "unposted_streets": {
+   "Jovita Boulevard East [secondary]": 1703,
+   "114th Avenue East [tertiary]": 1563,
+   "18th Street East [tertiary]": 801,
+   "Stewart Road [secondary]": 519,
+   "Stewart Road Southeast [secondary]": 340,
+   "18th Street East [residential]": 280,
+   "(no name) [service_other]": 60,
+   "Lake Tapps Parkway Trail [service_other]": 46,
+   "Sumner Link Trail [service_other]": 13
+  },
+  "posted_streets": {
+   "Stewart Road Southwest [secondary]": 726
+  }
+ }
+}

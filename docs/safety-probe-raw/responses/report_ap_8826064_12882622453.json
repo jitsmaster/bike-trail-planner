@@ -1,0 +1,335 @@
+{
+ "label": "ap_8826064_12882622453",
+ "n_edges": 50,
+ "modes": {
+  "strict": {
+   "metres": {
+    "A": 1286.0,
+    "D": 2824.0
+   },
+   "share": {
+    "A": 31.29,
+    "D": 68.71
+   },
+   "total_m": 4110.0,
+   "named": {
+    "D": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1683.0,
+      "edges": 32,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 1286.0,
+      "edges": 5,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient": {
+   "metres": {
+    "A": 1286.0,
+    "C": 340.0,
+    "GAP": 2484.0
+   },
+   "share": {
+    "A": 31.29,
+    "C": 8.27,
+    "GAP": 60.44
+   },
+   "total_m": 4110.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1683.0,
+      "edges": 32,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       39
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 1286.0,
+      "edges": 5,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous": {
+   "metres": {
+    "A": 1286.0,
+    "C": 340.0,
+    "GAP": 2484.0
+   },
+   "share": {
+    "A": 31.29,
+    "C": 8.27,
+    "GAP": 60.44
+   },
+   "total_m": 4110.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1683.0,
+      "edges": 32,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 1286.0,
+      "edges": 5,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient_repair": {
+   "metres": {
+    "A": 1286.0,
+    "C": 340.0,
+    "D": 2484.0
+   },
+   "share": {
+    "A": 31.29,
+    "C": 8.27,
+    "D": 60.44
+   },
+   "total_m": 4110.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1683.0,
+      "edges": 32,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       39
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 1286.0,
+      "edges": 5,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous_repair": {
+   "metres": {
+    "A": 1286.0,
+    "C": 2824.0
+   },
+   "share": {
+    "A": 31.29,
+    "C": 68.71
+   },
+   "total_m": 4110.0,
+   "named": {
+    "C": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1683.0,
+      "edges": 32,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 1286.0,
+      "edges": 5,
+      "assumed_mph": []
+     }
+    ]
+   }
+  }
+ }
+}

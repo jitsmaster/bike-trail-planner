@@ -1,0 +1,842 @@
+{
+ "3508527": {
+  "name": "White River Trail",
+  "n_trail_nodes": 220,
+  "n_proximity_rows": 1462,
+  "n_shared_node_rows": 118,
+  "by_road": {
+   "None|footway": {
+    "rows": 746,
+    "shared": 44,
+    "min_d_m": 0.0,
+    "example_node": 1094640645,
+    "example_lat": 47.27171,
+    "example_lon": -122.219352
+   },
+   "None|cycleway": {
+    "rows": 359,
+    "shared": 55,
+    "min_d_m": 0.0,
+    "example_node": 1094642621,
+    "example_lat": 47.2673966,
+    "example_lon": -122.2243309
+   },
+   "None|service": {
+    "rows": 68,
+    "shared": 8,
+    "min_d_m": 0.0,
+    "example_node": 6313900974,
+    "example_lat": 47.2647621,
+    "example_lon": -122.229372
+   },
+   "A Street Southeast|secondary": {
+    "rows": 16,
+    "shared": 0,
+    "min_d_m": 8.7,
+    "example_node": 6313900974,
+    "example_lat": 47.2647621,
+    "example_lon": -122.229372
+   },
+   "Oravetz Road Southeast|tertiary": {
+    "rows": 102,
+    "shared": 0,
+    "min_d_m": 14.7,
+    "example_node": 13930359449,
+    "example_lat": 47.2742959,
+    "example_lon": -122.2146663
+   },
+   "None|path": {
+    "rows": 111,
+    "shared": 9,
+    "min_d_m": 0.0,
+    "example_node": 13930359452,
+    "example_lat": 47.2741973,
+    "example_lon": -122.2149279
+   },
+   "Kennedy Avenue Southeast|residential": {
+    "rows": 4,
+    "shared": 0,
+    "min_d_m": 18.3,
+    "example_node": 13930359458,
+    "example_lat": 47.2736852,
+    "example_lon": -122.2159409
+   },
+   "Stuck River Drive|residential": {
+    "rows": 30,
+    "shared": 0,
+    "min_d_m": 5.4,
+    "example_node": 2669377530,
+    "example_lat": 47.274756,
+    "example_lon": -122.2061662
+   },
+   "None|track": {
+    "rows": 12,
+    "shared": 2,
+    "min_d_m": 0.0,
+    "example_node": 12594216248,
+    "example_lat": 47.282987,
+    "example_lon": -122.1926659
+   },
+   "R Street Southeast|tertiary": {
+    "rows": 14,
+    "shared": 0,
+    "min_d_m": 4.0,
+    "example_node": 2669377445,
+    "example_lat": 47.2745303,
+    "example_lon": -122.2082664
+   }
+  }
+ },
+ "6554034": {
+  "name": "Interurban Trail Milton",
+  "n_trail_nodes": 118,
+  "n_proximity_rows": 322,
+  "n_shared_node_rows": 44,
+  "by_road": {
+   "Kent Street|residential": {
+    "rows": 33,
+    "shared": 4,
+    "min_d_m": 0.0,
+    "example_node": 110480391,
+    "example_lat": 47.249872,
+    "example_lon": -122.3234945
+   },
+   "Porter Way|tertiary": {
+    "rows": 57,
+    "shared": 6,
+    "min_d_m": 0.0,
+    "example_node": 2367794737,
+    "example_lat": 47.2478797,
+    "example_lon": -122.3247832
+   },
+   "Park Way|residential": {
+    "rows": 29,
+    "shared": 0,
+    "min_d_m": 22.4,
+    "example_node": 2367794740,
+    "example_lat": 47.2480739,
+    "example_lon": -122.3245634
+   },
+   "None|service": {
+    "rows": 65,
+    "shared": 3,
+    "min_d_m": 0.0,
+    "example_node": 2367794740,
+    "example_lat": 47.2480739,
+    "example_lon": -122.3245634
+   },
+   "9th Avenue|residential": {
+    "rows": 1,
+    "shared": 0,
+    "min_d_m": 23.7,
+    "example_node": 2367794751,
+    "example_lat": 47.2500407,
+    "example_lon": -122.3232763
+   },
+   "None|path": {
+    "rows": 21,
+    "shared": 10,
+    "min_d_m": 0.0,
+    "example_node": 2367794769,
+    "example_lat": 47.2546439,
+    "example_lon": -122.3234265
+   },
+   "None|footway": {
+    "rows": 15,
+    "shared": 7,
+    "min_d_m": 0.0,
+    "example_node": 2367794802,
+    "example_lat": 47.2619983,
+    "example_lon": -122.3107987
+   },
+   "Fife Way East|residential": {
+    "rows": 5,
+    "shared": 0,
+    "min_d_m": 24.9,
+    "example_node": 2572460666,
+    "example_lat": 47.2475102,
+    "example_lon": -122.3249306
+   },
+   "South 380th Street|residential": {
+    "rows": 9,
+    "shared": 4,
+    "min_d_m": 0.0,
+    "example_node": 2367794833,
+    "example_lat": 47.2614813,
+    "example_lon": -122.3011105
+   },
+   "Milton Interurban Trail|cycleway": {
+    "rows": 19,
+    "shared": 4,
+    "min_d_m": 0.0,
+    "example_node": 9352149145,
+    "example_lat": 47.2392835,
+    "example_lon": -122.3361634
+   },
+   "Wapato Way East|secondary": {
+    "rows": 38,
+    "shared": 5,
+    "min_d_m": 0.0,
+    "example_node": 9352149145,
+    "example_lat": 47.2392835,
+    "example_lon": -122.3361634
+   },
+   "20th Street East|secondary": {
+    "rows": 23,
+    "shared": 0,
+    "min_d_m": 18.0,
+    "example_node": 9352149145,
+    "example_lat": 47.2392835,
+    "example_lon": -122.3361634
+   },
+   "70th Avenue East|secondary": {
+    "rows": 2,
+    "shared": 0,
+    "min_d_m": 29.6,
+    "example_node": 9352149146,
+    "example_lat": 47.2392485,
+    "example_lon": -122.3361179
+   },
+   "None|cycleway": {
+    "rows": 3,
+    "shared": 1,
+    "min_d_m": 0.0,
+    "example_node": 3213532066,
+    "example_lat": 47.2407295,
+    "example_lon": -122.3361525
+   },
+   "None|construction": {
+    "rows": 2,
+    "shared": 0,
+    "min_d_m": 24.0,
+    "example_node": 3213532066,
+    "example_lat": 47.2407295,
+    "example_lon": -122.3361525
+   }
+  }
+ },
+ "8826064": {
+  "name": "Interurban Trail Edgewood",
+  "n_trail_nodes": 35,
+  "n_proximity_rows": 108,
+  "n_shared_node_rows": 17,
+  "by_road": {
+   "114th Avenue East|tertiary": {
+    "rows": 12,
+    "shared": 4,
+    "min_d_m": 0.0,
+    "example_node": 2646868507,
+    "example_lat": 47.2560654,
+    "example_lon": -122.2773296
+   },
+   "None|service": {
+    "rows": 52,
+    "shared": 7,
+    "min_d_m": 0.0,
+    "example_node": 2646868507,
+    "example_lat": 47.2560654,
+    "example_lon": -122.2773296
+   },
+   "None|footway": {
+    "rows": 19,
+    "shared": 0,
+    "min_d_m": 16.3,
+    "example_node": 2646868507,
+    "example_lat": 47.2560654,
+    "example_lon": -122.2773296
+   },
+   "Military Road East|secondary": {
+    "rows": 7,
+    "shared": 2,
+    "min_d_m": 0.0,
+    "example_node": 645714471,
+    "example_lat": 47.25835,
+    "example_lon": -122.2934873
+   },
+   "31st Avenue|residential": {
+    "rows": 9,
+    "shared": 2,
+    "min_d_m": 0.0,
+    "example_node": 645714471,
+    "example_lat": 47.25835,
+    "example_lon": -122.2934873
+   },
+   "Military Road South|secondary": {
+    "rows": 9,
+    "shared": 2,
+    "min_d_m": 0.0,
+    "example_node": 645714471,
+    "example_lat": 47.25835,
+    "example_lon": -122.2934873
+   }
+  }
+ },
+ "9605517": {
+  "name": "Riverwalk Trail",
+  "n_trail_nodes": 179,
+  "n_proximity_rows": 975,
+  "n_shared_node_rows": 96,
+  "by_road": {
+   "None|cycleway": {
+    "rows": 94,
+    "shared": 19,
+    "min_d_m": 0.0,
+    "example_node": 12953091079,
+    "example_lat": 47.1938756,
+    "example_lon": -122.2765958
+   },
+   "None|service": {
+    "rows": 409,
+    "shared": 16,
+    "min_d_m": 0.0,
+    "example_node": 12953091079,
+    "example_lat": 47.1938756,
+    "example_lon": -122.2765958
+   },
+   "None|motorway": {
+    "rows": 16,
+    "shared": 0,
+    "min_d_m": 4.4,
+    "example_node": 6273297985,
+    "example_lat": 47.1927115,
+    "example_lon": -122.282911
+   },
+   "2nd Avenue Northeast|residential": {
+    "rows": 19,
+    "shared": 0,
+    "min_d_m": 7.2,
+    "example_node": 6273297985,
+    "example_lat": 47.1927115,
+    "example_lon": -122.282911
+   },
+   "9th Street Northeast|residential": {
+    "rows": 2,
+    "shared": 0,
+    "min_d_m": 15.0,
+    "example_node": 6273297985,
+    "example_lat": 47.1927115,
+    "example_lon": -122.282911
+   },
+   "None|footway": {
+    "rows": 163,
+    "shared": 22,
+    "min_d_m": 0.0,
+    "example_node": 6277555796,
+    "example_lat": 47.2024462,
+    "example_lon": -122.2957019
+   },
+   "None|path": {
+    "rows": 74,
+    "shared": 14,
+    "min_d_m": 0.0,
+    "example_node": 12039334491,
+    "example_lat": 47.1970183,
+    "example_lon": -122.2525991
+   },
+   "5th Street Northeast|tertiary": {
+    "rows": 62,
+    "shared": 5,
+    "min_d_m": 0.0,
+    "example_node": 7698794632,
+    "example_lat": 47.1946122,
+    "example_lon": -122.2877857
+   },
+   "Sumner Link Trail|cycleway": {
+    "rows": 6,
+    "shared": 1,
+    "min_d_m": 0.0,
+    "example_node": 6486202530,
+    "example_lat": 47.1964871,
+    "example_lon": -122.2510719
+   },
+   "East Main|secondary": {
+    "rows": 11,
+    "shared": 0,
+    "min_d_m": 11.0,
+    "example_node": 6486202530,
+    "example_lat": 47.1964871,
+    "example_lon": -122.2510719
+   },
+   "80th Avenue East|residential": {
+    "rows": 2,
+    "shared": 2,
+    "min_d_m": 0.0,
+    "example_node": 110880940,
+    "example_lat": 47.207103,
+    "example_lon": -122.3230523
+   },
+   "River Road East|primary": {
+    "rows": 6,
+    "shared": 3,
+    "min_d_m": 0.0,
+    "example_node": 110880940,
+    "example_lat": 47.207103,
+    "example_lon": -122.3230523
+   },
+   "55th Street Court East|residential": {
+    "rows": 1,
+    "shared": 0,
+    "min_d_m": 29.7,
+    "example_node": 110880940,
+    "example_lat": 47.207103,
+    "example_lon": -122.3230523
+   },
+   "7th Street Northeast|residential": {
+    "rows": 12,
+    "shared": 4,
+    "min_d_m": 0.0,
+    "example_node": 6486202536,
+    "example_lat": 47.1927006,
+    "example_lon": -122.2857032
+   },
+   "7th Avenue Northeast|residential": {
+    "rows": 6,
+    "shared": 2,
+    "min_d_m": 0.0,
+    "example_node": 6486202545,
+    "example_lat": 47.197031,
+    "example_lon": -122.2878007
+   },
+   "8th Avenue Northeast|residential": {
+    "rows": 9,
+    "shared": 3,
+    "min_d_m": 0.0,
+    "example_node": 6486202546,
+    "example_lat": 47.197703,
+    "example_lon": -122.2877981
+   },
+   "Riverwalk Trail|cycleway": {
+    "rows": 14,
+    "shared": 1,
+    "min_d_m": 0.0,
+    "example_node": 6486202546,
+    "example_lat": 47.197703,
+    "example_lon": -122.2877981
+   },
+   "4th Avenue Northeast|residential": {
+    "rows": 4,
+    "shared": 2,
+    "min_d_m": 0.0,
+    "example_node": 6486202541,
+    "example_lat": 47.1939581,
+    "example_lon": -122.2877779
+   },
+   "5th Avenue Northeast|residential": {
+    "rows": 10,
+    "shared": 2,
+    "min_d_m": 0.0,
+    "example_node": 6486202542,
+    "example_lat": 47.195553,
+    "example_lon": -122.2877927
+   },
+   "North Meridian|primary": {
+    "rows": 12,
+    "shared": 0,
+    "min_d_m": 2.3,
+    "example_node": 2657474743,
+    "example_lat": 47.2021722,
+    "example_lon": -122.2937876
+   },
+   "River Road|primary": {
+    "rows": 13,
+    "shared": 0,
+    "min_d_m": 18.0,
+    "example_node": 2670538983,
+    "example_lat": 47.2068666,
+    "example_lon": -122.321335
+   },
+   "20th Street Northwest|residential": {
+    "rows": 1,
+    "shared": 0,
+    "min_d_m": 28.3,
+    "example_node": 2670538983,
+    "example_lat": 47.2068666,
+    "example_lon": -122.321335
+   },
+   "9th Avenue Northeast|residential": {
+    "rows": 28,
+    "shared": 0,
+    "min_d_m": 10.2,
+    "example_node": 5438641961,
+    "example_lat": 47.19872,
+    "example_lon": -122.2880555
+   },
+   "18th Street Northwest|tertiary": {
+    "rows": 1,
+    "shared": 0,
+    "min_d_m": 23.9,
+    "example_node": 2101094387,
+    "example_lat": 47.2062003,
+    "example_lon": -122.3188269
+   }
+  }
+ },
+ "9605518": {
+  "name": "Sumner Link Trail",
+  "n_trail_nodes": 395,
+  "n_proximity_rows": 2851,
+  "n_shared_node_rows": 224,
+  "by_road": {
+   "None|footway": {
+    "rows": 1084,
+    "shared": 64,
+    "min_d_m": 0.0,
+    "example_node": 2670823424,
+    "example_lat": 47.2120301,
+    "example_lon": -122.2420866
+   },
+   "Puyallup Street|tertiary": {
+    "rows": 102,
+    "shared": 0,
+    "min_d_m": 7.1,
+    "example_node": 2670823424,
+    "example_lat": 47.2120301,
+    "example_lon": -122.2420866
+   },
+   "142nd Avenue East|tertiary": {
+    "rows": 151,
+    "shared": 3,
+    "min_d_m": 0.0,
+    "example_node": 2670823424,
+    "example_lat": 47.2120301,
+    "example_lon": -122.2420866
+   },
+   "Fryar Avenue|tertiary": {
+    "rows": 73,
+    "shared": 1,
+    "min_d_m": 0.0,
+    "example_node": 2670823424,
+    "example_lat": 47.2120301,
+    "example_lon": -122.2420866
+   },
+   "None|service": {
+    "rows": 532,
+    "shared": 69,
+    "min_d_m": 0.0,
+    "example_node": 2670823424,
+    "example_lat": 47.2120301,
+    "example_lon": -122.2420866
+   },
+   "Tacoma Avenue|tertiary": {
+    "rows": 94,
+    "shared": 6,
+    "min_d_m": 0.0,
+    "example_node": 2670823426,
+    "example_lat": 47.2164948,
+    "example_lon": -122.2383768
+   },
+   "None|cycleway": {
+    "rows": 80,
+    "shared": 12,
+    "min_d_m": 0.0,
+    "example_node": 2670823429,
+    "example_lat": 47.2133521,
+    "example_lon": -122.2408713
+   },
+   "150th Avenue Court East|residential": {
+    "rows": 17,
+    "shared": 0,
+    "min_d_m": 8.9,
+    "example_node": 2670823435,
+    "example_lat": 47.2176608,
+    "example_lon": -122.2335167
+   },
+   "None|path": {
+    "rows": 114,
+    "shared": 22,
+    "min_d_m": 0.0,
+    "example_node": 2670823452,
+    "example_lat": 47.2182136,
+    "example_lon": -122.2318593
+   },
+   "State Street|residential": {
+    "rows": 49,
+    "shared": 7,
+    "min_d_m": 0.0,
+    "example_node": 2700976197,
+    "example_lat": 47.2007519,
+    "example_lon": -122.2528482
+   },
+   "None|motorway": {
+    "rows": 9,
+    "shared": 0,
+    "min_d_m": 11.5,
+    "example_node": 2700976198,
+    "example_lat": 47.2007598,
+    "example_lon": -122.2530165
+   },
+   "Sumner Link Trail|footway": {
+    "rows": 153,
+    "shared": 5,
+    "min_d_m": 0.0,
+    "example_node": 5479094359,
+    "example_lat": 47.2096579,
+    "example_lon": -122.2421307
+   },
+   "West Main Street|residential": {
+    "rows": 102,
+    "shared": 3,
+    "min_d_m": 0.0,
+    "example_node": 6486202552,
+    "example_lat": 47.2030952,
+    "example_lon": -122.2448262
+   },
+   "Main Street|secondary": {
+    "rows": 81,
+    "shared": 6,
+    "min_d_m": 0.0,
+    "example_node": 2380619907,
+    "example_lat": 47.2035664,
+    "example_lon": -122.2441736
+   },
+   "Bridge Street|secondary": {
+    "rows": 78,
+    "shared": 11,
+    "min_d_m": 0.0,
+    "example_node": 2380619907,
+    "example_lat": 47.2035664,
+    "example_lon": -122.2441736
+   },
+   "Riverwalk Trail|cycleway": {
+    "rows": 7,
+    "shared": 1,
+    "min_d_m": 0.0,
+    "example_node": 6486202530,
+    "example_lat": 47.1964871,
+    "example_lon": -122.2510719
+   },
+   "East Main|secondary": {
+    "rows": 7,
+    "shared": 0,
+    "min_d_m": 11.2,
+    "example_node": 6486202530,
+    "example_lat": 47.1964871,
+    "example_lon": -122.2510719
+   },
+   "Hunt Avenue|residential": {
+    "rows": 2,
+    "shared": 0,
+    "min_d_m": 7.4,
+    "example_node": 6486202551,
+    "example_lat": 47.202286,
+    "example_lon": -122.2478056
+   },
+   "Traffic Avenue|secondary": {
+    "rows": 31,
+    "shared": 0,
+    "min_d_m": 11.2,
+    "example_node": 6486202559,
+    "example_lat": 47.2033196,
+    "example_lon": -122.2445551
+   },
+   "45th Street East|residential": {
+    "rows": 10,
+    "shared": 0,
+    "min_d_m": 14.0,
+    "example_node": 6486202575,
+    "example_lat": 47.2158369,
+    "example_lon": -122.2376587
+   },
+   "24th Street East|residential": {
+    "rows": 8,
+    "shared": 1,
+    "min_d_m": 0.0,
+    "example_node": 2670828193,
+    "example_lat": 47.2356953,
+    "example_lon": -122.237025
+   },
+   "Zehnder Street|tertiary": {
+    "rows": 5,
+    "shared": 3,
+    "min_d_m": 0.0,
+    "example_node": 7089980148,
+    "example_lat": 47.2075394,
+    "example_lon": -122.2421462
+   },
+   "Stewart Road|secondary": {
+    "rows": 10,
+    "shared": 3,
+    "min_d_m": 0.0,
+    "example_node": 2670828294,
+    "example_lat": 47.2500991,
+    "example_lon": -122.2375027
+   },
+   "Lake Tapps Parkway Trail|cycleway": {
+    "rows": 6,
+    "shared": 3,
+    "min_d_m": 0.0,
+    "example_node": 2670828294,
+    "example_lat": 47.2500991,
+    "example_lon": -122.2375027
+   },
+   "57th Street East|residential": {
+    "rows": 7,
+    "shared": 4,
+    "min_d_m": 0.0,
+    "example_node": 110422926,
+    "example_lat": 47.2060172,
+    "example_lon": -122.24288
+   },
+   "Spinning Avenue|residential": {
+    "rows": 14,
+    "shared": 0,
+    "min_d_m": 10.1,
+    "example_node": 3730012152,
+    "example_lat": 47.2022325,
+    "example_lon": -122.2498146
+   },
+   "63rd Street East|residential": {
+    "rows": 21,
+    "shared": 0,
+    "min_d_m": 9.8,
+    "example_node": 2670806285,
+    "example_lat": 47.199736,
+    "example_lon": -122.255996
+   },
+   "None|motorway_link": {
+    "rows": 4,
+    "shared": 0,
+    "min_d_m": 15.2,
+    "example_node": 2670806303,
+    "example_lat": 47.1974929,
+    "example_lon": -122.250016
+   }
+  }
+ },
+ "9605519": {
+  "name": "Lake Tapps Parkway Trail",
+  "n_trail_nodes": 98,
+  "n_proximity_rows": 852,
+  "n_shared_node_rows": 54,
+  "by_road": {
+   "None|footway": {
+    "rows": 216,
+    "shared": 16,
+    "min_d_m": 0.0,
+    "example_node": 9276360222,
+    "example_lat": 47.2499874,
+    "example_lon": -122.2384826
+   },
+   "Stewart Road|secondary": {
+    "rows": 70,
+    "shared": 3,
+    "min_d_m": 0.0,
+    "example_node": 9276360222,
+    "example_lat": 47.2499874,
+    "example_lon": -122.2384826
+   },
+   "None|service": {
+    "rows": 77,
+    "shared": 6,
+    "min_d_m": 0.0,
+    "example_node": 9276360222,
+    "example_lat": 47.2499874,
+    "example_lon": -122.2384826
+   },
+   "None|secondary_link": {
+    "rows": 19,
+    "shared": 0,
+    "min_d_m": 8.4,
+    "example_node": 9276360227,
+    "example_lat": 47.2503303,
+    "example_lon": -122.2350202
+   },
+   "Lake Tapps Parkway Southeast|secondary": {
+    "rows": 163,
+    "shared": 0,
+    "min_d_m": 5.8,
+    "example_node": 13572479015,
+    "example_lat": 47.2452841,
+    "example_lon": -122.2095561
+   },
+   "Lakeland Hills Way Southeast|tertiary": {
+    "rows": 9,
+    "shared": 0,
+    "min_d_m": 10.2,
+    "example_node": 13572479015,
+    "example_lat": 47.2452841,
+    "example_lon": -122.2095561
+   },
+   "Terrace View Drive|tertiary": {
+    "rows": 116,
+    "shared": 0,
+    "min_d_m": 4.0,
+    "example_node": 2670829761,
+    "example_lat": 47.2514552,
+    "example_lon": -122.2270767
+   },
+   "Terrace View Lane Southeast|residential": {
+    "rows": 18,
+    "shared": 5,
+    "min_d_m": 0.0,
+    "example_node": 2670829761,
+    "example_lat": 47.2514552,
+    "example_lon": -122.2270767
+   },
+   "None|path": {
+    "rows": 42,
+    "shared": 11,
+    "min_d_m": 0.0,
+    "example_node": 10900530370,
+    "example_lat": 47.249971,
+    "example_lon": -122.236886
+   },
+   "None|tertiary_link": {
+    "rows": 80,
+    "shared": 0,
+    "min_d_m": 2.4,
+    "example_node": 2670829763,
+    "example_lat": 47.2491502,
+    "example_lon": -122.2259475
+   },
+   "Sumner Link Trail|cycleway": {
+    "rows": 4,
+    "shared": 2,
+    "min_d_m": 0.0,
+    "example_node": 6486202581,
+    "example_lat": 47.2499876,
+    "example_lon": -122.237699
+   },
+   "East Valley Highway East|secondary": {
+    "rows": 13,
+    "shared": 3,
+    "min_d_m": 0.0,
+    "example_node": 2670829781,
+    "example_lat": 47.2517611,
+    "example_lon": -122.2290857
+   },
+   "Vista Ridge Trail|cycleway": {
+    "rows": 4,
+    "shared": 4,
+    "min_d_m": 0.0,
+    "example_node": 2670829797,
+    "example_lat": 47.2467523,
+    "example_lon": -122.223284
+   },
+   "Alexander Place Southeast|residential": {
+    "rows": 12,
+    "shared": 4,
+    "min_d_m": 0.0,
+    "example_node": 2670829805,
+    "example_lat": 47.251985,
+    "example_lon": -122.2279752
+   },
+   "140th Avenue Court East|unclassified": {
+    "rows": 6,
+    "shared": 0,
+    "min_d_m": 12.3,
+    "example_node": 2670828810,
+    "example_lat": 47.2500078,
+    "example_lon": -122.2413847
+   },
+   "Lake Tapps Drive Southeast|residential": {
+    "rows": 3,
+    "shared": 0,
+    "min_d_m": 19.6,
+    "example_node": 2670829900,
+    "example_lat": 47.2440283,
+    "example_lon": -122.2144488
+   }
+  }
+ }
+}

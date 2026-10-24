@@ -1,0 +1,454 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 5,
+    "identityHash": "b72cb696be2a1d70569f99f18628fc13",
+    "entities": [
+      {
+        "tableName": "ride_history",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`signature` TEXT NOT NULL, `trailNames` TEXT NOT NULL, `totalMiles` REAL NOT NULL, `riddenAt` INTEGER NOT NULL, PRIMARY KEY(`signature`))",
+        "fields": [
+          {
+            "fieldPath": "signature",
+            "columnName": "signature",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "trailNames",
+            "columnName": "trailNames",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "totalMiles",
+            "columnName": "totalMiles",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "riddenAt",
+            "columnName": "riddenAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "signature"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "route_cache",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`cacheKey` TEXT NOT NULL, `payload` TEXT NOT NULL, `cachedAt` INTEGER NOT NULL, PRIMARY KEY(`cacheKey`))",
+        "fields": [
+          {
+            "fieldPath": "cacheKey",
+            "columnName": "cacheKey",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "payload",
+            "columnName": "payload",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "cachedAt",
+            "columnName": "cachedAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "cacheKey"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "saved_route",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`signature` TEXT NOT NULL, `bucket` TEXT NOT NULL, `origin_lat` REAL NOT NULL, `origin_lon` REAL NOT NULL, `target_miles` REAL NOT NULL, `trail_label` TEXT NOT NULL, `total_m` REAL NOT NULL, `trail_round_m` REAL NOT NULL, `time_s` REAL NOT NULL, `graded_m` REAL NOT NULL, `ungraded_m` REAL NOT NULL, `breakdown_total_m` REAL NOT NULL, `d_m` REAL NOT NULL, `e_m` REAL NOT NULL, `road_way_count` INTEGER NOT NULL, `data_fingerprint` TEXT NOT NULL, `created_at` INTEGER NOT NULL, `last_used_at` INTEGER NOT NULL, `used_count` INTEGER NOT NULL, `ridden_at` INTEGER, `payload` BLOB NOT NULL, PRIMARY KEY(`signature`))",
+        "fields": [
+          {
+            "fieldPath": "signature",
+            "columnName": "signature",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "bucket",
+            "columnName": "bucket",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "originLat",
+            "columnName": "origin_lat",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "originLon",
+            "columnName": "origin_lon",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "targetMiles",
+            "columnName": "target_miles",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "trailLabel",
+            "columnName": "trail_label",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "totalM",
+            "columnName": "total_m",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "trailRoundM",
+            "columnName": "trail_round_m",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timeS",
+            "columnName": "time_s",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "gradedM",
+            "columnName": "graded_m",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ungradedM",
+            "columnName": "ungraded_m",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "breakdownTotalM",
+            "columnName": "breakdown_total_m",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dM",
+            "columnName": "d_m",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "eM",
+            "columnName": "e_m",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "roadWayCount",
+            "columnName": "road_way_count",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dataFingerprint",
+            "columnName": "data_fingerprint",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "created_at",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lastUsedAt",
+            "columnName": "last_used_at",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "usedCount",
+            "columnName": "used_count",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "riddenAt",
+            "columnName": "ridden_at",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "payload",
+            "columnName": "payload",
+            "affinity": "BLOB",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "signature"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_saved_route_bucket_target_miles",
+            "unique": false,
+            "columnNames": [
+              "bucket",
+              "target_miles"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_saved_route_bucket_target_miles` ON `${TABLE_NAME}` (`bucket`, `target_miles`)"
+          },
+          {
+            "name": "index_saved_route_last_used_at",
+            "unique": false,
+            "columnNames": [
+              "last_used_at"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_saved_route_last_used_at` ON `${TABLE_NAME}` (`last_used_at`)"
+          }
+        ],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "discovered_trail",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`bucket` TEXT NOT NULL, `origin_lat` REAL NOT NULL, `origin_lon` REAL NOT NULL, `radius_km` REAL NOT NULL, `payload` TEXT NOT NULL, `fetched_at` INTEGER NOT NULL, `timestamp_osm_base` TEXT, `mirror` TEXT NOT NULL, PRIMARY KEY(`bucket`))",
+        "fields": [
+          {
+            "fieldPath": "bucket",
+            "columnName": "bucket",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "originLat",
+            "columnName": "origin_lat",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "originLon",
+            "columnName": "origin_lon",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "radiusKm",
+            "columnName": "radius_km",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "payload",
+            "columnName": "payload",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "fetchedAt",
+            "columnName": "fetched_at",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timestampOsmBase",
+            "columnName": "timestamp_osm_base",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "mirror",
+            "columnName": "mirror",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "bucket"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_discovered_trail_fetched_at",
+            "unique": false,
+            "columnNames": [
+              "fetched_at"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_discovered_trail_fetched_at` ON `${TABLE_NAME}` (`fetched_at`)"
+          }
+        ],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "ride_track",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`signature` TEXT NOT NULL, `started_at` INTEGER NOT NULL, `ended_at` INTEGER NOT NULL, `distance_m` REAL NOT NULL, `moving_ms` INTEGER NOT NULL, `max_speed_mps` REAL, `gaps` INTEGER NOT NULL, `rejected_fixes` INTEGER NOT NULL, `label` TEXT NOT NULL, `data_fingerprint` TEXT NOT NULL, `created_at` INTEGER NOT NULL, `graded_m` REAL NOT NULL, `ungraded_m` REAL NOT NULL, `rejected_m` REAL NOT NULL, `breakdown_total_m` REAL NOT NULL, `d_m` REAL NOT NULL, `e_m` REAL NOT NULL, `way_count` INTEGER NOT NULL, `payload` TEXT NOT NULL, PRIMARY KEY(`signature`))",
+        "fields": [
+          {
+            "fieldPath": "signature",
+            "columnName": "signature",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "startedAtMs",
+            "columnName": "started_at",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "endedAtMs",
+            "columnName": "ended_at",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "distanceM",
+            "columnName": "distance_m",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "movingMs",
+            "columnName": "moving_ms",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "maxSpeedMps",
+            "columnName": "max_speed_mps",
+            "affinity": "REAL",
+            "notNull": false
+          },
+          {
+            "fieldPath": "gaps",
+            "columnName": "gaps",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "rejectedFixes",
+            "columnName": "rejected_fixes",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "label",
+            "columnName": "label",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dataFingerprint",
+            "columnName": "data_fingerprint",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "created_at",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "gradedM",
+            "columnName": "graded_m",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ungradedM",
+            "columnName": "ungraded_m",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "rejectedM",
+            "columnName": "rejected_m",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "breakdownTotalM",
+            "columnName": "breakdown_total_m",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dM",
+            "columnName": "d_m",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "eM",
+            "columnName": "e_m",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "wayCount",
+            "columnName": "way_count",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "payload",
+            "columnName": "payload",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "signature"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_ride_track_started_at",
+            "unique": false,
+            "columnNames": [
+              "started_at"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_ride_track_started_at` ON `${TABLE_NAME}` (`started_at`)"
+          }
+        ],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'b72cb696be2a1d70569f99f18628fc13')"
+    ]
+  }
+}

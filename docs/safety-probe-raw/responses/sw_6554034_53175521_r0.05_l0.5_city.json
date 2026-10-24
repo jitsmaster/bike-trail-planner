@@ -1,0 +1,209 @@
+{
+ "trip": {
+  "locations": [
+   {
+    "type": "break",
+    "lat": 47.240371,
+    "lon": -122.262019,
+    "side_of_street": "left",
+    "original_index": 0
+   },
+   {
+    "type": "break",
+    "lat": 47.261062,
+    "lon": -122.300767,
+    "original_index": 1
+   }
+  ],
+  "legs": [
+   {
+    "maneuvers": [
+     {
+      "type": 3,
+      "instruction": "Bike west on 18th Street East.",
+      "verbal_succinct_transition_instruction": "Bike west.",
+      "verbal_pre_transition_instruction": "Bike west on 18th Street East.",
+      "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+      "street_names": [
+       "18th Street East"
+      ],
+      "bearing_after": 266,
+      "time": 221.196,
+      "length": 1.141,
+      "cost": 426.942,
+      "begin_shape_index": 0,
+      "end_shape_index": 28,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right onto 114th Avenue East.",
+      "verbal_transition_alert_instruction": "Turn right onto 114th Avenue East.",
+      "verbal_succinct_transition_instruction": "Turn right.",
+      "verbal_pre_transition_instruction": "Turn right onto 114th Avenue East.",
+      "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+      "street_names": [
+       "114th Avenue East"
+      ],
+      "bearing_before": 270,
+      "bearing_after": 8,
+      "time": 308.029,
+      "length": 1.683,
+      "cost": 607.579,
+      "begin_shape_index": 28,
+      "end_shape_index": 74,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto Interurban Trail.",
+      "verbal_transition_alert_instruction": "Turn left onto Interurban Trail.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto Interurban Trail.",
+      "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+      "street_names": [
+       "Interurban Trail"
+      ],
+      "bearing_before": 356,
+      "bearing_after": 250,
+      "time": 281.384,
+      "length": 1.331,
+      "cost": 375.676,
+      "begin_shape_index": 74,
+      "end_shape_index": 108,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto Military Road East.",
+      "verbal_transition_alert_instruction": "Turn left onto Military Road East.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto Military Road East.",
+      "verbal_post_transition_instruction": "Continue for 100 meters.",
+      "street_names": [
+       "Military Road East"
+      ],
+      "bearing_before": 288,
+      "bearing_after": 210,
+      "time": 39.052,
+      "length": 0.13,
+      "cost": 165.435,
+      "begin_shape_index": 108,
+      "end_shape_index": 119,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right onto Enchanted Parkway South/SR 161.",
+      "verbal_transition_alert_instruction": "Turn right onto Enchanted Parkway South.",
+      "verbal_succinct_transition_instruction": "Turn right.",
+      "verbal_pre_transition_instruction": "Turn right onto Enchanted Parkway South, SR 161.",
+      "verbal_post_transition_instruction": "Continue for 600 meters.",
+      "street_names": [
+       "Enchanted Parkway South",
+       "SR 161"
+      ],
+      "bearing_before": 247,
+      "bearing_after": 336,
+      "time": 100.291,
+      "length": 0.555,
+      "cost": 199.851,
+      "begin_shape_index": 119,
+      "end_shape_index": 127,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 14,
+      "instruction": "Make a sharp left onto 28th Avenue South.",
+      "verbal_transition_alert_instruction": "Make a sharp left onto 28th Avenue South.",
+      "verbal_succinct_transition_instruction": "Make a sharp left.",
+      "verbal_pre_transition_instruction": "Make a sharp left onto 28th Avenue South.",
+      "verbal_post_transition_instruction": "Continue for 100 meters.",
+      "street_names": [
+       "28th Avenue South"
+      ],
+      "bearing_before": 334,
+      "bearing_after": 181,
+      "time": 19.254,
+      "length": 0.129,
+      "cost": 43.061,
+      "begin_shape_index": 127,
+      "end_shape_index": 130,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right onto South 380th Street.",
+      "verbal_transition_alert_instruction": "Turn right onto South 380th Street.",
+      "verbal_succinct_transition_instruction": "Turn right.",
+      "verbal_pre_transition_instruction": "Turn right onto South 380th Street.",
+      "verbal_post_transition_instruction": "Continue for 200 meters.",
+      "street_names": [
+       "South 380th Street"
+      ],
+      "bearing_before": 181,
+      "bearing_after": 271,
+      "time": 48.847,
+      "length": 0.216,
+      "cost": 87.244,
+      "begin_shape_index": 130,
+      "end_shape_index": 138,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 4,
+      "instruction": "You have arrived at your destination.",
+      "verbal_transition_alert_instruction": "You will arrive at your destination.",
+      "verbal_pre_transition_instruction": "You have arrived at your destination.",
+      "bearing_before": 305,
+      "time": 0.0,
+      "length": 0.0,
+      "cost": 0.0,
+      "begin_shape_index": 138,
+      "end_shape_index": 138,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     }
+    ],
+    "summary": {
+     "has_time_restrictions": false,
+     "has_toll": false,
+     "has_highway": false,
+     "has_ferry": false,
+     "min_lat": 47.240623,
+     "min_lon": -122.300767,
+     "max_lat": 47.262035,
+     "max_lon": -122.262046,
+     "time": 1018.055,
+     "length": 5.185,
+     "cost": 1905.791
+    },
+    "shape": "{|ibyAz`hehFPlLKhMZ`Lz@`HC`v@EdES`C]|A_@p@c@XcOeAmBZa@p@m@zDJhf@Pvy@UnNi@|EKng@d@f}CZd{BJr|B@jSBtf@@pRDr`@Djd@Ft}@ir@uIiYoDcPoBoLgBuQs@{Qh@_JJcl@pCyoAfGyH`@_SbAqAFuh@lCwG^iDFeZp@_L\\cf@tAmt@vCiLd@W@{H\\ga@fB_ADqBHeENwUz@cYbAyMf@qFPc]nA{AFoTv@cBFea@xAsTx@iCHqW~@ub@~Aqh@jBeHVsGXcK`@eNh@k[rAaBJ~@|FJr@zE|XtEpZfJbm@`C~RzA`PxBz[rAdl@RjTAlGApTa@pUiB|d@_FxqAwEjtAcGpcBeGr|AuArO}Fzd@mAxIiG|WyE|L}Tbi@_EtKyBpEm_AvwAsP`ZoBzDi@tBY`BObC?~Ii@bEzGfFlE`E~F~HfFxIhC~ExA`DpAjD~@hC`C|HH\\tAnHeFtCiNbI_UhNoqAj}@cuAt~@m]xT__@~UcC|AzDBpf@PfZLS~gBh@bEEfP_@dKcAtIoAzF_C`HwApD"
+   }
+  ],
+  "summary": {
+   "has_time_restrictions": false,
+   "has_toll": false,
+   "has_highway": false,
+   "has_ferry": false,
+   "min_lat": 47.240623,
+   "min_lon": -122.300767,
+   "max_lat": 47.262035,
+   "max_lon": -122.262046,
+   "time": 1018.055,
+   "length": 5.185,
+   "cost": 1905.791
+  },
+  "status_message": "Found route between points",
+  "status": 0,
+  "units": "kilometers",
+  "language": "en-US"
+ }
+}

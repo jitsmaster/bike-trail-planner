@@ -1,0 +1,652 @@
+{
+ "label": "ap_6554034_13329238885",
+ "n_edges": 110,
+ "modes": {
+  "strict": {
+   "metres": {
+    "A": 664.0,
+    "D": 6087.0
+   },
+   "share": {
+    "A": 9.84,
+    "D": 90.16
+   },
+   "total_m": 6751.0,
+   "named": {
+    "D": [
+     {
+      "street": "Taylor Street",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1263.0,
+      "edges": 25,
+      "assumed_mph": []
+     },
+     {
+      "street": "16th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1117.0,
+      "edges": 20,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1006.0,
+      "edges": 10,
+      "assumed_mph": []
+     },
+     {
+      "street": "Taylor Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 807.0,
+      "edges": 18,
+      "assumed_mph": []
+     },
+     {
+      "street": "Milton Way",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 690.0,
+      "edges": 11,
+      "assumed_mph": []
+     },
+     {
+      "street": "20th Street East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 437.0,
+      "edges": 11,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "Porter Way",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 220.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "112th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 193.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 74.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Milton Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 664.0,
+      "edges": 4,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient": {
+   "metres": {
+    "A": 664.0,
+    "C": 354.0,
+    "D": 437.0,
+    "E": 690.0,
+    "GAP": 4606.0
+   },
+   "share": {
+    "A": 9.84,
+    "C": 5.24,
+    "D": 6.47,
+    "E": 10.22,
+    "GAP": 68.23
+   },
+   "total_m": 6751.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 74.0,
+      "edges": 3,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "Taylor Street",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1263.0,
+      "edges": 25,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "16th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1117.0,
+      "edges": 20,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1006.0,
+      "edges": 10,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Taylor Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 807.0,
+      "edges": 18,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Porter Way",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 220.0,
+      "edges": 4,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "112th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 193.0,
+      "edges": 2,
+      "assumed_mph": [
+       39
+      ]
+     }
+    ],
+    "E": [
+     {
+      "street": "Milton Way",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 690.0,
+      "edges": 11,
+      "assumed_mph": [
+       44
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "20th Street East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 437.0,
+      "edges": 11,
+      "assumed_mph": [
+       35
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Milton Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 664.0,
+      "edges": 4,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous": {
+   "metres": {
+    "A": 664.0,
+    "C": 354.0,
+    "GAP": 5733.0
+   },
+   "share": {
+    "A": 9.84,
+    "C": 5.24,
+    "GAP": 84.92
+   },
+   "total_m": 6751.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 74.0,
+      "edges": 3,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "Taylor Street",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1263.0,
+      "edges": 25,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "16th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1117.0,
+      "edges": 20,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1006.0,
+      "edges": 10,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Taylor Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 807.0,
+      "edges": 18,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Milton Way",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 690.0,
+      "edges": 11,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "20th Street East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 437.0,
+      "edges": 11,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Porter Way",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 220.0,
+      "edges": 4,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "112th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 193.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Milton Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 664.0,
+      "edges": 4,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient_repair": {
+   "metres": {
+    "A": 664.0,
+    "C": 354.0,
+    "D": 5043.0,
+    "E": 690.0
+   },
+   "share": {
+    "A": 9.84,
+    "C": 5.24,
+    "D": 74.7,
+    "E": 10.22
+   },
+   "total_m": 6751.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 74.0,
+      "edges": 3,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "Taylor Street",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1263.0,
+      "edges": 25,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "16th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1117.0,
+      "edges": 20,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1006.0,
+      "edges": 10,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Taylor Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 807.0,
+      "edges": 18,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "20th Street East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 437.0,
+      "edges": 11,
+      "assumed_mph": [
+       35
+      ]
+     },
+     {
+      "street": "Porter Way",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 220.0,
+      "edges": 4,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "112th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 193.0,
+      "edges": 2,
+      "assumed_mph": [
+       39
+      ]
+     }
+    ],
+    "E": [
+     {
+      "street": "Milton Way",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 690.0,
+      "edges": 11,
+      "assumed_mph": [
+       44
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Milton Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 664.0,
+      "edges": 4,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous_repair": {
+   "metres": {
+    "A": 664.0,
+    "C": 6087.0
+   },
+   "share": {
+    "A": 9.84,
+    "C": 90.16
+   },
+   "total_m": 6751.0,
+   "named": {
+    "C": [
+     {
+      "street": "Taylor Street",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1263.0,
+      "edges": 25,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "16th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1117.0,
+      "edges": 20,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1006.0,
+      "edges": 10,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Taylor Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 807.0,
+      "edges": 18,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Milton Way",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 690.0,
+      "edges": 11,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "20th Street East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 437.0,
+      "edges": 11,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Porter Way",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 220.0,
+      "edges": 4,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "112th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 193.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 74.0,
+      "edges": 3,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Milton Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 664.0,
+      "edges": 4,
+      "assumed_mph": []
+     }
+    ]
+   }
+  }
+ },
+ "route_summary": {
+  "has_time_restrictions": false,
+  "has_toll": false,
+  "has_highway": false,
+  "has_ferry": false,
+  "min_lat": 47.239033,
+  "min_lon": -122.335118,
+  "max_lat": 47.244381,
+  "max_lon": -122.262046,
+  "time": 1265.148,
+  "length": 6.751,
+  "cost": 2476.65
+ },
+ "arrival": {
+  "lat": 47.243574,
+  "lon": -122.333796
+ }
+}

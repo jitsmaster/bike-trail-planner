@@ -1,0 +1,49 @@
+# --- secrets / local config (NEVER commit) ---
+local.properties
+keystore.properties
+*.jks
+*.keystore
+secrets/
+
+# --- Valhalla server data: huge and regenerable ---
+valhalla/data/
+valhalla/custom_files/*.pbf
+valhalla/custom_files/*.md5
+valhalla/custom_files/valhalla_tiles/
+valhalla/custom_files/valhalla.json
+# The built tileset, the admin/timezone sqlite files and the terrain tiles are all regenerable from
+# the OSM extract + `valhalla_build_tiles`, and they are far past GitHub's 100 MB per-file limit
+# (valhalla_tiles.tar alone is 558 MB, timezones.sqlite 116 MB, each .hgt 25 MB). Publishing them would
+# fail the push, not merely bloat the repo.
+valhalla/custom_files/*.tar
+valhalla/custom_files/*.sqlite
+valhalla/custom_files/file_hashes.txt
+valhalla/custom_files/elevation_data/
+
+# --- research + data dumps: large, may contain screenshots ---
+docs/research/raw/
+docs/data/raw/
+docs/discovery-raw/
+
+# --- build output ---
+build/
+app/build/
+.gradle/
+.idea/
+*.iml
+.DS_Store
+captures/
+
+# --- Python bytecode: local, regenerable, nothing to publish ---
+# Caught 2026-09-26: importing tools/verify_ui.py to check rider copy staged
+# tools/__pycache__/verify_ui.cpython-311.pyc, which would churn on every python run.
+__pycache__/
+*.pyc
+
+# --- Kotlin compiler daemon state: local, regenerable, nothing to publish ---
+# Caught 2026-09-21: `.kotlin/sessions/*.salive` and `.kotlin/errors/*.log` were staged, and the
+# session lock file is rewritten on every build, so it would have churned in every commit.
+.kotlin/
+
+# --- Valhalla container logs: rewritten on every run ---
+valhalla/logs/

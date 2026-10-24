@@ -1,0 +1,25 @@
+{
+ "why": "Overpass mirror results rejected as STALE (HTTP 200 but an old osm base snapshot). Recorded so the rejections are auditable.",
+ "current_source_used": {
+  "instance": "https://overpass-api.de/api/interpreter",
+  "timestamp_osm_base": "2026-09-15T21:06:55Z"
+ },
+ "rejected": [
+  {
+   "file_deleted": "docs/safety-probe-raw/osm/trails-nodes.json",
+   "instance": "https://overpass.kumi.systems/api/interpreter",
+   "timestamp_osm_base": "2026-06-01T08:52:28Z",
+   "problem": "returned relation 3508527 (White River Trail) with 3 of its 5 member ways; the OSM API confirms 5. Silently truncated, HTTP 200.",
+   "superseded_by": "docs/safety-probe-raw/osm/trails-osmapi-full.json (api.openstreetmap.org relation/full.json)"
+  },
+  {
+   "file_deleted": "docs/safety-probe-raw/osm/street-maxspeed-all.json",
+   "instance": "https://overpass.kumi.systems/api/interpreter",
+   "timestamp_osm_base": "2026-07-28T02:16:18Z",
+   "problem": "403 elements on a stale snapshot; the file was then overwritten by a failed overpass-api.de refetch and left as a 141-byte empty stub.",
+   "superseded_by": "docs/safety-probe-raw/osm/roads-tags-compact.json (overpass-api.de, 2026-09-15T21:06:55Z, 16900 ways)"
+  }
+ ],
+ "also_observed_by": "the independent osm-island-analyst child agent, which recorded timestamp_osm_base 2026-06-01T08:52:28Z on its kumi.systems responses for relations 8826064 and 9605519",
+ "note": "docs/data/raw/q3-member-ways-nodes.json carries the same 2026-06-01 stamp and should be re-verified."
+}

@@ -1,0 +1,6 @@
+{
+ "error_code": 137,
+ "error": "Failed to parse polygon: Latitude must be in the range [-90, 90] degrees",
+ "status_code": 400,
+ "status": "Bad Request"
+}

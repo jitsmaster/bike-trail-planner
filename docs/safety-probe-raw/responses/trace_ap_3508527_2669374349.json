@@ -1,0 +1,2254 @@
+{
+ "units": "kilometers",
+ "edges": [
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 736260642,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "driveway",
+   "begin_shape_index": 0,
+   "road_class": "service_other",
+   "speed": 25,
+   "length": 0.015,
+   "source_percent_along": 0.569
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 736260642,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "driveway",
+   "begin_shape_index": 1,
+   "road_class": "service_other",
+   "speed": 25,
+   "length": 0.045
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1372717282,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 4,
+   "road_class": "residential",
+   "speed": 18,
+   "length": 0.181,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1372717282,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 15,
+   "road_class": "residential",
+   "speed": 18,
+   "length": 0.099,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 18,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.24,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 20,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.15,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 21,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.152,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 22,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.025,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 3.333,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 23,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.048,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 24,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.024,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 3.333,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 25,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.041,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 26,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.045,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 27,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.076,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -8.333,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 28,
+   "road_class": "tertiary",
+   "speed": 36,
+   "length": 0.092,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 29,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.189,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 3.333,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 35,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.081,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 36,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.144,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 37,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.018,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 38,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.036,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 39,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.005,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 40,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.075,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 41,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.016,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 42,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.01,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 43,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.048,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 44,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.023,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 45,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.07,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 46,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.095,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 47,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.025,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 49,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.018,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 50,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.065,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 52,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.017,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 54,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.041,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 55,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.047,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 56,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.027,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 57,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.013,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -6.666,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 58,
+   "road_class": "tertiary",
+   "speed": 34,
+   "length": 0.097,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 61,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.006,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 62,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.061,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 63,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.039,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -10.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 64,
+   "road_class": "tertiary",
+   "speed": 40,
+   "length": 0.115,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -5.0,
+   "way_id": 765606369,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 67,
+   "road_class": "tertiary",
+   "speed": 31,
+   "length": 0.074,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 765606369,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 68,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.016,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12200224,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 69,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.013,
+   "names": [
+    "Jovita Boulevard East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 12200224,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 70,
+   "road_class": "secondary",
+   "speed": 22,
+   "length": 0.021,
+   "names": [
+    "Jovita Boulevard East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 12200224,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 72,
+   "road_class": "secondary",
+   "speed": 22,
+   "length": 0.043,
+   "names": [
+    "Jovita Boulevard East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 12200224,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 74,
+   "road_class": "secondary",
+   "speed": 25,
+   "length": 0.1,
+   "names": [
+    "Jovita Boulevard East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 12200224,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 80,
+   "road_class": "secondary",
+   "speed": 25,
+   "length": 0.058,
+   "names": [
+    "Jovita Boulevard East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 12200224,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 81,
+   "road_class": "secondary",
+   "speed": 22,
+   "length": 1.374,
+   "names": [
+    "Jovita Boulevard East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 12200224,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 144,
+   "road_class": "secondary",
+   "speed": 22,
+   "length": 0.038,
+   "names": [
+    "Jovita Boulevard East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 12200224,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 147,
+   "road_class": "secondary",
+   "speed": 22,
+   "length": 0.013,
+   "names": [
+    "Jovita Boulevard East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1455331513,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 148,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.011,
+   "names": [
+    "Jovita Boulevard East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1455331513,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 149,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.019,
+   "names": [
+    "Jovita Boulevard East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1455331513,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 150,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.013,
+   "names": [
+    "Jovita Boulevard East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1089013950,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 151,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.038,
+   "names": [
+    "Stewart Road Southwest"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 623959879,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 152,
+   "road_class": "secondary",
+   "speed": 17,
+   "length": 0.043,
+   "names": [
+    "Stewart Road Southwest"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 428940543,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 153,
+   "road_class": "secondary",
+   "speed": 22,
+   "length": 0.092,
+   "names": [
+    "Stewart Road Southwest"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 623959887,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 155,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.012,
+   "names": [
+    "Stewart Road Southwest"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 623959887,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 156,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.052,
+   "names": [
+    "Stewart Road Southwest"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 623959887,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 160,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.049,
+   "names": [
+    "Stewart Road Southwest"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 623959888,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 162,
+   "road_class": "secondary",
+   "speed": 17,
+   "length": 0.025,
+   "names": [
+    "Stewart Road Southwest"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 623959888,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 163,
+   "road_class": "secondary",
+   "speed": 17,
+   "length": 0.039,
+   "names": [
+    "Stewart Road Southwest"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 623959888,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 164,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.044,
+   "names": [
+    "Stewart Road Southwest"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 623959888,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 165,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.016,
+   "names": [
+    "Stewart Road Southwest"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 623959886,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 166,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.022,
+   "names": [
+    "Stewart Road Southwest"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 623959886,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 167,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.041,
+   "names": [
+    "Stewart Road Southwest"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 623959886,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 168,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.052,
+   "names": [
+    "Stewart Road Southwest"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 623959885,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 170,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.005,
+   "names": [
+    "Stewart Road Southwest"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 623959885,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 171,
+   "road_class": "secondary",
+   "speed": 17,
+   "length": 0.058,
+   "names": [
+    "Stewart Road Southwest"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 23739089,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 172,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.012,
+   "names": [
+    "Stewart Road Southwest"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 23739089,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 173,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.013,
+   "names": [
+    "Stewart Road Southwest"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 23739089,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 174,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.019,
+   "names": [
+    "Stewart Road Southwest"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 23739089,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 176,
+   "road_class": "secondary",
+   "speed": 17,
+   "length": 0.021,
+   "names": [
+    "Stewart Road Southwest"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 23739089,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 178,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.022,
+   "names": [
+    "Stewart Road Southwest"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 23739089,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 179,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.034,
+   "names": [
+    "Stewart Road Southwest"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 23739089,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 180,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.017,
+   "names": [
+    "Stewart Road Southwest"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 740923318,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 181,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.015,
+   "names": [
+    "Stewart Road Southeast"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 740923318,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 182,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.052,
+   "names": [
+    "Stewart Road Southeast"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1437032021,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 183,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.026,
+   "names": [
+    "Stewart Road Southeast"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12232605,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 184,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.009,
+   "names": [
+    "Stewart Road Southeast"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12232605,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 185,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.103,
+   "names": [
+    "Stewart Road Southeast"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1436337293,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 189,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.058,
+   "names": [
+    "Stewart Road Southeast"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 1436337293,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 190,
+   "road_class": "secondary",
+   "speed": 17,
+   "length": 0.016,
+   "names": [
+    "Stewart Road Southeast"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 1436337292,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 192,
+   "road_class": "secondary",
+   "speed": 22,
+   "length": 0.061,
+   "names": [
+    "Stewart Road Southeast"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 25680534,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 194,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.094,
+   "names": [
+    "Stewart Road"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1436337291,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 195,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.031,
+   "names": [
+    "Stewart Road"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 1436337291,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 197,
+   "road_class": "secondary",
+   "speed": 17,
+   "length": 0.055,
+   "names": [
+    "Stewart Road"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1436337291,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 198,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.017,
+   "names": [
+    "Stewart Road"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1437032022,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 199,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.017,
+   "names": [
+    "Stewart Road"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1437032022,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 200,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.076,
+   "names": [
+    "Stewart Road"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1436337290,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 201,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.037,
+   "names": [
+    "Stewart Road"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1436337290,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 202,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.004,
+   "names": [
+    "Stewart Road"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1437032023,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 203,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.087,
+   "names": [
+    "Stewart Road"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1437032023,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 205,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.007,
+   "names": [
+    "Stewart Road"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1437032024,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 206,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.008,
+   "names": [
+    "Stewart Road"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1437032024,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 207,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.012,
+   "names": [
+    "Stewart Road"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1437032024,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 208,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.059,
+   "names": [
+    "Stewart Road"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1437032024,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 209,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.015,
+   "names": [
+    "Stewart Road"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1437032024,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 210,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.011,
+   "names": [
+    "Stewart Road"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 228600431,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 211,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.092,
+   "names": [
+    "Stewart Road"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 228600431,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 216,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.088,
+   "names": [
+    "Stewart Road"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 1,
+   "cycle_lane": "shared",
+   "weighted_grade": 0.0,
+   "way_id": 261467941,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "cycleway",
+   "begin_shape_index": 219,
+   "road_class": "service_other",
+   "speed": 18,
+   "length": 0.015,
+   "names": [
+    "Lake Tapps Parkway Trail"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 1,
+   "cycle_lane": "shared",
+   "weighted_grade": 0.0,
+   "way_id": 261467941,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "cycleway",
+   "begin_shape_index": 221,
+   "road_class": "service_other",
+   "speed": 18,
+   "length": 0.471,
+   "names": [
+    "Lake Tapps Parkway Trail"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 1,
+   "cycle_lane": "shared",
+   "weighted_grade": 1.666,
+   "way_id": 759075987,
+   "surface": "paved",
+   "unpaved": false,
+   "use": "cycleway",
+   "begin_shape_index": 236,
+   "road_class": "service_other",
+   "speed": 17,
+   "length": 0.024,
+   "names": [
+    "Lake Tapps Parkway Trail"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 1,
+   "cycle_lane": "shared",
+   "weighted_grade": -3.333,
+   "way_id": 759075986,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "cycleway",
+   "begin_shape_index": 237,
+   "road_class": "service_other",
+   "speed": 25,
+   "length": 0.049,
+   "names": [
+    "Lake Tapps Parkway Trail"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1326182522,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 241,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.146,
+   "names": [
+    "East Valley Highway East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1326182522,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 242,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.014,
+   "names": [
+    "East Valley Highway East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1326182521,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 243,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.279,
+   "names": [
+    "East Valley Highway East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1326182521,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 246,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.162,
+   "names": [
+    "East Valley Highway East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1326182521,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 247,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.006,
+   "names": [
+    "East Valley Highway East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1326182521,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 248,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.011,
+   "names": [
+    "East Valley Highway East"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 687694010,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 249,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.081,
+   "names": [
+    "A Street Southeast"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 687694010,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 250,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.084,
+   "names": [
+    "A Street Southeast"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 687694010,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 251,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.131,
+   "names": [
+    "A Street Southeast"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 687694010,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 253,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.124,
+   "names": [
+    "A Street Southeast"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 985052702,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 254,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.06,
+   "names": [
+    "A Street Southeast"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 985052701,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 255,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.045,
+   "names": [
+    "A Street Southeast"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 906076285,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 256,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.01,
+   "names": [
+    "A Street Southeast"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 687694008,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 257,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.059,
+   "names": [
+    "A Street Southeast"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1086889099,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 258,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.088,
+   "names": [
+    "A Street Southeast"
+   ]
+  },
+  {
+   "speed_limit": 56,
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 1086889100,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 259,
+   "road_class": "secondary",
+   "speed": 17,
+   "length": 0.039,
+   "names": [
+    "A Street Southeast"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 674202154,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "service_road",
+   "begin_shape_index": 261,
+   "road_class": "service_other",
+   "speed": 18,
+   "length": 0.005
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 674202154,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "service_road",
+   "begin_shape_index": 262,
+   "road_class": "service_other",
+   "speed": 17,
+   "length": 0.079
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 674202154,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "service_road",
+   "begin_shape_index": 267,
+   "road_class": "service_other",
+   "speed": 18,
+   "length": 0.009
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 674202154,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "service_road",
+   "begin_shape_index": 270,
+   "road_class": "service_other",
+   "speed": 22,
+   "length": 0.0,
+   "target_percent_along": 0.003
+  }
+ ],
+ "alternate_paths": []
+}

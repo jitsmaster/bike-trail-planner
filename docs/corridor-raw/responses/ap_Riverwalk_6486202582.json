@@ -1,0 +1,209 @@
+{
+ "trip": {
+  "locations": [
+   {
+    "type": "break",
+    "lat": 47.240371,
+    "lon": -122.262019,
+    "side_of_street": "left",
+    "original_index": 0
+   },
+   {
+    "type": "break",
+    "lat": 47.195472,
+    "lon": -122.287791,
+    "original_index": 1
+   }
+  ],
+  "legs": [
+   {
+    "maneuvers": [
+     {
+      "type": 3,
+      "instruction": "Bike west on 18th Street East.",
+      "verbal_succinct_transition_instruction": "Bike west.",
+      "verbal_pre_transition_instruction": "Bike west on 18th Street East.",
+      "verbal_post_transition_instruction": "Continue for 300 meters.",
+      "street_names": [
+       "18th Street East"
+      ],
+      "bearing_after": 266,
+      "time": 65.669,
+      "length": 0.34,
+      "cost": 115.027,
+      "begin_shape_index": 0,
+      "end_shape_index": 18,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto 122nd Avenue East.",
+      "verbal_transition_alert_instruction": "Turn left onto 122nd Avenue East.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto 122nd Avenue East.",
+      "verbal_post_transition_instruction": "Continue for 2.5 kilometers.",
+      "street_names": [
+       "122nd Avenue East"
+      ],
+      "bearing_before": 281,
+      "bearing_after": 187,
+      "time": 539.097,
+      "length": 2.581,
+      "cost": 1059.678,
+      "begin_shape_index": 18,
+      "end_shape_index": 74,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right onto 43rd Street Court East.",
+      "verbal_transition_alert_instruction": "Turn right onto 43rd Street Court East.",
+      "verbal_succinct_transition_instruction": "Turn right.",
+      "verbal_pre_transition_instruction": "Turn right onto 43rd Street Court East.",
+      "verbal_post_transition_instruction": "Continue for 800 meters.",
+      "street_names": [
+       "43rd Street Court East"
+      ],
+      "bearing_before": 179,
+      "bearing_after": 270,
+      "time": 162.115,
+      "length": 0.812,
+      "cost": 261.715,
+      "begin_shape_index": 74,
+      "end_shape_index": 79,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto 114th Avenue East.",
+      "verbal_transition_alert_instruction": "Turn left onto 114th Avenue East.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto 114th Avenue East.",
+      "verbal_post_transition_instruction": "Continue for 500 meters.",
+      "street_names": [
+       "114th Avenue East"
+      ],
+      "bearing_before": 271,
+      "bearing_after": 179,
+      "time": 96.49,
+      "length": 0.546,
+      "cost": 151.701,
+      "begin_shape_index": 79,
+      "end_shape_index": 91,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right onto 48th Street East.",
+      "verbal_transition_alert_instruction": "Turn right onto 48th Street East.",
+      "verbal_succinct_transition_instruction": "Turn right.",
+      "verbal_pre_transition_instruction": "Turn right onto 48th Street East.",
+      "verbal_post_transition_instruction": "Continue for 600 meters.",
+      "street_names": [
+       "48th Street East"
+      ],
+      "bearing_before": 179,
+      "bearing_after": 281,
+      "time": 86.792,
+      "length": 0.632,
+      "cost": 209.525,
+      "begin_shape_index": 91,
+      "end_shape_index": 121,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto Chrisella Road East.",
+      "verbal_transition_alert_instruction": "Turn left onto Chrisella Road East.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto Chrisella Road East.",
+      "verbal_post_transition_instruction": "Continue for 2.5 kilometers.",
+      "street_names": [
+       "Chrisella Road East"
+      ],
+      "bearing_before": 282,
+      "bearing_after": 188,
+      "time": 420.124,
+      "length": 2.29,
+      "cost": 809.231,
+      "begin_shape_index": 121,
+      "end_shape_index": 226,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right onto 5th Avenue Northeast.",
+      "verbal_transition_alert_instruction": "Turn right onto 5th Avenue Northeast.",
+      "verbal_succinct_transition_instruction": "Turn right. Then You will arrive at your destination.",
+      "verbal_pre_transition_instruction": "Turn right onto 5th Avenue Northeast. Then You will arrive at your destination.",
+      "verbal_post_transition_instruction": "Continue for 10 meters.",
+      "street_names": [
+       "5th Avenue Northeast"
+      ],
+      "bearing_before": 179,
+      "bearing_after": 272,
+      "time": 6.0,
+      "length": 0.01,
+      "cost": 24.018,
+      "begin_shape_index": 226,
+      "end_shape_index": 227,
+      "verbal_multi_cue": true,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 4,
+      "instruction": "You have arrived at your destination.",
+      "verbal_transition_alert_instruction": "You will arrive at your destination.",
+      "verbal_pre_transition_instruction": "You have arrived at your destination.",
+      "bearing_before": 272,
+      "time": 0.0,
+      "length": 0.0,
+      "cost": 0.0,
+      "begin_shape_index": 227,
+      "end_shape_index": 227,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     }
+    ],
+    "summary": {
+     "has_time_restrictions": false,
+     "has_toll": false,
+     "has_highway": false,
+     "has_ferry": false,
+     "min_lat": 47.195468,
+     "min_lon": -122.287791,
+     "max_lat": 47.241057,
+     "max_lon": -122.262046,
+     "time": 1376.289,
+     "length": 7.211,
+     "cost": 2630.899
+    },
+    "shape": "{|ibyAz`hehFPlLKhMZ`Lz@`HC`v@EdES`C]|A_@p@c@XcOeAmBZa@p@m@zDJhf@Pvy@UnNi@|EpYxC~IfAl[zD`LtA|]tEjf@fG~MbBfRhCrFp@rM`BbLtAl_@vEpGv@tGx@jG`Aru@pHv\\|@`Xl@bCLlRVvlAzA`NPh[d@v^j@tYV|Xn@`@@vw@dA~DFdh@\\vFPj|@jAn[Gnx@M|BArl@Kva@Yxt@_@jCA|GD`^Cj\\C`NEr^KfNEjBAdNEdd@m@lg@Yrt@O|QEre@Kh@?`^MlOGbf@S^buHBzZAdE]x_Da@~dDhWIxB?x\\K|SEfEAvw@H`CAja@Mpp@Un[c@bSMl[Qe@rFk@fJsBhTs@lF]jC}@jFwAdG}@lC{CvHkU~_@aCrF_FrQyA|IaArJyB|Z{Cla@oA|PKnLEz@JnSJnKTtUApLAhJ_@~Rw@|S}Bvb@oEzy@El@oApP|AJtBLhI~AvCV|A\\pD?bBS~BaAdDwCdByCnCqGtGmRhF{O~CqJv@gBvDyE`F}ElIyGpCqChDiE~DoErBoC|GoMnAkBpBeBrDy@nAMzALhBb@xAn@|LbK~E`DxBbAjE`AlF^xKa@pP}@|G_@jBWnCOjFoAnEsCzDyDdNsOjNcOtAoApAoAdDeCvLuGdBo@tG_CtIiBtCc@bAAnOMlII`MMfMBraAVjRTbHdB`GvAjCn@zWfGvFrAzHnBhBd@zs@zQxLzCfb@pK|VpG|w@lShV|FvKhCrFvAx]|IfU|FvElB~CnAtAbAlBtAxSnRhYvYpV~VnDtD~F~F|VzV|AvAlBhBvd@dc@xGtFxDtBtGhCrAf@xHhAzANjHv@do@WjXQpIEzCEP?B?bX[vWOEnG"
+   }
+  ],
+  "summary": {
+   "has_time_restrictions": false,
+   "has_toll": false,
+   "has_highway": false,
+   "has_ferry": false,
+   "min_lat": 47.195468,
+   "min_lon": -122.287791,
+   "max_lat": 47.241057,
+   "max_lon": -122.262046,
+   "time": 1376.289,
+   "length": 7.211,
+   "cost": 2630.899
+  },
+  "status_message": "Found route between points",
+  "status": 0,
+  "units": "kilometers",
+  "language": "en-US"
+ }
+}

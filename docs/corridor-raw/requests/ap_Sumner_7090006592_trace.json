@@ -1,0 +1,28 @@
+{
+ "encoded_polyline": "{|ibyAz`hehFPlLKhMZ`Lz@`HC`v@EdES`C]|A_@p@c@XcOeAmBZa@p@m@zDJhf@Pvy@UnNi@|EpYxC~IfAl[zD`LtA|]tEjf@fG~MbBfRhCrFp@rM`BbLtAl_@vEpGv@tGx@jG`Aru@pHv\\|@`Xl@bCLlRVvlAzA`NPh[d@v^j@tYV|Xn@`@@vw@dA~DFdh@\\vFPj|@jAn[Gnx@M|BArl@Kva@Yxt@_@jCA|GD`^Cj\\C`NEr^KfNEjBAdNEdd@m@lg@Yrt@O|QEre@Kh@?`^MlOGbf@S|BCjTF~A?d^Mlc@QdRFnc@LnD@tj@m@z\\]tXYCc`@C}c@?qJAkM?m@@a_@?uG@_S?eE@_t@IehAGan@@aq@?yQ\\oF`BwInAsDvUi`@hOwSbGkJ|IiNLS`Ysi@~LuX|C}I^eAbBqFhDeN~DmT|BsKtI_f@zIoa@|H}XrIqW~CkH`LwUhGmKlHkLlFiH`IyJ~GiH`LsKnLcKlJ}GxIcFrKsD`h@gNhWgIxFuBnNiFFCnF}BbFcC|FqC~D{BtAeAt_Amp@bF}CjAc@pB_@hFg@jA@jA@hANnAXtAr@fCnB|AvAhB~BpD|DzBjBnCjBjKzExAXxANvA?bBQlCu@fRkJjPyNhC}B`BwCpA{Fx@mGJaHi@yV}@qMkAcKoB_KeB{G_ByEfOkLfA{@rN{H}Ocs@oGgYsFcVWmAqAuGa@kFGgGVeHnAeFfAgDrAyCdXwi@lCwFbGcTbAsEjByH~@qEdCqKnCf@NJ",
+ "shape_match": "edge_walk",
+ "costing": "bicycle",
+ "units": "kilometers",
+ "filters": {
+  "action": "include",
+  "attributes": [
+   "edge.road_class",
+   "edge.use",
+   "edge.surface",
+   "edge.unpaved",
+   "edge.cycle_lane",
+   "edge.bicycle_network",
+   "edge.shoulder",
+   "edge.speed_limit",
+   "edge.lanes",
+   "edge.length",
+   "edge.names",
+   "edge.way_id",
+   "edge.cycleway",
+   "edge.begin_shape_index",
+   "edge.end_shape_index",
+   "edge.speed",
+   "edge.traversability"
+  ]
+ }
+}

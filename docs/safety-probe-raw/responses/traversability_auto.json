@@ -1,0 +1,188 @@
+{
+ "trip": {
+  "locations": [
+   {
+    "type": "break",
+    "lat": 47.218444,
+    "lon": -122.231109,
+    "side_of_street": "right",
+    "original_index": 0
+   },
+   {
+    "type": "break",
+    "lat": 47.235528,
+    "lon": -122.234937,
+    "original_index": 1
+   }
+  ],
+  "legs": [
+   {
+    "maneuvers": [
+     {
+      "type": 2,
+      "instruction": "Drive west on 150th Avenue Court East.",
+      "verbal_succinct_transition_instruction": "Drive west.",
+      "verbal_pre_transition_instruction": "Drive west on 150th Avenue Court East.",
+      "verbal_post_transition_instruction": "Continue for 300 meters.",
+      "street_names": [
+       "150th Avenue Court East"
+      ],
+      "bearing_after": 253,
+      "time": 77.804,
+      "length": 0.345,
+      "cost": 81.656,
+      "begin_shape_index": 0,
+      "end_shape_index": 8,
+      "travel_mode": "drive",
+      "travel_type": "car"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right onto 45th Street East.",
+      "verbal_transition_alert_instruction": "Turn right onto 45th Street East.",
+      "verbal_succinct_transition_instruction": "Turn right.",
+      "verbal_pre_transition_instruction": "Turn right onto 45th Street East.",
+      "verbal_post_transition_instruction": "Continue for 300 meters.",
+      "street_names": [
+       "45th Street East"
+      ],
+      "bearing_before": 180,
+      "bearing_after": 269,
+      "time": 77.65,
+      "length": 0.321,
+      "cost": 111.871,
+      "begin_shape_index": 8,
+      "end_shape_index": 22,
+      "travel_mode": "drive",
+      "travel_type": "car"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto Tacoma Avenue.",
+      "verbal_transition_alert_instruction": "Turn left onto Tacoma Avenue.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto Tacoma Avenue.",
+      "verbal_post_transition_instruction": "Continue for 300 meters.",
+      "street_names": [
+       "Tacoma Avenue"
+      ],
+      "bearing_before": 218,
+      "bearing_after": 137,
+      "time": 43.918,
+      "length": 0.33,
+      "cost": 66.61,
+      "begin_shape_index": 22,
+      "end_shape_index": 43,
+      "travel_mode": "drive",
+      "travel_type": "car"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto Puyallup Street.",
+      "verbal_transition_alert_instruction": "Turn left onto Puyallup Street.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto Puyallup Street.",
+      "verbal_post_transition_instruction": "Continue for 800 meters.",
+      "street_names": [
+       "Puyallup Street"
+      ],
+      "bearing_before": 179,
+      "bearing_after": 89,
+      "time": 101.98,
+      "length": 0.775,
+      "cost": 151.316,
+      "begin_shape_index": 43,
+      "end_shape_index": 70,
+      "travel_mode": "drive",
+      "travel_type": "car"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto East Valley Highway East.",
+      "verbal_transition_alert_instruction": "Turn left onto East Valley Highway East.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto East Valley Highway East.",
+      "verbal_post_transition_instruction": "Continue for 2.5 kilometers.",
+      "street_names": [
+       "East Valley Highway East"
+      ],
+      "bearing_before": 90,
+      "bearing_after": 4,
+      "time": 297.318,
+      "length": 2.607,
+      "cost": 330.786,
+      "begin_shape_index": 70,
+      "end_shape_index": 145,
+      "travel_mode": "drive",
+      "travel_type": "car"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto 24th Street East.",
+      "verbal_transition_alert_instruction": "Turn left onto 24th Street East.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto 24th Street East.",
+      "verbal_post_transition_instruction": "Continue for 700 meters.",
+      "street_names": [
+       "24th Street East"
+      ],
+      "bearing_before": 337,
+      "bearing_after": 269,
+      "time": 180.744,
+      "length": 0.667,
+      "cost": 494.676,
+      "begin_shape_index": 145,
+      "end_shape_index": 155,
+      "travel_mode": "drive",
+      "travel_type": "car"
+     },
+     {
+      "type": 4,
+      "instruction": "You have arrived at your destination.",
+      "verbal_transition_alert_instruction": "You will arrive at your destination.",
+      "verbal_pre_transition_instruction": "You have arrived at your destination.",
+      "bearing_before": 272,
+      "time": 0.0,
+      "length": 0.0,
+      "cost": 0.0,
+      "begin_shape_index": 155,
+      "end_shape_index": 155,
+      "travel_mode": "drive",
+      "travel_type": "car"
+     }
+    ],
+    "summary": {
+     "has_time_restrictions": false,
+     "has_toll": false,
+     "has_highway": false,
+     "has_ferry": false,
+     "min_lat": 47.212486,
+     "min_lon": -122.237416,
+     "max_lat": 47.235523,
+     "max_lon": -122.224405,
+     "time": 779.417,
+     "length": 5.045,
+     "cost": 1236.918
+    },
+    "shape": "qh~`yAbpkchFxCvV|I`b@fMpq@hFdL`QpNfKxBr}@KbE?BnSDvk@BrWBxUFfj@?vHBjNBp]TlCP|BvAnHnCfJtCrGnDlExDgGb@g@zDmEvEeErG{DlFaCxE{AzCo@nCa@dCQz@I|DK|EKvI@vG?pe@DlXMvECtACzGC|CAM{p@@eZ@mRAgGAcTMyfAAkF?mC@kC@_ODyh@?cBj@cI`B_IbCaI|E_Kx@gBjJiXfAoHZmFBcHDoEAghA?_lAAgXA_{@?kKke@{BmmA}FgDOmc@cBwy@aDqa@}AkTcAan@qC_SaAel@mCwOU_OSyJEiJBmFNiBFk]jBge@jCaP`BkRdDiWjGaQvEgKzCkQ|GqLhHyDzCcMzIsDhCeHfAiIPsXe@{iAoB_c@qAkR_C_LeBeMcCyMgEqKyE}MsGmFkBaV_HgMcBiSaBuOmB{FiAy^wK}Z}EgL{C{HoCg^_TsQuIiJ}DwHuB}UwGmSyFaPiEcPiEoQ}E{Bk@oYyHiMcCeE[iJ@yOv@aIx@iPhAmLtBsPzCoDfAeCtAuCbByDjCmFpEeF~CeFdCRve@KlgBAnSBlNo@|TAvBOnl@gAhcDIbPgA`vB"
+   }
+  ],
+  "summary": {
+   "has_time_restrictions": false,
+   "has_toll": false,
+   "has_highway": false,
+   "has_ferry": false,
+   "min_lat": 47.212486,
+   "min_lon": -122.237416,
+   "max_lat": 47.235523,
+   "max_lon": -122.224405,
+   "time": 779.417,
+   "length": 5.045,
+   "cost": 1236.918
+  },
+  "status_message": "Found route between points",
+  "status": 0,
+  "units": "kilometers",
+  "language": "en-US"
+ }
+}

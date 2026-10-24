@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      D19: the app is always light (it is ridden in daylight). forceDarkAllowed stops the platform
+      from auto-darkening any View, and the window colours are set here so nothing flashes dark
+      between the splash screen and the first frame.
+    -->
+    <style name="Theme.BikeTrailPlanner" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="android:windowBackground">@color/surface_light</item>
+        <item name="android:colorBackground">@color/surface_light</item>
+        <item name="android:statusBarColor">@color/surface_light</item>
+        <item name="android:navigationBarColor">@color/surface_light</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:enforceStatusBarContrast">false</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+    </style>
+</resources>

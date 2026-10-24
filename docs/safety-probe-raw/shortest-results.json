@@ -1,0 +1,310 @@
+[
+ {
+  "rid": 3508527,
+  "trail": "White River Trail",
+  "node": 6313900974,
+  "km": 8.156,
+  "generous_repair": {
+   "mode": "generous_repair",
+   "pass": false,
+   "fails": [
+    "D = 1447 m > 805 m cap",
+    "D = 17.7% > 10% cap"
+   ],
+   "A_m": 571.0,
+   "B_m": 0.0,
+   "C_m": 6136.0,
+   "D_m": 1447.0,
+   "E_m": 0.0,
+   "GAP_m": 0.0,
+   "REJECT_m": 0.0,
+   "total_m": 8154.0,
+   "D_share_pct": 17.75
+  },
+  "lenient_repair": {
+   "mode": "lenient_repair",
+   "pass": false,
+   "fails": [
+    "E = 2753 m",
+    "D = 3779 m > 805 m cap",
+    "D = 46.3% > 10% cap"
+   ],
+   "A_m": 571.0,
+   "B_m": 0.0,
+   "C_m": 1051.0,
+   "D_m": 3779.0,
+   "E_m": 2753.0,
+   "GAP_m": 0.0,
+   "REJECT_m": 0.0,
+   "total_m": 8154.0,
+   "D_share_pct": 46.35
+  },
+  "streets_generous_D": [
+   [
+    "Stewart Road Southwest",
+    726
+   ],
+   [
+    "A Street Southeast",
+    721
+   ]
+  ],
+  "streets_lenient_E": [
+   [
+    "Jovita Boulevard East",
+    1703
+   ],
+   [
+    "Stewart Road",
+    710
+   ],
+   [
+    "Stewart Road Southeast",
+    340
+   ]
+  ]
+ },
+ {
+  "rid": 6554034,
+  "trail": "Interurban Trail Milton",
+  "node": 3213531052,
+  "km": 5.425,
+  "generous_repair": {
+   "mode": "generous_repair",
+   "pass": true,
+   "fails": [],
+   "A_m": 73.0,
+   "B_m": 0.0,
+   "C_m": 5352.0,
+   "D_m": 0.0,
+   "E_m": 0.0,
+   "GAP_m": 0.0,
+   "REJECT_m": 0.0,
+   "total_m": 5425.0,
+   "D_share_pct": 0.0
+  },
+  "lenient_repair": {
+   "mode": "lenient_repair",
+   "pass": false,
+   "fails": [
+    "D = 4995 m > 805 m cap",
+    "D = 92.1% > 10% cap"
+   ],
+   "A_m": 73.0,
+   "B_m": 0.0,
+   "C_m": 357.0,
+   "D_m": 4995.0,
+   "E_m": 0.0,
+   "GAP_m": 0.0,
+   "REJECT_m": 0.0,
+   "total_m": 5425.0,
+   "D_share_pct": 92.07
+  },
+  "streets_generous_D": [],
+  "streets_lenient_E": []
+ },
+ {
+  "rid": 8826064,
+  "trail": "Interurban Trail Edgewood",
+  "node": 2646861901,
+  "km": 3.849,
+  "generous_repair": {
+   "mode": "generous_repair",
+   "pass": true,
+   "fails": [],
+   "A_m": 1055.0,
+   "B_m": 0.0,
+   "C_m": 2792.0,
+   "D_m": 0.0,
+   "E_m": 0.0,
+   "GAP_m": 0.0,
+   "REJECT_m": 0.0,
+   "total_m": 3847.0,
+   "D_share_pct": 0.0
+  },
+  "lenient_repair": {
+   "mode": "lenient_repair",
+   "pass": false,
+   "fails": [
+    "D = 2452 m > 805 m cap",
+    "D = 63.7% > 10% cap"
+   ],
+   "A_m": 1055.0,
+   "B_m": 0.0,
+   "C_m": 340.0,
+   "D_m": 2452.0,
+   "E_m": 0.0,
+   "GAP_m": 0.0,
+   "REJECT_m": 0.0,
+   "total_m": 3847.0,
+   "D_share_pct": 63.74
+  },
+  "streets_generous_D": [],
+  "streets_lenient_E": []
+ },
+ {
+  "rid": 9605517,
+  "trail": "Riverwalk Trail",
+  "node": 6486202531,
+  "km": 6.773,
+  "generous_repair": {
+   "mode": "generous_repair",
+   "pass": true,
+   "fails": [],
+   "A_m": 222.0,
+   "B_m": 181.0,
+   "C_m": 6369.0,
+   "D_m": 0.0,
+   "E_m": 0.0,
+   "GAP_m": 0.0,
+   "REJECT_m": 0.0,
+   "total_m": 6772.0,
+   "D_share_pct": 0.0
+  },
+  "lenient_repair": {
+   "mode": "lenient_repair",
+   "pass": false,
+   "fails": [
+    "E = 770 m",
+    "D = 3870 m > 805 m cap",
+    "D = 57.1% > 10% cap"
+   ],
+   "A_m": 222.0,
+   "B_m": 181.0,
+   "C_m": 1729.0,
+   "D_m": 3870.0,
+   "E_m": 770.0,
+   "GAP_m": 0.0,
+   "REJECT_m": 0.0,
+   "total_m": 6772.0,
+   "D_share_pct": 57.15
+  },
+  "streets_generous_D": [],
+  "streets_lenient_E": [
+   [
+    "Traffic Avenue",
+    770
+   ]
+  ]
+ },
+ {
+  "rid": 9605518,
+  "trail": "Sumner Link Trail",
+  "node": 2670828225,
+  "km": 6.926,
+  "generous_repair": {
+   "mode": "generous_repair",
+   "pass": false,
+   "fails": [
+    "D = 10.5% > 10% cap"
+   ],
+   "A_m": 967.0,
+   "B_m": 0.0,
+   "C_m": 5231.0,
+   "D_m": 726.0,
+   "E_m": 0.0,
+   "GAP_m": 0.0,
+   "REJECT_m": 0.0,
+   "total_m": 6924.0,
+   "D_share_pct": 10.49
+  },
+  "lenient_repair": {
+   "mode": "lenient_repair",
+   "pass": false,
+   "fails": [
+    "E = 2547 m",
+    "D = 3058 m > 805 m cap",
+    "D = 44.2% > 10% cap"
+   ],
+   "A_m": 967.0,
+   "B_m": 0.0,
+   "C_m": 352.0,
+   "D_m": 3058.0,
+   "E_m": 2547.0,
+   "GAP_m": 0.0,
+   "REJECT_m": 0.0,
+   "total_m": 6924.0,
+   "D_share_pct": 44.17
+  },
+  "streets_generous_D": [
+   [
+    "Stewart Road Southwest",
+    726
+   ]
+  ],
+  "streets_lenient_E": [
+   [
+    "Jovita Boulevard East",
+    1703
+   ],
+   [
+    "Stewart Road",
+    504
+   ],
+   [
+    "Stewart Road Southeast",
+    340
+   ]
+  ]
+ },
+ {
+  "rid": 9605519,
+  "trail": "Lake Tapps Parkway Trail",
+  "node": 10900530370,
+  "km": 6.019,
+  "generous_repair": {
+   "mode": "generous_repair",
+   "pass": false,
+   "fails": [
+    "D = 12.1% > 10% cap"
+   ],
+   "A_m": 61.0,
+   "B_m": 0.0,
+   "C_m": 5231.0,
+   "D_m": 726.0,
+   "E_m": 0.0,
+   "GAP_m": 0.0,
+   "REJECT_m": 0.0,
+   "total_m": 6018.0,
+   "D_share_pct": 12.06
+  },
+  "lenient_repair": {
+   "mode": "lenient_repair",
+   "pass": false,
+   "fails": [
+    "E = 2547 m",
+    "D = 3058 m > 805 m cap",
+    "D = 50.8% > 10% cap"
+   ],
+   "A_m": 61.0,
+   "B_m": 0.0,
+   "C_m": 352.0,
+   "D_m": 3058.0,
+   "E_m": 2547.0,
+   "GAP_m": 0.0,
+   "REJECT_m": 0.0,
+   "total_m": 6018.0,
+   "D_share_pct": 50.81
+  },
+  "streets_generous_D": [
+   [
+    "Stewart Road Southwest",
+    726
+   ]
+  ],
+  "streets_lenient_E": [
+   [
+    "Jovita Boulevard East",
+    1703
+   ],
+   [
+    "Stewart Road",
+    504
+   ],
+   [
+    "Stewart Road Southeast",
+    340
+   ]
+  ]
+ }
+]

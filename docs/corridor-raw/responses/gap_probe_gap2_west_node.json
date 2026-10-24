@@ -1,0 +1,166 @@
+{
+ "trip": {
+  "locations": [
+   {
+    "type": "break",
+    "lat": 47.240371,
+    "lon": -122.262019,
+    "side_of_street": "left",
+    "original_index": 0
+   },
+   {
+    "type": "break",
+    "lat": 47.24229,
+    "lon": -122.26095,
+    "original_index": 1
+   }
+  ],
+  "legs": [
+   {
+    "maneuvers": [
+     {
+      "type": 3,
+      "instruction": "Bike west on 18th Street East.",
+      "verbal_succinct_transition_instruction": "Bike west.",
+      "verbal_pre_transition_instruction": "Bike west on 18th Street East.",
+      "verbal_post_transition_instruction": "Continue for 300 meters.",
+      "street_names": [
+       "18th Street East"
+      ],
+      "bearing_after": 266,
+      "time": 65.669,
+      "length": 0.34,
+      "cost": 115.027,
+      "begin_shape_index": 0,
+      "end_shape_index": 18,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right onto 122nd Avenue East.",
+      "verbal_transition_alert_instruction": "Turn right onto 122nd Avenue East.",
+      "verbal_succinct_transition_instruction": "Turn right.",
+      "verbal_pre_transition_instruction": "Turn right onto 122nd Avenue East.",
+      "verbal_post_transition_instruction": "Continue for 200 meters.",
+      "street_names": [
+       "122nd Avenue East"
+      ],
+      "bearing_before": 281,
+      "bearing_after": 8,
+      "time": 29.75,
+      "length": 0.2,
+      "cost": 94.915,
+      "begin_shape_index": 18,
+      "end_shape_index": 21,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right onto 16th Street East.",
+      "verbal_transition_alert_instruction": "Turn right onto 16th Street East.",
+      "verbal_succinct_transition_instruction": "Turn right.",
+      "verbal_pre_transition_instruction": "Turn right onto 16th Street East.",
+      "verbal_post_transition_instruction": "Continue for 300 meters.",
+      "street_names": [
+       "16th Street East"
+      ],
+      "bearing_before": 8,
+      "bearing_after": 89,
+      "time": 74.276,
+      "length": 0.326,
+      "cost": 128.556,
+      "begin_shape_index": 21,
+      "end_shape_index": 29,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right onto 126th Avenue Court East.",
+      "verbal_transition_alert_instruction": "Turn right onto 126th Avenue Court East.",
+      "verbal_succinct_transition_instruction": "Turn right.",
+      "verbal_pre_transition_instruction": "Turn right onto 126th Avenue Court East.",
+      "verbal_post_transition_instruction": "Continue for 80 meters.",
+      "street_names": [
+       "126th Avenue Court East"
+      ],
+      "bearing_before": 91,
+      "bearing_after": 187,
+      "time": 21.727,
+      "length": 0.08,
+      "cost": 47.565,
+      "begin_shape_index": 29,
+      "end_shape_index": 38,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left.",
+      "verbal_transition_alert_instruction": "Turn left.",
+      "verbal_succinct_transition_instruction": "Turn left. Then You will arrive at your destination.",
+      "verbal_pre_transition_instruction": "Turn left. Then You will arrive at your destination.",
+      "verbal_post_transition_instruction": "Continue for 50 meters.",
+      "bearing_before": 182,
+      "bearing_after": 97,
+      "time": 12.179,
+      "length": 0.047,
+      "cost": 629.218,
+      "begin_shape_index": 38,
+      "end_shape_index": 44,
+      "verbal_multi_cue": true,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 4,
+      "instruction": "You have arrived at your destination.",
+      "verbal_transition_alert_instruction": "You will arrive at your destination.",
+      "verbal_pre_transition_instruction": "You have arrived at your destination.",
+      "bearing_before": 40,
+      "time": 0.0,
+      "length": 0.0,
+      "cost": 0.0,
+      "begin_shape_index": 44,
+      "end_shape_index": 44,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     }
+    ],
+    "summary": {
+     "has_time_restrictions": false,
+     "has_toll": false,
+     "has_highway": false,
+     "has_ferry": false,
+     "min_lat": 47.240623,
+     "min_lon": -122.265999,
+     "max_lat": 47.242858,
+     "max_lon": -122.260948,
+     "time": 203.603,
+     "length": 0.993,
+     "cost": 1015.283
+    },
+    "shape": "{|ibyAz`hehFPlLKhMZ`Lz@`HC`v@EdES`C]|A_@p@c@XcOeAmBZa@p@m@zDJhf@Pvy@UnNi@|EwAQ}\\kEimAqOE_SSy~@Q}u@CiJAcF?c`A?wc@BeIpBWz@Lz@`@hBdBbBhAdBn@zAPrC\\zQ\\`@_F@kCEuCMkC_AuCqEaG"
+   }
+  ],
+  "summary": {
+   "has_time_restrictions": false,
+   "has_toll": false,
+   "has_highway": false,
+   "has_ferry": false,
+   "min_lat": 47.240623,
+   "min_lon": -122.265999,
+   "max_lat": 47.242858,
+   "max_lon": -122.260948,
+   "time": 203.603,
+   "length": 0.993,
+   "cost": 1015.283
+  },
+  "status_message": "Found route between points",
+  "status": 0,
+  "units": "kilometers",
+  "language": "en-US"
+ }
+}

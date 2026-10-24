@@ -1,0 +1,201 @@
+{
+ "trip": {
+  "locations": [
+   {
+    "type": "break",
+    "lat": 47.218444,
+    "lon": -122.231109,
+    "original_index": 0
+   },
+   {
+    "type": "break",
+    "lat": 47.235528,
+    "lon": -122.234937,
+    "original_index": 1
+   }
+  ],
+  "legs": [
+   {
+    "maneuvers": [
+     {
+      "type": 1,
+      "instruction": "Bike southwest on Sumner Link Trail.",
+      "verbal_succinct_transition_instruction": "Bike southwest.",
+      "verbal_pre_transition_instruction": "Bike southwest on Sumner Link Trail.",
+      "verbal_post_transition_instruction": "Continue for 600 meters.",
+      "street_names": [
+       "Sumner Link Trail"
+      ],
+      "bearing_after": 233,
+      "time": 118.152,
+      "length": 0.601,
+      "cost": 153.259,
+      "begin_shape_index": 0,
+      "end_shape_index": 20,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left to stay on Sumner Link Trail.",
+      "verbal_transition_alert_instruction": "Turn left to stay on Sumner Link Trail.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left to stay on Sumner Link Trail.",
+      "verbal_post_transition_instruction": "Continue for 90 meters.",
+      "street_names": [
+       "Sumner Link Trail"
+      ],
+      "bearing_before": 230,
+      "bearing_after": 125,
+      "time": 18.599,
+      "length": 0.093,
+      "cost": 24.598,
+      "begin_shape_index": 20,
+      "end_shape_index": 23,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right onto the cycleway.",
+      "verbal_transition_alert_instruction": "Turn right onto the cycleway.",
+      "verbal_succinct_transition_instruction": "Turn right. Then Turn right onto Tacoma Avenue.",
+      "verbal_pre_transition_instruction": "Turn right onto the cycleway. Then Turn right onto Tacoma Avenue.",
+      "verbal_post_transition_instruction": "Continue for 10 meters.",
+      "bearing_before": 129,
+      "bearing_after": 213,
+      "time": 2.8,
+      "length": 0.014,
+      "cost": 8.41,
+      "begin_shape_index": 23,
+      "end_shape_index": 25,
+      "verbal_multi_cue": true,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right onto Tacoma Avenue.",
+      "verbal_transition_alert_instruction": "Turn right onto Tacoma Avenue.",
+      "verbal_succinct_transition_instruction": "Turn right.",
+      "verbal_pre_transition_instruction": "Turn right onto Tacoma Avenue.",
+      "verbal_post_transition_instruction": "Continue for 2.5 kilometers.",
+      "street_names": [
+       "Tacoma Avenue"
+      ],
+      "bearing_before": 215,
+      "bearing_after": 305,
+      "time": 473.19,
+      "length": 2.26,
+      "cost": 952.275,
+      "begin_shape_index": 25,
+      "end_shape_index": 87,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right onto 24th Street East.",
+      "verbal_transition_alert_instruction": "Turn right onto 24th Street East.",
+      "verbal_succinct_transition_instruction": "Turn right.",
+      "verbal_pre_transition_instruction": "Turn right onto 24th Street East.",
+      "verbal_post_transition_instruction": "Continue for 200 meters.",
+      "street_names": [
+       "24th Street East"
+      ],
+      "bearing_before": 320,
+      "bearing_after": 33,
+      "time": 53.422,
+      "length": 0.231,
+      "cost": 98.542,
+      "begin_shape_index": 87,
+      "end_shape_index": 99,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 8,
+      "instruction": "Continue on the cycleway.",
+      "verbal_transition_alert_instruction": "Continue on the cycleway.",
+      "verbal_pre_transition_instruction": "Continue on the cycleway. Then Continue on Sumner Link Trail.",
+      "verbal_post_transition_instruction": "Continue for 10 meters.",
+      "bearing_before": 91,
+      "bearing_after": 98,
+      "time": 2.799,
+      "length": 0.014,
+      "cost": 8.129,
+      "begin_shape_index": 99,
+      "end_shape_index": 100,
+      "verbal_multi_cue": true,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 8,
+      "instruction": "Continue on Sumner Link Trail.",
+      "verbal_transition_alert_instruction": "Continue on Sumner Link Trail.",
+      "verbal_pre_transition_instruction": "Continue on Sumner Link Trail.",
+      "verbal_post_transition_instruction": "Continue for 200 meters.",
+      "street_names": [
+       "Sumner Link Trail"
+      ],
+      "bearing_before": 98,
+      "bearing_after": 90,
+      "time": 63.8,
+      "length": 0.168,
+      "cost": 374.391,
+      "begin_shape_index": 100,
+      "end_shape_index": 102,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 4,
+      "instruction": "You have arrived at your destination.",
+      "verbal_transition_alert_instruction": "You will arrive at your destination.",
+      "verbal_pre_transition_instruction": "You have arrived at your destination.",
+      "bearing_before": 92,
+      "time": 0.0,
+      "length": 0.0,
+      "cost": 0.0,
+      "begin_shape_index": 102,
+      "end_shape_index": 102,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     }
+    ],
+    "summary": {
+     "has_time_restrictions": false,
+     "has_toll": false,
+     "has_highway": false,
+     "has_ferry": false,
+     "min_lat": 47.215914,
+     "min_lon": -122.240254,
+     "max_lat": 47.235589,
+     "max_lon": -122.231109,
+     "time": 732.765,
+     "length": 3.383,
+     "cost": 1619.607
+    },
+    "shape": "yo~`yAjskchFjClG`Ije@`C`KxB|OpMxh@H\\xJz^fEfNlC`LzBxVvQf}B|AfTp@jDnAzB`Bt@fC`FhGln@pB|Q`ArDxHhPn@eBtVsm@bEeJ`A~@lCpCgClGsDlKqCtHyB|G{HvTqVzr@wCdGuBrDyBbD}EbGiAxAkDlCeD`C}CtAeEvAuErAoDl@mE`@aFXcGNsk@I{u@Mmk@s@cm@TeGCgEAw]K}OEc`@?wbAg@{z@WsRG_DAwFAoc@w@e\\m@}Xe@eFEafAkAc]]qEGqq@AsM?yNAiY?}LA}q@AwHCqd@QcA?qIEs_Bk@gc@QiW?sCBiDDyDReDj@aE|A{DnC_DbDoCjEmFcFyBsCoAcCQq@g@iBe@mDQkFAcG@uYFws@Fsv@@}Cb@gJ?wa@`AugB"
+   }
+  ],
+  "summary": {
+   "has_time_restrictions": false,
+   "has_toll": false,
+   "has_highway": false,
+   "has_ferry": false,
+   "min_lat": 47.215914,
+   "min_lon": -122.240254,
+   "max_lat": 47.235589,
+   "max_lon": -122.231109,
+   "time": 732.765,
+   "length": 3.383,
+   "cost": 1619.607
+  },
+  "status_message": "Found route between points",
+  "status": 0,
+  "units": "kilometers",
+  "language": "en-US"
+ }
+}

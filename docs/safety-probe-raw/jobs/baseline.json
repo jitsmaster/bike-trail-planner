@@ -1,0 +1,13 @@
+{
+ "tag": "baseline_home_to_dest_known",
+ "destination": {
+  "lat": 47.22329,
+  "lon": -122.24273
+ },
+ "costing_options": {
+  "bicycle_type": "hybrid",
+  "use_roads": 0.1,
+  "avoid_bad_surfaces": 0.3,
+  "use_hills": 0.25
+ }
+}

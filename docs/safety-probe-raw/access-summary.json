@@ -1,0 +1,1267 @@
+{
+ "3508527": {
+  "n_probes": 14,
+  "n_touch_trail": 14,
+  "best": {
+   "node": 2669374349,
+   "lat": 47.2647465,
+   "lon": -122.2292132,
+   "road_name": null,
+   "highway": "service",
+   "shared_node": true,
+   "distance_km": 8.175,
+   "snap_offset_m": 0.1,
+   "straight_m": 3671
+  },
+  "best_verdicts": {
+   "strict": {
+    "mode": "strict",
+    "pass": false,
+    "fails": [
+     "D = 7615 m > 805 m cap",
+     "D = 93.2% > 10% cap"
+    ],
+    "A_m": 559.0,
+    "B_m": 0.0,
+    "C_m": 0.0,
+    "D_m": 7615.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 8174.0,
+    "D_share_pct": 93.16
+   },
+   "lenient": {
+    "mode": "lenient",
+    "pass": false,
+    "fails": [
+     "E = 2753 m",
+     "GAP (ladder-unclassified) = 2982 m",
+     "D = 1447 m > 805 m cap",
+     "D = 17.7% > 10% cap"
+    ],
+    "A_m": 559.0,
+    "B_m": 0.0,
+    "C_m": 433.0,
+    "D_m": 1447.0,
+    "E_m": 2753.0,
+    "GAP_m": 2982.0,
+    "REJECT_m": 0.0,
+    "total_m": 8174.0,
+    "D_share_pct": 17.7
+   },
+   "generous": {
+    "mode": "generous",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 5735 m",
+     "D = 1447 m > 805 m cap",
+     "D = 17.7% > 10% cap"
+    ],
+    "A_m": 559.0,
+    "B_m": 0.0,
+    "C_m": 433.0,
+    "D_m": 1447.0,
+    "E_m": 0.0,
+    "GAP_m": 5735.0,
+    "REJECT_m": 0.0,
+    "total_m": 8174.0,
+    "D_share_pct": 17.7
+   },
+   "lenient_repair": {
+    "mode": "lenient_repair",
+    "pass": false,
+    "fails": [
+     "E = 2753 m",
+     "D = 3811 m > 805 m cap",
+     "D = 46.6% > 10% cap"
+    ],
+    "A_m": 559.0,
+    "B_m": 0.0,
+    "C_m": 1051.0,
+    "D_m": 3811.0,
+    "E_m": 2753.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 8174.0,
+    "D_share_pct": 46.62
+   },
+   "generous_repair": {
+    "mode": "generous_repair",
+    "pass": false,
+    "fails": [
+     "D = 1447 m > 805 m cap",
+     "D = 17.7% > 10% cap"
+    ],
+    "A_m": 559.0,
+    "B_m": 0.0,
+    "C_m": 6168.0,
+    "D_m": 1447.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 8174.0,
+    "D_share_pct": 17.7
+   }
+  },
+  "best_use_m": {
+   "driveway": 60.0,
+   "road": 7462.0,
+   "cycleway": 559.0,
+   "service_road": 93.0
+  },
+  "shortest": {
+   "node": 2669374349,
+   "lat": 47.2647465,
+   "lon": -122.2292132,
+   "road_name": null,
+   "highway": "service",
+   "shared_node": true,
+   "distance_km": 8.175,
+   "snap_offset_m": 0.1,
+   "straight_m": 3671
+  },
+  "shortest_verdicts": {
+   "strict": {
+    "mode": "strict",
+    "pass": false,
+    "fails": [
+     "D = 7615 m > 805 m cap",
+     "D = 93.2% > 10% cap"
+    ],
+    "A_m": 559.0,
+    "B_m": 0.0,
+    "C_m": 0.0,
+    "D_m": 7615.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 8174.0,
+    "D_share_pct": 93.16
+   },
+   "lenient": {
+    "mode": "lenient",
+    "pass": false,
+    "fails": [
+     "E = 2753 m",
+     "GAP (ladder-unclassified) = 2982 m",
+     "D = 1447 m > 805 m cap",
+     "D = 17.7% > 10% cap"
+    ],
+    "A_m": 559.0,
+    "B_m": 0.0,
+    "C_m": 433.0,
+    "D_m": 1447.0,
+    "E_m": 2753.0,
+    "GAP_m": 2982.0,
+    "REJECT_m": 0.0,
+    "total_m": 8174.0,
+    "D_share_pct": 17.7
+   },
+   "generous": {
+    "mode": "generous",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 5735 m",
+     "D = 1447 m > 805 m cap",
+     "D = 17.7% > 10% cap"
+    ],
+    "A_m": 559.0,
+    "B_m": 0.0,
+    "C_m": 433.0,
+    "D_m": 1447.0,
+    "E_m": 0.0,
+    "GAP_m": 5735.0,
+    "REJECT_m": 0.0,
+    "total_m": 8174.0,
+    "D_share_pct": 17.7
+   },
+   "lenient_repair": {
+    "mode": "lenient_repair",
+    "pass": false,
+    "fails": [
+     "E = 2753 m",
+     "D = 3811 m > 805 m cap",
+     "D = 46.6% > 10% cap"
+    ],
+    "A_m": 559.0,
+    "B_m": 0.0,
+    "C_m": 1051.0,
+    "D_m": 3811.0,
+    "E_m": 2753.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 8174.0,
+    "D_share_pct": 46.62
+   },
+   "generous_repair": {
+    "mode": "generous_repair",
+    "pass": false,
+    "fails": [
+     "D = 1447 m > 805 m cap",
+     "D = 17.7% > 10% cap"
+    ],
+    "A_m": 559.0,
+    "B_m": 0.0,
+    "C_m": 6168.0,
+    "D_m": 1447.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 8174.0,
+    "D_share_pct": 17.7
+   }
+  },
+  "D_m_range": [
+   1447.0,
+   2681.0
+  ],
+  "E_m_range": [
+   0.0,
+   0.0
+  ]
+ },
+ "6554034": {
+  "n_probes": 22,
+  "n_touch_trail": 13,
+  "best": {
+   "node": 12196160803,
+   "lat": 47.2480499,
+   "lon": -122.3247497,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "distance_km": 5.415,
+   "snap_offset_m": 0.1,
+   "straight_m": 4812
+  },
+  "best_verdicts": {
+   "strict": {
+    "mode": "strict",
+    "pass": false,
+    "fails": [
+     "D = 5352 m > 805 m cap",
+     "D = 98.8% > 10% cap"
+    ],
+    "A_m": 63.0,
+    "B_m": 0.0,
+    "C_m": 0.0,
+    "D_m": 5352.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 5415.0,
+    "D_share_pct": 98.84
+   },
+   "lenient": {
+    "mode": "lenient",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 4995 m"
+    ],
+    "A_m": 63.0,
+    "B_m": 0.0,
+    "C_m": 357.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 4995.0,
+    "REJECT_m": 0.0,
+    "total_m": 5415.0,
+    "D_share_pct": 0.0
+   },
+   "generous": {
+    "mode": "generous",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 4995 m"
+    ],
+    "A_m": 63.0,
+    "B_m": 0.0,
+    "C_m": 357.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 4995.0,
+    "REJECT_m": 0.0,
+    "total_m": 5415.0,
+    "D_share_pct": 0.0
+   },
+   "lenient_repair": {
+    "mode": "lenient_repair",
+    "pass": false,
+    "fails": [
+     "D = 4995 m > 805 m cap",
+     "D = 92.2% > 10% cap"
+    ],
+    "A_m": 63.0,
+    "B_m": 0.0,
+    "C_m": 357.0,
+    "D_m": 4995.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 5415.0,
+    "D_share_pct": 92.24
+   },
+   "generous_repair": {
+    "mode": "generous_repair",
+    "pass": true,
+    "fails": [],
+    "A_m": 63.0,
+    "B_m": 0.0,
+    "C_m": 5352.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 5415.0,
+    "D_share_pct": 0.0
+   }
+  },
+  "best_use_m": {
+   "driveway": 60.0,
+   "road": 5275.0,
+   "service_road": 17.0,
+   "cycleway": 63.0
+  },
+  "shortest": {
+   "node": 53175521,
+   "lat": 47.2610625,
+   "lon": -122.3007676,
+   "road_name": "South 380th Street",
+   "highway": "residential",
+   "shared_node": true,
+   "distance_km": 5.185,
+   "snap_offset_m": 0.1,
+   "straight_m": 3721
+  },
+  "shortest_verdicts": {
+   "strict": {
+    "mode": "strict",
+    "pass": false,
+    "fails": [
+     "E = 685 m",
+     "D = 2953 m > 805 m cap",
+     "D = 57.0% > 10% cap"
+    ],
+    "A_m": 1331.0,
+    "B_m": 0.0,
+    "C_m": 216.0,
+    "D_m": 2953.0,
+    "E_m": 685.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 5185.0,
+    "D_share_pct": 56.95
+   },
+   "lenient": {
+    "mode": "lenient",
+    "pass": false,
+    "fails": [
+     "E = 685 m",
+     "GAP (ladder-unclassified) = 2484 m"
+    ],
+    "A_m": 1331.0,
+    "B_m": 0.0,
+    "C_m": 556.0,
+    "D_m": 129.0,
+    "E_m": 685.0,
+    "GAP_m": 2484.0,
+    "REJECT_m": 0.0,
+    "total_m": 5185.0,
+    "D_share_pct": 2.49
+   },
+   "generous": {
+    "mode": "generous",
+    "pass": false,
+    "fails": [
+     "E = 685 m",
+     "GAP (ladder-unclassified) = 2484 m"
+    ],
+    "A_m": 1331.0,
+    "B_m": 0.0,
+    "C_m": 556.0,
+    "D_m": 129.0,
+    "E_m": 685.0,
+    "GAP_m": 2484.0,
+    "REJECT_m": 0.0,
+    "total_m": 5185.0,
+    "D_share_pct": 2.49
+   },
+   "lenient_repair": {
+    "mode": "lenient_repair",
+    "pass": false,
+    "fails": [
+     "E = 685 m",
+     "D = 2613 m > 805 m cap",
+     "D = 50.4% > 10% cap"
+    ],
+    "A_m": 1331.0,
+    "B_m": 0.0,
+    "C_m": 556.0,
+    "D_m": 2613.0,
+    "E_m": 685.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 5185.0,
+    "D_share_pct": 50.4
+   },
+   "generous_repair": {
+    "mode": "generous_repair",
+    "pass": false,
+    "fails": [
+     "E = 685 m"
+    ],
+    "A_m": 1331.0,
+    "B_m": 0.0,
+    "C_m": 3040.0,
+    "D_m": 129.0,
+    "E_m": 685.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 5185.0,
+    "D_share_pct": 2.49
+   }
+  },
+  "D_m_range": [
+   0.0,
+   129.0
+  ],
+  "E_m_range": [
+   0.0,
+   685.0
+  ]
+ },
+ "8826064": {
+  "n_probes": 4,
+  "n_touch_trail": 2,
+  "best": {
+   "node": 12882604560,
+   "lat": 47.255565,
+   "lon": -122.2793965,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "distance_km": 2.99,
+   "snap_offset_m": 0.0,
+   "straight_m": 2139
+  },
+  "best_verdicts": {
+   "strict": {
+    "mode": "strict",
+    "pass": false,
+    "fails": [
+     "D = 2824 m > 805 m cap",
+     "D = 94.4% > 10% cap"
+    ],
+    "A_m": 166.0,
+    "B_m": 0.0,
+    "C_m": 0.0,
+    "D_m": 2824.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 2990.0,
+    "D_share_pct": 94.45
+   },
+   "lenient": {
+    "mode": "lenient",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 2484 m"
+    ],
+    "A_m": 166.0,
+    "B_m": 0.0,
+    "C_m": 340.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 2484.0,
+    "REJECT_m": 0.0,
+    "total_m": 2990.0,
+    "D_share_pct": 0.0
+   },
+   "generous": {
+    "mode": "generous",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 2484 m"
+    ],
+    "A_m": 166.0,
+    "B_m": 0.0,
+    "C_m": 340.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 2484.0,
+    "REJECT_m": 0.0,
+    "total_m": 2990.0,
+    "D_share_pct": 0.0
+   },
+   "lenient_repair": {
+    "mode": "lenient_repair",
+    "pass": false,
+    "fails": [
+     "D = 2484 m > 805 m cap",
+     "D = 83.1% > 10% cap"
+    ],
+    "A_m": 166.0,
+    "B_m": 0.0,
+    "C_m": 340.0,
+    "D_m": 2484.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 2990.0,
+    "D_share_pct": 83.08
+   },
+   "generous_repair": {
+    "mode": "generous_repair",
+    "pass": true,
+    "fails": [],
+    "A_m": 166.0,
+    "B_m": 0.0,
+    "C_m": 2824.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 2990.0,
+    "D_share_pct": 0.0
+   }
+  },
+  "best_use_m": {
+   "driveway": 60.0,
+   "road": 2764.0,
+   "cycleway": 166.0
+  },
+  "shortest": {
+   "node": 2646868507,
+   "lat": 47.2560654,
+   "lon": -122.2773296,
+   "road_name": "114th Avenue East",
+   "highway": "tertiary",
+   "shared_node": true,
+   "distance_km": 2.824,
+   "snap_offset_m": 0.1,
+   "straight_m": 2093
+  },
+  "shortest_verdicts": {
+   "strict": {
+    "mode": "strict",
+    "pass": false,
+    "fails": [
+     "D = 2824 m > 805 m cap",
+     "D = 100.0% > 10% cap"
+    ],
+    "A_m": 0.0,
+    "B_m": 0.0,
+    "C_m": 0.0,
+    "D_m": 2824.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 2824.0,
+    "D_share_pct": 100.0
+   },
+   "lenient": {
+    "mode": "lenient",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 2484 m"
+    ],
+    "A_m": 0.0,
+    "B_m": 0.0,
+    "C_m": 340.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 2484.0,
+    "REJECT_m": 0.0,
+    "total_m": 2824.0,
+    "D_share_pct": 0.0
+   },
+   "generous": {
+    "mode": "generous",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 2484 m"
+    ],
+    "A_m": 0.0,
+    "B_m": 0.0,
+    "C_m": 340.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 2484.0,
+    "REJECT_m": 0.0,
+    "total_m": 2824.0,
+    "D_share_pct": 0.0
+   },
+   "lenient_repair": {
+    "mode": "lenient_repair",
+    "pass": false,
+    "fails": [
+     "D = 2484 m > 805 m cap",
+     "D = 88.0% > 10% cap"
+    ],
+    "A_m": 0.0,
+    "B_m": 0.0,
+    "C_m": 340.0,
+    "D_m": 2484.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 2824.0,
+    "D_share_pct": 87.96
+   },
+   "generous_repair": {
+    "mode": "generous_repair",
+    "pass": true,
+    "fails": [],
+    "A_m": 0.0,
+    "B_m": 0.0,
+    "C_m": 2824.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 2824.0,
+    "D_share_pct": 0.0
+   }
+  },
+  "D_m_range": [
+   0.0,
+   0.0
+  ],
+  "E_m_range": [
+   0.0,
+   0.0
+  ]
+ },
+ "9605517": {
+  "n_probes": 28,
+  "n_touch_trail": 21,
+  "best": {
+   "node": 6486202530,
+   "lat": 47.1964871,
+   "lon": -122.2510719,
+   "road_name": "Sumner Link Trail",
+   "highway": "cycleway",
+   "shared_node": true,
+   "distance_km": 6.88,
+   "snap_offset_m": 0.1,
+   "straight_m": 4949
+  },
+  "best_verdicts": {
+   "strict": {
+    "mode": "strict",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 200 m",
+     "D = 6104 m > 805 m cap",
+     "D = 88.7% > 10% cap"
+    ],
+    "A_m": 395.0,
+    "B_m": 181.0,
+    "C_m": 0.0,
+    "D_m": 6104.0,
+    "E_m": 0.0,
+    "GAP_m": 200.0,
+    "REJECT_m": 0.0,
+    "total_m": 6880.0,
+    "D_share_pct": 88.72
+   },
+   "lenient": {
+    "mode": "lenient",
+    "pass": false,
+    "fails": [
+     "E = 568 m",
+     "GAP (ladder-unclassified) = 5374 m"
+    ],
+    "A_m": 395.0,
+    "B_m": 181.0,
+    "C_m": 340.0,
+    "D_m": 22.0,
+    "E_m": 568.0,
+    "GAP_m": 5374.0,
+    "REJECT_m": 0.0,
+    "total_m": 6880.0,
+    "D_share_pct": 0.32
+   },
+   "generous": {
+    "mode": "generous",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 5964 m"
+    ],
+    "A_m": 395.0,
+    "B_m": 181.0,
+    "C_m": 340.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 5964.0,
+    "REJECT_m": 0.0,
+    "total_m": 6880.0,
+    "D_share_pct": 0.0
+   },
+   "lenient_repair": {
+    "mode": "lenient_repair",
+    "pass": false,
+    "fails": [
+     "E = 568 m",
+     "D = 5184 m > 805 m cap",
+     "D = 75.3% > 10% cap"
+    ],
+    "A_m": 395.0,
+    "B_m": 181.0,
+    "C_m": 552.0,
+    "D_m": 5184.0,
+    "E_m": 568.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 6880.0,
+    "D_share_pct": 75.35
+   },
+   "generous_repair": {
+    "mode": "generous_repair",
+    "pass": true,
+    "fails": [],
+    "A_m": 395.0,
+    "B_m": 181.0,
+    "C_m": 6304.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 6880.0,
+    "D_share_pct": 0.0
+   }
+  },
+  "best_use_m": {
+   "driveway": 60.0,
+   "road": 6425.0,
+   "cycleway": 395.0
+  },
+  "shortest": {
+   "node": 6486202530,
+   "lat": 47.1964871,
+   "lon": -122.2510719,
+   "road_name": "Sumner Link Trail",
+   "highway": "cycleway",
+   "shared_node": true,
+   "distance_km": 6.88,
+   "snap_offset_m": 0.1,
+   "straight_m": 4949
+  },
+  "shortest_verdicts": {
+   "strict": {
+    "mode": "strict",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 200 m",
+     "D = 6104 m > 805 m cap",
+     "D = 88.7% > 10% cap"
+    ],
+    "A_m": 395.0,
+    "B_m": 181.0,
+    "C_m": 0.0,
+    "D_m": 6104.0,
+    "E_m": 0.0,
+    "GAP_m": 200.0,
+    "REJECT_m": 0.0,
+    "total_m": 6880.0,
+    "D_share_pct": 88.72
+   },
+   "lenient": {
+    "mode": "lenient",
+    "pass": false,
+    "fails": [
+     "E = 568 m",
+     "GAP (ladder-unclassified) = 5374 m"
+    ],
+    "A_m": 395.0,
+    "B_m": 181.0,
+    "C_m": 340.0,
+    "D_m": 22.0,
+    "E_m": 568.0,
+    "GAP_m": 5374.0,
+    "REJECT_m": 0.0,
+    "total_m": 6880.0,
+    "D_share_pct": 0.32
+   },
+   "generous": {
+    "mode": "generous",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 5964 m"
+    ],
+    "A_m": 395.0,
+    "B_m": 181.0,
+    "C_m": 340.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 5964.0,
+    "REJECT_m": 0.0,
+    "total_m": 6880.0,
+    "D_share_pct": 0.0
+   },
+   "lenient_repair": {
+    "mode": "lenient_repair",
+    "pass": false,
+    "fails": [
+     "E = 568 m",
+     "D = 5184 m > 805 m cap",
+     "D = 75.3% > 10% cap"
+    ],
+    "A_m": 395.0,
+    "B_m": 181.0,
+    "C_m": 552.0,
+    "D_m": 5184.0,
+    "E_m": 568.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 6880.0,
+    "D_share_pct": 75.35
+   },
+   "generous_repair": {
+    "mode": "generous_repair",
+    "pass": true,
+    "fails": [],
+    "A_m": 395.0,
+    "B_m": 181.0,
+    "C_m": 6304.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 6880.0,
+    "D_share_pct": 0.0
+   }
+  },
+  "D_m_range": [
+   0.0,
+   0.0
+  ],
+  "E_m_range": [
+   0.0,
+   0.0
+  ]
+ },
+ "9605518": {
+  "n_probes": 59,
+  "n_touch_trail": 39,
+  "best": {
+   "node": 13179055162,
+   "lat": 47.2027996,
+   "lon": -122.2459146,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "distance_km": 6.008,
+   "snap_offset_m": 0.1,
+   "straight_m": 4351
+  },
+  "best_verdicts": {
+   "strict": {
+    "mode": "strict",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 183 m",
+     "D = 5503 m > 805 m cap",
+     "D = 91.6% > 10% cap"
+    ],
+    "A_m": 141.0,
+    "B_m": 181.0,
+    "C_m": 0.0,
+    "D_m": 5503.0,
+    "E_m": 0.0,
+    "GAP_m": 183.0,
+    "REJECT_m": 0.0,
+    "total_m": 6008.0,
+    "D_share_pct": 91.59
+   },
+   "lenient": {
+    "mode": "lenient",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 5324 m"
+    ],
+    "A_m": 141.0,
+    "B_m": 181.0,
+    "C_m": 340.0,
+    "D_m": 22.0,
+    "E_m": 0.0,
+    "GAP_m": 5324.0,
+    "REJECT_m": 0.0,
+    "total_m": 6008.0,
+    "D_share_pct": 0.37
+   },
+   "generous": {
+    "mode": "generous",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 5346 m"
+    ],
+    "A_m": 141.0,
+    "B_m": 181.0,
+    "C_m": 340.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 5346.0,
+    "REJECT_m": 0.0,
+    "total_m": 6008.0,
+    "D_share_pct": 0.0
+   },
+   "lenient_repair": {
+    "mode": "lenient_repair",
+    "pass": false,
+    "fails": [
+     "D = 5163 m > 805 m cap",
+     "D = 85.9% > 10% cap"
+    ],
+    "A_m": 141.0,
+    "B_m": 181.0,
+    "C_m": 523.0,
+    "D_m": 5163.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 6008.0,
+    "D_share_pct": 85.94
+   },
+   "generous_repair": {
+    "mode": "generous_repair",
+    "pass": true,
+    "fails": [],
+    "A_m": 141.0,
+    "B_m": 181.0,
+    "C_m": 5686.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 6008.0,
+    "D_share_pct": 0.0
+   }
+  },
+  "best_use_m": {
+   "driveway": 60.0,
+   "road": 5807.0,
+   "pedestrian_crossing": 8.0,
+   "cycleway": 133.0
+  },
+  "shortest": {
+   "node": 110713098,
+   "lat": 47.2033999,
+   "lon": -122.2445285,
+   "road_name": "Bridge Street",
+   "highway": "secondary",
+   "shared_node": true,
+   "distance_km": 5.867,
+   "snap_offset_m": 0.1,
+   "straight_m": 4318
+  },
+  "shortest_verdicts": {
+   "strict": {
+    "mode": "strict",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 183 m",
+     "D = 5503 m > 805 m cap",
+     "D = 93.8% > 10% cap"
+    ],
+    "A_m": 0.0,
+    "B_m": 181.0,
+    "C_m": 0.0,
+    "D_m": 5503.0,
+    "E_m": 0.0,
+    "GAP_m": 183.0,
+    "REJECT_m": 0.0,
+    "total_m": 5867.0,
+    "D_share_pct": 93.8
+   },
+   "lenient": {
+    "mode": "lenient",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 5324 m"
+    ],
+    "A_m": 0.0,
+    "B_m": 181.0,
+    "C_m": 340.0,
+    "D_m": 22.0,
+    "E_m": 0.0,
+    "GAP_m": 5324.0,
+    "REJECT_m": 0.0,
+    "total_m": 5867.0,
+    "D_share_pct": 0.37
+   },
+   "generous": {
+    "mode": "generous",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 5346 m"
+    ],
+    "A_m": 0.0,
+    "B_m": 181.0,
+    "C_m": 340.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 5346.0,
+    "REJECT_m": 0.0,
+    "total_m": 5867.0,
+    "D_share_pct": 0.0
+   },
+   "lenient_repair": {
+    "mode": "lenient_repair",
+    "pass": false,
+    "fails": [
+     "D = 5163 m > 805 m cap",
+     "D = 88.0% > 10% cap"
+    ],
+    "A_m": 0.0,
+    "B_m": 181.0,
+    "C_m": 523.0,
+    "D_m": 5163.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 5867.0,
+    "D_share_pct": 88.0
+   },
+   "generous_repair": {
+    "mode": "generous_repair",
+    "pass": true,
+    "fails": [],
+    "A_m": 0.0,
+    "B_m": 181.0,
+    "C_m": 5686.0,
+    "D_m": 0.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 5867.0,
+    "D_share_pct": 0.0
+   }
+  },
+  "D_m_range": [
+   0.0,
+   726.0
+  ],
+  "E_m_range": [
+   0.0,
+   0.0
+  ]
+ },
+ "9605519": {
+  "n_probes": 16,
+  "n_touch_trail": 14,
+  "best": {
+   "node": 10900530370,
+   "lat": 47.249971,
+   "lon": -122.236886,
+   "road_name": null,
+   "highway": "path",
+   "shared_node": true,
+   "distance_km": 6.051,
+   "snap_offset_m": 0.0,
+   "straight_m": 2177
+  },
+  "best_verdicts": {
+   "strict": {
+    "mode": "strict",
+    "pass": false,
+    "fails": [
+     "D = 5992 m > 805 m cap",
+     "D = 99.0% > 10% cap"
+    ],
+    "A_m": 59.0,
+    "B_m": 0.0,
+    "C_m": 0.0,
+    "D_m": 5992.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 6051.0,
+    "D_share_pct": 99.02
+   },
+   "lenient": {
+    "mode": "lenient",
+    "pass": false,
+    "fails": [
+     "E = 2562 m",
+     "GAP (ladder-unclassified) = 2364 m",
+     "D = 12.0% > 10% cap"
+    ],
+    "A_m": 59.0,
+    "B_m": 0.0,
+    "C_m": 340.0,
+    "D_m": 726.0,
+    "E_m": 2562.0,
+    "GAP_m": 2364.0,
+    "REJECT_m": 0.0,
+    "total_m": 6051.0,
+    "D_share_pct": 12.0
+   },
+   "generous": {
+    "mode": "generous",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 4926 m",
+     "D = 12.0% > 10% cap"
+    ],
+    "A_m": 59.0,
+    "B_m": 0.0,
+    "C_m": 340.0,
+    "D_m": 726.0,
+    "E_m": 0.0,
+    "GAP_m": 4926.0,
+    "REJECT_m": 0.0,
+    "total_m": 6051.0,
+    "D_share_pct": 12.0
+   },
+   "lenient_repair": {
+    "mode": "lenient_repair",
+    "pass": false,
+    "fails": [
+     "E = 2562 m",
+     "D = 3090 m > 805 m cap",
+     "D = 51.1% > 10% cap"
+    ],
+    "A_m": 59.0,
+    "B_m": 0.0,
+    "C_m": 340.0,
+    "D_m": 3090.0,
+    "E_m": 2562.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 6051.0,
+    "D_share_pct": 51.07
+   },
+   "generous_repair": {
+    "mode": "generous_repair",
+    "pass": false,
+    "fails": [
+     "D = 12.0% > 10% cap"
+    ],
+    "A_m": 59.0,
+    "B_m": 0.0,
+    "C_m": 5266.0,
+    "D_m": 726.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 6051.0,
+    "D_share_pct": 12.0
+   }
+  },
+  "best_use_m": {
+   "driveway": 60.0,
+   "road": 5932.0,
+   "cycleway": 59.0
+  },
+  "shortest": {
+   "node": 6486202580,
+   "lat": 47.2499873,
+   "lon": -122.2387474,
+   "road_name": null,
+   "highway": "service",
+   "shared_node": true,
+   "distance_km": 5.911,
+   "snap_offset_m": 0.0,
+   "straight_m": 2057
+  },
+  "shortest_verdicts": {
+   "strict": {
+    "mode": "strict",
+    "pass": false,
+    "fails": [
+     "D = 5911 m > 805 m cap",
+     "D = 100.0% > 10% cap"
+    ],
+    "A_m": 0.0,
+    "B_m": 0.0,
+    "C_m": 0.0,
+    "D_m": 5911.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 5911.0,
+    "D_share_pct": 100.0
+   },
+   "lenient": {
+    "mode": "lenient",
+    "pass": false,
+    "fails": [
+     "E = 2468 m",
+     "GAP (ladder-unclassified) = 2364 m",
+     "D = 12.3% > 10% cap"
+    ],
+    "A_m": 0.0,
+    "B_m": 0.0,
+    "C_m": 353.0,
+    "D_m": 726.0,
+    "E_m": 2468.0,
+    "GAP_m": 2364.0,
+    "REJECT_m": 0.0,
+    "total_m": 5911.0,
+    "D_share_pct": 12.28
+   },
+   "generous": {
+    "mode": "generous",
+    "pass": false,
+    "fails": [
+     "GAP (ladder-unclassified) = 4832 m",
+     "D = 12.3% > 10% cap"
+    ],
+    "A_m": 0.0,
+    "B_m": 0.0,
+    "C_m": 353.0,
+    "D_m": 726.0,
+    "E_m": 0.0,
+    "GAP_m": 4832.0,
+    "REJECT_m": 0.0,
+    "total_m": 5911.0,
+    "D_share_pct": 12.28
+   },
+   "lenient_repair": {
+    "mode": "lenient_repair",
+    "pass": false,
+    "fails": [
+     "E = 2468 m",
+     "D = 3090 m > 805 m cap",
+     "D = 52.3% > 10% cap"
+    ],
+    "A_m": 0.0,
+    "B_m": 0.0,
+    "C_m": 353.0,
+    "D_m": 3090.0,
+    "E_m": 2468.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 5911.0,
+    "D_share_pct": 52.28
+   },
+   "generous_repair": {
+    "mode": "generous_repair",
+    "pass": false,
+    "fails": [
+     "D = 12.3% > 10% cap"
+    ],
+    "A_m": 0.0,
+    "B_m": 0.0,
+    "C_m": 5185.0,
+    "D_m": 726.0,
+    "E_m": 0.0,
+    "GAP_m": 0.0,
+    "REJECT_m": 0.0,
+    "total_m": 5911.0,
+    "D_share_pct": 12.28
+   }
+  },
+  "D_m_range": [
+   726.0,
+   726.0
+  ],
+  "E_m_range": [
+   0.0,
+   0.0
+  ]
+ }
+}

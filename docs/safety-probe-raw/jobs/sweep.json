@@ -1,0 +1,96 @@
+{
+ "targets": [
+  {
+   "trail": "White River Trail",
+   "rid": 3508527,
+   "node": 6313900974,
+   "lat": 47.2647621,
+   "lon": -122.229372,
+   "kind": "best",
+   "base_km": 8.187
+  },
+  {
+   "trail": "Interurban Trail Milton",
+   "rid": 6554034,
+   "node": 3213531052,
+   "lat": 47.246951,
+   "lon": -122.3253565,
+   "kind": "best",
+   "base_km": 5.425
+  },
+  {
+   "trail": "Interurban Trail Milton",
+   "rid": 6554034,
+   "node": 53175521,
+   "lat": 47.2610625,
+   "lon": -122.3007676,
+   "kind": "shortest",
+   "base_km": 5.185
+  },
+  {
+   "trail": "Interurban Trail Edgewood",
+   "rid": 8826064,
+   "node": 2646861901,
+   "lat": 47.2567612,
+   "lon": -122.2907842,
+   "kind": "best",
+   "base_km": 3.88
+  },
+  {
+   "trail": "Interurban Trail Edgewood",
+   "rid": 8826064,
+   "node": 2646868507,
+   "lat": 47.2560654,
+   "lon": -122.2773296,
+   "kind": "shortest",
+   "base_km": 2.824
+  },
+  {
+   "trail": "Riverwalk Trail",
+   "rid": 9605517,
+   "node": 6486202531,
+   "lat": 47.1960842,
+   "lon": -122.2516036,
+   "kind": "best",
+   "base_km": 6.951
+  },
+  {
+   "trail": "Sumner Link Trail",
+   "rid": 9605518,
+   "node": 2670828225,
+   "lat": 47.2439507,
+   "lon": -122.2358114,
+   "kind": "best",
+   "base_km": 7.078
+  },
+  {
+   "trail": "Sumner Link Trail",
+   "rid": 9605518,
+   "node": 2670828792,
+   "lat": 47.2499823,
+   "lon": -122.2374966,
+   "kind": "shortest",
+   "base_km": 6.005
+  },
+  {
+   "trail": "Lake Tapps Parkway Trail",
+   "rid": 9605519,
+   "node": 10900530370,
+   "lat": 47.249971,
+   "lon": -122.236886,
+   "kind": "best",
+   "base_km": 6.051
+  },
+  {
+   "trail": "Lake Tapps Parkway Trail",
+   "rid": 9605519,
+   "node": 9276360176,
+   "lat": 47.2499987,
+   "lon": -122.2389231,
+   "kind": "shortest",
+   "base_km": 5.924
+  }
+ ],
+ "out": "docs/safety-probe-raw/sweep-results.json",
+ "headline_mode": "generous_repair"
+}

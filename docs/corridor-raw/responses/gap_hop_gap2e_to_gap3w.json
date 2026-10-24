@@ -1,0 +1,145 @@
+{
+ "trip": {
+  "locations": [
+   {
+    "type": "break",
+    "lat": 47.2423,
+    "lon": -122.25797,
+    "original_index": 0
+   },
+   {
+    "type": "break",
+    "lat": 47.2429,
+    "lon": -122.25576,
+    "original_index": 1
+   }
+  ],
+  "legs": [
+   {
+    "maneuvers": [
+     {
+      "type": 1,
+      "instruction": "Bike southeast.",
+      "verbal_succinct_transition_instruction": "Bike southeast. Then Turn left onto 17th Street Court East.",
+      "verbal_pre_transition_instruction": "Bike southeast. Then Turn left onto 17th Street Court East.",
+      "verbal_post_transition_instruction": "Continue for 70 meters.",
+      "bearing_after": 115,
+      "time": 40.343,
+      "length": 0.072,
+      "cost": 348.655,
+      "begin_shape_index": 0,
+      "end_shape_index": 10,
+      "verbal_multi_cue": true,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto 17th Street Court East.",
+      "verbal_transition_alert_instruction": "Turn left onto 17th Street Court East.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto 17th Street Court East.",
+      "verbal_post_transition_instruction": "Continue for 100 meters.",
+      "street_names": [
+       "17th Street Court East"
+      ],
+      "bearing_before": 184,
+      "bearing_after": 91,
+      "time": 10.259,
+      "length": 0.104,
+      "cost": 46.097,
+      "begin_shape_index": 10,
+      "end_shape_index": 17,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto West Valley Highway East.",
+      "verbal_transition_alert_instruction": "Turn left onto West Valley Highway East.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto West Valley Highway East.",
+      "verbal_post_transition_instruction": "Continue for 100 meters.",
+      "street_names": [
+       "West Valley Highway East"
+      ],
+      "bearing_before": 67,
+      "bearing_after": 340,
+      "time": 21.3,
+      "length": 0.099,
+      "cost": 66.583,
+      "begin_shape_index": 17,
+      "end_shape_index": 19,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right onto 16th Street East.",
+      "verbal_transition_alert_instruction": "Turn right onto 16th Street East.",
+      "verbal_succinct_transition_instruction": "Turn right.",
+      "verbal_pre_transition_instruction": "Turn right onto 16th Street East.",
+      "verbal_post_transition_instruction": "Continue for 70 meters.",
+      "street_names": [
+       "16th Street East"
+      ],
+      "bearing_before": 340,
+      "bearing_after": 89,
+      "time": 12.987,
+      "length": 0.073,
+      "cost": 36.725,
+      "begin_shape_index": 19,
+      "end_shape_index": 22,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 4,
+      "instruction": "You have arrived at your destination.",
+      "verbal_transition_alert_instruction": "You will arrive at your destination.",
+      "verbal_pre_transition_instruction": "You have arrived at your destination.",
+      "bearing_before": 90,
+      "time": 0.0,
+      "length": 0.0,
+      "cost": 0.0,
+      "begin_shape_index": 22,
+      "end_shape_index": 22,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     }
+    ],
+    "summary": {
+     "has_time_restrictions": false,
+     "has_toll": false,
+     "has_highway": false,
+     "has_ferry": false,
+     "min_lat": 47.2418,
+     "min_lon": -122.257973,
+     "max_lat": 47.2429,
+     "max_lon": -122.255756,
+     "time": 84.891,
+     "length": 0.348,
+     "cost": 498.061
+    },
+    "shape": "ybmbyAhb`ehFbAaFd@uBh@oBjAkCnAmB~A{AdBw@bB[nBKtG\\FeVGoO_@qDqEqHgA_Cy@cDgC_NoLfFke@vSSci@?sEA{J"
+   }
+  ],
+  "summary": {
+   "has_time_restrictions": false,
+   "has_toll": false,
+   "has_highway": false,
+   "has_ferry": false,
+   "min_lat": 47.2418,
+   "min_lon": -122.257973,
+   "max_lat": 47.2429,
+   "max_lon": -122.255756,
+   "time": 84.891,
+   "length": 0.348,
+   "cost": 498.061
+  },
+  "status_message": "Found route between points",
+  "status": 0,
+  "units": "kilometers",
+  "language": "en-US"
+ }
+}

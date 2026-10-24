@@ -1,0 +1,171 @@
+{
+ "_comment": "Hand-checked traffic override table for the roads that matter near home (47.240371,-122.262019). Small on purpose: the app reads THIS file without loading assets/traffic.json. The 6 entries with sanity_anchor=true are the counts verified against docs/research/traffic-data-wa.md; Stewart Road Southwest is an extra count found by the same join. aadt_confidence: measured = count from 2010 or later; stale = real count, older than 2010 (show the year); estimate = published estimate, NOT a count; unknown = no usable count. volume_band follows Puyallup 2044 Comprehensive Plan bands: low <1500, medium 1500-7000, high >7000 AADT. A band is written ONLY when a real count exists; estimate/unknown are volume_band \"unknown\" and must NEVER be read as low traffic.",
+ "units": {
+  "aadt": "vehicles per day, both directions where the source states it",
+  "posted_speed_mph": "miles per hour"
+ },
+ "posted_speed_mph_is_USER_FILLED": "FILLED 2026-09-15: user reports 25 mph on the local roads. Applied to: 18th Street East, 122nd Avenue East, Edgewood Drive East, Stewart Road Southwest, Military Road East, Tacoma Avenue, 48th Street East, Fryar Avenue, 142nd Avenue East, A Street Southeast, Jovita Blvd E. CORRECTED 2026-09-15: Stewart Road SW and Jovita Blvd E are 35 mph, not 25 (user, on the ground). NOTE: the correction does not change their grade -- both carry high measured volume (14,669 and 10,358 vpd), and a HIGH-volume road is grade D whatever its speed limit. It does make the displayed speed and reason honest. DELIBERATELY NOT APPLIED to the state highways (Meridian Avenue East, East Valley Highway East, West Valley Highway East) -- a 25 mph limit on a road carrying 11,000-20,000 vpd would be unsafe and almost certainly wrong; they fall back to OSM maxspeed and then volume.",
+ "generated_utc": "2026-09-15",
+ "source_report": "docs/TRAFFIC-JOIN.md",
+ "traffic_asset": "assets/traffic.json",
+ "roads": {
+  "18th Street East": {
+   "posted_speed_mph": 25,
+   "aadt": 381,
+   "aadt_year": 1996,
+   "aadt_confidence": "stale",
+   "volume_band": "low",
+   "source": "pierce",
+   "evidence_id": "pierce/RLOG-84800",
+   "sanity_anchor": true,
+   "posted_speed_source": "user, on the ground, 2026-09-15 (\"25 for all\" -- applied to the LOCAL roads only)"
+  },
+  "122nd Avenue East": {
+   "posted_speed_mph": 25,
+   "aadt": 2626,
+   "aadt_year": 1996,
+   "aadt_confidence": "stale",
+   "volume_band": "medium",
+   "source": "pierce",
+   "evidence_id": "pierce/RLOG-98210",
+   "sanity_anchor": true,
+   "posted_speed_source": "user, on the ground, 2026-09-15 (\"25 for all\" -- applied to the LOCAL roads only)"
+  },
+  "Edgewood Drive East": {
+   "posted_speed_mph": 25,
+   "aadt": 2875,
+   "aadt_year": 1994,
+   "aadt_confidence": "stale",
+   "volume_band": "medium",
+   "source": "pierce",
+   "evidence_id": "pierce/RLOG-83850",
+   "sanity_anchor": true,
+   "posted_speed_source": "user, on the ground, 2026-09-15 (\"25 for all\" -- applied to the LOCAL roads only)"
+  },
+  "Meridian Avenue East": {
+   "posted_speed_mph": null,
+   "aadt": 20000,
+   "aadt_year": 2025,
+   "aadt_confidence": "measured",
+   "volume_band": "high",
+   "source": "wsdot",
+   "evidence_id": "wsdot/SR-161/31.57-33.31",
+   "sanity_anchor": true,
+   "posted_speed_source": "NOT user-confirmed. State highway; the user's '25 for all' answer applied to the local streets. Falls back to OSM maxspeed then volume. Do NOT set 25 on a highway carrying 11,000-20,000 vpd."
+  },
+  "East Valley Highway East": {
+   "posted_speed_mph": null,
+   "aadt": 11050,
+   "aadt_year": 2010,
+   "aadt_confidence": "measured",
+   "volume_band": "high",
+   "source": "pierce",
+   "evidence_id": "pierce/RLOG-97910",
+   "sanity_anchor": true,
+   "posted_speed_source": "NOT user-confirmed. State highway; the user's '25 for all' answer applied to the local streets. Falls back to OSM maxspeed then volume. Do NOT set 25 on a highway carrying 11,000-20,000 vpd."
+  },
+  "West Valley Highway East": {
+   "posted_speed_mph": null,
+   "aadt": 5750,
+   "aadt_year": 2025,
+   "aadt_confidence": "measured",
+   "volume_band": "medium",
+   "source": "pierce",
+   "evidence_id": "pierce/RLOG-98350",
+   "sanity_anchor": true,
+   "posted_speed_source": "NOT user-confirmed. State highway; the user's '25 for all' answer applied to the local streets. Falls back to OSM maxspeed then volume. Do NOT set 25 on a highway carrying 11,000-20,000 vpd."
+  },
+  "Stewart Road Southwest": {
+   "posted_speed_mph": 35,
+   "aadt": 14669,
+   "aadt_year": 1995,
+   "aadt_confidence": "stale",
+   "volume_band": "high",
+   "source": "pierce",
+   "evidence_id": "pierce/RLOG-98600",
+   "sanity_anchor": false,
+   "posted_speed_source": "user correction, on the ground, 2026-09-15: 'Jovita and Stewart are actually 35'"
+  },
+  "Military Road East": {
+   "posted_speed_mph": 25,
+   "aadt": null,
+   "aadt_year": 1978,
+   "aadt_confidence": "estimate",
+   "volume_band": "unknown",
+   "source": "pierce",
+   "evidence_id": "pierce/RLOG-98250",
+   "sanity_anchor": false,
+   "posted_speed_source": "user, on the ground, 2026-09-15 (\"25 for all\" -- applied to the LOCAL roads only)"
+  },
+  "Tacoma Avenue": {
+   "posted_speed_mph": 25,
+   "aadt": null,
+   "aadt_year": 2008,
+   "aadt_confidence": "unknown",
+   "volume_band": "unknown",
+   "source": "pierce",
+   "evidence_id": "pierce/RLOG-98434",
+   "sanity_anchor": false,
+   "posted_speed_source": "user, on the ground, 2026-09-15 (\"25 for all\" -- applied to the LOCAL roads only)"
+  },
+  "48th Street East": {
+   "posted_speed_mph": 25,
+   "aadt": 2469,
+   "aadt_year": 1996,
+   "aadt_confidence": "stale",
+   "volume_band": "medium",
+   "source": "pierce",
+   "evidence_id": "pierce/RLOG-83900",
+   "sanity_anchor": false,
+   "posted_speed_source": "user, on the ground, 2026-09-15 (\"25 for all\" -- applied to the LOCAL roads only)"
+  },
+  "Fryar Avenue": {
+   "posted_speed_mph": 25,
+   "aadt": null,
+   "aadt_year": 1983,
+   "aadt_confidence": "unknown",
+   "volume_band": "unknown",
+   "source": "pierce",
+   "evidence_id": "pierce/RLOG-98430",
+   "sanity_anchor": false,
+   "posted_speed_source": "user, on the ground, 2026-09-15 (\"25 for all\" -- applied to the LOCAL roads only)"
+  },
+  "142nd Avenue East": {
+   "posted_speed_mph": 25,
+   "aadt": null,
+   "aadt_year": null,
+   "aadt_confidence": "unknown",
+   "volume_band": "unknown",
+   "source": "none",
+   "evidence_id": null,
+   "sanity_anchor": false,
+   "posted_speed_source": "user, on the ground, 2026-09-15 (\"25 for all\" -- applied to the LOCAL roads only)"
+  },
+  "A Street Southeast": {
+   "posted_speed_mph": 25,
+   "aadt": null,
+   "aadt_year": null,
+   "aadt_confidence": "unknown",
+   "volume_band": "unknown",
+   "source": "none",
+   "evidence_id": null,
+   "sanity_anchor": false,
+   "posted_speed_source": "user, on the ground, 2026-09-15 (\"25 for all\" -- applied to the LOCAL roads only)"
+  },
+  "Jovita Blvd E": {
+   "aadt": 10358,
+   "aadt_year": 1996,
+   "aadt_confidence": "stale",
+   "volume_band": "high",
+   "source": "app-run",
+   "evidence_id": "observed in the emulator plan",
+   "posted_speed_mph": 35,
+   "posted_speed_source": "user correction, on the ground, 2026-09-15: 'Jovita and Stewart are actually 35'"
+  }
+ },
+ "_flags": {
+  "stewart_road_speed_suspect": "RESOLVED 2026-09-15: user confirms 35 mph. Grade stays D on volume.",
+  "jovita_speed_suspect": "RESOLVED 2026-09-15: user confirms 35 mph. Grade stays D on volume.",
+  "stale_counts": "Every usable LOCAL count is 1994-1996 (122nd 2626/1996, Edgewood Dr 2875/1994, 18th 381/1996, 48th 2469/1996, Stewart 14669/1995). Only SR-161 (2025), East Valley Hwy (2010), West Valley Hwy (2025) are current."
+ }
+}

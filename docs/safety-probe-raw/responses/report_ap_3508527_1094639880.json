@@ -1,0 +1,839 @@
+{
+ "label": "ap_3508527_1094639880",
+ "n_edges": 145,
+ "modes": {
+  "strict": {
+   "metres": {
+    "A": 1115.0,
+    "D": 8637.0,
+    "GAP": 179.0
+   },
+   "share": {
+    "A": 11.23,
+    "D": 86.97,
+    "GAP": 1.8
+   },
+   "total_m": 9931.0,
+   "named": {
+    "D": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": []
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": []
+     },
+     {
+      "street": "Oravetz Road Southeast",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1296.0,
+      "edges": 19,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": []
+     },
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 726.0,
+      "edges": 22,
+      "assumed_mph": []
+     },
+     {
+      "street": "Stewart Road",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 710.0,
+      "edges": 17,
+      "assumed_mph": []
+     },
+     {
+      "street": "East Valley Highway East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 618.0,
+      "edges": 6,
+      "assumed_mph": []
+     },
+     {
+      "street": "A Street Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 480.0,
+      "edges": 5,
+      "assumed_mph": []
+     },
+     {
+      "street": "Stewart Road Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 340.0,
+      "edges": 8,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Lake Tapps Parkway Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 559.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "White River Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 430.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 126.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ],
+    "GAP": [
+     {
+      "street": "Lakeland Hills Way Southeast",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 179.0,
+      "edges": 2,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient": {
+   "metres": {
+    "A": 1115.0,
+    "C": 340.0,
+    "D": 2502.0,
+    "E": 2753.0,
+    "GAP": 3221.0
+   },
+   "share": {
+    "A": 11.23,
+    "C": 3.42,
+    "D": 25.19,
+    "E": 27.72,
+    "GAP": 32.43
+   },
+   "total_m": 9931.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "East Valley Highway East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 618.0,
+      "edges": 6,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Lakeland Hills Way Southeast",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 179.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       39
+      ]
+     }
+    ],
+    "E": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": [
+       44
+      ]
+     },
+     {
+      "street": "Stewart Road",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 710.0,
+      "edges": 17,
+      "assumed_mph": [
+       44
+      ]
+     },
+     {
+      "street": "Stewart Road Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 340.0,
+      "edges": 8,
+      "assumed_mph": [
+       44
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "Oravetz Road Southeast",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1296.0,
+      "edges": 19,
+      "assumed_mph": []
+     },
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 726.0,
+      "edges": 22,
+      "assumed_mph": []
+     },
+     {
+      "street": "A Street Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 480.0,
+      "edges": 5,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Lake Tapps Parkway Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 559.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "White River Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 430.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 126.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous": {
+   "metres": {
+    "A": 1115.0,
+    "C": 340.0,
+    "D": 2502.0,
+    "GAP": 5974.0
+   },
+   "share": {
+    "A": 11.23,
+    "C": 3.42,
+    "D": 25.19,
+    "GAP": 60.16
+   },
+   "total_m": 9931.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Stewart Road",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 710.0,
+      "edges": 17,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "East Valley Highway East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 618.0,
+      "edges": 6,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Stewart Road Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 340.0,
+      "edges": 8,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Lakeland Hills Way Southeast",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 179.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "Oravetz Road Southeast",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1296.0,
+      "edges": 19,
+      "assumed_mph": []
+     },
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 726.0,
+      "edges": 22,
+      "assumed_mph": []
+     },
+     {
+      "street": "A Street Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 480.0,
+      "edges": 5,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Lake Tapps Parkway Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 559.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "White River Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 430.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 126.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient_repair": {
+   "metres": {
+    "A": 1115.0,
+    "C": 958.0,
+    "D": 5105.0,
+    "E": 2753.0
+   },
+   "share": {
+    "A": 11.23,
+    "C": 9.65,
+    "D": 51.4,
+    "E": 27.72
+   },
+   "total_m": 9931.0,
+   "named": {
+    "C": [
+     {
+      "street": "East Valley Highway East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 618.0,
+      "edges": 6,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Oravetz Road Southeast",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1296.0,
+      "edges": 19,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 726.0,
+      "edges": 22,
+      "assumed_mph": []
+     },
+     {
+      "street": "A Street Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 480.0,
+      "edges": 5,
+      "assumed_mph": []
+     },
+     {
+      "street": "Lakeland Hills Way Southeast",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 179.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       39
+      ]
+     }
+    ],
+    "E": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": [
+       44
+      ]
+     },
+     {
+      "street": "Stewart Road",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 710.0,
+      "edges": 17,
+      "assumed_mph": [
+       44
+      ]
+     },
+     {
+      "street": "Stewart Road Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 340.0,
+      "edges": 8,
+      "assumed_mph": [
+       44
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Lake Tapps Parkway Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 559.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "White River Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 430.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 126.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous_repair": {
+   "metres": {
+    "A": 1115.0,
+    "C": 6135.0,
+    "D": 2681.0
+   },
+   "share": {
+    "A": 11.23,
+    "C": 61.78,
+    "D": 27.0
+   },
+   "total_m": 9931.0,
+   "named": {
+    "C": [
+     {
+      "street": "Jovita Boulevard East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 1703.0,
+      "edges": 11,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1563.0,
+      "edges": 29,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Stewart Road",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 710.0,
+      "edges": 17,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "East Valley Highway East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 618.0,
+      "edges": 6,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Stewart Road Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 340.0,
+      "edges": 8,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "Oravetz Road Southeast",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1296.0,
+      "edges": 19,
+      "assumed_mph": []
+     },
+     {
+      "street": "Stewart Road Southwest",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 726.0,
+      "edges": 22,
+      "assumed_mph": []
+     },
+     {
+      "street": "A Street Southeast",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 480.0,
+      "edges": 5,
+      "assumed_mph": []
+     },
+     {
+      "street": "Lakeland Hills Way Southeast",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 179.0,
+      "edges": 2,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Lake Tapps Parkway Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 559.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "White River Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 430.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 126.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,348 @@
+{
+ "label": "sw_8826064_2646861901_r0.0_l0.5_hybrid",
+ "n_edges": 49,
+ "modes": {
+  "strict": {
+   "metres": {
+    "A": 1055.0,
+    "D": 2824.0
+   },
+   "share": {
+    "A": 27.2,
+    "D": 72.8
+   },
+   "total_m": 3879.0,
+   "named": {
+    "D": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1683.0,
+      "edges": 32,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 1055.0,
+      "edges": 4,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient": {
+   "metres": {
+    "A": 1055.0,
+    "C": 340.0,
+    "GAP": 2484.0
+   },
+   "share": {
+    "A": 27.2,
+    "C": 8.77,
+    "GAP": 64.04
+   },
+   "total_m": 3879.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1683.0,
+      "edges": 32,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       39
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 1055.0,
+      "edges": 4,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous": {
+   "metres": {
+    "A": 1055.0,
+    "C": 340.0,
+    "GAP": 2484.0
+   },
+   "share": {
+    "A": 27.2,
+    "C": 8.77,
+    "GAP": 64.04
+   },
+   "total_m": 3879.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1683.0,
+      "edges": 32,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 1055.0,
+      "edges": 4,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient_repair": {
+   "metres": {
+    "A": 1055.0,
+    "C": 340.0,
+    "D": 2484.0
+   },
+   "share": {
+    "A": 27.2,
+    "C": 8.77,
+    "D": 64.04
+   },
+   "total_m": 3879.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1683.0,
+      "edges": 32,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       39
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 1055.0,
+      "edges": 4,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous_repair": {
+   "metres": {
+    "A": 1055.0,
+    "C": 2824.0
+   },
+   "share": {
+    "A": 27.2,
+    "C": 72.8
+   },
+   "total_m": 3879.0,
+   "named": {
+    "C": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1683.0,
+      "edges": 32,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 1055.0,
+      "edges": 4,
+      "assumed_mph": []
+     }
+    ]
+   }
+  }
+ },
+ "route_summary": {
+  "has_time_restrictions": false,
+  "has_toll": false,
+  "has_highway": false,
+  "has_ferry": false,
+  "min_lat": 47.240623,
+  "min_lon": -122.290784,
+  "max_lat": 47.256761,
+  "max_lon": -122.262046,
+  "time": 751.83,
+  "length": 3.88,
+  "cost": 1315.21
+ }
+}

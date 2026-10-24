@@ -1,0 +1,2325 @@
+{
+ "3508527": [
+  {
+   "node": 6313900974,
+   "lat": 47.2647621,
+   "lon": -122.229372,
+   "d_m": 0.0,
+   "road_way": 947658197,
+   "road_name": null,
+   "highway": "footway",
+   "surface": null,
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    null,
+    "footway"
+   ],
+   "n_in_group": 746
+  },
+  {
+   "node": 2669374349,
+   "lat": 47.2647465,
+   "lon": -122.2292132,
+   "d_m": 0.0,
+   "road_way": 674202154,
+   "road_name": null,
+   "highway": "service",
+   "surface": null,
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    null,
+    "service"
+   ],
+   "n_in_group": 68
+  },
+  {
+   "node": 2669374360,
+   "lat": 47.266784,
+   "lon": -122.2260663,
+   "d_m": 0.0,
+   "road_way": 845567706,
+   "road_name": null,
+   "highway": "cycleway",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": "designated",
+   "key": [
+    null,
+    "cycleway"
+   ],
+   "n_in_group": 359
+  },
+  {
+   "node": 10696070530,
+   "lat": 47.2733654,
+   "lon": -122.217014,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 10696070533,
+   "lat": 47.2735196,
+   "lon": -122.216622,
+   "d_m": 0.0,
+   "road_way": 1149786989,
+   "road_name": null,
+   "highway": "path",
+   "surface": "dirt",
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    null,
+    "path"
+   ],
+   "n_in_group": 111
+  },
+  {
+   "node": 13930359476,
+   "lat": 47.2735386,
+   "lon": -122.2164719,
+   "d_m": 28.7,
+   "road_way": 6510584,
+   "road_name": "Oravetz Road Southeast",
+   "highway": "tertiary",
+   "surface": null,
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "Oravetz Road Southeast",
+    "tertiary"
+   ],
+   "n_in_group": 102
+  },
+  {
+   "node": 13930359477,
+   "lat": 47.2735327,
+   "lon": -122.2163429,
+   "d_m": 25.9,
+   "road_way": 6375402,
+   "road_name": "Kennedy Avenue Southeast",
+   "highway": "residential",
+   "surface": "asphalt",
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "Kennedy Avenue Southeast",
+    "residential"
+   ],
+   "n_in_group": 4
+  },
+  {
+   "node": 2669377477,
+   "lat": 47.2735305,
+   "lon": -122.2162379,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 13930359500,
+   "lat": 47.2741669,
+   "lon": -122.2111823,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 13930377801,
+   "lat": 47.2742055,
+   "lon": -122.211048,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 2669377445,
+   "lat": 47.2745303,
+   "lon": -122.2082664,
+   "d_m": 11.2,
+   "road_way": 25720485,
+   "road_name": "R Street Southeast",
+   "highway": "tertiary",
+   "surface": "asphalt",
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "R Street Southeast",
+    "tertiary"
+   ],
+   "n_in_group": 14
+  },
+  {
+   "node": 2669377497,
+   "lat": 47.2745995,
+   "lon": -122.2070808,
+   "d_m": 28.2,
+   "road_way": 6477377,
+   "road_name": "Stuck River Drive",
+   "highway": "residential",
+   "surface": "asphalt",
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "Stuck River Drive",
+    "residential"
+   ],
+   "n_in_group": 30
+  },
+  {
+   "node": 2669377466,
+   "lat": 47.2826984,
+   "lon": -122.1933622,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 12594216248,
+   "lat": 47.282987,
+   "lon": -122.1926659,
+   "d_m": 0.0,
+   "road_way": 354380326,
+   "road_name": null,
+   "highway": "track",
+   "surface": null,
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    null,
+    "track"
+   ],
+   "n_in_group": 12
+  }
+ ],
+ "6554034": [
+  {
+   "node": 53175521,
+   "lat": 47.2610625,
+   "lon": -122.3007676,
+   "d_m": 0.0,
+   "road_way": 6420938,
+   "road_name": "South 380th Street",
+   "highway": "residential",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    "South 380th Street",
+    "residential"
+   ],
+   "n_in_group": 9
+  },
+  {
+   "node": 12860177132,
+   "lat": 47.2618763,
+   "lon": -122.3109128,
+   "d_m": 0.0,
+   "road_way": 1389229770,
+   "road_name": null,
+   "highway": "footway",
+   "surface": null,
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    null,
+    "footway"
+   ],
+   "n_in_group": 15
+  },
+  {
+   "node": 12860177113,
+   "lat": 47.2579724,
+   "lon": -122.3159961,
+   "d_m": 0.0,
+   "road_way": 1389229769,
+   "road_name": null,
+   "highway": "path",
+   "surface": null,
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    null,
+    "path"
+   ],
+   "n_in_group": 21
+  },
+  {
+   "node": 2367794751,
+   "lat": 47.2500407,
+   "lon": -122.3232763,
+   "d_m": 23.7,
+   "road_way": 12185255,
+   "road_name": "9th Avenue",
+   "highway": "residential",
+   "surface": null,
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "9th Avenue",
+    "residential"
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 12196160813,
+   "lat": 47.2499134,
+   "lon": -122.3234697,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 110480391,
+   "lat": 47.249872,
+   "lon": -122.3234945,
+   "d_m": 0.0,
+   "road_way": 12193441,
+   "road_name": "Kent Street",
+   "highway": "residential",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    "Kent Street",
+    "residential"
+   ],
+   "n_in_group": 33
+  },
+  {
+   "node": 12196160814,
+   "lat": 47.2498485,
+   "lon": -122.323503,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 2669363998,
+   "lat": 47.2481682,
+   "lon": -122.3245369,
+   "d_m": 24.9,
+   "road_way": 12237121,
+   "road_name": "Park Way",
+   "highway": "residential",
+   "surface": null,
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "Park Way",
+    "residential"
+   ],
+   "n_in_group": 29
+  },
+  {
+   "node": 12196160804,
+   "lat": 47.2480708,
+   "lon": -122.3245843,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 110552160,
+   "lat": 47.2480589,
+   "lon": -122.3246663,
+   "d_m": 0.0,
+   "road_way": 1445440192,
+   "road_name": "Porter Way",
+   "highway": "tertiary",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    "Porter Way",
+    "tertiary"
+   ],
+   "n_in_group": 57
+  },
+  {
+   "node": 12196160803,
+   "lat": 47.2480499,
+   "lon": -122.3247497,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 12196160808,
+   "lat": 47.2475373,
+   "lon": -122.3249129,
+   "d_m": 0.0,
+   "road_way": 1317769728,
+   "road_name": null,
+   "highway": "service",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    null,
+    "service"
+   ],
+   "n_in_group": 65
+  },
+  {
+   "node": 2572460666,
+   "lat": 47.2475102,
+   "lon": -122.3249306,
+   "d_m": 28.1,
+   "road_way": 12223345,
+   "road_name": "Fife Way East",
+   "highway": "residential",
+   "surface": "asphalt",
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "Fife Way East",
+    "residential"
+   ],
+   "n_in_group": 5
+  },
+  {
+   "node": 3213531052,
+   "lat": 47.246951,
+   "lon": -122.3253565,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 13329238885,
+   "lat": 47.2435742,
+   "lon": -122.3337968,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 13329238886,
+   "lat": 47.2435391,
+   "lon": -122.3339045,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 9352149140,
+   "lat": 47.2393295,
+   "lon": -122.3343452,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 9352149157,
+   "lat": 47.2392659,
+   "lon": -122.3345363,
+   "d_m": 26.1,
+   "road_way": 245987923,
+   "road_name": "20th Street East",
+   "highway": "secondary",
+   "surface": "asphalt",
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "20th Street East",
+    "secondary"
+   ],
+   "n_in_group": 23
+  },
+  {
+   "node": 2379361679,
+   "lat": 47.2433346,
+   "lon": -122.3345328,
+   "d_m": 0.0,
+   "road_way": 1215477816,
+   "road_name": "Milton Interurban Trail",
+   "highway": "cycleway",
+   "surface": "paved",
+   "shared_node": true,
+   "bicycle": "designated",
+   "key": [
+    "Milton Interurban Trail",
+    "cycleway"
+   ],
+   "n_in_group": 19
+  },
+  {
+   "node": 9352149147,
+   "lat": 47.2392165,
+   "lon": -122.3360707,
+   "d_m": 29.6,
+   "road_way": 1165910871,
+   "road_name": "70th Avenue East",
+   "highway": "secondary",
+   "surface": "asphalt",
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "70th Avenue East",
+    "secondary"
+   ],
+   "n_in_group": 2
+  },
+  {
+   "node": 3213532066,
+   "lat": 47.2407295,
+   "lon": -122.3361525,
+   "d_m": 0.0,
+   "road_way": 1331402721,
+   "road_name": null,
+   "highway": "cycleway",
+   "surface": "concrete",
+   "shared_node": true,
+   "bicycle": "designated",
+   "key": [
+    null,
+    "cycleway"
+   ],
+   "n_in_group": 3
+  },
+  {
+   "node": 13174384557,
+   "lat": 47.2407282,
+   "lon": -122.3364374,
+   "d_m": 0.0,
+   "road_way": 215897125,
+   "road_name": "Wapato Way East",
+   "highway": "secondary",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    "Wapato Way East",
+    "secondary"
+   ],
+   "n_in_group": 38
+  }
+ ],
+ "8826064": [
+  {
+   "node": 2646868507,
+   "lat": 47.2560654,
+   "lon": -122.2773296,
+   "d_m": 0.0,
+   "road_way": 765606369,
+   "road_name": "114th Avenue East",
+   "highway": "tertiary",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    "114th Avenue East",
+    "tertiary"
+   ],
+   "n_in_group": 12
+  },
+  {
+   "node": 12882604561,
+   "lat": 47.2559173,
+   "lon": -122.277898,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 12882604560,
+   "lat": 47.255565,
+   "lon": -122.2793965,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 645714471,
+   "lat": 47.25835,
+   "lon": -122.2934873,
+   "d_m": 0.0,
+   "road_way": 50697841,
+   "road_name": "Military Road East",
+   "highway": "secondary",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    "Military Road East",
+    "secondary"
+   ],
+   "n_in_group": 7
+  }
+ ],
+ "9605517": [
+  {
+   "node": 2101094355,
+   "lat": 47.1982102,
+   "lon": -122.2557494,
+   "d_m": 0.0,
+   "road_way": 1299698538,
+   "road_name": null,
+   "highway": "path",
+   "surface": null,
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    null,
+    "path"
+   ],
+   "n_in_group": 74
+  },
+  {
+   "node": 6277555604,
+   "lat": 47.2019433,
+   "lon": -122.2928255,
+   "d_m": 0.0,
+   "road_way": 670339893,
+   "road_name": null,
+   "highway": "cycleway",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": "designated",
+   "key": [
+    null,
+    "cycleway"
+   ],
+   "n_in_group": 94
+  },
+  {
+   "node": 11836115758,
+   "lat": 47.2021223,
+   "lon": -122.2934953,
+   "d_m": 24.4,
+   "road_way": 385206999,
+   "road_name": "North Meridian",
+   "highway": "primary",
+   "surface": "concrete",
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "North Meridian",
+    "primary"
+   ],
+   "n_in_group": 12
+  },
+  {
+   "node": 11836115757,
+   "lat": 47.2021893,
+   "lon": -122.2940568,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 6277555796,
+   "lat": 47.2024462,
+   "lon": -122.2957019,
+   "d_m": 0.0,
+   "road_way": 670339923,
+   "road_name": null,
+   "highway": "footway",
+   "surface": null,
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    null,
+    "footway"
+   ],
+   "n_in_group": 163
+  },
+  {
+   "node": 3621050859,
+   "lat": 47.1965146,
+   "lon": -122.2513032,
+   "d_m": 27.0,
+   "road_way": 12242264,
+   "road_name": "East Main",
+   "highway": "secondary",
+   "surface": "concrete",
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "East Main",
+    "secondary"
+   ],
+   "n_in_group": 11
+  },
+  {
+   "node": 2101094348,
+   "lat": 47.1964659,
+   "lon": -122.2512831,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 6486202530,
+   "lat": 47.1964871,
+   "lon": -122.2510719,
+   "d_m": 0.0,
+   "road_way": 691257975,
+   "road_name": "Sumner Link Trail",
+   "highway": "cycleway",
+   "surface": "concrete",
+   "shared_node": true,
+   "bicycle": "designated",
+   "key": [
+    "Sumner Link Trail",
+    "cycleway"
+   ],
+   "n_in_group": 6
+  },
+  {
+   "node": 6486202533,
+   "lat": 47.1962787,
+   "lon": -122.2512968,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 5438641961,
+   "lat": 47.19872,
+   "lon": -122.2880555,
+   "d_m": 28.0,
+   "road_way": 12242529,
+   "road_name": "9th Avenue Northeast",
+   "highway": "residential",
+   "surface": "asphalt",
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "9th Avenue Northeast",
+    "residential"
+   ],
+   "n_in_group": 28
+  },
+  {
+   "node": 5438641965,
+   "lat": 47.1985696,
+   "lon": -122.2882667,
+   "d_m": 0.0,
+   "road_way": 564471185,
+   "road_name": null,
+   "highway": "service",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    null,
+    "service"
+   ],
+   "n_in_group": 409
+  },
+  {
+   "node": 5373690093,
+   "lat": 47.1977907,
+   "lon": -122.2878042,
+   "d_m": 0.0,
+   "road_way": 557149439,
+   "road_name": "Riverwalk Trail",
+   "highway": "cycleway",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": "designated",
+   "key": [
+    "Riverwalk Trail",
+    "cycleway"
+   ],
+   "n_in_group": 14
+  },
+  {
+   "node": 6486202546,
+   "lat": 47.197703,
+   "lon": -122.2877981,
+   "d_m": 0.0,
+   "road_way": 12223099,
+   "road_name": "8th Avenue Northeast",
+   "highway": "residential",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    "8th Avenue Northeast",
+    "residential"
+   ],
+   "n_in_group": 9
+  },
+  {
+   "node": 13039890415,
+   "lat": 47.1976442,
+   "lon": -122.2877983,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 6486202544,
+   "lat": 47.1969314,
+   "lon": -122.2878061,
+   "d_m": 0.0,
+   "road_way": 12226132,
+   "road_name": "7th Avenue Northeast",
+   "highway": "residential",
+   "surface": null,
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    "7th Avenue Northeast",
+    "residential"
+   ],
+   "n_in_group": 6
+  },
+  {
+   "node": 12953091081,
+   "lat": 47.1941627,
+   "lon": -122.2764331,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 12953104608,
+   "lat": 47.1939192,
+   "lon": -122.2765508,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 6486202582,
+   "lat": 47.1954723,
+   "lon": -122.2877913,
+   "d_m": 0.0,
+   "road_way": 12193756,
+   "road_name": "5th Avenue Northeast",
+   "highway": "residential",
+   "surface": null,
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    "5th Avenue Northeast",
+    "residential"
+   ],
+   "n_in_group": 10
+  },
+  {
+   "node": 2865478604,
+   "lat": 47.1929523,
+   "lon": -122.2820439,
+   "d_m": 29.8,
+   "road_way": 23689624,
+   "road_name": null,
+   "highway": "motorway",
+   "surface": "concrete",
+   "shared_node": false,
+   "bicycle": "yes",
+   "key": [
+    null,
+    "motorway"
+   ],
+   "n_in_group": 16
+  },
+  {
+   "node": 2101094324,
+   "lat": 47.192859,
+   "lon": -122.2829182,
+   "d_m": 27.4,
+   "road_way": 12197659,
+   "road_name": "2nd Avenue Northeast",
+   "highway": "residential",
+   "surface": null,
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "2nd Avenue Northeast",
+    "residential"
+   ],
+   "n_in_group": 19
+  },
+  {
+   "node": 6486202541,
+   "lat": 47.1939581,
+   "lon": -122.2877779,
+   "d_m": 0.0,
+   "road_way": 12201578,
+   "road_name": "4th Avenue Northeast",
+   "highway": "residential",
+   "surface": null,
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    "4th Avenue Northeast",
+    "residential"
+   ],
+   "n_in_group": 4
+  },
+  {
+   "node": 6273297985,
+   "lat": 47.1927115,
+   "lon": -122.282911,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 2101094383,
+   "lat": 47.2050544,
+   "lon": -122.3147883,
+   "d_m": 18.0,
+   "road_way": 12192692,
+   "road_name": "River Road",
+   "highway": "primary",
+   "surface": "asphalt",
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "River Road",
+    "primary"
+   ],
+   "n_in_group": 13
+  },
+  {
+   "node": 6486202537,
+   "lat": 47.1927024,
+   "lon": -122.2857804,
+   "d_m": 0.0,
+   "road_way": 12235846,
+   "road_name": "7th Street Northeast",
+   "highway": "residential",
+   "surface": "concrete",
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    "7th Street Northeast",
+    "residential"
+   ],
+   "n_in_group": 12
+  },
+  {
+   "node": 6486202549,
+   "lat": 47.1927152,
+   "lon": -122.2876384,
+   "d_m": 0.0,
+   "road_way": 12236770,
+   "road_name": "5th Street Northeast",
+   "highway": "tertiary",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    "5th Street Northeast",
+    "tertiary"
+   ],
+   "n_in_group": 62
+  },
+  {
+   "node": 2101094387,
+   "lat": 47.2062003,
+   "lon": -122.3188269,
+   "d_m": 23.9,
+   "road_way": 12228515,
+   "road_name": "18th Street Northwest",
+   "highway": "tertiary",
+   "surface": "asphalt",
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "18th Street Northwest",
+    "tertiary"
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 2670538983,
+   "lat": 47.2068666,
+   "lon": -122.321335,
+   "d_m": 28.3,
+   "road_way": 12217701,
+   "road_name": "20th Street Northwest",
+   "highway": "residential",
+   "surface": null,
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "20th Street Northwest",
+    "residential"
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 110880940,
+   "lat": 47.207103,
+   "lon": -122.3230523,
+   "d_m": 0.0,
+   "road_way": 12240663,
+   "road_name": "80th Avenue East",
+   "highway": "residential",
+   "surface": null,
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    "80th Avenue East",
+    "residential"
+   ],
+   "n_in_group": 2
+  }
+ ],
+ "9605518": [
+  {
+   "node": 9276360140,
+   "lat": 47.2458758,
+   "lon": -122.2384029,
+   "d_m": 0.0,
+   "road_way": 1297893059,
+   "road_name": null,
+   "highway": "path",
+   "surface": "grass",
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    null,
+    "path"
+   ],
+   "n_in_group": 114
+  },
+  {
+   "node": 2670828209,
+   "lat": 47.2461396,
+   "lon": -122.2384683,
+   "d_m": 22.4,
+   "road_way": 569456368,
+   "road_name": null,
+   "highway": "service",
+   "surface": "asphalt",
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    null,
+    "service"
+   ],
+   "n_in_group": 532
+  },
+  {
+   "node": 2670824385,
+   "lat": 47.235561,
+   "lon": -122.2371681,
+   "d_m": 0.0,
+   "road_way": 691257989,
+   "road_name": null,
+   "highway": "cycleway",
+   "surface": "concrete",
+   "shared_node": true,
+   "bicycle": "designated",
+   "key": [
+    null,
+    "cycleway"
+   ],
+   "n_in_group": 80
+  },
+  {
+   "node": 1141829782,
+   "lat": 47.2355615,
+   "lon": -122.2366123,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 2670828192,
+   "lat": 47.2444926,
+   "lon": -122.2354088,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 2670828218,
+   "lat": 47.2447255,
+   "lon": -122.234858,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 1141829849,
+   "lat": 47.2355283,
+   "lon": -122.2349371,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 2670828792,
+   "lat": 47.2499823,
+   "lon": -122.2374966,
+   "d_m": 26.6,
+   "road_way": 1005421370,
+   "road_name": null,
+   "highway": "footway",
+   "surface": null,
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    null,
+    "footway"
+   ],
+   "n_in_group": 1084
+  },
+  {
+   "node": 2670828294,
+   "lat": 47.2500991,
+   "lon": -122.2375027,
+   "d_m": 0.0,
+   "road_way": 1437032024,
+   "road_name": "Stewart Road",
+   "highway": "secondary",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    "Stewart Road",
+    "secondary"
+   ],
+   "n_in_group": 10
+  },
+  {
+   "node": 110933646,
+   "lat": 47.2355235,
+   "lon": -122.2339017,
+   "d_m": 0.0,
+   "road_way": 12245922,
+   "road_name": "24th Street East",
+   "highway": "residential",
+   "surface": null,
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    "24th Street East",
+    "residential"
+   ],
+   "n_in_group": 8
+  },
+  {
+   "node": 2670823453,
+   "lat": 47.2169952,
+   "lon": -122.2399147,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 6486202577,
+   "lat": 47.2166695,
+   "lon": -122.2394397,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 2670823387,
+   "lat": 47.2165193,
+   "lon": -122.2384281,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 2670823454,
+   "lat": 47.216324,
+   "lon": -122.2387656,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 6486202576,
+   "lat": 47.2162942,
+   "lon": -122.2386377,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 2670823447,
+   "lat": 47.2169667,
+   "lon": -122.2368855,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 4139677458,
+   "lat": 47.2160179,
+   "lon": -122.2374515,
+   "d_m": 15.2,
+   "road_way": 12222475,
+   "road_name": "45th Street East",
+   "highway": "residential",
+   "surface": null,
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "45th Street East",
+    "residential"
+   ],
+   "n_in_group": 10
+  },
+  {
+   "node": 4139677459,
+   "lat": 47.2159136,
+   "lon": -122.2375571,
+   "d_m": 0.0,
+   "road_way": 12233103,
+   "road_name": "Tacoma Avenue",
+   "highway": "tertiary",
+   "surface": null,
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    "Tacoma Avenue",
+    "tertiary"
+   ],
+   "n_in_group": 94
+  },
+  {
+   "node": 2670823435,
+   "lat": 47.2176608,
+   "lon": -122.2335167,
+   "d_m": 28.5,
+   "road_way": 451051335,
+   "road_name": "150th Avenue Court East",
+   "highway": "residential",
+   "surface": null,
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "150th Avenue Court East",
+    "residential"
+   ],
+   "n_in_group": 17
+  },
+  {
+   "node": 8848928542,
+   "lat": 47.2136382,
+   "lon": -122.2421761,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 2670823443,
+   "lat": 47.2184449,
+   "lon": -122.2311095,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 2670823330,
+   "lat": 47.2131452,
+   "lon": -122.2411961,
+   "d_m": 27.6,
+   "road_way": 12242881,
+   "road_name": "Puyallup Street",
+   "highway": "tertiary",
+   "surface": null,
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "Puyallup Street",
+    "tertiary"
+   ],
+   "n_in_group": 102
+  },
+  {
+   "node": 6486202569,
+   "lat": 47.2125915,
+   "lon": -122.2427353,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 2670823369,
+   "lat": 47.2131754,
+   "lon": -122.2409831,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 6486202568,
+   "lat": 47.2120805,
+   "lon": -122.2422962,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 2670823424,
+   "lat": 47.2120301,
+   "lon": -122.2420866,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 8848922807,
+   "lat": 47.2120147,
+   "lon": -122.2421029,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 110731683,
+   "lat": 47.2119262,
+   "lon": -122.2421941,
+   "d_m": 0.0,
+   "road_way": 25680623,
+   "road_name": "142nd Avenue East",
+   "highway": "tertiary",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": "designated",
+   "key": [
+    "142nd Avenue East",
+    "tertiary"
+   ],
+   "n_in_group": 151
+  },
+  {
+   "node": 6486202553,
+   "lat": 47.211902,
+   "lon": -122.2422167,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 6486202556,
+   "lat": 47.2115687,
+   "lon": -122.2422561,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 13179759683,
+   "lat": 47.2110965,
+   "lon": -122.2422634,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 13179759695,
+   "lat": 47.2108944,
+   "lon": -122.2422644,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 13179759696,
+   "lat": 47.2104501,
+   "lon": -122.2422628,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 6486202563,
+   "lat": 47.2103933,
+   "lon": -122.2422626,
+   "d_m": 0.0,
+   "road_way": 759079455,
+   "road_name": "Sumner Link Trail",
+   "highway": "footway",
+   "surface": "concrete",
+   "shared_node": true,
+   "bicycle": "designated",
+   "key": [
+    "Sumner Link Trail",
+    "footway"
+   ],
+   "n_in_group": 153
+  },
+  {
+   "node": 5479081486,
+   "lat": 47.2103968,
+   "lon": -122.2421342,
+   "d_m": 0.0,
+   "road_way": 12182723,
+   "road_name": "Fryar Avenue",
+   "highway": "tertiary",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": "designated",
+   "key": [
+    "Fryar Avenue",
+    "tertiary"
+   ],
+   "n_in_group": 73
+  },
+  {
+   "node": 110422931,
+   "lat": 47.20743,
+   "lon": -122.242147,
+   "d_m": 0.0,
+   "road_way": 12231716,
+   "road_name": "Zehnder Street",
+   "highway": "tertiary",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    "Zehnder Street",
+    "tertiary"
+   ],
+   "n_in_group": 5
+  },
+  {
+   "node": 110422926,
+   "lat": 47.2060172,
+   "lon": -122.24288,
+   "d_m": 0.0,
+   "road_way": 12183068,
+   "road_name": "57th Street East",
+   "highway": "residential",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    "57th Street East",
+    "residential"
+   ],
+   "n_in_group": 7
+  },
+  {
+   "node": 5242303703,
+   "lat": 47.2051288,
+   "lon": -122.2433573,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 5242303776,
+   "lat": 47.2048491,
+   "lon": -122.2435154,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 7098613132,
+   "lat": 47.2039036,
+   "lon": -122.2440335,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 6486202557,
+   "lat": 47.2035353,
+   "lon": -122.2443702,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 6486202558,
+   "lat": 47.203498,
+   "lon": -122.2445107,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 110713098,
+   "lat": 47.2033999,
+   "lon": -122.2445285,
+   "d_m": 0.0,
+   "road_way": 98689245,
+   "road_name": "Bridge Street",
+   "highway": "secondary",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    "Bridge Street",
+    "secondary"
+   ],
+   "n_in_group": 78
+  },
+  {
+   "node": 7089994023,
+   "lat": 47.2034563,
+   "lon": -122.2441149,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 7090006597,
+   "lat": 47.2034521,
+   "lon": -122.2441331,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 7090006592,
+   "lat": 47.2033277,
+   "lon": -122.2445488,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 8251417567,
+   "lat": 47.2033245,
+   "lon": -122.2443361,
+   "d_m": 0.0,
+   "road_way": 887487134,
+   "road_name": "West Main Street",
+   "highway": "residential",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    "West Main Street",
+    "residential"
+   ],
+   "n_in_group": 102
+  },
+  {
+   "node": 110422923,
+   "lat": 47.2033083,
+   "lon": -122.2442431,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 3730012154,
+   "lat": 47.2022915,
+   "lon": -122.2495171,
+   "d_m": 10.1,
+   "road_way": 12235089,
+   "road_name": "Spinning Avenue",
+   "highway": "residential",
+   "surface": "asphalt",
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "Spinning Avenue",
+    "residential"
+   ],
+   "n_in_group": 14
+  },
+  {
+   "node": 13179055162,
+   "lat": 47.2027996,
+   "lon": -122.2459146,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 6486202551,
+   "lat": 47.202286,
+   "lon": -122.2478056,
+   "d_m": 7.4,
+   "road_way": 12241508,
+   "road_name": "Hunt Avenue",
+   "highway": "residential",
+   "surface": "asphalt",
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "Hunt Avenue",
+    "residential"
+   ],
+   "n_in_group": 2
+  },
+  {
+   "node": 2670806307,
+   "lat": 47.2007694,
+   "lon": -122.252956,
+   "d_m": 26.9,
+   "road_way": 23658393,
+   "road_name": null,
+   "highway": "motorway",
+   "surface": null,
+   "shared_node": false,
+   "bicycle": "yes",
+   "key": [
+    null,
+    "motorway"
+   ],
+   "n_in_group": 9
+  },
+  {
+   "node": 2670806304,
+   "lat": 47.2007392,
+   "lon": -122.2530838,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 110790321,
+   "lat": 47.2007305,
+   "lon": -122.2527988,
+   "d_m": 0.0,
+   "road_way": 12231860,
+   "road_name": "State Street",
+   "highway": "residential",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    "State Street",
+    "residential"
+   ],
+   "n_in_group": 49
+  },
+  {
+   "node": 2670806286,
+   "lat": 47.2001431,
+   "lon": -122.2544915,
+   "d_m": 17.4,
+   "road_way": 12229434,
+   "road_name": "63rd Street East",
+   "highway": "residential",
+   "surface": null,
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "63rd Street East",
+    "residential"
+   ],
+   "n_in_group": 21
+  },
+  {
+   "node": 2670806296,
+   "lat": 47.1974356,
+   "lon": -122.251058,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 2670806303,
+   "lat": 47.1974929,
+   "lon": -122.250016,
+   "d_m": 14.3,
+   "road_way": 127788899,
+   "road_name": "East Main",
+   "highway": "secondary",
+   "surface": "asphalt",
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "East Main",
+    "secondary"
+   ],
+   "n_in_group": 7
+  },
+  {
+   "node": 6486202534,
+   "lat": 47.1972576,
+   "lon": -122.2502416,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 6486202530,
+   "lat": 47.1964871,
+   "lon": -122.2510719,
+   "d_m": 0.0,
+   "road_way": 691257977,
+   "road_name": "Riverwalk Trail",
+   "highway": "cycleway",
+   "surface": "concrete",
+   "shared_node": true,
+   "bicycle": "designated",
+   "key": [
+    "Riverwalk Trail",
+    "cycleway"
+   ],
+   "n_in_group": 7
+  }
+ ],
+ "9605519": [
+  {
+   "node": 9276360167,
+   "lat": 47.2499905,
+   "lon": -122.2415757,
+   "d_m": 0.0,
+   "road_way": 1005421361,
+   "road_name": null,
+   "highway": "footway",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    null,
+    "footway"
+   ],
+   "n_in_group": 216
+  },
+  {
+   "node": 6486202580,
+   "lat": 47.2499873,
+   "lon": -122.2387474,
+   "d_m": 0.0,
+   "road_way": 569456368,
+   "road_name": null,
+   "highway": "service",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    null,
+    "service"
+   ],
+   "n_in_group": 77
+  },
+  {
+   "node": 2670828792,
+   "lat": 47.2499823,
+   "lon": -122.2374966,
+   "d_m": 0.0,
+   "road_way": 261467897,
+   "road_name": "Sumner Link Trail",
+   "highway": "cycleway",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": "yes",
+   "key": [
+    "Sumner Link Trail",
+    "cycleway"
+   ],
+   "n_in_group": 4
+  },
+  {
+   "node": 10900530370,
+   "lat": 47.249971,
+   "lon": -122.236886,
+   "d_m": 0.0,
+   "road_way": 1173169494,
+   "road_name": null,
+   "highway": "path",
+   "surface": null,
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    null,
+    "path"
+   ],
+   "n_in_group": 42
+  },
+  {
+   "node": 2670828804,
+   "lat": 47.2501125,
+   "lon": -122.2349546,
+   "d_m": 12.3,
+   "road_way": 618805572,
+   "road_name": null,
+   "highway": "secondary_link",
+   "surface": null,
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    null,
+    "secondary_link"
+   ],
+   "n_in_group": 19
+  },
+  {
+   "node": 2670829786,
+   "lat": 47.2517552,
+   "lon": -122.2293983,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 2670829781,
+   "lat": 47.2517611,
+   "lon": -122.2290857,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  },
+  {
+   "node": 2670829793,
+   "lat": 47.2518029,
+   "lon": -122.2290347,
+   "d_m": 26.2,
+   "road_way": 635794765,
+   "road_name": "Terrace View Drive",
+   "highway": "tertiary",
+   "surface": null,
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "Terrace View Drive",
+    "tertiary"
+   ],
+   "n_in_group": 116
+  },
+  {
+   "node": 2670829813,
+   "lat": 47.2520626,
+   "lon": -122.2288305,
+   "d_m": 0.0,
+   "road_way": 1326182522,
+   "road_name": "East Valley Highway East",
+   "highway": "secondary",
+   "surface": null,
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    "East Valley Highway East",
+    "secondary"
+   ],
+   "n_in_group": 13
+  },
+  {
+   "node": 2670829835,
+   "lat": 47.2501243,
+   "lon": -122.2269533,
+   "d_m": 18.7,
+   "road_way": 1326182523,
+   "road_name": "Lake Tapps Parkway Southeast",
+   "highway": "secondary",
+   "surface": "asphalt",
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "Lake Tapps Parkway Southeast",
+    "secondary"
+   ],
+   "n_in_group": 163
+  },
+  {
+   "node": 2670829819,
+   "lat": 47.2519138,
+   "lon": -122.2277474,
+   "d_m": 0.0,
+   "road_way": 228600161,
+   "road_name": "Alexander Place Southeast",
+   "highway": "residential",
+   "surface": null,
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    "Alexander Place Southeast",
+    "residential"
+   ],
+   "n_in_group": 12
+  },
+  {
+   "node": 2670829864,
+   "lat": 47.2516114,
+   "lon": -122.227225,
+   "d_m": 0.0,
+   "road_way": 228599444,
+   "road_name": "Terrace View Lane Southeast",
+   "highway": "residential",
+   "surface": null,
+   "shared_node": true,
+   "bicycle": null,
+   "key": [
+    "Terrace View Lane Southeast",
+    "residential"
+   ],
+   "n_in_group": 18
+  },
+  {
+   "node": 2670829797,
+   "lat": 47.2467523,
+   "lon": -122.223284,
+   "d_m": 0.0,
+   "road_way": 261468122,
+   "road_name": "Vista Ridge Trail",
+   "highway": "cycleway",
+   "surface": "asphalt",
+   "shared_node": true,
+   "bicycle": "designated",
+   "key": [
+    "Vista Ridge Trail",
+    "cycleway"
+   ],
+   "n_in_group": 4
+  },
+  {
+   "node": 2670829822,
+   "lat": 47.2440247,
+   "lon": -122.2148431,
+   "d_m": 29.4,
+   "road_way": 618805560,
+   "road_name": "Lake Tapps Drive Southeast",
+   "highway": "residential",
+   "surface": null,
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "Lake Tapps Drive Southeast",
+    "residential"
+   ],
+   "n_in_group": 3
+  },
+  {
+   "node": 2670829833,
+   "lat": 47.2452301,
+   "lon": -122.2096289,
+   "d_m": 22.9,
+   "road_way": 949141627,
+   "road_name": "Lakeland Hills Way Southeast",
+   "highway": "tertiary",
+   "surface": "asphalt",
+   "shared_node": false,
+   "bicycle": null,
+   "key": [
+    "Lakeland Hills Way Southeast",
+    "tertiary"
+   ],
+   "n_in_group": 9
+  },
+  {
+   "node": 2670829854,
+   "lat": 47.245316,
+   "lon": -122.2095131,
+   "d_m": null,
+   "road_way": null,
+   "road_name": "(trail endpoint)",
+   "highway": null,
+   "shared_node": null,
+   "key": [
+    "(endpoint)",
+    null
+   ],
+   "n_in_group": 1
+  }
+ ]
+}

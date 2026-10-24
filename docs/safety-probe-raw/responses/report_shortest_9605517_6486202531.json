@@ -1,0 +1,935 @@
+{
+ "label": "shortest_9605517_6486202531",
+ "n_edges": 127,
+ "modes": {
+  "strict": {
+   "metres": {
+    "A": 222.0,
+    "B": 181.0,
+    "C": 1177.0,
+    "D": 4992.0,
+    "GAP": 200.0
+   },
+   "share": {
+    "A": 3.28,
+    "B": 2.67,
+    "C": 17.38,
+    "D": 73.72,
+    "GAP": 2.95
+   },
+   "total_m": 6772.0,
+   "named": {
+    "D": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 2226.0,
+      "edges": 46,
+      "assumed_mph": []
+     },
+     {
+      "street": "Edgewood Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1371.0,
+      "edges": 17,
+      "assumed_mph": []
+     },
+     {
+      "street": "Traffic Avenue",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 770.0,
+      "edges": 21,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "Sumner Heights Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 231.0,
+      "edges": 3,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 22.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "East Main",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 20.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "Main Street",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 12.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ],
+    "C": [
+     {
+      "street": "127th Avenue East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 455.0,
+      "edges": 9,
+      "assumed_mph": []
+     },
+     {
+      "street": "Caldwell Road East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 449.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "40th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 273.0,
+      "edges": 2,
+      "assumed_mph": []
+     }
+    ],
+    "B": [
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "dedicated",
+      "m": 181.0,
+      "edges": 5,
+      "assumed_mph": []
+     }
+    ],
+    "GAP": [
+     {
+      "street": "Bridge Street",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 175.0,
+      "edges": 6,
+      "assumed_mph": []
+     },
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 25.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 137.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "Riverwalk Trail",
+      "road_class": "service_other",
+      "cycle_lane": "dedicated",
+      "m": 71.0,
+      "edges": 3,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "dedicated",
+      "m": 14.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient": {
+   "metres": {
+    "A": 222.0,
+    "B": 181.0,
+    "C": 1517.0,
+    "D": 42.0,
+    "E": 770.0,
+    "GAP": 4040.0
+   },
+   "share": {
+    "A": 3.28,
+    "B": 2.67,
+    "C": 22.4,
+    "D": 0.62,
+    "E": 11.37,
+    "GAP": 59.66
+   },
+   "total_m": 6772.0,
+   "named": {
+    "C": [
+     {
+      "street": "127th Avenue East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 455.0,
+      "edges": 9,
+      "assumed_mph": []
+     },
+     {
+      "street": "Caldwell Road East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 449.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "40th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 273.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 2226.0,
+      "edges": 46,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Edgewood Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1371.0,
+      "edges": 17,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Sumner Heights Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 231.0,
+      "edges": 3,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Bridge Street",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 175.0,
+      "edges": 6,
+      "assumed_mph": []
+     },
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 25.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "Main Street",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 12.0,
+      "edges": 1,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 22.0,
+      "edges": 1,
+      "assumed_mph": [
+       35
+      ]
+     },
+     {
+      "street": "East Main",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 20.0,
+      "edges": 1,
+      "assumed_mph": [
+       30
+      ]
+     }
+    ],
+    "B": [
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "dedicated",
+      "m": 181.0,
+      "edges": 5,
+      "assumed_mph": []
+     }
+    ],
+    "E": [
+     {
+      "street": "Traffic Avenue",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 770.0,
+      "edges": 21,
+      "assumed_mph": [
+       44
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 137.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "Riverwalk Trail",
+      "road_class": "service_other",
+      "cycle_lane": "dedicated",
+      "m": 71.0,
+      "edges": 3,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "dedicated",
+      "m": 14.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous": {
+   "metres": {
+    "A": 222.0,
+    "B": 181.0,
+    "C": 1517.0,
+    "GAP": 4852.0
+   },
+   "share": {
+    "A": 3.28,
+    "B": 2.67,
+    "C": 22.4,
+    "GAP": 71.65
+   },
+   "total_m": 6772.0,
+   "named": {
+    "C": [
+     {
+      "street": "127th Avenue East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 455.0,
+      "edges": 9,
+      "assumed_mph": []
+     },
+     {
+      "street": "Caldwell Road East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 449.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "40th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 273.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 2226.0,
+      "edges": 46,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Edgewood Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1371.0,
+      "edges": 17,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Traffic Avenue",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 770.0,
+      "edges": 21,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Sumner Heights Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 231.0,
+      "edges": 3,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Bridge Street",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 175.0,
+      "edges": 6,
+      "assumed_mph": []
+     },
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 25.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 22.0,
+      "edges": 1,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "East Main",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 20.0,
+      "edges": 1,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Main Street",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 12.0,
+      "edges": 1,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "B": [
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "dedicated",
+      "m": 181.0,
+      "edges": 5,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 137.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "Riverwalk Trail",
+      "road_class": "service_other",
+      "cycle_lane": "dedicated",
+      "m": 71.0,
+      "edges": 3,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "dedicated",
+      "m": 14.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient_repair": {
+   "metres": {
+    "A": 222.0,
+    "B": 181.0,
+    "C": 1729.0,
+    "D": 3870.0,
+    "E": 770.0
+   },
+   "share": {
+    "A": 3.28,
+    "B": 2.67,
+    "C": 25.53,
+    "D": 57.15,
+    "E": 11.37
+   },
+   "total_m": 6772.0,
+   "named": {
+    "C": [
+     {
+      "street": "127th Avenue East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 455.0,
+      "edges": 9,
+      "assumed_mph": []
+     },
+     {
+      "street": "Caldwell Road East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 449.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "40th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 273.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "Bridge Street",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 175.0,
+      "edges": 6,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     },
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 25.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "Main Street",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 12.0,
+      "edges": 1,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 2226.0,
+      "edges": 46,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Edgewood Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1371.0,
+      "edges": 17,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Sumner Heights Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 231.0,
+      "edges": 3,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 22.0,
+      "edges": 1,
+      "assumed_mph": [
+       35
+      ]
+     },
+     {
+      "street": "East Main",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 20.0,
+      "edges": 1,
+      "assumed_mph": [
+       30
+      ]
+     }
+    ],
+    "B": [
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "dedicated",
+      "m": 181.0,
+      "edges": 5,
+      "assumed_mph": []
+     }
+    ],
+    "E": [
+     {
+      "street": "Traffic Avenue",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 770.0,
+      "edges": 21,
+      "assumed_mph": [
+       44
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 137.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "Riverwalk Trail",
+      "road_class": "service_other",
+      "cycle_lane": "dedicated",
+      "m": 71.0,
+      "edges": 3,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "dedicated",
+      "m": 14.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous_repair": {
+   "metres": {
+    "A": 222.0,
+    "B": 181.0,
+    "C": 6369.0
+   },
+   "share": {
+    "A": 3.28,
+    "B": 2.67,
+    "C": 94.05
+   },
+   "total_m": 6772.0,
+   "named": {
+    "C": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 2226.0,
+      "edges": 46,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Edgewood Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1371.0,
+      "edges": 17,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Traffic Avenue",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 770.0,
+      "edges": 21,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "127th Avenue East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 455.0,
+      "edges": 9,
+      "assumed_mph": []
+     },
+     {
+      "street": "Caldwell Road East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 449.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "40th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 273.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "Sumner Heights Drive East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 231.0,
+      "edges": 3,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Bridge Street",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 175.0,
+      "edges": 6,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 25.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "West Valley Highway East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 22.0,
+      "edges": 1,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "East Main",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 20.0,
+      "edges": 1,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Main Street",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 12.0,
+      "edges": 1,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "B": [
+     {
+      "street": "Valley Avenue East",
+      "road_class": "secondary",
+      "cycle_lane": "dedicated",
+      "m": 181.0,
+      "edges": 5,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Sumner Link Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 137.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "Riverwalk Trail",
+      "road_class": "service_other",
+      "cycle_lane": "dedicated",
+      "m": 71.0,
+      "edges": 3,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "dedicated",
+      "m": 14.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ]
+   }
+  }
+ }
+}

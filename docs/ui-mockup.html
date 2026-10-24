@@ -1,0 +1,84 @@
+<!doctype html><meta charset="utf-8"><title>Bike Trail Planner — UI mockup</title>
+<style>
+:root{--blue:#1A73E8;--surface:#fff;--variant:#F1F3F4;--on:#202124;--onv:#5F6368;--outline:#DADCE0;
+--A:#188038;--B:#34A853;--C:#F9AB00;--D:#EA8600;--E:#D93025;--N:#9AA0A6}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font:14px/1.45 Roboto,system-ui,-apple-system,"Segoe UI",Arial;background:#202124;color:var(--on);
+display:flex;gap:36px;justify-content:center;padding:32px;flex-wrap:wrap}
+.phone{width:380px;height:780px;background:var(--surface);border-radius:32px;overflow:hidden;position:relative;
+box-shadow:0 12px 40px rgba(0,0,0,.45);display:flex;flex-direction:column}
+.map{position:absolute;inset:0;background:linear-gradient(#E8EAED,#DADCE0)}
+.map svg{width:100%;height:100%}
+.pill{position:relative;margin:16px;height:48px;border-radius:24px;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.25);
+display:flex;align-items:center;gap:12px;padding:0 16px;color:var(--onv);z-index:3}
+.pill b{color:var(--on);font-weight:500;font-size:15px}
+.sheet{position:relative;margin-top:auto;background:#fff;border-radius:28px 28px 0 0;padding:8px 16px 20px;z-index:4;
+box-shadow:0 -2px 12px rgba(0,0,0,.14)}
+.handle{width:32px;height:4px;border-radius:2px;background:var(--outline);margin:4px auto 14px}
+h1{font-size:24px;font-weight:500;letter-spacing:0}
+.sub{color:var(--onv);margin-top:4px;font-size:14px}
+.stats{display:flex;gap:12px;margin:18px 0}
+.stat{flex:1;background:var(--variant);border-radius:16px;padding:12px 14px}
+.stat span{display:block;font-size:12px;color:var(--onv);text-transform:uppercase;letter-spacing:.4px}
+.stat b{font-size:26px;font-weight:500}
+.chips{display:flex;gap:8px;margin:14px 0 4px;overflow:auto}
+.chip{border:1px solid var(--outline);border-radius:20px;padding:8px 16px;color:var(--onv);white-space:nowrap;font-size:14px}
+.chip.on{background:#E8F0FE;border-color:#E8F0FE;color:var(--blue);font-weight:500}
+.btn{display:block;width:100%;height:48px;border:0;border-radius:24px;background:var(--blue);color:#fff;
+font-size:15px;font-weight:500;margin-top:16px}
+.btn.ghost{background:#fff;color:var(--blue);border:1px solid var(--outline)}
+.row{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid var(--variant);font-size:14px}
+.row:last-child{border:0}.row span{color:var(--onv)}
+.bar{display:flex;height:8px;border-radius:4px;overflow:hidden;margin:16px 0 8px}
+.bar i{display:block;height:100%}
+.cap{font-size:12px;color:var(--onv)}
+.legend{margin-top:12px;font-size:13px}
+.legend div{display:flex;align-items:center;gap:8px;padding:5px 0}
+.dot{width:10px;height:10px;border-radius:50%}
+.tag{font-size:11px;color:var(--onv);background:var(--variant);border-radius:10px;padding:2px 8px;margin-left:auto}
+.label{color:#fff;text-align:center;font:12px/1 Roboto;letter-spacing:.12em;opacity:.75;margin-bottom:8px}
+</style>
+<div><div class="label">1 · PLAN</div><div class="phone">
+ <div class="map"><svg viewBox="0 0 380 780" preserveAspectRatio="none">
+   <path d="M0 300 H380 M0 460 H380 M0 620 H380 M90 0 V780 M230 0 V780" stroke="#fff" stroke-width="6" opacity=".9"/>
+   <path d="M188 700 C170 640 150 600 118 560 S96 470 150 430 S250 380 268 320" stroke="#9AA0A6" stroke-width="9" fill="none" stroke-linecap="round"/>
+ </svg></div>
+ <div class="pill">☰ <b>Plan a ride from home</b><span style="margin-left:auto">◎</span></div>
+ <div class="sheet">
+  <div class="handle"></div>
+  <h1>Bike Trail Planner</h1>
+  <div class="sub">Rides start and finish at home</div>
+  <div class="stats"><div class="stat"><span>Distance</span><b>12<small style="font-size:14px"> mi</small></b></div>
+   <div class="stat"><span>Trails</span><b>6</b></div></div>
+  <div class="chips"><div class="chip">6 mi</div><div class="chip on">12 mi</div><div class="chip">15 mi</div><div class="chip">20 mi</div></div>
+  <button class="btn">Plan ride</button>
+  <div style="display:flex;justify-content:center;gap:18px;margin-top:10px">
+    <span style="color:var(--blue);font-size:14px">Use my location</span>
+    <span style="color:var(--blue);font-size:14px">Refresh trails</span></div>
+ </div></div></div>
+
+<div><div class="label">2 · RESULT</div><div class="phone">
+ <div class="map"><svg viewBox="0 0 380 780" preserveAspectRatio="none">
+   <path d="M0 300 H380 M0 460 H380 M0 620 H380 M90 0 V780 M230 0 V780" stroke="#fff" stroke-width="6" opacity=".9"/>
+   <path d="M188 780 C170 640 150 600 118 560 S96 470 150 430 S250 380 268 320" stroke="#188038" stroke-width="9" fill="none" stroke-linecap="round"/>
+   <path d="M268 320 C280 250 250 210 200 190 S120 120 96 60" stroke="#F9AB00" stroke-width="9" fill="none" stroke-linecap="round"/>
+   <circle cx="188" cy="700" r="9" fill="#1A73E8" stroke="#fff" stroke-width="3"/>
+   <circle cx="96" cy="60" r="9" fill="#D93025" stroke="#fff" stroke-width="3"/>
+ </svg></div>
+ <div class="sheet" style="height:62%">
+  <div class="handle"></div>
+  <h1 style="font-size:20px">Interurban Trail Edgewood</h1>
+  <div class="sub">5.2 mi round trip · 1.7 mi on trail</div>
+  <div class="bar"><i style="width:16%;background:var(--A)"></i><i style="width:26%;background:var(--C)"></i><i style="width:42%;background:var(--N)"></i><i style="width:16%;background:#DADCE0"></i></div>
+  <div class="cap">50% of this ride is measured — see what we know</div>
+  <div class="legend">
+   <div><span class="dot" style="background:var(--A)"></span>Trail · separated path<span class="tag">0.8 mi</span></div>
+   <div><span class="dot" style="background:var(--C)"></span>Quiet road · 25 mph<span class="tag">1.3 mi</span></div>
+   <div><span class="dot" style="background:var(--N)"></span>Not measured · 114th Avenue East<span class="tag">2.1 mi</span></div>
+   <div><span class="dot" style="background:var(--N)"></span>Not measured · service road<span class="tag">0.1 mi</span></div>
+  </div>
+  <div class="cap" style="margin-top:10px">Not measured means we could not verify it.
+   It is not a claim that it is safe. Traffic data: 2,300 vehicles/day (1996).</div>
+  <button class="btn">Confirm on map</button>
+  <button class="btn ghost">Start navigating</button>
+ </div></div></div>

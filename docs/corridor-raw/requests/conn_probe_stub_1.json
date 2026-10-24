@@ -1,0 +1,25 @@
+{
+ "costing": "bicycle",
+ "units": "kilometers",
+ "directions_options": {
+  "units": "miles"
+ },
+ "costing_options": {
+  "bicycle": {
+   "bicycle_type": "hybrid",
+   "use_roads": 0.1,
+   "avoid_bad_surfaces": 0.3,
+   "use_hills": 0.25
+  }
+ },
+ "locations": [
+  {
+   "lat": 47.240371,
+   "lon": -122.262019
+  },
+  {
+   "lat": 47.24,
+   "lon": -122.24172
+  }
+ ]
+}

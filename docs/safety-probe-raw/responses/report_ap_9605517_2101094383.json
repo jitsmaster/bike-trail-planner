@@ -1,0 +1,632 @@
+{
+ "label": "ap_9605517_2101094383",
+ "n_edges": 128,
+ "modes": {
+  "strict": {
+   "metres": {
+    "A": 2393.0,
+    "C": 1358.0,
+    "D": 4970.0,
+    "GAP": 606.0
+   },
+   "share": {
+    "A": 25.66,
+    "C": 14.56,
+    "D": 53.29,
+    "GAP": 6.5
+   },
+   "total_m": 9327.0,
+   "named": {
+    "D": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 2581.0,
+      "edges": 53,
+      "assumed_mph": []
+     },
+     {
+      "street": "Milwaukee Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1246.0,
+      "edges": 26,
+      "assumed_mph": []
+     },
+     {
+      "street": "48th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 632.0,
+      "edges": 10,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "Chrisella Road East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 97.0,
+      "edges": 1,
+      "assumed_mph": []
+     },
+     {
+      "street": "5th Street Northeast",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 74.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": []
+     }
+    ],
+    "C": [
+     {
+      "street": "43rd Street Court East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 812.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 546.0,
+      "edges": 11,
+      "assumed_mph": []
+     }
+    ],
+    "GAP": [
+     {
+      "street": "Chrisella Road East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 606.0,
+      "edges": 4,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Riverwalk Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 2256.0,
+      "edges": 10,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 137.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient": {
+   "metres": {
+    "A": 2393.0,
+    "C": 1698.0,
+    "GAP": 5236.0
+   },
+   "share": {
+    "A": 25.66,
+    "C": 18.21,
+    "GAP": 56.14
+   },
+   "total_m": 9327.0,
+   "named": {
+    "C": [
+     {
+      "street": "43rd Street Court East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 812.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 546.0,
+      "edges": 11,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 2581.0,
+      "edges": 53,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Milwaukee Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1246.0,
+      "edges": 26,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Chrisella Road East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 703.0,
+      "edges": 5,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "48th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 632.0,
+      "edges": 10,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "5th Street Northeast",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 74.0,
+      "edges": 2,
+      "assumed_mph": [
+       39
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Riverwalk Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 2256.0,
+      "edges": 10,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 137.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous": {
+   "metres": {
+    "A": 2393.0,
+    "C": 1698.0,
+    "GAP": 5236.0
+   },
+   "share": {
+    "A": 25.66,
+    "C": 18.21,
+    "GAP": 56.14
+   },
+   "total_m": 9327.0,
+   "named": {
+    "C": [
+     {
+      "street": "43rd Street Court East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 812.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 546.0,
+      "edges": 11,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 2581.0,
+      "edges": 53,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Milwaukee Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1246.0,
+      "edges": 26,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Chrisella Road East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 703.0,
+      "edges": 5,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "48th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 632.0,
+      "edges": 10,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "5th Street Northeast",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 74.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Riverwalk Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 2256.0,
+      "edges": 10,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 137.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient_repair": {
+   "metres": {
+    "A": 2393.0,
+    "C": 2401.0,
+    "D": 4533.0
+   },
+   "share": {
+    "A": 25.66,
+    "C": 25.74,
+    "D": 48.6
+   },
+   "total_m": 9327.0,
+   "named": {
+    "C": [
+     {
+      "street": "43rd Street Court East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 812.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "Chrisella Road East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 703.0,
+      "edges": 5,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 546.0,
+      "edges": 11,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 2581.0,
+      "edges": 53,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "Milwaukee Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1246.0,
+      "edges": 26,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "48th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 632.0,
+      "edges": 10,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "5th Street Northeast",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 74.0,
+      "edges": 2,
+      "assumed_mph": [
+       39
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Riverwalk Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 2256.0,
+      "edges": 10,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 137.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous_repair": {
+   "metres": {
+    "A": 2393.0,
+    "C": 6934.0
+   },
+   "share": {
+    "A": 25.66,
+    "C": 74.34
+   },
+   "total_m": 9327.0,
+   "named": {
+    "C": [
+     {
+      "street": "122nd Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 2581.0,
+      "edges": 53,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "Milwaukee Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1246.0,
+      "edges": 26,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "43rd Street Court East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 812.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "Chrisella Road East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 703.0,
+      "edges": 5,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "48th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 632.0,
+      "edges": 10,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "114th Avenue East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 546.0,
+      "edges": 11,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "5th Street Northeast",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 74.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Riverwalk Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 2256.0,
+      "edges": 10,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 137.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ]
+   }
+  }
+ },
+ "route_summary": {
+  "has_time_restrictions": false,
+  "has_toll": false,
+  "has_highway": false,
+  "has_ferry": false,
+  "min_lat": 47.197846,
+  "min_lon": -122.314788,
+  "max_lat": 47.241057,
+  "max_lon": -122.262046,
+  "time": 1796.523,
+  "length": 9.329,
+  "cost": 3160.579
+ },
+ "arrival": {
+  "lat": 47.205054,
+  "lon": -122.314788
+ }
+}

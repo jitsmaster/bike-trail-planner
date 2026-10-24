@@ -1,0 +1,168 @@
+{
+ "trip": {
+  "locations": [
+   {
+    "type": "break",
+    "lat": 47.240371,
+    "lon": -122.262019,
+    "side_of_street": "left",
+    "original_index": 0
+   },
+   {
+    "type": "break",
+    "lat": 47.23561,
+    "lon": -122.24861,
+    "original_index": 1
+   }
+  ],
+  "legs": [
+   {
+    "maneuvers": [
+     {
+      "type": 3,
+      "instruction": "Bike west on 18th Street East.",
+      "verbal_succinct_transition_instruction": "Bike west.",
+      "verbal_pre_transition_instruction": "Bike west on 18th Street East.",
+      "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+      "street_names": [
+       "18th Street East"
+      ],
+      "bearing_after": 266,
+      "time": 221.196,
+      "length": 1.141,
+      "cost": 430.155,
+      "begin_shape_index": 0,
+      "end_shape_index": 28,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right onto 114th Avenue East.",
+      "verbal_transition_alert_instruction": "Turn right onto 114th Avenue East.",
+      "verbal_succinct_transition_instruction": "Turn right.",
+      "verbal_pre_transition_instruction": "Turn right onto 114th Avenue East.",
+      "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+      "street_names": [
+       "114th Avenue East"
+      ],
+      "bearing_before": 270,
+      "bearing_after": 8,
+      "time": 281.925,
+      "length": 1.563,
+      "cost": 562.667,
+      "begin_shape_index": 28,
+      "end_shape_index": 69,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right onto Jovita Boulevard East.",
+      "verbal_transition_alert_instruction": "Turn right onto Jovita Boulevard East.",
+      "verbal_succinct_transition_instruction": "Turn right.",
+      "verbal_pre_transition_instruction": "Turn right onto Jovita Boulevard East.",
+      "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+      "street_names": [
+       "Jovita Boulevard East"
+      ],
+      "bearing_before": 357,
+      "bearing_after": 55,
+      "time": 273.906,
+      "length": 1.66,
+      "cost": 567.575,
+      "begin_shape_index": 69,
+      "end_shape_index": 148,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right onto West Valley Highway East.",
+      "verbal_transition_alert_instruction": "Turn right onto West Valley Highway East.",
+      "verbal_succinct_transition_instruction": "Turn right.",
+      "verbal_pre_transition_instruction": "Turn right onto West Valley Highway East.",
+      "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+      "street_names": [
+       "West Valley Highway East"
+      ],
+      "bearing_before": 109,
+      "bearing_after": 167,
+      "time": 358.23,
+      "length": 1.741,
+      "cost": 676.409,
+      "begin_shape_index": 148,
+      "end_shape_index": 217,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto 24th Street East.",
+      "verbal_transition_alert_instruction": "Turn left onto 24th Street East.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto 24th Street East.",
+      "verbal_post_transition_instruction": "Continue for 400 meters.",
+      "street_names": [
+       "24th Street East"
+      ],
+      "bearing_before": 176,
+      "bearing_after": 90,
+      "time": 86.014,
+      "length": 0.413,
+      "cost": 134.41,
+      "begin_shape_index": 217,
+      "end_shape_index": 227,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 4,
+      "instruction": "You have arrived at your destination.",
+      "verbal_transition_alert_instruction": "You will arrive at your destination.",
+      "verbal_pre_transition_instruction": "You have arrived at your destination.",
+      "bearing_before": 91,
+      "time": 0.0,
+      "length": 0.0,
+      "cost": 0.0,
+      "begin_shape_index": 227,
+      "end_shape_index": 227,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     }
+    ],
+    "summary": {
+     "has_time_restrictions": false,
+     "has_toll": false,
+     "has_highway": false,
+     "has_ferry": false,
+     "min_lat": 47.235571,
+     "min_lon": -122.277231,
+     "max_lat": 47.256555,
+     "max_lon": -122.248611,
+     "time": 1221.273,
+     "length": 6.519,
+     "cost": 2371.217
+    },
+    "shape": "{|ibyAz`hehFPlLKhMZ`Lz@`HC`v@EdES`C]|A_@p@c@XcOeAmBZa@p@m@zDJhf@Pvy@UnNi@|EKng@d@f}CZd{BJr|B@jSBtf@@pRDr`@Djd@Ft}@ir@uIiYoDcPoBoLgBuQs@{Qh@_JJcl@pCyoAfGyH`@_SbAqAFuh@lCwG^iDFeZp@_L\\cf@tAmt@vCiLd@W@{H\\ga@fB_ADqBHeENwUz@cYbAyMf@qFPc]nA{AFoTv@cBFea@xAsTx@iCHqW~@ub@~Aqh@jBeHVgC_HOc@qEmK{FqMgFwKkB}DqEyKcDqJ_DyJ}AmHqCkReKik@mD}RsSwlA}@kEq@sEc@wEY{EK_F?_FL{EtAqVlByb@~@wKx@cGfA}FrAsF`BiFjB_FtBqE`CcEtNiShEsG`EaHtDoHhD{HhSkh@`DcNzAeHzAkKb@mLVqIC}K?uKZeKh@wF~@yFhBaHjA_EzAuDfDaHpGoNlRq\\fC_E~G_Jpd@of@vCkDpC}DbCmEzByElBiFbBsFlJ_]|Ly`@tIoW~IcWlJwVjFsMzTod@`R}^hMs\\jEkLtCkKdBgI`@{Bl@aD`AcHvBmNhAwHpCq@bIoBvToFzF_AnEy@~JcA`E[fFIpEAtH\\bKZzEBjH]zAGxDs@nIiC|FiBhJmD|IeExGgDjGmD`tAcx@r\\mQ|FkBzDu@rEk@xEMzA[|BFxC^~Qz@`UtCfm@tFjBBtJJpD_@`JsBzHcCpMkFx@s@je@wSnLgF`VgKzM{Fxb@wR~\\qOlQcIvm@aYx@_@d@QpGkCh@UbJ{ChJgCjJsBnJ{ApJgAv@GbGa@xHYdAc@zFOdAGnXaBlLqAv^wB`SkAt]uBhH_@?oJH__Al@q_BRuh@@gBFoRLk]Ter@DcNBmG"
+   }
+  ],
+  "summary": {
+   "has_time_restrictions": false,
+   "has_toll": false,
+   "has_highway": false,
+   "has_ferry": false,
+   "min_lat": 47.235571,
+   "min_lon": -122.277231,
+   "max_lat": 47.256555,
+   "max_lon": -122.248611,
+   "time": 1221.273,
+   "length": 6.519,
+   "cost": 2371.217
+  },
+  "status_message": "Found route between points",
+  "status": 0,
+  "units": "kilometers",
+  "language": "en-US"
+ }
+}

@@ -1,0 +1,22 @@
+{
+  "encoded_polyline": "{|ibyAz`hehFPlLKhMZ`Lz@`HC`v@EdES`C]|A_@p@c@XcOeAmBZa@p@m@zDJhf@",
+  "shape_match": "edge_walk",
+  "costing": "bicycle",
+  "units": "kilometers",
+  "filters": {
+    "action": "include",
+    "attributes": [
+      "edge.speed",
+      "edge.default_speed",
+      "edge.speed_limit",
+      "edge.road_class",
+      "edge.lanes",
+      "edge.truck_route",
+      "edge.bicycle_network",
+      "edge.destonly",
+      "edge.names",
+      "edge.length",
+      "edge.use"
+    ]
+  }
+}

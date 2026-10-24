@@ -1,0 +1,811 @@
+{
+ "units": "kilometers",
+ "edges": [
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 736260642,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "driveway",
+   "begin_shape_index": 0,
+   "road_class": "service_other",
+   "speed": 25,
+   "length": 0.015,
+   "source_percent_along": 0.569
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 736260642,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "driveway",
+   "begin_shape_index": 1,
+   "road_class": "service_other",
+   "speed": 25,
+   "length": 0.045
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1372717282,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 4,
+   "road_class": "residential",
+   "speed": 18,
+   "length": 0.181,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 1372717282,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 15,
+   "road_class": "residential",
+   "speed": 18,
+   "length": 0.099,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 18,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.24,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 20,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.15,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 21,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.152,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 22,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.025,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 3.333,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 23,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.048,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 24,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.024,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 3.333,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 25,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.041,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 26,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.045,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12240850,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 27,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.076,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -8.333,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 28,
+   "road_class": "tertiary",
+   "speed": 36,
+   "length": 0.092,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 29,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.189,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 3.333,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 35,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.081,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 36,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.144,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 37,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.018,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 38,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.036,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 39,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.005,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 40,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.075,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 41,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.016,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 42,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.01,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 1.666,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 43,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.048,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 44,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.023,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 45,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.07,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 46,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.095,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 47,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.025,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 49,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.018,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 50,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.065,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 52,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.017,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 54,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.041,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 55,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.047,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 56,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.027,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 57,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.013,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -6.666,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 58,
+   "road_class": "tertiary",
+   "speed": 34,
+   "length": 0.097,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 61,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.006,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 62,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.061,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -3.333,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 63,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.039,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -10.0,
+   "way_id": 12238211,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 64,
+   "road_class": "tertiary",
+   "speed": 40,
+   "length": 0.115,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -5.0,
+   "way_id": 765606369,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 67,
+   "road_class": "tertiary",
+   "speed": 31,
+   "length": 0.074,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 765606369,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 68,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.016,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 765606369,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 69,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.015,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": -1.666,
+   "way_id": 765606369,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 70,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.022,
+   "names": [
+    "114th Avenue East"
+   ]
+  },
+  {
+   "sac_scale": 0,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "weighted_grade": 0.0,
+   "way_id": 765606369,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "begin_shape_index": 71,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.083,
+   "names": [
+    "114th Avenue East"
+   ]
+  }
+ ],
+ "alternate_paths": []
+}

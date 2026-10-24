@@ -1,0 +1,584 @@
+{
+ "label": "sw_6554034_53175521_r0.0_l0.5_hybrid",
+ "n_edges": 66,
+ "modes": {
+  "strict": {
+   "metres": {
+    "A": 1331.0,
+    "C": 216.0,
+    "D": 2953.0,
+    "E": 685.0
+   },
+   "share": {
+    "A": 25.67,
+    "C": 4.17,
+    "D": 56.95,
+    "E": 13.21
+   },
+   "total_m": 5185.0,
+   "named": {
+    "D": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1683.0,
+      "edges": 32,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": []
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "28th Avenue South",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 129.0,
+      "edges": 3,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 1331.0,
+      "edges": 7,
+      "assumed_mph": []
+     },
+     {
+      "street": "Milton Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 0.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ],
+    "E": [
+     {
+      "street": "Enchanted Parkway South, SR 161",
+      "road_class": "primary",
+      "cycle_lane": "dedicated",
+      "m": 555.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "Military Road East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 130.0,
+      "edges": 4,
+      "assumed_mph": []
+     }
+    ],
+    "C": [
+     {
+      "street": "South 380th Street",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 216.0,
+      "edges": 2,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient": {
+   "metres": {
+    "A": 1331.0,
+    "C": 556.0,
+    "D": 129.0,
+    "E": 685.0,
+    "GAP": 2484.0
+   },
+   "share": {
+    "A": 25.67,
+    "C": 10.72,
+    "D": 2.49,
+    "E": 13.21,
+    "GAP": 47.91
+   },
+   "total_m": 5185.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "South 380th Street",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 216.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1683.0,
+      "edges": 32,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       39
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 1331.0,
+      "edges": 7,
+      "assumed_mph": []
+     },
+     {
+      "street": "Milton Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 0.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ],
+    "E": [
+     {
+      "street": "Enchanted Parkway South, SR 161",
+      "road_class": "primary",
+      "cycle_lane": "dedicated",
+      "m": 555.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "Military Road East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 130.0,
+      "edges": 4,
+      "assumed_mph": []
+     }
+    ],
+    "D": [
+     {
+      "street": "28th Avenue South",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 129.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous": {
+   "metres": {
+    "A": 1331.0,
+    "C": 556.0,
+    "D": 129.0,
+    "E": 685.0,
+    "GAP": 2484.0
+   },
+   "share": {
+    "A": 25.67,
+    "C": 10.72,
+    "D": 2.49,
+    "E": 13.21,
+    "GAP": 47.91
+   },
+   "total_m": 5185.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "South 380th Street",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 216.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "GAP": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1683.0,
+      "edges": 32,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 1331.0,
+      "edges": 7,
+      "assumed_mph": []
+     },
+     {
+      "street": "Milton Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 0.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ],
+    "E": [
+     {
+      "street": "Enchanted Parkway South, SR 161",
+      "road_class": "primary",
+      "cycle_lane": "dedicated",
+      "m": 555.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "Military Road East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 130.0,
+      "edges": 4,
+      "assumed_mph": []
+     }
+    ],
+    "D": [
+     {
+      "street": "28th Avenue South",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 129.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "lenient_repair": {
+   "metres": {
+    "A": 1331.0,
+    "C": 556.0,
+    "D": 2613.0,
+    "E": 685.0
+   },
+   "share": {
+    "A": 25.67,
+    "C": 10.72,
+    "D": 50.4,
+    "E": 13.21
+   },
+   "total_m": 5185.0,
+   "named": {
+    "C": [
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       18
+      ]
+     },
+     {
+      "street": "South 380th Street",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 216.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1683.0,
+      "edges": 32,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       39
+      ]
+     },
+     {
+      "street": "28th Avenue South",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 129.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ],
+    "A": [
+     {
+      "street": "Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 1331.0,
+      "edges": 7,
+      "assumed_mph": []
+     },
+     {
+      "street": "Milton Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 0.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ],
+    "E": [
+     {
+      "street": "Enchanted Parkway South, SR 161",
+      "road_class": "primary",
+      "cycle_lane": "dedicated",
+      "m": 555.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "Military Road East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 130.0,
+      "edges": 4,
+      "assumed_mph": []
+     }
+    ]
+   }
+  },
+  "generous_repair": {
+   "metres": {
+    "A": 1331.0,
+    "C": 3040.0,
+    "D": 129.0,
+    "E": 685.0
+   },
+   "share": {
+    "A": 25.67,
+    "C": 58.63,
+    "D": 2.49,
+    "E": 13.21
+   },
+   "total_m": 5185.0,
+   "named": {
+    "C": [
+     {
+      "street": "114th Avenue East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 1683.0,
+      "edges": 32,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 801.0,
+      "edges": 9,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "18th Street East",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 280.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     },
+     {
+      "street": "South 380th Street",
+      "road_class": "residential",
+      "cycle_lane": "none",
+      "m": 216.0,
+      "edges": 2,
+      "assumed_mph": []
+     },
+     {
+      "street": "(no name)",
+      "road_class": "service_other",
+      "cycle_lane": "none",
+      "m": 60.0,
+      "edges": 2,
+      "assumed_mph": [
+       25
+      ]
+     }
+    ],
+    "A": [
+     {
+      "street": "Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 1331.0,
+      "edges": 7,
+      "assumed_mph": []
+     },
+     {
+      "street": "Milton Interurban Trail",
+      "road_class": "service_other",
+      "cycle_lane": "shared",
+      "m": 0.0,
+      "edges": 1,
+      "assumed_mph": []
+     }
+    ],
+    "E": [
+     {
+      "street": "Enchanted Parkway South, SR 161",
+      "road_class": "primary",
+      "cycle_lane": "dedicated",
+      "m": 555.0,
+      "edges": 4,
+      "assumed_mph": []
+     },
+     {
+      "street": "Military Road East",
+      "road_class": "secondary",
+      "cycle_lane": "none",
+      "m": 130.0,
+      "edges": 4,
+      "assumed_mph": []
+     }
+    ],
+    "D": [
+     {
+      "street": "28th Avenue South",
+      "road_class": "tertiary",
+      "cycle_lane": "none",
+      "m": 129.0,
+      "edges": 3,
+      "assumed_mph": []
+     }
+    ]
+   }
+  }
+ },
+ "route_summary": {
+  "has_time_restrictions": false,
+  "has_toll": false,
+  "has_highway": false,
+  "has_ferry": false,
+  "min_lat": 47.240623,
+  "min_lon": -122.300767,
+  "max_lat": 47.262035,
+  "max_lon": -122.262046,
+  "time": 1018.055,
+  "length": 5.185,
+  "cost": 1879.036
+ }
+}

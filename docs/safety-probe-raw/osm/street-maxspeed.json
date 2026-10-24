@@ -1,0 +1,451 @@
+{
+ "query": "[out:json][timeout:120];way[\"highway\"][\"name\"~\"^(18th Street East|122nd Avenue East|48th Street East|Edgewood Drive East|Sumner Heights Drive East|Valley Avenue East|Fryar Avenue|Puyallup Street|Tacoma Avenue|Bridge Street|150th Avenue Court East)$\"](47.19,-122.29,47.26,-122.22);out tags;",
+ "instance": "https://overpass-api.de/api/interpreter",
+ "result": {
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+   "timestamp_osm_base": "2026-09-15T21:03:49Z",
+   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+   {
+    "type": "way",
+    "id": 12182723,
+    "tags": {
+     "bicycle": "designated",
+     "cycleway": "lane",
+     "highway": "tertiary",
+     "lanes": "3",
+     "maxspeed": "25 mph",
+     "name": "Fryar Avenue",
+     "surface": "asphalt",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "Fryar",
+     "tiger:name_type": "Ave"
+    }
+   },
+   {
+    "type": "way",
+    "id": 12189821,
+    "tags": {
+     "highway": "tertiary",
+     "name": "48th Street East",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "48th",
+     "tiger:name_direction_suffix": "E",
+     "tiger:reviewed": "no"
+    }
+   },
+   {
+    "type": "way",
+    "id": 12193741,
+    "tags": {
+     "highway": "tertiary",
+     "maxweight": "12 st",
+     "name": "122nd Avenue East",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "122nd",
+     "tiger:name_direction_suffix": "E",
+     "tiger:reviewed": "no"
+    }
+   },
+   {
+    "type": "way",
+    "id": 12193750,
+    "tags": {
+     "highway": "residential",
+     "maxspeed": "25 mph",
+     "name": "122nd Avenue East",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "122nd",
+     "tiger:name_direction_suffix": "E",
+     "tiger:reviewed": "no"
+    }
+   },
+   {
+    "type": "way",
+    "id": 12224093,
+    "tags": {
+     "highway": "secondary",
+     "lanes": "4",
+     "maxspeed": "25 mph",
+     "name": "Valley Avenue East",
+     "surface": "asphalt",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "Valley",
+     "tiger:name_direction_suffix": "E"
+    }
+   },
+   {
+    "type": "way",
+    "id": 12233103,
+    "tags": {
+     "highway": "tertiary",
+     "lanes": "2",
+     "maxspeed": "35 mph",
+     "name": "Tacoma Avenue",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "Tacoma",
+     "tiger:name_type": "Ave"
+    }
+   },
+   {
+    "type": "way",
+    "id": 12238866,
+    "tags": {
+     "highway": "tertiary",
+     "maxweight:hgv": "12 st",
+     "name": "Edgewood Drive East",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "Edgewood",
+     "tiger:name_direction_suffix": "E",
+     "tiger:name_type": "Dr",
+     "tiger:reviewed": "no"
+    }
+   },
+   {
+    "type": "way",
+    "id": 12239303,
+    "tags": {
+     "highway": "tertiary",
+     "maxweight:hgv": "12 st",
+     "name": "Sumner Heights Drive East",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "Sumner Heights",
+     "tiger:name_direction_suffix": "E",
+     "tiger:name_type": "Dr"
+    }
+   },
+   {
+    "type": "way",
+    "id": 12239304,
+    "tags": {
+     "highway": "tertiary",
+     "name": "Sumner Heights Drive East",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "Sumner Heights",
+     "tiger:name_direction_suffix": "E",
+     "tiger:name_type": "Dr"
+    }
+   },
+   {
+    "type": "way",
+    "id": 12240850,
+    "tags": {
+     "highway": "tertiary",
+     "name": "18th Street East",
+     "name_1": "55th Avenue Northeast",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "18th",
+     "tiger:name_base_1": "55th",
+     "tiger:name_direction_suffix": "E",
+     "tiger:name_direction_suffix_1": "NE",
+     "tiger:reviewed": "no"
+    }
+   },
+   {
+    "type": "way",
+    "id": 12242881,
+    "tags": {
+     "highway": "tertiary",
+     "lanes": "2",
+     "maxspeed": "25 mph",
+     "name": "Puyallup Street",
+     "sidewalk:both": "separate",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "Puyallup",
+     "tiger:name_type": "St"
+    }
+   },
+   {
+    "type": "way",
+    "id": 25680605,
+    "tags": {
+     "bridge": "yes",
+     "highway": "tertiary",
+     "lanes": "4",
+     "layer": "1",
+     "maxspeed": "35 mph",
+     "name": "Tacoma Avenue",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "Tacoma",
+     "tiger:name_type": "Ave"
+    }
+   },
+   {
+    "type": "way",
+    "id": 25680606,
+    "tags": {
+     "highway": "tertiary",
+     "lanes": "4",
+     "maxspeed": "35 mph",
+     "name": "Tacoma Avenue",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "Tacoma",
+     "tiger:name_type": "Ave"
+    }
+   },
+   {
+    "type": "way",
+    "id": 98689245,
+    "tags": {
+     "highway": "secondary",
+     "lanes": "2",
+     "maxspeed": "25 mph",
+     "name": "Bridge Street",
+     "surface": "asphalt",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA"
+    }
+   },
+   {
+    "type": "way",
+    "id": 98689247,
+    "tags": {
+     "bridge": "yes",
+     "highway": "secondary",
+     "lanes": "2",
+     "layer": "1",
+     "maxspeed": "25 mph",
+     "name": "Bridge Street",
+     "surface": "concrete",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA"
+    }
+   },
+   {
+    "type": "way",
+    "id": 229466627,
+    "tags": {
+     "highway": "residential",
+     "maxspeed": "25 mph",
+     "name": "48th Street East",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "48th",
+     "tiger:name_direction_suffix": "E",
+     "tiger:name_type": "St",
+     "tiger:reviewed": "no"
+    }
+   },
+   {
+    "type": "way",
+    "id": 229468976,
+    "tags": {
+     "highway": "residential",
+     "maxspeed": "25 mph",
+     "name": "Tacoma Avenue",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "Tacoma",
+     "tiger:name_type": "Ave"
+    }
+   },
+   {
+    "type": "way",
+    "id": 261462315,
+    "tags": {
+     "bicycle": "designated",
+     "cycleway": "lane",
+     "highway": "secondary",
+     "lanes": "4",
+     "maxspeed": "25 mph",
+     "name": "Valley Avenue East",
+     "surface": "asphalt",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "Valley",
+     "tiger:name_direction_suffix": "E"
+    }
+   },
+   {
+    "type": "way",
+    "id": 261462316,
+    "tags": {
+     "highway": "secondary",
+     "lanes": "4",
+     "maxspeed": "35 mph",
+     "name": "Valley Avenue East",
+     "name_1": "Valley Avenue East",
+     "name_2": "Valley Avenue Northeast",
+     "postal_code": "98372",
+     "surface": "asphalt",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "Valley",
+     "tiger:name_direction_suffix": "E"
+    }
+   },
+   {
+    "type": "way",
+    "id": 379479277,
+    "tags": {
+     "highway": "tertiary",
+     "maxweight:hgv": "12 st",
+     "name": "Sumner Heights Drive East",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "Sumner Heights",
+     "tiger:name_direction_suffix": "E",
+     "tiger:name_type": "Dr"
+    }
+   },
+   {
+    "type": "way",
+    "id": 451051335,
+    "tags": {
+     "highway": "residential",
+     "maxspeed": "25 mph",
+     "name": "150th Avenue Court East",
+     "sidewalk:left": "separate",
+     "sidewalk:right": "no"
+    }
+   },
+   {
+    "type": "way",
+    "id": 548668567,
+    "tags": {
+     "bicycle": "designated",
+     "cycleway": "lane",
+     "highway": "secondary",
+     "lanes": "4",
+     "maxspeed": "35 mph",
+     "name": "Valley Avenue East",
+     "surface": "asphalt",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "Valley",
+     "tiger:name_direction_suffix": "E"
+    }
+   },
+   {
+    "type": "way",
+    "id": 691257982,
+    "tags": {
+     "bicycle": "designated",
+     "cycleway:left": "lane",
+     "cycleway:right": "shared_lane",
+     "highway": "tertiary",
+     "lanes": "3",
+     "lanes:backward": "1",
+     "lanes:both_ways": "1",
+     "lanes:forward": "1",
+     "maxspeed": "25 mph",
+     "name": "Fryar Avenue",
+     "surface": "asphalt",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "Fryar",
+     "tiger:name_type": "Ave"
+    }
+   },
+   {
+    "type": "way",
+    "id": 691257983,
+    "tags": {
+     "bicycle": "designated",
+     "cycleway": "lane",
+     "highway": "tertiary",
+     "lanes": "3",
+     "maxspeed": "25 mph",
+     "name": "Fryar Avenue",
+     "surface": "asphalt",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "Fryar",
+     "tiger:name_type": "Ave"
+    }
+   },
+   {
+    "type": "way",
+    "id": 759886723,
+    "tags": {
+     "bicycle": "designated",
+     "cycleway:left": "shared_lane",
+     "cycleway:right": "lane",
+     "highway": "tertiary",
+     "lanes": "1",
+     "maxspeed": "25 mph",
+     "name": "Fryar Avenue",
+     "oneway": "yes",
+     "surface": "asphalt",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "Fryar",
+     "tiger:name_type": "Ave"
+    }
+   },
+   {
+    "type": "way",
+    "id": 759886724,
+    "tags": {
+     "bicycle": "designated",
+     "cycleway:left": "lane",
+     "cycleway:right": "shared_lane",
+     "highway": "tertiary",
+     "lanes": "4",
+     "lanes:backward": "1",
+     "lanes:both_ways": "1",
+     "lanes:forward": "2",
+     "maxspeed": "25 mph",
+     "name": "Fryar Avenue",
+     "surface": "asphalt",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "Fryar",
+     "tiger:name_type": "Ave"
+    }
+   },
+   {
+    "type": "way",
+    "id": 887487131,
+    "tags": {
+     "bicycle": "designated",
+     "cycleway:left": "lane",
+     "cycleway:right": "shared_lane",
+     "highway": "tertiary",
+     "lanes": "3",
+     "maxspeed": "25 mph",
+     "name": "Fryar Avenue",
+     "oneway": "yes",
+     "surface": "asphalt",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "Fryar",
+     "tiger:name_type": "Ave",
+     "turn:lanes": "left|through|through;right"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1372717282,
+    "tags": {
+     "highway": "residential",
+     "name": "18th Street East",
+     "name_1": "55th Avenue Northeast",
+     "tiger:cfcc": "A41",
+     "tiger:county": "Pierce, WA",
+     "tiger:name_base": "18th",
+     "tiger:name_base_1": "55th",
+     "tiger:name_direction_suffix": "E",
+     "tiger:name_direction_suffix_1": "NE",
+     "tiger:reviewed": "no"
+    }
+   }
+  ]
+ }
+}

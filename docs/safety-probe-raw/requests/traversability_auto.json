@@ -1,0 +1,17 @@
+{
+ "locations": [
+  {
+   "lat": 47.2184449,
+   "lon": -122.2311095
+  },
+  {
+   "lat": 47.2355283,
+   "lon": -122.2349371
+  }
+ ],
+ "costing": "auto",
+ "units": "kilometers",
+ "directions_options": {
+  "units": "miles"
+ }
+}

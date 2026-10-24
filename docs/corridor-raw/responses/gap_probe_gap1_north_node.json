@@ -1,0 +1,188 @@
+{
+ "trip": {
+  "locations": [
+   {
+    "type": "break",
+    "lat": 47.240371,
+    "lon": -122.262019,
+    "side_of_street": "left",
+    "original_index": 0
+   },
+   {
+    "type": "break",
+    "lat": 47.24121,
+    "lon": -122.26096,
+    "original_index": 1
+   }
+  ],
+  "legs": [
+   {
+    "maneuvers": [
+     {
+      "type": 3,
+      "instruction": "Bike west on 18th Street East.",
+      "verbal_succinct_transition_instruction": "Bike west.",
+      "verbal_pre_transition_instruction": "Bike west on 18th Street East.",
+      "verbal_post_transition_instruction": "Continue for 300 meters.",
+      "street_names": [
+       "18th Street East"
+      ],
+      "bearing_after": 266,
+      "time": 65.669,
+      "length": 0.34,
+      "cost": 115.027,
+      "begin_shape_index": 0,
+      "end_shape_index": 18,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto 122nd Avenue East.",
+      "verbal_transition_alert_instruction": "Turn left onto 122nd Avenue East.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto 122nd Avenue East.",
+      "verbal_post_transition_instruction": "Continue for 200 meters.",
+      "street_names": [
+       "122nd Avenue East"
+      ],
+      "bearing_before": 281,
+      "bearing_after": 187,
+      "time": 45.614,
+      "length": 0.199,
+      "cost": 114.413,
+      "begin_shape_index": 18,
+      "end_shape_index": 23,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto 20th Street East.",
+      "verbal_transition_alert_instruction": "Turn left onto 20th Street East.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto 20th Street East.",
+      "verbal_post_transition_instruction": "Continue for 300 meters.",
+      "street_names": [
+       "20th Street East"
+      ],
+      "bearing_before": 188,
+      "bearing_after": 90,
+      "time": 74.62,
+      "length": 0.346,
+      "cost": 119.948,
+      "begin_shape_index": 23,
+      "end_shape_index": 30,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 9,
+      "instruction": "Bear right onto 125th Avenue Court East.",
+      "verbal_transition_alert_instruction": "Bear right onto 125th Avenue Court East.",
+      "verbal_succinct_transition_instruction": "Bear right.",
+      "verbal_pre_transition_instruction": "Bear right onto 125th Avenue Court East.",
+      "verbal_post_transition_instruction": "Continue for 300 meters.",
+      "street_names": [
+       "125th Avenue Court East"
+      ],
+      "bearing_before": 119,
+      "bearing_after": 151,
+      "time": 50.399,
+      "length": 0.252,
+      "cost": 79.717,
+      "begin_shape_index": 30,
+      "end_shape_index": 38,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto 22nd Street Court East.",
+      "verbal_transition_alert_instruction": "Turn left onto 22nd Street Court East.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto 22nd Street Court East.",
+      "verbal_post_transition_instruction": "Continue for 90 meters.",
+      "street_names": [
+       "22nd Street Court East"
+      ],
+      "bearing_before": 182,
+      "bearing_after": 93,
+      "time": 20.382,
+      "length": 0.092,
+      "cost": 37.245,
+      "begin_shape_index": 38,
+      "end_shape_index": 41,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto 126th Avenue Court East.",
+      "verbal_transition_alert_instruction": "Turn left onto 126th Avenue Court East.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto 126th Avenue Court East.",
+      "verbal_post_transition_instruction": "Continue for 500 meters.",
+      "street_names": [
+       "126th Avenue Court East"
+      ],
+      "bearing_before": 97,
+      "bearing_after": 4,
+      "time": 92.27,
+      "length": 0.495,
+      "cost": 144.738,
+      "begin_shape_index": 41,
+      "end_shape_index": 71,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 4,
+      "instruction": "You have arrived at your destination.",
+      "verbal_transition_alert_instruction": "You will arrive at your destination.",
+      "verbal_pre_transition_instruction": "You have arrived at your destination.",
+      "bearing_before": 1,
+      "time": 0.0,
+      "length": 0.0,
+      "cost": 0.0,
+      "begin_shape_index": 71,
+      "end_shape_index": 71,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     }
+    ],
+    "summary": {
+     "has_time_restrictions": false,
+     "has_toll": false,
+     "has_highway": false,
+     "has_ferry": false,
+     "min_lat": 47.236922,
+     "min_lon": -122.266357,
+     "max_lat": 47.241209,
+     "max_lon": -122.26037,
+     "time": 348.956,
+     "length": 1.724,
+     "cost": 611.093
+    },
+    "shape": "{|ibyAz`hehFPlLKhMZ`Lz@`HC`v@EdES`C]|A_@p@c@XcOeAmBZa@p@m@zDJhf@Pvy@UnNi@|EpYxC~IfAl[zD`LtA|]tE@uhA]urCRwj@\\mF`A_GXeAh@c@t@aAvCkBdAc@vBIpGD~tAzHjTb@tJRh@kd@t@y`@PmC_WiAgI?aIV_Ip@oFt@qF`@qFJsFEqFYoFm@oFaAiFuAoJmDuGcBIAaCWgHYcXwB}Is@aCdCiAlAuA~CiEtGeCpEgAtAgDz@sSnAsDxAwDb@qW["
+   }
+  ],
+  "summary": {
+   "has_time_restrictions": false,
+   "has_toll": false,
+   "has_highway": false,
+   "has_ferry": false,
+   "min_lat": 47.236922,
+   "min_lon": -122.266357,
+   "max_lat": 47.241209,
+   "max_lon": -122.26037,
+   "time": 348.956,
+   "length": 1.724,
+   "cost": 611.093
+  },
+  "status_message": "Found route between points",
+  "status": 0,
+  "units": "kilometers",
+  "language": "en-US"
+ }
+}

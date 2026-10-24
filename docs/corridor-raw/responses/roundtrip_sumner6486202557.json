@@ -1,0 +1,494 @@
+{
+ "trip": {
+  "locations": [
+   {
+    "type": "break",
+    "lat": 47.240371,
+    "lon": -122.262019,
+    "side_of_street": "left",
+    "original_index": 0
+   },
+   {
+    "type": "break",
+    "lat": 47.203535,
+    "lon": -122.24437,
+    "original_index": 1
+   },
+   {
+    "type": "break",
+    "lat": 47.240371,
+    "lon": -122.262019,
+    "side_of_street": "right",
+    "original_index": 2
+   }
+  ],
+  "legs": [
+   {
+    "maneuvers": [
+     {
+      "type": 3,
+      "instruction": "Bike west on 18th Street East.",
+      "verbal_succinct_transition_instruction": "Bike west.",
+      "verbal_pre_transition_instruction": "Bike west on 18th Street East.",
+      "verbal_post_transition_instruction": "Continue for 300 meters.",
+      "street_names": [
+       "18th Street East"
+      ],
+      "bearing_after": 266,
+      "time": 65.669,
+      "length": 0.34,
+      "cost": 115.027,
+      "begin_shape_index": 0,
+      "end_shape_index": 18,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto 122nd Avenue East.",
+      "verbal_transition_alert_instruction": "Turn left onto 122nd Avenue East.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto 122nd Avenue East.",
+      "verbal_post_transition_instruction": "Continue for 3 kilometers.",
+      "street_names": [
+       "122nd Avenue East"
+      ],
+      "bearing_before": 281,
+      "bearing_after": 187,
+      "time": 641.561,
+      "length": 3.038,
+      "cost": 1258.276,
+      "begin_shape_index": 18,
+      "end_shape_index": 85,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto 48th Street East.",
+      "verbal_transition_alert_instruction": "Turn left onto 48th Street East.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto 48th Street East.",
+      "verbal_post_transition_instruction": "Continue for 500 meters.",
+      "street_names": [
+       "48th Street East"
+      ],
+      "bearing_before": 179,
+      "bearing_after": 90,
+      "time": 94.965,
+      "length": 0.5,
+      "cost": 181.81,
+      "begin_shape_index": 85,
+      "end_shape_index": 100,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 9,
+      "instruction": "Bear right onto Edgewood Drive East.",
+      "verbal_transition_alert_instruction": "Bear right onto Edgewood Drive East.",
+      "verbal_succinct_transition_instruction": "Bear right.",
+      "verbal_pre_transition_instruction": "Bear right onto Edgewood Drive East.",
+      "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+      "street_names": [
+       "Edgewood Drive East"
+      ],
+      "bearing_before": 95,
+      "bearing_after": 116,
+      "time": 201.804,
+      "length": 1.555,
+      "cost": 424.614,
+      "begin_shape_index": 100,
+      "end_shape_index": 176,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right onto Sumner Heights Drive East.",
+      "verbal_transition_alert_instruction": "Turn right onto Sumner Heights Drive East.",
+      "verbal_succinct_transition_instruction": "Turn right. Then Turn left onto Valley Avenue East.",
+      "verbal_pre_transition_instruction": "Turn right onto Sumner Heights Drive East. Then Turn left onto Valley Avenue East.",
+      "verbal_post_transition_instruction": "Continue for 70 meters.",
+      "street_names": [
+       "Sumner Heights Drive East"
+      ],
+      "bearing_before": 60,
+      "bearing_after": 151,
+      "time": 14.127,
+      "length": 0.068,
+      "cost": 37.336,
+      "begin_shape_index": 176,
+      "end_shape_index": 179,
+      "verbal_multi_cue": true,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto Valley Avenue East.",
+      "verbal_transition_alert_instruction": "Turn left onto Valley Avenue East.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto Valley Avenue East.",
+      "verbal_post_transition_instruction": "Continue for 400 meters.",
+      "street_names": [
+       "Valley Avenue East"
+      ],
+      "bearing_before": 157,
+      "bearing_after": 64,
+      "time": 74.391,
+      "length": 0.364,
+      "cost": 148.207,
+      "begin_shape_index": 179,
+      "end_shape_index": 197,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto Sumner Link Trail.",
+      "verbal_transition_alert_instruction": "Turn left onto Sumner Link Trail.",
+      "verbal_succinct_transition_instruction": "Turn left. Then Turn right to stay on Sumner Link Trail.",
+      "verbal_pre_transition_instruction": "Turn left onto Sumner Link Trail. Then Turn right to stay on Sumner Link Trail.",
+      "verbal_post_transition_instruction": "Continue for 20 meters.",
+      "street_names": [
+       "Sumner Link Trail"
+      ],
+      "bearing_before": 116,
+      "bearing_after": 7,
+      "time": 5.928,
+      "length": 0.022,
+      "cost": 17.256,
+      "begin_shape_index": 197,
+      "end_shape_index": 201,
+      "rough": true,
+      "verbal_multi_cue": true,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right to stay on Sumner Link Trail.",
+      "verbal_transition_alert_instruction": "Turn right to stay on Sumner Link Trail.",
+      "verbal_succinct_transition_instruction": "Turn right. Then You will arrive at your destination.",
+      "verbal_pre_transition_instruction": "Turn right to stay on Sumner Link Trail. Then You will arrive at your destination.",
+      "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+      "street_names": [
+       "Sumner Link Trail"
+      ],
+      "bearing_before": 64,
+      "bearing_after": 123,
+      "time": 0.257,
+      "length": 0.001,
+      "cost": 0.408,
+      "begin_shape_index": 201,
+      "end_shape_index": 202,
+      "rough": true,
+      "verbal_multi_cue": true,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 4,
+      "instruction": "You have arrived at your destination.",
+      "verbal_transition_alert_instruction": "You will arrive at your destination.",
+      "verbal_pre_transition_instruction": "You have arrived at your destination.",
+      "bearing_before": 123,
+      "time": 0.0,
+      "length": 0.0,
+      "cost": 0.0,
+      "begin_shape_index": 202,
+      "end_shape_index": 202,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     }
+    ],
+    "summary": {
+     "has_time_restrictions": false,
+     "has_toll": false,
+     "has_highway": false,
+     "has_ferry": false,
+     "min_lat": 47.203399,
+     "min_lon": -122.267383,
+     "max_lat": 47.241057,
+     "max_lon": -122.24437,
+     "time": 1098.705,
+     "length": 5.89,
+     "cost": 2182.938
+    },
+    "shape": "{|ibyAz`hehFPlLKhMZ`Lz@`HC`v@EdES`C]|A_@p@c@XcOeAmBZa@p@m@zDJhf@Pvy@UnNi@|EpYxC~IfAl[zD`LtA|]tEjf@fG~MbBfRhCrFp@rM`BbLtAl_@vEpGv@tGx@jG`Aru@pHv\\|@`Xl@bCLlRVvlAzA`NPh[d@v^j@tYV|Xn@`@@vw@dA~DFdh@\\vFPj|@jAn[Gnx@M|BArl@Kva@Yxt@_@jCA|GD`^Cj\\C`NEr^KfNEjBAdNEdd@m@lg@Yrt@O|QEre@Kh@?`^MlOGbf@S|BCjTF~A?d^Mlc@QdRFnc@LnD@tj@m@z\\]tXYCc`@C}c@?qJAkM?m@@a_@?uG@_S?eE@_t@IehAGan@@aq@?yQ\\oF`BwInAsDvUi`@hOwSbGkJ|IiNLS`Ysi@~LuX|C}I^eAbBqFhDeN~DmT|BsKtI_f@zIoa@|H}XrIqW~CkH`LwUhGmKlHkLlFiH`IyJ~GiH`LsKnLcKlJ}GxIcFrKsD`h@gNhWgIxFuBnNiFFCnF}BbFcC|FqC~D{BtAeAt_Amp@bF}CjAc@pB_@hFg@jA@jA@hANnAXtAr@fCnB|AvAhB~BpD|DzBjBnCjBjKzExAXxANvA?bBQlCu@fRkJjPyNhC}B`BwCpA{Fx@mGJaHi@yV}@qMkAcKoB_KeB{G_ByEfOkLfA{@rN{H}Ocs@oGgYsFcVWmAqAuGa@kFGgGVeHnAeFfAgDrAyCdXwi@lCwFbGcTbAsEjByH~@qEdCqKcEc@KyA]_Bk@eAJY"
+   },
+   {
+    "maneuvers": [
+     {
+      "type": 1,
+      "instruction": "Bike northwest on Sumner Link Trail.",
+      "verbal_succinct_transition_instruction": "Bike northwest. Then Turn left to stay on Sumner Link Trail.",
+      "verbal_pre_transition_instruction": "Bike northwest on Sumner Link Trail. Then Turn left to stay on Sumner Link Trail.",
+      "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+      "street_names": [
+       "Sumner Link Trail"
+      ],
+      "bearing_after": 303,
+      "time": 0.257,
+      "length": 0.001,
+      "cost": 0.408,
+      "begin_shape_index": 0,
+      "end_shape_index": 1,
+      "rough": true,
+      "verbal_multi_cue": true,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left to stay on Sumner Link Trail.",
+      "verbal_transition_alert_instruction": "Turn left to stay on Sumner Link Trail.",
+      "verbal_succinct_transition_instruction": "Turn left. Then Turn right onto Bridge Street.",
+      "verbal_pre_transition_instruction": "Turn left to stay on Sumner Link Trail. Then Turn right onto Bridge Street.",
+      "verbal_post_transition_instruction": "Continue for 20 meters.",
+      "street_names": [
+       "Sumner Link Trail"
+      ],
+      "bearing_before": 303,
+      "bearing_after": 244,
+      "time": 5.028,
+      "length": 0.022,
+      "cost": 8.915,
+      "begin_shape_index": 1,
+      "end_shape_index": 5,
+      "rough": true,
+      "verbal_multi_cue": true,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right onto Bridge Street.",
+      "verbal_transition_alert_instruction": "Turn right onto Bridge Street.",
+      "verbal_succinct_transition_instruction": "Turn right.",
+      "verbal_pre_transition_instruction": "Turn right onto Bridge Street.",
+      "verbal_post_transition_instruction": "Continue for 400 meters.",
+      "street_names": [
+       "Bridge Street"
+      ],
+      "bearing_before": 187,
+      "bearing_after": 296,
+      "time": 78.55,
+      "length": 0.364,
+      "cost": 219.678,
+      "begin_shape_index": 5,
+      "end_shape_index": 23,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right onto Sumner Heights Drive East.",
+      "verbal_transition_alert_instruction": "Turn right onto Sumner Heights Drive East.",
+      "verbal_succinct_transition_instruction": "Turn right. Then Turn left onto West Valley Highway East.",
+      "verbal_pre_transition_instruction": "Turn right onto Sumner Heights Drive East. Then Turn left onto West Valley Highway East.",
+      "verbal_post_transition_instruction": "Continue for 70 meters.",
+      "street_names": [
+       "Sumner Heights Drive East"
+      ],
+      "bearing_before": 244,
+      "bearing_after": 337,
+      "time": 19.4,
+      "length": 0.068,
+      "cost": 52.564,
+      "begin_shape_index": 23,
+      "end_shape_index": 26,
+      "verbal_multi_cue": true,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto West Valley Highway East.",
+      "verbal_transition_alert_instruction": "Turn left onto West Valley Highway East.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto West Valley Highway East.",
+      "verbal_post_transition_instruction": "Continue for 200 meters.",
+      "street_names": [
+       "West Valley Highway East"
+      ],
+      "bearing_before": 331,
+      "bearing_after": 240,
+      "time": 41.634,
+      "length": 0.185,
+      "cost": 90.615,
+      "begin_shape_index": 26,
+      "end_shape_index": 38,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 24,
+      "instruction": "Keep left to take Sumner Heights Drive East.",
+      "verbal_transition_alert_instruction": "Keep left to take Sumner Heights Drive East.",
+      "verbal_pre_transition_instruction": "Keep left to take Sumner Heights Drive East.",
+      "verbal_post_transition_instruction": "Continue for 2 kilometers.",
+      "street_names": [
+       "Sumner Heights Drive East"
+      ],
+      "bearing_before": 328,
+      "bearing_after": 327,
+      "time": 506.887,
+      "length": 1.831,
+      "cost": 1414.553,
+      "begin_shape_index": 38,
+      "end_shape_index": 169,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto Edgewood Drive East.",
+      "verbal_transition_alert_instruction": "Turn left onto Edgewood Drive East.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto Edgewood Drive East.",
+      "verbal_post_transition_instruction": "Continue for 80 meters.",
+      "street_names": [
+       "Edgewood Drive East"
+      ],
+      "bearing_before": 45,
+      "bearing_after": 315,
+      "time": 19.859,
+      "length": 0.079,
+      "cost": 45.86,
+      "begin_shape_index": 169,
+      "end_shape_index": 172,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right onto 127th Avenue East.",
+      "verbal_transition_alert_instruction": "Turn right onto 127th Avenue East.",
+      "verbal_succinct_transition_instruction": "Turn right.",
+      "verbal_pre_transition_instruction": "Turn right onto 127th Avenue East.",
+      "verbal_post_transition_instruction": "Continue for 500 meters.",
+      "street_names": [
+       "127th Avenue East"
+      ],
+      "bearing_before": 296,
+      "bearing_after": 37,
+      "time": 76.653,
+      "length": 0.454,
+      "cost": 139.522,
+      "begin_shape_index": 172,
+      "end_shape_index": 189,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 15,
+      "instruction": "Turn left onto Caldwell Road East.",
+      "verbal_transition_alert_instruction": "Turn left onto Caldwell Road East.",
+      "verbal_succinct_transition_instruction": "Turn left.",
+      "verbal_pre_transition_instruction": "Turn left onto Caldwell Road East.",
+      "verbal_post_transition_instruction": "Continue for 700 meters.",
+      "street_names": [
+       "Caldwell Road East"
+      ],
+      "bearing_before": 2,
+      "bearing_after": 303,
+      "time": 148.382,
+      "length": 0.722,
+      "cost": 241.744,
+      "begin_shape_index": 189,
+      "end_shape_index": 213,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right onto 122nd Avenue East.",
+      "verbal_transition_alert_instruction": "Turn right onto 122nd Avenue East.",
+      "verbal_succinct_transition_instruction": "Turn right.",
+      "verbal_pre_transition_instruction": "Turn right onto 122nd Avenue East.",
+      "verbal_post_transition_instruction": "Continue for 2 kilometers.",
+      "street_names": [
+       "122nd Avenue East"
+      ],
+      "bearing_before": 269,
+      "bearing_after": 359,
+      "time": 445.898,
+      "length": 2.226,
+      "cost": 866.03,
+      "begin_shape_index": 213,
+      "end_shape_index": 262,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 10,
+      "instruction": "Turn right onto 18th Street East.",
+      "verbal_transition_alert_instruction": "Turn right onto 18th Street East.",
+      "verbal_succinct_transition_instruction": "Turn right.",
+      "verbal_pre_transition_instruction": "Turn right onto 18th Street East.",
+      "verbal_post_transition_instruction": "Continue for 300 meters.",
+      "street_names": [
+       "18th Street East"
+      ],
+      "bearing_before": 7,
+      "bearing_after": 101,
+      "time": 75.516,
+      "length": 0.34,
+      "cost": 738.264,
+      "begin_shape_index": 262,
+      "end_shape_index": 280,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     },
+     {
+      "type": 5,
+      "instruction": "Your destination is on the right.",
+      "verbal_transition_alert_instruction": "Your destination will be on the right.",
+      "verbal_pre_transition_instruction": "Your destination is on the right.",
+      "bearing_before": 86,
+      "time": 0.0,
+      "length": 0.0,
+      "cost": 0.0,
+      "begin_shape_index": 280,
+      "end_shape_index": 280,
+      "travel_mode": "bicycle",
+      "travel_type": "hybrid"
+     }
+    ],
+    "summary": {
+     "has_time_restrictions": false,
+     "has_toll": false,
+     "has_highway": false,
+     "has_ferry": false,
+     "min_lat": 47.203399,
+     "min_lon": -122.267383,
+     "max_lat": 47.241057,
+     "max_lon": -122.24437,
+     "time": 1418.068,
+     "length": 6.293,
+     "cost": 3818.157
+    },
+    "shape": "}ka`yAbpedhFKXj@dA\\~AJxAbEb@eCpK_ApEkBxHcArEcGbTmCvFeXvi@sAxCgAfDoAdFWdHFfG`@jFpAtGVlArFbVnGfY|Obs@sNzHgAz@gOjL~AxEdBzGnB~JjAbK|@pMh@xVK`Hy@lGqAzFaBvCiC|BkPxNoQ~PoAz@{Az@yAp@_Bd@cBXuBFwCEoB[{Aa@iAk@oMuIoAc@mBUmBAeBNcBT}Bp@wA|@iBdB{AlB}BlDiC|FcBrIs@xH[~L_@~`@AhRJlJVnFjAzIzAbHz@hCxD|HhA`Bl@pAbDvE`CpC|BtE|A~Dz@~Cr@hDlBlOd@dPEnJBrM]~X_H~}@oBpIsArDoBdDwBrC{CtCgAx@qHxByUnEmM`I_F~EmLnEmMtGaDjC}BrCaGjIqBjEoAjEqAzIe@zG@rLRdWUjGUzCw@~EaAnDwAdE_JpOaEdGw@`CeMx^cEtJoElHwBhCsB|AuCfBcCbAuJzD{BlAmA\\_AhAo@x@sPh\\a@f@kE|H{BnCeE`DeHlDa@R_P`GwExAwAd@sNtDkC`@cEEcJcBcGqBmEoCkEqE_C}DaCsE_GqTaHiQ}B{BmFkCaFoAuEMw@CiKYq@DiDOmAYkDmBeDeCcBmCiByDeA_D_BcHyAgHqIwa@kBeJuC}LkEoKiEiGwUh`@oArDaBvIoBsDeAk@}Ba@gGA_YEi]Lu^LeXJcUFoJDyMD{XFqYf@qD^oGpA_BMiDCuBrGeBdEgDjGuHrJmObQeTvRkKnJeRzN}C`CiJhGyDfCaDnCuHhFcIlEeO|GaZbJ{FvBgDnCoBjDoAdEcAbHSjKFtf@h@rxDmg@Xed@l@eNDkB@gNDs^JaNDk\\Ba^B}GEkC@yt@^wa@Xsl@J}B@ox@Lo[Fk|@kAwFQeh@]_EGww@eAa@A}Xo@uYWw^k@i[e@aNQwlA{AmRWcCMaXm@w\\}@su@qHkGaAuGy@qGw@m_@wEcLuAsMaBsFq@gRiC_NcBkf@gG}]uEaLuAm[{D_JgAqYyCh@}EToNQwy@Kif@l@{D`@q@lB[bOdAb@Y^q@\\}ARaCDeEBav@{@aH[aLJiMQmL"
+   }
+  ],
+  "summary": {
+   "has_time_restrictions": false,
+   "has_toll": false,
+   "has_highway": false,
+   "has_ferry": false,
+   "min_lat": 47.203399,
+   "min_lon": -122.267383,
+   "max_lat": 47.241057,
+   "max_lon": -122.24437,
+   "time": 2516.773,
+   "length": 12.184,
+   "cost": 6001.096
+  },
+  "status_message": "Found route between points",
+  "status": 0,
+  "units": "kilometers",
+  "language": "en-US"
+ }
+}

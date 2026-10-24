@@ -1,0 +1,70 @@
+{
+  "locations": [
+    {
+      "lat": 47.240371,
+      "lon": -122.262019
+    },
+    {
+      "lat": 47.2022915,
+      "lon": -122.2495171,
+      "type": "through"
+    },
+    {
+      "lat": 47.2075394,
+      "lon": -122.2421462,
+      "type": "through"
+    },
+    {
+      "lat": 47.2131754,
+      "lon": -122.2409831,
+      "type": "through"
+    },
+    {
+      "lat": 47.2136382,
+      "lon": -122.2421761,
+      "type": "through"
+    },
+    {
+      "lat": 47.2167091,
+      "lon": -122.238061,
+      "type": "through"
+    },
+    {
+      "lat": 47.2249,
+      "lon": -122.232046,
+      "type": "through"
+    },
+    {
+      "lat": 47.2357718,
+      "lon": -122.2366146,
+      "type": "through"
+    },
+    {
+      "lat": 47.2444434,
+      "lon": -122.2355054,
+      "type": "through"
+    },
+    {
+      "lat": 47.2033245,
+      "lon": -122.2443361,
+      "type": "through"
+    },
+    {
+      "lat": 47.2033245,
+      "lon": -122.2443361
+    }
+  ],
+  "costing": "bicycle",
+  "costing_options": {
+    "bicycle": {
+      "bicycle_type": "hybrid",
+      "use_roads": 0.1,
+      "avoid_bad_surfaces": 0.3,
+      "use_hills": 0.25
+    }
+  },
+  "units": "kilometers",
+  "directions_options": {
+    "units": "miles"
+  }
+}

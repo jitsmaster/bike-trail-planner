@@ -1,0 +1,9507 @@
+{
+ "version": 0.6,
+ "generator": "Overpass API 0.7.62.11 87bfad18",
+ "osm3s": {
+  "timestamp_osm_base": "2026-09-16T16:29:19Z",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+ },
+ "elements": [
+  {
+   "type": "way",
+   "id": 12192692,
+   "bounds": {
+    "minlat": 47.2024099,
+    "minlon": -122.3185075,
+    "maxlat": 47.205894,
+    "maxlon": -122.3082898
+   },
+   "geometry": [
+    {
+     "lat": 47.205894,
+     "lon": -122.3185075
+    },
+    {
+     "lat": 47.2055553,
+     "lon": -122.3172436
+    },
+    {
+     "lat": 47.205352,
+     "lon": -122.3164828
+    },
+    {
+     "lat": 47.205321,
+     "lon": -122.316367
+    },
+    {
+     "lat": 47.2051647,
+     "lon": -122.3157926
+    },
+    {
+     "lat": 47.205068,
+     "lon": -122.315437
+    },
+    {
+     "lat": 47.2049927,
+     "lon": -122.3151377
+    },
+    {
+     "lat": 47.204988,
+     "lon": -122.315119
+    },
+    {
+     "lat": 47.2048156,
+     "lon": -122.3146234
+    },
+    {
+     "lat": 47.204804,
+     "lon": -122.31459
+    },
+    {
+     "lat": 47.2047264,
+     "lon": -122.3143934
+    },
+    {
+     "lat": 47.204718,
+     "lon": -122.314372
+    },
+    {
+     "lat": 47.204611,
+     "lon": -122.314118
+    },
+    {
+     "lat": 47.2044606,
+     "lon": -122.3138067
+    },
+    {
+     "lat": 47.203878,
+     "lon": -122.31265
+    },
+    {
+     "lat": 47.2037956,
+     "lon": -122.3124849
+    },
+    {
+     "lat": 47.203408,
+     "lon": -122.311708
+    },
+    {
+     "lat": 47.203325,
+     "lon": -122.311513
+    },
+    {
+     "lat": 47.2032509,
+     "lon": -122.3113161
+    },
+    {
+     "lat": 47.203159,
+     "lon": -122.311072
+    },
+    {
+     "lat": 47.203077,
+     "lon": -122.310834
+    },
+    {
+     "lat": 47.202992,
+     "lon": -122.310555
+    },
+    {
+     "lat": 47.202921,
+     "lon": -122.310302
+    },
+    {
+     "lat": 47.2029093,
+     "lon": -122.3102536
+    },
+    {
+     "lat": 47.20285,
+     "lon": -122.310009
+    },
+    {
+     "lat": 47.2027979,
+     "lon": -122.3098055
+    },
+    {
+     "lat": 47.2027271,
+     "lon": -122.3095289
+    },
+    {
+     "lat": 47.2027007,
+     "lon": -122.3094258
+    },
+    {
+     "lat": 47.2025576,
+     "lon": -122.3088666
+    },
+    {
+     "lat": 47.2024379,
+     "lon": -122.3083985
+    },
+    {
+     "lat": 47.2024099,
+     "lon": -122.3082898
+    }
+   ],
+   "tags": {
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "4",
+    "lit": "yes",
+    "maxspeed": "35 mph",
+    "name": "River Road",
+    "old_ref": "US 410",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "tiger:cfcc": "A31",
+    "tiger:county": "Pierce, WA",
+    "tiger:name_base": "River",
+    "tiger:name_base_1": "State Route 167"
+   }
+  },
+  {
+   "type": "way",
+   "id": 12243693,
+   "bounds": {
+    "minlat": 47.2013451,
+    "minlon": -122.2609926,
+    "maxlat": 47.2024043,
+    "maxlon": -122.2573512
+   },
+   "geometry": [
+    {
+     "lat": 47.2024043,
+     "lon": -122.2573512
+    },
+    {
+     "lat": 47.2022573,
+     "lon": -122.2578871
+    },
+    {
+     "lat": 47.2020074,
+     "lon": -122.2587442
+    },
+    {
+     "lat": 47.2018686,
+     "lon": -122.2592534
+    },
+    {
+     "lat": 47.2013451,
+     "lon": -122.2609926
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 23658147,
+   "bounds": {
+    "minlat": 47.2024043,
+    "minlon": -122.2573512,
+    "maxlat": 47.2026165,
+    "maxlon": -122.2566699
+   },
+   "geometry": [
+    {
+     "lat": 47.2026165,
+     "lon": -122.2566699
+    },
+    {
+     "lat": 47.2024043,
+     "lon": -122.2573512
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "bridge": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "concrete"
+   }
+  },
+  {
+   "type": "way",
+   "id": 23658149,
+   "bounds": {
+    "minlat": 47.2022484,
+    "minlon": -122.2567808,
+    "maxlat": 47.2024926,
+    "maxlon": -122.2559028
+   },
+   "geometry": [
+    {
+     "lat": 47.2022484,
+     "lon": -122.2567808
+    },
+    {
+     "lat": 47.2024926,
+     "lon": -122.2559028
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "bridge": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "layer": "2",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "concrete",
+    "tiger:cfcc": "A35",
+    "tiger:county": "Pierce, WA",
+    "tiger:name_base": "State Route 167"
+   }
+  },
+  {
+   "type": "way",
+   "id": 23658150,
+   "bounds": {
+    "minlat": 47.2024926,
+    "minlon": -122.2559028,
+    "maxlat": 47.2031438,
+    "maxlon": -122.2535649
+   },
+   "geometry": [
+    {
+     "lat": 47.2024926,
+     "lon": -122.2559028
+    },
+    {
+     "lat": 47.2027916,
+     "lon": -122.2548216
+    },
+    {
+     "lat": 47.2029773,
+     "lon": -122.2541729
+    },
+    {
+     "lat": 47.2031438,
+     "lon": -122.2535649
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 23658463,
+   "bounds": {
+    "minlat": 47.2009009,
+    "minlon": -122.2614048,
+    "maxlat": 47.2010704,
+    "maxlon": -122.2608051
+   },
+   "geometry": [
+    {
+     "lat": 47.2009009,
+     "lon": -122.2614048
+    },
+    {
+     "lat": 47.2010704,
+     "lon": -122.2608051
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "bridge": "yes",
+    "destination:lanes": "Auburn;Seattle|Auburn;Seattle;Sumner;Yakima|Sumner;Yakima",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "concrete",
+    "turn:lanes": "none|through;slight_right|slight_right"
+   }
+  },
+  {
+   "type": "way",
+   "id": 23658464,
+   "bounds": {
+    "minlat": 47.2011797,
+    "minlon": -122.2604184,
+    "maxlat": 47.2022484,
+    "maxlon": -122.2567808
+   },
+   "geometry": [
+    {
+     "lat": 47.2011797,
+     "lon": -122.2604184
+    },
+    {
+     "lat": 47.201444,
+     "lon": -122.259582
+    },
+    {
+     "lat": 47.2016549,
+     "lon": -122.2587717
+    },
+    {
+     "lat": 47.2019872,
+     "lon": -122.2576626
+    },
+    {
+     "lat": 47.2022484,
+     "lon": -122.2567808
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "destination": "Auburn;Seattle",
+    "destination:ref": "SR 167 North",
+    "destination:street": "Valley Freeway",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 23658465,
+   "bounds": {
+    "minlat": 47.201192,
+    "minlon": -122.2615612,
+    "maxlat": 47.2013451,
+    "maxlon": -122.2609926
+   },
+   "geometry": [
+    {
+     "lat": 47.2013451,
+     "lon": -122.2609926
+    },
+    {
+     "lat": 47.201192,
+     "lon": -122.2615612
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "bridge": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "concrete"
+   }
+  },
+  {
+   "type": "way",
+   "id": 23658466,
+   "bounds": {
+    "minlat": 47.200769,
+    "minlon": -122.264967,
+    "maxlat": 47.201192,
+    "maxlon": -122.2615612
+   },
+   "geometry": [
+    {
+     "lat": 47.201192,
+     "lon": -122.2615612
+    },
+    {
+     "lat": 47.201028,
+     "lon": -122.262271
+    },
+    {
+     "lat": 47.200896,
+     "lon": -122.26297
+    },
+    {
+     "lat": 47.200839,
+     "lon": -122.263384
+    },
+    {
+     "lat": 47.200794,
+     "lon": -122.263818
+    },
+    {
+     "lat": 47.200769,
+     "lon": -122.264337
+    },
+    {
+     "lat": 47.200777,
+     "lon": -122.264724
+    },
+    {
+     "lat": 47.200797,
+     "lon": -122.264967
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 23689386,
+   "bounds": {
+    "minlat": 47.2032972,
+    "minlon": -122.2844528,
+    "maxlat": 47.203404,
+    "maxlon": -122.2836347
+   },
+   "geometry": [
+    {
+     "lat": 47.2032972,
+     "lon": -122.2836347
+    },
+    {
+     "lat": 47.203404,
+     "lon": -122.2844528
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "bridge": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 161;SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "concrete"
+   }
+  },
+  {
+   "type": "way",
+   "id": 23689387,
+   "bounds": {
+    "minlat": 47.203404,
+    "minlon": -122.2917975,
+    "maxlat": 47.2048344,
+    "maxlon": -122.2844528
+   },
+   "geometry": [
+    {
+     "lat": 47.203404,
+     "lon": -122.2844528
+    },
+    {
+     "lat": 47.2036565,
+     "lon": -122.2863346
+    },
+    {
+     "lat": 47.2038816,
+     "lon": -122.287718
+    },
+    {
+     "lat": 47.203974,
+     "lon": -122.2882523
+    },
+    {
+     "lat": 47.2040984,
+     "lon": -122.2889287
+    },
+    {
+     "lat": 47.2042471,
+     "lon": -122.2895939
+    },
+    {
+     "lat": 47.2043931,
+     "lon": -122.2901636
+    },
+    {
+     "lat": 47.2048344,
+     "lon": -122.2917975
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "destination:lanes": "Puyallup;Tacoma|Puyallup;Tacoma;Milton",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 161;SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "turn:lanes": "slight_left|slight_left;through"
+   }
+  },
+  {
+   "type": "way",
+   "id": 23689388,
+   "bounds": {
+    "minlat": 47.203021,
+    "minlon": -122.2844472,
+    "maxlat": 47.2031065,
+    "maxlon": -122.2838578
+   },
+   "geometry": [
+    {
+     "lat": 47.2031065,
+     "lon": -122.2844472
+    },
+    {
+     "lat": 47.203021,
+     "lon": -122.2838578
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "bridge": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 161;SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "concrete"
+   }
+  },
+  {
+   "type": "way",
+   "id": 23689389,
+   "bounds": {
+    "minlat": 47.2028852,
+    "minlon": -122.2838578,
+    "maxlat": 47.203021,
+    "maxlon": -122.2830334
+   },
+   "geometry": [
+    {
+     "lat": 47.203021,
+     "lon": -122.2838578
+    },
+    {
+     "lat": 47.2028852,
+     "lon": -122.2830334
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 161;SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 23689392,
+   "bounds": {
+    "minlat": 47.1987401,
+    "minlon": -122.2938166,
+    "maxlat": 47.2012575,
+    "maxlon": -122.2937608
+   },
+   "geometry": [
+    {
+     "lat": 47.1987401,
+     "lon": -122.2937945
+    },
+    {
+     "lat": 47.1988317,
+     "lon": -122.2937706
+    },
+    {
+     "lat": 47.1988565,
+     "lon": -122.293767
+    },
+    {
+     "lat": 47.1988655,
+     "lon": -122.2937662
+    },
+    {
+     "lat": 47.1988866,
+     "lon": -122.2937644
+    },
+    {
+     "lat": 47.1989527,
+     "lon": -122.2937625
+    },
+    {
+     "lat": 47.1991325,
+     "lon": -122.293762
+    },
+    {
+     "lat": 47.1994465,
+     "lon": -122.2937611
+    },
+    {
+     "lat": 47.1995464,
+     "lon": -122.2937608
+    },
+    {
+     "lat": 47.1997466,
+     "lon": -122.2937648
+    },
+    {
+     "lat": 47.2002189,
+     "lon": -122.2937743
+    },
+    {
+     "lat": 47.2008189,
+     "lon": -122.293791
+    },
+    {
+     "lat": 47.2010805,
+     "lon": -122.2938063
+    },
+    {
+     "lat": 47.2012575,
+     "lon": -122.2938166
+    }
+   ],
+   "tags": {
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "30 mph",
+    "name": "North Meridian",
+    "oneway": "yes",
+    "postal_code": "98371",
+    "ref": "SR 167",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 23689395,
+   "bounds": {
+    "minlat": 47.2034252,
+    "minlon": -122.2938694,
+    "maxlat": 47.2043539,
+    "maxlon": -122.2938021
+   },
+   "geometry": [
+    {
+     "lat": 47.2034252,
+     "lon": -122.2938196
+    },
+    {
+     "lat": 47.2036261,
+     "lon": -122.2938245
+    },
+    {
+     "lat": 47.2037799,
+     "lon": -122.2938152
+    },
+    {
+     "lat": 47.2041989,
+     "lon": -122.2938021
+    },
+    {
+     "lat": 47.2043539,
+     "lon": -122.2938694
+    }
+   ],
+   "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "North Meridian",
+    "oneway": "yes",
+    "postal_code": "98371",
+    "ref": "SR 167",
+    "surface": "asphalt",
+    "turn:lanes": "through|through"
+   }
+  },
+  {
+   "type": "way",
+   "id": 23689569,
+   "bounds": {
+    "minlat": 47.2031438,
+    "minlon": -122.2535649,
+    "maxlat": 47.2038655,
+    "maxlon": -122.2512532
+   },
+   "geometry": [
+    {
+     "lat": 47.2031438,
+     "lon": -122.2535649
+    },
+    {
+     "lat": 47.2033844,
+     "lon": -122.2527548
+    },
+    {
+     "lat": 47.2035229,
+     "lon": -122.2522989
+    },
+    {
+     "lat": 47.203665,
+     "lon": -122.2518429
+    },
+    {
+     "lat": 47.2038655,
+     "lon": -122.2512532
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "bridge": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "concrete"
+   }
+  },
+  {
+   "type": "way",
+   "id": 23689570,
+   "bounds": {
+    "minlat": 47.2042992,
+    "minlon": -122.2502872,
+    "maxlat": 47.206078,
+    "maxlon": -122.2480261
+   },
+   "geometry": [
+    {
+     "lat": 47.2042992,
+     "lon": -122.2502872
+    },
+    {
+     "lat": 47.2045676,
+     "lon": -122.2497988
+    },
+    {
+     "lat": 47.2048152,
+     "lon": -122.2494285
+    },
+    {
+     "lat": 47.2051987,
+     "lon": -122.2489537
+    },
+    {
+     "lat": 47.205682,
+     "lon": -122.2483984
+    },
+    {
+     "lat": 47.206078,
+     "lon": -122.2480261
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 23689571,
+   "bounds": {
+    "minlat": 47.2032438,
+    "minlon": -122.2544139,
+    "maxlat": 47.2044784,
+    "maxlon": -122.2507267
+   },
+   "geometry": [
+    {
+     "lat": 47.2044784,
+     "lon": -122.2507267
+    },
+    {
+     "lat": 47.204386,
+     "lon": -122.2509216
+    },
+    {
+     "lat": 47.2041285,
+     "lon": -122.2515267
+    },
+    {
+     "lat": 47.2039112,
+     "lon": -122.252154
+    },
+    {
+     "lat": 47.2037777,
+     "lon": -122.2525602
+    },
+    {
+     "lat": 47.2032438,
+     "lon": -122.2544139
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "bridge": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "concrete"
+   }
+  },
+  {
+   "type": "way",
+   "id": 23689572,
+   "bounds": {
+    "minlat": 47.2026908,
+    "minlon": -122.2564027,
+    "maxlat": 47.2032438,
+    "maxlon": -122.2544139
+   },
+   "geometry": [
+    {
+     "lat": 47.2032438,
+     "lon": -122.2544139
+    },
+    {
+     "lat": 47.2026908,
+     "lon": -122.2564027
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "destination:lanes": "none|none;Sumner;Yakima",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "turn:lanes": "none|through;slight_right"
+   }
+  },
+  {
+   "type": "way",
+   "id": 23739102,
+   "bounds": {
+    "minlat": 47.2501689,
+    "minlon": -122.2573256,
+    "maxlat": 47.2506475,
+    "maxlon": -122.2571808
+   },
+   "geometry": [
+    {
+     "lat": 47.2501689,
+     "lon": -122.2571808
+    },
+    {
+     "lat": 47.2506475,
+     "lon": -122.2573256
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "bridge": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 23739103,
+   "bounds": {
+    "minlat": 47.2616262,
+    "minlon": -122.2617436,
+    "maxlat": 47.2649079,
+    "maxlon": -122.2608022
+   },
+   "geometry": [
+    {
+     "lat": 47.2616262,
+     "lon": -122.2608022
+    },
+    {
+     "lat": 47.2630524,
+     "lon": -122.2612736
+    },
+    {
+     "lat": 47.263642,
+     "lon": -122.2614555
+    },
+    {
+     "lat": 47.2641565,
+     "lon": -122.2616075
+    },
+    {
+     "lat": 47.2645309,
+     "lon": -122.261692
+    },
+    {
+     "lat": 47.2649079,
+     "lon": -122.2617436
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 23739104,
+   "bounds": {
+    "minlat": 47.2502408,
+    "minlon": -122.2578123,
+    "maxlat": 47.2507362,
+    "maxlon": -122.2576584
+   },
+   "geometry": [
+    {
+     "lat": 47.2507362,
+     "lon": -122.2578123
+    },
+    {
+     "lat": 47.2502408,
+     "lon": -122.2576584
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "bridge": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "concrete"
+   }
+  },
+  {
+   "type": "way",
+   "id": 23739105,
+   "bounds": {
+    "minlat": 47.2452075,
+    "minlon": -122.2576584,
+    "maxlat": 47.2502408,
+    "maxlon": -122.2561305
+   },
+   "geometry": [
+    {
+     "lat": 47.2502408,
+     "lon": -122.2576584
+    },
+    {
+     "lat": 47.2452075,
+     "lon": -122.2561305
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 23743090,
+   "bounds": {
+    "minlat": 47.2958788,
+    "minlon": -122.2566801,
+    "maxlat": 47.3018922,
+    "maxlon": -122.252762
+   },
+   "geometry": [
+    {
+     "lat": 47.2958788,
+     "lon": -122.2566801
+    },
+    {
+     "lat": 47.2964639,
+     "lon": -122.2563445
+    },
+    {
+     "lat": 47.2973305,
+     "lon": -122.2557962
+    },
+    {
+     "lat": 47.2980506,
+     "lon": -122.2553101
+    },
+    {
+     "lat": 47.2988046,
+     "lon": -122.254816
+    },
+    {
+     "lat": 47.2998385,
+     "lon": -122.2541006
+    },
+    {
+     "lat": 47.3007881,
+     "lon": -122.2534916
+    },
+    {
+     "lat": 47.3015375,
+     "lon": -122.2530007
+    },
+    {
+     "lat": 47.3018922,
+     "lon": -122.252762
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "bus:lanes": "designated||",
+    "highway": "motorway",
+    "hov": "yes",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60 mph",
+    "motor_vehicle:lanes": "no||",
+    "motorcycle:lanes": "yes||",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 25684750,
+   "bounds": {
+    "minlat": 47.206078,
+    "minlon": -122.2480261,
+    "maxlat": 47.2068224,
+    "maxlon": -122.2474901
+   },
+   "geometry": [
+    {
+     "lat": 47.206078,
+     "lon": -122.2480261
+    },
+    {
+     "lat": 47.2062749,
+     "lon": -122.2478577
+    },
+    {
+     "lat": 47.2064209,
+     "lon": -122.2477414
+    },
+    {
+     "lat": 47.2066093,
+     "lon": -122.2476114
+    },
+    {
+     "lat": 47.2068224,
+     "lon": -122.2474901
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "bridge": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "concrete"
+   }
+  },
+  {
+   "type": "way",
+   "id": 25684751,
+   "bounds": {
+    "minlat": 47.2250778,
+    "minlon": -122.2499832,
+    "maxlat": 47.2319908,
+    "maxlon": -122.2472429
+   },
+   "geometry": [
+    {
+     "lat": 47.2250778,
+     "lon": -122.2472429
+    },
+    {
+     "lat": 47.225171,
+     "lon": -122.247264
+    },
+    {
+     "lat": 47.226387,
+     "lon": -122.247615
+    },
+    {
+     "lat": 47.227011,
+     "lon": -122.247839
+    },
+    {
+     "lat": 47.227417,
+     "lon": -122.247995
+    },
+    {
+     "lat": 47.227852,
+     "lon": -122.248183
+    },
+    {
+     "lat": 47.228255,
+     "lon": -122.248345
+    },
+    {
+     "lat": 47.228563,
+     "lon": -122.248481
+    },
+    {
+     "lat": 47.2319908,
+     "lon": -122.2499832
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "no",
+    "maxheight": "15'4\"",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "turn:lanes": "||through;slight_right"
+   }
+  },
+  {
+   "type": "way",
+   "id": 25684753,
+   "bounds": {
+    "minlat": 47.2063124,
+    "minlon": -122.2483688,
+    "maxlat": 47.2070313,
+    "maxlon": -122.2478538
+   },
+   "geometry": [
+    {
+     "lat": 47.2070313,
+     "lon": -122.2478538
+    },
+    {
+     "lat": 47.2067647,
+     "lon": -122.2480249
+    },
+    {
+     "lat": 47.2065228,
+     "lon": -122.2481945
+    },
+    {
+     "lat": 47.2063124,
+     "lon": -122.2483688
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "bridge": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "concrete"
+   }
+  },
+  {
+   "type": "way",
+   "id": 25684754,
+   "bounds": {
+    "minlat": 47.2044784,
+    "minlon": -122.2507267,
+    "maxlat": 47.2063124,
+    "maxlon": -122.2483688
+   },
+   "geometry": [
+    {
+     "lat": 47.2063124,
+     "lon": -122.2483688
+    },
+    {
+     "lat": 47.2059874,
+     "lon": -122.2486767
+    },
+    {
+     "lat": 47.2054961,
+     "lon": -122.2491919
+    },
+    {
+     "lat": 47.2051197,
+     "lon": -122.2496853
+    },
+    {
+     "lat": 47.2048735,
+     "lon": -122.250041
+    },
+    {
+     "lat": 47.2047135,
+     "lon": -122.2503063
+    },
+    {
+     "lat": 47.2044784,
+     "lon": -122.2507267
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 25802448,
+   "bounds": {
+    "minlat": 47.1998179,
+    "minlon": -122.2594347,
+    "maxlat": 47.2554657,
+    "maxlon": -122.2314133
+   },
+   "geometry": [
+    {
+     "lat": 47.2554657,
+     "lon": -122.2422875
+    },
+    {
+     "lat": 47.2552847,
+     "lon": -122.2424436
+    },
+    {
+     "lat": 47.2549398,
+     "lon": -122.2425905
+    },
+    {
+     "lat": 47.2546591,
+     "lon": -122.2425839
+    },
+    {
+     "lat": 47.2544045,
+     "lon": -122.2424771
+    },
+    {
+     "lat": 47.2542084,
+     "lon": -122.2425132
+    },
+    {
+     "lat": 47.2536924,
+     "lon": -122.2427256
+    },
+    {
+     "lat": 47.2533885,
+     "lon": -122.2428408
+    },
+    {
+     "lat": 47.2530931,
+     "lon": -122.2429701
+    },
+    {
+     "lat": 47.2528286,
+     "lon": -122.2431117
+    },
+    {
+     "lat": 47.2524819,
+     "lon": -122.2432729
+    },
+    {
+     "lat": 47.2522008,
+     "lon": -122.2434028
+    },
+    {
+     "lat": 47.2518553,
+     "lon": -122.2434535
+    },
+    {
+     "lat": 47.2515937,
+     "lon": -122.2434488
+    },
+    {
+     "lat": 47.251395,
+     "lon": -122.2434071
+    },
+    {
+     "lat": 47.2512073,
+     "lon": -122.2433811
+    },
+    {
+     "lat": 47.2511097,
+     "lon": -122.2433734
+    },
+    {
+     "lat": 47.250974,
+     "lon": -122.2433967
+    },
+    {
+     "lat": 47.2508354,
+     "lon": -122.2434074
+    },
+    {
+     "lat": 47.2507014,
+     "lon": -122.2434569
+    },
+    {
+     "lat": 47.2506035,
+     "lon": -122.2434782
+    },
+    {
+     "lat": 47.2505143,
+     "lon": -122.2435292
+    },
+    {
+     "lat": 47.2504042,
+     "lon": -122.2435724
+    },
+    {
+     "lat": 47.2501217,
+     "lon": -122.2437201
+    },
+    {
+     "lat": 47.2498447,
+     "lon": -122.2438842
+    },
+    {
+     "lat": 47.2496027,
+     "lon": -122.2439917
+    },
+    {
+     "lat": 47.2494271,
+     "lon": -122.2440534
+    },
+    {
+     "lat": 47.2492517,
+     "lon": -122.2440869
+    },
+    {
+     "lat": 47.2489701,
+     "lon": -122.2441114
+    },
+    {
+     "lat": 47.248616,
+     "lon": -122.244135
+    },
+    {
+     "lat": 47.247788,
+     "lon": -122.2441642
+    },
+    {
+     "lat": 47.2470111,
+     "lon": -122.2441168
+    },
+    {
+     "lat": 47.2453549,
+     "lon": -122.2438864
+    },
+    {
+     "lat": 47.2449846,
+     "lon": -122.2438077
+    },
+    {
+     "lat": 47.2447103,
+     "lon": -122.2436601
+    },
+    {
+     "lat": 47.2444021,
+     "lon": -122.243416
+    },
+    {
+     "lat": 47.2442647,
+     "lon": -122.2432292
+    },
+    {
+     "lat": 47.2441408,
+     "lon": -122.2429665
+    },
+    {
+     "lat": 47.2440627,
+     "lon": -122.2427093
+    },
+    {
+     "lat": 47.2440087,
+     "lon": -122.2424242
+    },
+    {
+     "lat": 47.2439867,
+     "lon": -122.2420666
+    },
+    {
+     "lat": 47.2439905,
+     "lon": -122.2416705
+    },
+    {
+     "lat": 47.2440332,
+     "lon": -122.2412706
+    },
+    {
+     "lat": 47.2441653,
+     "lon": -122.2408551
+    },
+    {
+     "lat": 47.2443665,
+     "lon": -122.2404221
+    },
+    {
+     "lat": 47.2448843,
+     "lon": -122.2395872
+    },
+    {
+     "lat": 47.2451273,
+     "lon": -122.2392079
+    },
+    {
+     "lat": 47.245293,
+     "lon": -122.2388459
+    },
+    {
+     "lat": 47.2454222,
+     "lon": -122.238516
+    },
+    {
+     "lat": 47.2455241,
+     "lon": -122.2382532
+    },
+    {
+     "lat": 47.2456055,
+     "lon": -122.2380094
+    },
+    {
+     "lat": 47.2456803,
+     "lon": -122.2377344
+    },
+    {
+     "lat": 47.245708,
+     "lon": -122.2375738
+    },
+    {
+     "lat": 47.2457097,
+     "lon": -122.2374235
+    },
+    {
+     "lat": 47.245696,
+     "lon": -122.2373255
+    },
+    {
+     "lat": 47.245667,
+     "lon": -122.2372242
+    },
+    {
+     "lat": 47.2456353,
+     "lon": -122.2371607
+    },
+    {
+     "lat": 47.245592,
+     "lon": -122.2370943
+    },
+    {
+     "lat": 47.2454359,
+     "lon": -122.2369032
+    },
+    {
+     "lat": 47.2453652,
+     "lon": -122.2368011
+    },
+    {
+     "lat": 47.2453044,
+     "lon": -122.2366916
+    },
+    {
+     "lat": 47.245216,
+     "lon": -122.2364985
+    },
+    {
+     "lat": 47.2451544,
+     "lon": -122.236293
+    },
+    {
+     "lat": 47.2451154,
+     "lon": -122.236026
+    },
+    {
+     "lat": 47.2451011,
+     "lon": -122.2359133
+    },
+    {
+     "lat": 47.2450699,
+     "lon": -122.2357867
+    },
+    {
+     "lat": 47.2450169,
+     "lon": -122.2356568
+    },
+    {
+     "lat": 47.2449512,
+     "lon": -122.2355272
+    },
+    {
+     "lat": 47.244876,
+     "lon": -122.2354014
+    },
+    {
+     "lat": 47.2447901,
+     "lon": -122.2352826
+    },
+    {
+     "lat": 47.244712,
+     "lon": -122.2351958
+    },
+    {
+     "lat": 47.2446104,
+     "lon": -122.2351031
+    },
+    {
+     "lat": 47.2445032,
+     "lon": -122.2350315
+    },
+    {
+     "lat": 47.2443921,
+     "lon": -122.2349635
+    },
+    {
+     "lat": 47.2443106,
+     "lon": -122.2349227
+    },
+    {
+     "lat": 47.2442309,
+     "lon": -122.2348911
+    },
+    {
+     "lat": 47.2441446,
+     "lon": -122.2348771
+    },
+    {
+     "lat": 47.2440631,
+     "lon": -122.234878
+    },
+    {
+     "lat": 47.2439819,
+     "lon": -122.2348914
+    },
+    {
+     "lat": 47.2438821,
+     "lon": -122.2349207
+    },
+    {
+     "lat": 47.2436946,
+     "lon": -122.2350096
+    },
+    {
+     "lat": 47.2435923,
+     "lon": -122.2350452
+    },
+    {
+     "lat": 47.2434709,
+     "lon": -122.2350688
+    },
+    {
+     "lat": 47.2433398,
+     "lon": -122.2350856
+    },
+    {
+     "lat": 47.2432041,
+     "lon": -122.2350946
+    },
+    {
+     "lat": 47.243063,
+     "lon": -122.2350984
+    },
+    {
+     "lat": 47.2427175,
+     "lon": -122.2350951
+    },
+    {
+     "lat": 47.242507,
+     "lon": -122.2350819
+    },
+    {
+     "lat": 47.2423425,
+     "lon": -122.2350194
+    },
+    {
+     "lat": 47.2421648,
+     "lon": -122.2349339
+    },
+    {
+     "lat": 47.2420201,
+     "lon": -122.2347891
+    },
+    {
+     "lat": 47.2417089,
+     "lon": -122.2344763
+    },
+    {
+     "lat": 47.2414467,
+     "lon": -122.2342185
+    },
+    {
+     "lat": 47.2412113,
+     "lon": -122.2340168
+    },
+    {
+     "lat": 47.2409378,
+     "lon": -122.2338554
+    },
+    {
+     "lat": 47.240763,
+     "lon": -122.2337635
+    },
+    {
+     "lat": 47.2405343,
+     "lon": -122.2337029
+    },
+    {
+     "lat": 47.2403147,
+     "lon": -122.233676
+    },
+    {
+     "lat": 47.2400928,
+     "lon": -122.2336783
+    },
+    {
+     "lat": 47.2398159,
+     "lon": -122.2337024
+    },
+    {
+     "lat": 47.2387207,
+     "lon": -122.2338747
+    },
+    {
+     "lat": 47.2384167,
+     "lon": -122.2339456
+    },
+    {
+     "lat": 47.2382447,
+     "lon": -122.2340135
+    },
+    {
+     "lat": 47.2380723,
+     "lon": -122.2341509
+    },
+    {
+     "lat": 47.237915,
+     "lon": -122.2343392
+    },
+    {
+     "lat": 47.2377324,
+     "lon": -122.2346177
+    },
+    {
+     "lat": 47.2373022,
+     "lon": -122.235209
+    },
+    {
+     "lat": 47.237033,
+     "lon": -122.2355285
+    },
+    {
+     "lat": 47.2368568,
+     "lon": -122.2357046
+    },
+    {
+     "lat": 47.236653,
+     "lon": -122.2358556
+    },
+    {
+     "lat": 47.2363687,
+     "lon": -122.2359789
+    },
+    {
+     "lat": 47.236087,
+     "lon": -122.2360669
+    },
+    {
+     "lat": 47.2358404,
+     "lon": -122.2361223
+    },
+    {
+     "lat": 47.235624,
+     "lon": -122.2361399
+    },
+    {
+     "lat": 47.2354076,
+     "lon": -122.2361198
+    },
+    {
+     "lat": 47.2351988,
+     "lon": -122.2360694
+    },
+    {
+     "lat": 47.2349523,
+     "lon": -122.2359587
+    },
+    {
+     "lat": 47.2347661,
+     "lon": -122.2358329
+    },
+    {
+     "lat": 47.2345623,
+     "lon": -122.2356141
+    },
+    {
+     "lat": 47.234439,
+     "lon": -122.2354732
+    },
+    {
+     "lat": 47.2343006,
+     "lon": -122.235287
+    },
+    {
+     "lat": 47.2342025,
+     "lon": -122.2351209
+    },
+    {
+     "lat": 47.2340767,
+     "lon": -122.2348618
+    },
+    {
+     "lat": 47.2339937,
+     "lon": -122.2346177
+    },
+    {
+     "lat": 47.2339333,
+     "lon": -122.2343938
+    },
+    {
+     "lat": 47.2338301,
+     "lon": -122.2340114
+    },
+    {
+     "lat": 47.2337094,
+     "lon": -122.2335837
+    },
+    {
+     "lat": 47.2336163,
+     "lon": -122.2332541
+    },
+    {
+     "lat": 47.2335458,
+     "lon": -122.2330402
+    },
+    {
+     "lat": 47.2334527,
+     "lon": -122.2328767
+    },
+    {
+     "lat": 47.233332,
+     "lon": -122.2327006
+    },
+    {
+     "lat": 47.2332313,
+     "lon": -122.2325848
+    },
+    {
+     "lat": 47.233098,
+     "lon": -122.2324515
+    },
+    {
+     "lat": 47.232947,
+     "lon": -122.2323559
+    },
+    {
+     "lat": 47.2328162,
+     "lon": -122.2322854
+    },
+    {
+     "lat": 47.232625,
+     "lon": -122.2322251
+    },
+    {
+     "lat": 47.2324187,
+     "lon": -122.2321898
+    },
+    {
+     "lat": 47.2320061,
+     "lon": -122.2321672
+    },
+    {
+     "lat": 47.2316412,
+     "lon": -122.2321445
+    },
+    {
+     "lat": 47.2313972,
+     "lon": -122.2321043
+    },
+    {
+     "lat": 47.2303547,
+     "lon": -122.2318336
+    },
+    {
+     "lat": 47.2301341,
+     "lon": -122.2317754
+    },
+    {
+     "lat": 47.229947,
+     "lon": -122.2317414
+    },
+    {
+     "lat": 47.2297653,
+     "lon": -122.231719
+    },
+    {
+     "lat": 47.2295527,
+     "lon": -122.231709
+    },
+    {
+     "lat": 47.2293413,
+     "lon": -122.2317162
+    },
+    {
+     "lat": 47.2283735,
+     "lon": -122.231786
+    },
+    {
+     "lat": 47.2277936,
+     "lon": -122.2318775
+    },
+    {
+     "lat": 47.2272618,
+     "lon": -122.232065
+    },
+    {
+     "lat": 47.225579,
+     "lon": -122.232841
+    },
+    {
+     "lat": 47.2247289,
+     "lon": -122.2332813
+    },
+    {
+     "lat": 47.2244106,
+     "lon": -122.2334644
+    },
+    {
+     "lat": 47.2240679,
+     "lon": -122.2337285
+    },
+    {
+     "lat": 47.2236851,
+     "lon": -122.2341035
+    },
+    {
+     "lat": 47.2234403,
+     "lon": -122.2343174
+    },
+    {
+     "lat": 47.2232566,
+     "lon": -122.2344056
+    },
+    {
+     "lat": 47.2230993,
+     "lon": -122.2344511
+    },
+    {
+     "lat": 47.2229214,
+     "lon": -122.2344852
+    },
+    {
+     "lat": 47.2227236,
+     "lon": -122.2345004
+    },
+    {
+     "lat": 47.2225259,
+     "lon": -122.2344919
+    },
+    {
+     "lat": 47.222351,
+     "lon": -122.2344519
+    },
+    {
+     "lat": 47.2221953,
+     "lon": -122.2343847
+    },
+    {
+     "lat": 47.2220419,
+     "lon": -122.2342891
+    },
+    {
+     "lat": 47.2219146,
+     "lon": -122.234183
+    },
+    {
+     "lat": 47.2218227,
+     "lon": -122.2340959
+    },
+    {
+     "lat": 47.2217197,
+     "lon": -122.2339605
+    },
+    {
+     "lat": 47.2215612,
+     "lon": -122.2337164
+    },
+    {
+     "lat": 47.2211055,
+     "lon": -122.2329823
+    },
+    {
+     "lat": 47.2208481,
+     "lon": -122.2325986
+    },
+    {
+     "lat": 47.2206111,
+     "lon": -122.2322532
+    },
+    {
+     "lat": 47.2202901,
+     "lon": -122.2319216
+    },
+    {
+     "lat": 47.2199987,
+     "lon": -122.231707
+    },
+    {
+     "lat": 47.2197247,
+     "lon": -122.2315611
+    },
+    {
+     "lat": 47.2195284,
+     "lon": -122.2314854
+    },
+    {
+     "lat": 47.2193353,
+     "lon": -122.2314327
+    },
+    {
+     "lat": 47.2191714,
+     "lon": -122.2314133
+    },
+    {
+     "lat": 47.2190797,
+     "lon": -122.2314182
+    },
+    {
+     "lat": 47.2189918,
+     "lon": -122.2314307
+    },
+    {
+     "lat": 47.2189082,
+     "lon": -122.2314572
+    },
+    {
+     "lat": 47.2188103,
+     "lon": -122.2315004
+    },
+    {
+     "lat": 47.2187284,
+     "lon": -122.2315731
+    },
+    {
+     "lat": 47.2186534,
+     "lon": -122.2316549
+    },
+    {
+     "lat": 47.2185698,
+     "lon": -122.2317658
+    },
+    {
+     "lat": 47.2185354,
+     "lon": -122.2318221
+    },
+    {
+     "lat": 47.2184507,
+     "lon": -122.2320473
+    },
+    {
+     "lat": 47.2184172,
+     "lon": -122.2322121
+    },
+    {
+     "lat": 47.2183375,
+     "lon": -122.2327086
+    },
+    {
+     "lat": 47.2183118,
+     "lon": -122.2329129
+    },
+    {
+     "lat": 47.2182739,
+     "lon": -122.2330804
+    },
+    {
+     "lat": 47.2182343,
+     "lon": -122.2332322
+    },
+    {
+     "lat": 47.2178196,
+     "lon": -122.2346048
+    },
+    {
+     "lat": 47.2175913,
+     "lon": -122.2356307
+    },
+    {
+     "lat": 47.2172921,
+     "lon": -122.2372029
+    },
+    {
+     "lat": 47.2171491,
+     "lon": -122.237817
+    },
+    {
+     "lat": 47.2170018,
+     "lon": -122.2383049
+    },
+    {
+     "lat": 47.2169104,
+     "lon": -122.2385573
+    },
+    {
+     "lat": 47.2168147,
+     "lon": -122.2387322
+    },
+    {
+     "lat": 47.2167086,
+     "lon": -122.2388709
+    },
+    {
+     "lat": 47.216627,
+     "lon": -122.2389503
+    },
+    {
+     "lat": 47.2164649,
+     "lon": -122.2390927
+    },
+    {
+     "lat": 47.2162142,
+     "lon": -122.2392901
+    },
+    {
+     "lat": 47.2158061,
+     "lon": -122.2395905
+    },
+    {
+     "lat": 47.2155438,
+     "lon": -122.2398223
+    },
+    {
+     "lat": 47.215398,
+     "lon": -122.2399939
+    },
+    {
+     "lat": 47.2152639,
+     "lon": -122.2401656
+    },
+    {
+     "lat": 47.2150074,
+     "lon": -122.2404746
+    },
+    {
+     "lat": 47.2147392,
+     "lon": -122.2408522
+    },
+    {
+     "lat": 47.214537,
+     "lon": -122.2410577
+    },
+    {
+     "lat": 47.2143482,
+     "lon": -122.2412154
+    },
+    {
+     "lat": 47.2141706,
+     "lon": -122.2413289
+    },
+    {
+     "lat": 47.213987,
+     "lon": -122.2414204
+    },
+    {
+     "lat": 47.2137363,
+     "lon": -122.2415062
+    },
+    {
+     "lat": 47.2134699,
+     "lon": -122.2416001
+    },
+    {
+     "lat": 47.2131882,
+     "lon": -122.2417208
+    },
+    {
+     "lat": 47.2128792,
+     "lon": -122.2419429
+    },
+    {
+     "lat": 47.2126642,
+     "lon": -122.242112
+    },
+    {
+     "lat": 47.2124971,
+     "lon": -122.2423019
+    },
+    {
+     "lat": 47.2123714,
+     "lon": -122.2424764
+    },
+    {
+     "lat": 47.2122347,
+     "lon": -122.2426885
+    },
+    {
+     "lat": 47.2121161,
+     "lon": -122.2428793
+    },
+    {
+     "lat": 47.2118996,
+     "lon": -122.2433324
+    },
+    {
+     "lat": 47.2118016,
+     "lon": -122.2436206
+    },
+    {
+     "lat": 47.211711,
+     "lon": -122.2440392
+    },
+    {
+     "lat": 47.2116418,
+     "lon": -122.244335
+    },
+    {
+     "lat": 47.2115535,
+     "lon": -122.24464
+    },
+    {
+     "lat": 47.2114365,
+     "lon": -122.2448781
+    },
+    {
+     "lat": 47.2113203,
+     "lon": -122.2450692
+    },
+    {
+     "lat": 47.2112012,
+     "lon": -122.2452201
+    },
+    {
+     "lat": 47.2110696,
+     "lon": -122.2453524
+    },
+    {
+     "lat": 47.210976,
+     "lon": -122.2454333
+    },
+    {
+     "lat": 47.2108912,
+     "lon": -122.2454736
+    },
+    {
+     "lat": 47.2107859,
+     "lon": -122.2454922
+    },
+    {
+     "lat": 47.2106902,
+     "lon": -122.2454938
+    },
+    {
+     "lat": 47.2105647,
+     "lon": -122.2454765
+    },
+    {
+     "lat": 47.2103937,
+     "lon": -122.2454392
+    },
+    {
+     "lat": 47.2102308,
+     "lon": -122.2453778
+    },
+    {
+     "lat": 47.2100445,
+     "lon": -122.245281
+    },
+    {
+     "lat": 47.2098632,
+     "lon": -122.2451448
+    },
+    {
+     "lat": 47.2097126,
+     "lon": -122.2450077
+    },
+    {
+     "lat": 47.2095717,
+     "lon": -122.2448475
+    },
+    {
+     "lat": 47.2092979,
+     "lon": -122.2445672
+    },
+    {
+     "lat": 47.209179,
+     "lon": -122.2444585
+    },
+    {
+     "lat": 47.2090606,
+     "lon": -122.244351
+    },
+    {
+     "lat": 47.2088344,
+     "lon": -122.2441841
+    },
+    {
+     "lat": 47.2086382,
+     "lon": -122.2440516
+    },
+    {
+     "lat": 47.2084886,
+     "lon": -122.2439725
+    },
+    {
+     "lat": 47.2083396,
+     "lon": -122.2439053
+    },
+    {
+     "lat": 47.2081713,
+     "lon": -122.2438463
+    },
+    {
+     "lat": 47.2080539,
+     "lon": -122.2438131
+    },
+    {
+     "lat": 47.2078617,
+     "lon": -122.2437815
+    },
+    {
+     "lat": 47.2076607,
+     "lon": -122.2437637
+    },
+    {
+     "lat": 47.2074495,
+     "lon": -122.2437793
+    },
+    {
+     "lat": 47.2072804,
+     "lon": -122.2438049
+    },
+    {
+     "lat": 47.207136,
+     "lon": -122.2438373
+    },
+    {
+     "lat": 47.2070146,
+     "lon": -122.243877
+    },
+    {
+     "lat": 47.2068774,
+     "lon": -122.2439332
+    },
+    {
+     "lat": 47.2067477,
+     "lon": -122.2440186
+    },
+    {
+     "lat": 47.2066239,
+     "lon": -122.2441214
+    },
+    {
+     "lat": 47.2063675,
+     "lon": -122.2444154
+    },
+    {
+     "lat": 47.2061622,
+     "lon": -122.2446536
+    },
+    {
+     "lat": 47.2059745,
+     "lon": -122.2448727
+    },
+    {
+     "lat": 47.2056957,
+     "lon": -122.2451257
+    },
+    {
+     "lat": 47.2054274,
+     "lon": -122.245366
+    },
+    {
+     "lat": 47.2051242,
+     "lon": -122.2455119
+    },
+    {
+     "lat": 47.2047044,
+     "lon": -122.2456407
+    },
+    {
+     "lat": 47.2043367,
+     "lon": -122.2457086
+    },
+    {
+     "lat": 47.2040335,
+     "lon": -122.2457856
+    },
+    {
+     "lat": 47.2037686,
+     "lon": -122.2458972
+    },
+    {
+     "lat": 47.2034989,
+     "lon": -122.2461032
+    },
+    {
+     "lat": 47.2032689,
+     "lon": -122.2463435
+    },
+    {
+     "lat": 47.2030324,
+     "lon": -122.2466876
+    },
+    {
+     "lat": 47.2028595,
+     "lon": -122.2470603
+    },
+    {
+     "lat": 47.2027364,
+     "lon": -122.2474625
+    },
+    {
+     "lat": 47.2026706,
+     "lon": -122.2477629
+    },
+    {
+     "lat": 47.2026416,
+     "lon": -122.2480568
+    },
+    {
+     "lat": 47.2026469,
+     "lon": -122.2482706
+    },
+    {
+     "lat": 47.2026469,
+     "lon": -122.2486005
+    },
+    {
+     "lat": 47.2026469,
+     "lon": -122.2489696
+    },
+    {
+     "lat": 47.2026247,
+     "lon": -122.2493987
+    },
+    {
+     "lat": 47.2025573,
+     "lon": -122.249845
+    },
+    {
+     "lat": 47.2024264,
+     "lon": -122.2503193
+    },
+    {
+     "lat": 47.2023145,
+     "lon": -122.250669
+    },
+    {
+     "lat": 47.2021804,
+     "lon": -122.2509952
+    },
+    {
+     "lat": 47.2020204,
+     "lon": -122.2513372
+    },
+    {
+     "lat": 47.2004069,
+     "lon": -122.2546271
+    },
+    {
+     "lat": 47.2002878,
+     "lon": -122.254905
+    },
+    {
+     "lat": 47.2001731,
+     "lon": -122.255213
+    },
+    {
+     "lat": 47.2000769,
+     "lon": -122.2555434
+    },
+    {
+     "lat": 47.1999853,
+     "lon": -122.2560352
+    },
+    {
+     "lat": 47.1999486,
+     "lon": -122.2564275
+    },
+    {
+     "lat": 47.1999492,
+     "lon": -122.2568002
+    },
+    {
+     "lat": 47.1999628,
+     "lon": -122.2570714
+    },
+    {
+     "lat": 47.1999901,
+     "lon": -122.2573513
+    },
+    {
+     "lat": 47.2000195,
+     "lon": -122.257696
+    },
+    {
+     "lat": 47.2000192,
+     "lon": -122.2579367
+    },
+    {
+     "lat": 47.2000075,
+     "lon": -122.258117
+    },
+    {
+     "lat": 47.1999961,
+     "lon": -122.2582618
+    },
+    {
+     "lat": 47.1999746,
+     "lon": -122.2584002
+    },
+    {
+     "lat": 47.1999551,
+     "lon": -122.2585376
+    },
+    {
+     "lat": 47.1998179,
+     "lon": -122.2594347
+    }
+   ],
+   "tags": {
+    "name": "White River",
+    "old_name": "Stuck River",
+    "waterway": "river"
+   }
+  },
+  {
+   "type": "way",
+   "id": 25811146,
+   "bounds": {
+    "minlat": 47.2554657,
+    "minlon": -122.2422875,
+    "maxlat": 47.2658085,
+    "maxlon": -122.2302501
+   },
+   "geometry": [
+    {
+     "lat": 47.2658085,
+     "lon": -122.2302501
+    },
+    {
+     "lat": 47.2654153,
+     "lon": -122.2317746
+    },
+    {
+     "lat": 47.2652439,
+     "lon": -122.2323863
+    },
+    {
+     "lat": 47.2650195,
+     "lon": -122.2329586
+    },
+    {
+     "lat": 47.2648894,
+     "lon": -122.233304
+    },
+    {
+     "lat": 47.264728,
+     "lon": -122.2336399
+    },
+    {
+     "lat": 47.2646203,
+     "lon": -122.2338074
+    },
+    {
+     "lat": 47.2644941,
+     "lon": -122.2339901
+    },
+    {
+     "lat": 47.2643786,
+     "lon": -122.2341595
+    },
+    {
+     "lat": 47.2642266,
+     "lon": -122.2343465
+    },
+    {
+     "lat": 47.2638563,
+     "lon": -122.234751
+    },
+    {
+     "lat": 47.2634061,
+     "lon": -122.2351612
+    },
+    {
+     "lat": 47.2630472,
+     "lon": -122.2354233
+    },
+    {
+     "lat": 47.2627167,
+     "lon": -122.2356341
+    },
+    {
+     "lat": 47.2624204,
+     "lon": -122.2358563
+    },
+    {
+     "lat": 47.2621688,
+     "lon": -122.2360987
+    },
+    {
+     "lat": 47.2620264,
+     "lon": -122.2362697
+    },
+    {
+     "lat": 47.2617468,
+     "lon": -122.2365103
+    },
+    {
+     "lat": 47.2614065,
+     "lon": -122.2367919
+    },
+    {
+     "lat": 47.261015,
+     "lon": -122.2370832
+    },
+    {
+     "lat": 47.2606366,
+     "lon": -122.2375103
+    },
+    {
+     "lat": 47.2595236,
+     "lon": -122.2383669
+    },
+    {
+     "lat": 47.2589483,
+     "lon": -122.2387222
+    },
+    {
+     "lat": 47.2583218,
+     "lon": -122.2391648
+    },
+    {
+     "lat": 47.2581212,
+     "lon": -122.2393567
+    },
+    {
+     "lat": 47.2580299,
+     "lon": -122.2395186
+    },
+    {
+     "lat": 47.257869,
+     "lon": -122.2397555
+    },
+    {
+     "lat": 47.2577319,
+     "lon": -122.2399649
+    },
+    {
+     "lat": 47.257566,
+     "lon": -122.2402157
+    },
+    {
+     "lat": 47.2573843,
+     "lon": -122.2403757
+    },
+    {
+     "lat": 47.2568686,
+     "lon": -122.240852
+    },
+    {
+     "lat": 47.2564438,
+     "lon": -122.2412956
+    },
+    {
+     "lat": 47.2561776,
+     "lon": -122.2415411
+    },
+    {
+     "lat": 47.2559426,
+     "lon": -122.2417703
+    },
+    {
+     "lat": 47.2557366,
+     "lon": -122.2419561
+    },
+    {
+     "lat": 47.2554657,
+     "lon": -122.2422875
+    }
+   ],
+   "tags": {
+    "name": "White River",
+    "waterway": "river"
+   }
+  },
+  {
+   "type": "way",
+   "id": 25811894,
+   "bounds": {
+    "minlat": 47.2658085,
+    "minlon": -122.2302501,
+    "maxlat": 47.2849747,
+    "maxlon": -122.170761
+   },
+   "geometry": [
+    {
+     "lat": 47.2793699,
+     "lon": -122.170761
+    },
+    {
+     "lat": 47.2794757,
+     "lon": -122.1710623
+    },
+    {
+     "lat": 47.2795809,
+     "lon": -122.1714114
+    },
+    {
+     "lat": 47.2798661,
+     "lon": -122.1724303
+    },
+    {
+     "lat": 47.2798832,
+     "lon": -122.1724951
+    },
+    {
+     "lat": 47.2798979,
+     "lon": -122.1725626
+    },
+    {
+     "lat": 47.2799045,
+     "lon": -122.1726331
+    },
+    {
+     "lat": 47.2799011,
+     "lon": -122.1726964
+    },
+    {
+     "lat": 47.2798945,
+     "lon": -122.1727639
+    },
+    {
+     "lat": 47.279884,
+     "lon": -122.1728275
+    },
+    {
+     "lat": 47.2798693,
+     "lon": -122.1728959
+    },
+    {
+     "lat": 47.2798512,
+     "lon": -122.17296
+    },
+    {
+     "lat": 47.2798238,
+     "lon": -122.1730316
+    },
+    {
+     "lat": 47.2798103,
+     "lon": -122.1730914
+    },
+    {
+     "lat": 47.2798039,
+     "lon": -122.1731511
+    },
+    {
+     "lat": 47.2798097,
+     "lon": -122.1732198
+    },
+    {
+     "lat": 47.2798226,
+     "lon": -122.173296
+    },
+    {
+     "lat": 47.2798451,
+     "lon": -122.1733638
+    },
+    {
+     "lat": 47.2799001,
+     "lon": -122.1735086
+    },
+    {
+     "lat": 47.2803972,
+     "lon": -122.1747418
+    },
+    {
+     "lat": 47.2805552,
+     "lon": -122.1751184
+    },
+    {
+     "lat": 47.2806888,
+     "lon": -122.1753736
+    },
+    {
+     "lat": 47.2808832,
+     "lon": -122.1756743
+    },
+    {
+     "lat": 47.2811491,
+     "lon": -122.1760323
+    },
+    {
+     "lat": 47.2815845,
+     "lon": -122.1766435
+    },
+    {
+     "lat": 47.282093,
+     "lon": -122.1774222
+    },
+    {
+     "lat": 47.2825978,
+     "lon": -122.1782628
+    },
+    {
+     "lat": 47.2839026,
+     "lon": -122.1807369
+    },
+    {
+     "lat": 47.2841122,
+     "lon": -122.1811356
+    },
+    {
+     "lat": 47.2843633,
+     "lon": -122.1815909
+    },
+    {
+     "lat": 47.2844642,
+     "lon": -122.1818034
+    },
+    {
+     "lat": 47.2845561,
+     "lon": -122.1820245
+    },
+    {
+     "lat": 47.2846206,
+     "lon": -122.182211
+    },
+    {
+     "lat": 47.2846818,
+     "lon": -122.1824245
+    },
+    {
+     "lat": 47.2847557,
+     "lon": -122.1827414
+    },
+    {
+     "lat": 47.2848207,
+     "lon": -122.1830462
+    },
+    {
+     "lat": 47.2849113,
+     "lon": -122.1834611
+    },
+    {
+     "lat": 47.2849541,
+     "lon": -122.1836821
+    },
+    {
+     "lat": 47.2849725,
+     "lon": -122.1839094
+    },
+    {
+     "lat": 47.2849747,
+     "lon": -122.1840348
+    },
+    {
+     "lat": 47.2849711,
+     "lon": -122.1841818
+    },
+    {
+     "lat": 47.2849454,
+     "lon": -122.1843806
+    },
+    {
+     "lat": 47.2848964,
+     "lon": -122.1845582
+    },
+    {
+     "lat": 47.2848381,
+     "lon": -122.1847129
+    },
+    {
+     "lat": 47.2847507,
+     "lon": -122.1849048
+    },
+    {
+     "lat": 47.284625,
+     "lon": -122.1851493
+    },
+    {
+     "lat": 47.2845132,
+     "lon": -122.1854212
+    },
+    {
+     "lat": 47.2844689,
+     "lon": -122.1855535
+    },
+    {
+     "lat": 47.2844458,
+     "lon": -122.1856917
+    },
+    {
+     "lat": 47.2844418,
+     "lon": -122.1859681
+    },
+    {
+     "lat": 47.28446,
+     "lon": -122.1864852
+    },
+    {
+     "lat": 47.2844821,
+     "lon": -122.1868307
+    },
+    {
+     "lat": 47.2844889,
+     "lon": -122.187216
+    },
+    {
+     "lat": 47.2844821,
+     "lon": -122.1875338
+    },
+    {
+     "lat": 47.2842092,
+     "lon": -122.1903235
+    },
+    {
+     "lat": 47.284203,
+     "lon": -122.1908541
+    },
+    {
+     "lat": 47.2841781,
+     "lon": -122.1911303
+    },
+    {
+     "lat": 47.28416,
+     "lon": -122.1912503
+    },
+    {
+     "lat": 47.2841147,
+     "lon": -122.1913703
+    },
+    {
+     "lat": 47.2838905,
+     "lon": -122.191882
+    },
+    {
+     "lat": 47.2836139,
+     "lon": -122.1925188
+    },
+    {
+     "lat": 47.2833596,
+     "lon": -122.1931932
+    },
+    {
+     "lat": 47.2830723,
+     "lon": -122.1938414
+    },
+    {
+     "lat": 47.2827871,
+     "lon": -122.1944266
+    },
+    {
+     "lat": 47.2819757,
+     "lon": -122.1961428
+    },
+    {
+     "lat": 47.2817298,
+     "lon": -122.1967034
+    },
+    {
+     "lat": 47.2815184,
+     "lon": -122.1971116
+    },
+    {
+     "lat": 47.2812873,
+     "lon": -122.1975
+    },
+    {
+     "lat": 47.2810807,
+     "lon": -122.1977705
+    },
+    {
+     "lat": 47.2807758,
+     "lon": -122.1981246
+    },
+    {
+     "lat": 47.2804464,
+     "lon": -122.1984294
+    },
+    {
+     "lat": 47.2801513,
+     "lon": -122.198695
+    },
+    {
+     "lat": 47.2797284,
+     "lon": -122.1990245
+    },
+    {
+     "lat": 47.2791678,
+     "lon": -122.1993884
+    },
+    {
+     "lat": 47.2786318,
+     "lon": -122.1996883
+    },
+    {
+     "lat": 47.277968,
+     "lon": -122.200008
+    },
+    {
+     "lat": 47.2776237,
+     "lon": -122.2002194
+    },
+    {
+     "lat": 47.2773533,
+     "lon": -122.2004702
+    },
+    {
+     "lat": 47.2771369,
+     "lon": -122.2006866
+    },
+    {
+     "lat": 47.27695,
+     "lon": -122.2009669
+    },
+    {
+     "lat": 47.2767843,
+     "lon": -122.2012997
+    },
+    {
+     "lat": 47.275673,
+     "lon": -122.2038395
+    },
+    {
+     "lat": 47.2753876,
+     "lon": -122.2046075
+    },
+    {
+     "lat": 47.2751222,
+     "lon": -122.2054317
+    },
+    {
+     "lat": 47.2750217,
+     "lon": -122.2058217
+    },
+    {
+     "lat": 47.2749614,
+     "lon": -122.2061032
+    },
+    {
+     "lat": 47.2749131,
+     "lon": -122.2064128
+    },
+    {
+     "lat": 47.274893,
+     "lon": -122.2067264
+    },
+    {
+     "lat": 47.274881,
+     "lon": -122.2070882
+    },
+    {
+     "lat": 47.274881,
+     "lon": -122.2073576
+    },
+    {
+     "lat": 47.2748484,
+     "lon": -122.2078277
+    },
+    {
+     "lat": 47.2747584,
+     "lon": -122.2088292
+    },
+    {
+     "lat": 47.2746324,
+     "lon": -122.2103884
+    },
+    {
+     "lat": 47.2745799,
+     "lon": -122.2112493
+    },
+    {
+     "lat": 47.2745589,
+     "lon": -122.2118058
+    },
+    {
+     "lat": 47.2746029,
+     "lon": -122.2123972
+    },
+    {
+     "lat": 47.2746441,
+     "lon": -122.2131114
+    },
+    {
+     "lat": 47.2746647,
+     "lon": -122.2137398
+    },
+    {
+     "lat": 47.2746132,
+     "lon": -122.2144918
+    },
+    {
+     "lat": 47.2744862,
+     "lon": -122.2153331
+    },
+    {
+     "lat": 47.2744175,
+     "lon": -122.2158447
+    },
+    {
+     "lat": 47.274366,
+     "lon": -122.2161847
+    },
+    {
+     "lat": 47.2742698,
+     "lon": -122.2165521
+    },
+    {
+     "lat": 47.2741012,
+     "lon": -122.2169731
+    },
+    {
+     "lat": 47.2739023,
+     "lon": -122.2174147
+    },
+    {
+     "lat": 47.2735836,
+     "lon": -122.2179499
+    },
+    {
+     "lat": 47.2734198,
+     "lon": -122.2181663
+    },
+    {
+     "lat": 47.2730981,
+     "lon": -122.2183944
+    },
+    {
+     "lat": 47.2726009,
+     "lon": -122.2188185
+    },
+    {
+     "lat": 47.2720803,
+     "lon": -122.2193654
+    },
+    {
+     "lat": 47.2717265,
+     "lon": -122.2198508
+    },
+    {
+     "lat": 47.2714538,
+     "lon": -122.2202592
+    },
+    {
+     "lat": 47.271239,
+     "lon": -122.2206247
+    },
+    {
+     "lat": 47.2710014,
+     "lon": -122.2211091
+    },
+    {
+     "lat": 47.2705404,
+     "lon": -122.2216842
+    },
+    {
+     "lat": 47.2704408,
+     "lon": -122.2220745
+    },
+    {
+     "lat": 47.2703836,
+     "lon": -122.2222996
+    },
+    {
+     "lat": 47.2702879,
+     "lon": -122.2226377
+    },
+    {
+     "lat": 47.2700625,
+     "lon": -122.2232634
+    },
+    {
+     "lat": 47.2687539,
+     "lon": -122.2249652
+    },
+    {
+     "lat": 47.2683169,
+     "lon": -122.2254409
+    },
+    {
+     "lat": 47.2679532,
+     "lon": -122.2258063
+    },
+    {
+     "lat": 47.2675768,
+     "lon": -122.2261038
+    },
+    {
+     "lat": 47.2671084,
+     "lon": -122.2264243
+    },
+    {
+     "lat": 47.26695,
+     "lon": -122.2265113
+    },
+    {
+     "lat": 47.2668835,
+     "lon": -122.2265699
+    },
+    {
+     "lat": 47.2668267,
+     "lon": -122.2266438
+    },
+    {
+     "lat": 47.2667771,
+     "lon": -122.2267247
+    },
+    {
+     "lat": 47.2667324,
+     "lon": -122.2268216
+    },
+    {
+     "lat": 47.2664472,
+     "lon": -122.2277543
+    },
+    {
+     "lat": 47.2662693,
+     "lon": -122.2283725
+    },
+    {
+     "lat": 47.2660958,
+     "lon": -122.2290797
+    },
+    {
+     "lat": 47.2658085,
+     "lon": -122.2302501
+    }
+   ],
+   "tags": {
+    "name": "White River",
+    "waterway": "river"
+   }
+  },
+  {
+   "type": "way",
+   "id": 51805430,
+   "bounds": {
+    "minlat": 47.2616026,
+    "minlon": -122.2619107,
+    "maxlat": 47.2649338,
+    "maxlon": -122.2610649
+   },
+   "geometry": [
+    {
+     "lat": 47.2649338,
+     "lon": -122.2619107
+    },
+    {
+     "lat": 47.2645204,
+     "lon": -122.2618644
+    },
+    {
+     "lat": 47.264132,
+     "lon": -122.2618024
+    },
+    {
+     "lat": 47.2636185,
+     "lon": -122.2616769
+    },
+    {
+     "lat": 47.2630207,
+     "lon": -122.2614955
+    },
+    {
+     "lat": 47.2616026,
+     "lon": -122.2610649
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 51805431,
+   "bounds": {
+    "minlat": 47.2649338,
+    "minlon": -122.2619268,
+    "maxlat": 47.2653799,
+    "maxlon": -122.2619107
+   },
+   "geometry": [
+    {
+     "lat": 47.2653799,
+     "lon": -122.2619268
+    },
+    {
+     "lat": 47.2649338,
+     "lon": -122.2619107
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "bridge": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "concrete"
+   }
+  },
+  {
+   "type": "way",
+   "id": 51805432,
+   "bounds": {
+    "minlat": 47.2649079,
+    "minlon": -122.2617567,
+    "maxlat": 47.2653519,
+    "maxlon": -122.2617436
+   },
+   "geometry": [
+    {
+     "lat": 47.2649079,
+     "lon": -122.2617436
+    },
+    {
+     "lat": 47.2651181,
+     "lon": -122.2617567
+    },
+    {
+     "lat": 47.2653519,
+     "lon": -122.2617562
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "bridge": "yes",
+    "construction": "minor",
+    "fixme": "3 lanes when construction is done",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "1",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "surface": "concrete"
+   }
+  },
+  {
+   "type": "way",
+   "id": 51805434,
+   "bounds": {
+    "minlat": 47.2653519,
+    "minlon": -122.2617562,
+    "maxlat": 47.2689811,
+    "maxlon": -122.2606848
+   },
+   "geometry": [
+    {
+     "lat": 47.2653519,
+     "lon": -122.2617562
+    },
+    {
+     "lat": 47.2657883,
+     "lon": -122.2617237
+    },
+    {
+     "lat": 47.2661354,
+     "lon": -122.2616734
+    },
+    {
+     "lat": 47.2664659,
+     "lon": -122.2616143
+    },
+    {
+     "lat": 47.2670385,
+     "lon": -122.2614617
+    },
+    {
+     "lat": 47.2676645,
+     "lon": -122.2612308
+    },
+    {
+     "lat": 47.2684947,
+     "lon": -122.2608862
+    },
+    {
+     "lat": 47.2689811,
+     "lon": -122.2606848
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "destination:lanes": "none|none|none;Algona;Pacific",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "tiger:county": "King, WA",
+    "turn:lanes": "||through;slight_right"
+   }
+  },
+  {
+   "type": "way",
+   "id": 53544574,
+   "bounds": {
+    "minlat": 47.2843859,
+    "minlon": -122.2582186,
+    "maxlat": 47.2915962,
+    "maxlon": -122.2579226
+   },
+   "geometry": [
+    {
+     "lat": 47.2843859,
+     "lon": -122.2582186
+    },
+    {
+     "lat": 47.284738,
+     "lon": -122.2581887
+    },
+    {
+     "lat": 47.2854766,
+     "lon": -122.258107
+    },
+    {
+     "lat": 47.286254,
+     "lon": -122.2580634
+    },
+    {
+     "lat": 47.2870644,
+     "lon": -122.2580453
+    },
+    {
+     "lat": 47.2880117,
+     "lon": -122.2580226
+    },
+    {
+     "lat": 47.2890854,
+     "lon": -122.2579999
+    },
+    {
+     "lat": 47.2908139,
+     "lon": -122.2579682
+    },
+    {
+     "lat": 47.2915962,
+     "lon": -122.2579226
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "destination:lanes": "||Auburn;15th Street Southwest",
+    "highway": "motorway",
+    "hov": "yes",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "surface": "asphalt",
+    "turn:lanes": "||through;slight_right"
+   }
+  },
+  {
+   "type": "way",
+   "id": 53544575,
+   "bounds": {
+    "minlat": 47.2784632,
+    "minlon": -122.2585555,
+    "maxlat": 47.278942,
+    "maxlon": -122.2585249
+   },
+   "geometry": [
+    {
+     "lat": 47.278942,
+     "lon": -122.2585249
+    },
+    {
+     "lat": 47.2787599,
+     "lon": -122.2585443
+    },
+    {
+     "lat": 47.2784632,
+     "lon": -122.2585555
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "destination:lanes": "none|none|none;Ellingson Road",
+    "highway": "motorway",
+    "hov": "yes",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "surface": "asphalt",
+    "turn:lanes": "none|none|through;slight_right"
+   }
+  },
+  {
+   "type": "way",
+   "id": 53544576,
+   "bounds": {
+    "minlat": 47.2789385,
+    "minlon": -122.2583383,
+    "maxlat": 47.2793344,
+    "maxlon": -122.258333
+   },
+   "geometry": [
+    {
+     "lat": 47.2789385,
+     "lon": -122.2583383
+    },
+    {
+     "lat": 47.2793344,
+     "lon": -122.258333
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "bridge": "yes",
+    "highway": "motorway",
+    "hov": "yes",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "surface": "concrete"
+   }
+  },
+  {
+   "type": "way",
+   "id": 53544577,
+   "bounds": {
+    "minlat": 47.278942,
+    "minlon": -122.2585249,
+    "maxlat": 47.2793396,
+    "maxlon": -122.258517
+   },
+   "geometry": [
+    {
+     "lat": 47.2793396,
+     "lon": -122.258517
+    },
+    {
+     "lat": 47.278942,
+     "lon": -122.2585249
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "bridge": "yes",
+    "highway": "motorway",
+    "hov": "yes",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "surface": "concrete"
+   }
+  },
+  {
+   "type": "way",
+   "id": 53544596,
+   "bounds": {
+    "minlat": 47.273223,
+    "minlon": -122.2589351,
+    "maxlat": 47.2789385,
+    "maxlon": -122.2583383
+   },
+   "geometry": [
+    {
+     "lat": 47.273223,
+     "lon": -122.2589351
+    },
+    {
+     "lat": 47.2736167,
+     "lon": -122.2587802
+    },
+    {
+     "lat": 47.2739179,
+     "lon": -122.2586846
+    },
+    {
+     "lat": 47.2741932,
+     "lon": -122.2586157
+    },
+    {
+     "lat": 47.2745342,
+     "lon": -122.2585501
+    },
+    {
+     "lat": 47.27491,
+     "lon": -122.2584829
+    },
+    {
+     "lat": 47.2753503,
+     "lon": -122.2584429
+    },
+    {
+     "lat": 47.27632,
+     "lon": -122.2584
+    },
+    {
+     "lat": 47.2773733,
+     "lon": -122.2583879
+    },
+    {
+     "lat": 47.2784192,
+     "lon": -122.2583591
+    },
+    {
+     "lat": 47.2789385,
+     "lon": -122.2583383
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 53544599,
+   "bounds": {
+    "minlat": 47.2653799,
+    "minlon": -122.2619268,
+    "maxlat": 47.2680465,
+    "maxlon": -122.2612933
+   },
+   "geometry": [
+    {
+     "lat": 47.2680465,
+     "lon": -122.2612933
+    },
+    {
+     "lat": 47.2673433,
+     "lon": -122.2615631
+    },
+    {
+     "lat": 47.2668623,
+     "lon": -122.2617232
+    },
+    {
+     "lat": 47.2665116,
+     "lon": -122.2618101
+    },
+    {
+     "lat": 47.2661037,
+     "lon": -122.2618763
+    },
+    {
+     "lat": 47.2657956,
+     "lon": -122.2619083
+    },
+    {
+     "lat": 47.2655919,
+     "lon": -122.2619203
+    },
+    {
+     "lat": 47.2653799,
+     "lon": -122.2619268
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 53544600,
+   "bounds": {
+    "minlat": 47.272796,
+    "minlon": -122.2591155,
+    "maxlat": 47.273223,
+    "maxlon": -122.2589351
+   },
+   "geometry": [
+    {
+     "lat": 47.272796,
+     "lon": -122.2591155
+    },
+    {
+     "lat": 47.273223,
+     "lon": -122.2589351
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "bridge": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "concrete"
+   }
+  },
+  {
+   "type": "way",
+   "id": 53544601,
+   "bounds": {
+    "minlat": 47.2728276,
+    "minlon": -122.2592867,
+    "maxlat": 47.2732578,
+    "maxlon": -122.2591137
+   },
+   "geometry": [
+    {
+     "lat": 47.2732578,
+     "lon": -122.2591137
+    },
+    {
+     "lat": 47.2728276,
+     "lon": -122.2592867
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "bridge": "yes",
+    "highway": "motorway",
+    "hov": "yes",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "surface": "concrete"
+   }
+  },
+  {
+   "type": "way",
+   "id": 124272528,
+   "bounds": {
+    "minlat": 47.203354,
+    "minlon": -122.2926532,
+    "maxlat": 47.2041695,
+    "maxlon": -122.2865251
+   },
+   "geometry": [
+    {
+     "lat": 47.2041653,
+     "lon": -122.2926532
+    },
+    {
+     "lat": 47.2041695,
+     "lon": -122.2922265
+    },
+    {
+     "lat": 47.2041407,
+     "lon": -122.2919352
+    },
+    {
+     "lat": 47.204086,
+     "lon": -122.2915715
+    },
+    {
+     "lat": 47.203974,
+     "lon": -122.2910836
+    },
+    {
+     "lat": 47.2039018,
+     "lon": -122.2907639
+    },
+    {
+     "lat": 47.2037914,
+     "lon": -122.2901809
+    },
+    {
+     "lat": 47.2036893,
+     "lon": -122.2895399
+    },
+    {
+     "lat": 47.203662,
+     "lon": -122.2893012
+    },
+    {
+     "lat": 47.2035964,
+     "lon": -122.2887191
+    },
+    {
+     "lat": 47.2035035,
+     "lon": -122.2878796
+    },
+    {
+     "lat": 47.2034324,
+     "lon": -122.2872144
+    },
+    {
+     "lat": 47.203354,
+     "lon": -122.2865251
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 161;SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 124272536,
+   "bounds": {
+    "minlat": 47.2004449,
+    "minlon": -122.270279,
+    "maxlat": 47.201115,
+    "maxlon": -122.2614048
+   },
+   "geometry": [
+    {
+     "lat": 47.201115,
+     "lon": -122.270279
+    },
+    {
+     "lat": 47.200929,
+     "lon": -122.269015
+    },
+    {
+     "lat": 47.200525,
+     "lon": -122.266107
+    },
+    {
+     "lat": 47.20051,
+     "lon": -122.265966
+    },
+    {
+     "lat": 47.20048,
+     "lon": -122.265665
+    },
+    {
+     "lat": 47.2004449,
+     "lon": -122.2648945
+    },
+    {
+     "lat": 47.200453,
+     "lon": -122.264301
+    },
+    {
+     "lat": 47.200472,
+     "lon": -122.263783
+    },
+    {
+     "lat": 47.200505,
+     "lon": -122.263417
+    },
+    {
+     "lat": 47.2005729,
+     "lon": -122.2629255
+    },
+    {
+     "lat": 47.2007165,
+     "lon": -122.2620934
+    },
+    {
+     "lat": 47.2009009,
+     "lon": -122.2614048
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 124272537,
+   "bounds": {
+    "minlat": 47.201303,
+    "minlon": -122.2713479,
+    "maxlat": 47.2016111,
+    "maxlon": -122.269067
+   },
+   "geometry": [
+    {
+     "lat": 47.201303,
+     "lon": -122.269067
+    },
+    {
+     "lat": 47.2016111,
+     "lon": -122.2713479
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 124272542,
+   "bounds": {
+    "minlat": 47.201115,
+    "minlon": -122.2787693,
+    "maxlat": 47.2023091,
+    "maxlon": -122.270279
+   },
+   "geometry": [
+    {
+     "lat": 47.2023091,
+     "lon": -122.2787693
+    },
+    {
+     "lat": 47.201713,
+     "lon": -122.274445
+    },
+    {
+     "lat": 47.201115,
+     "lon": -122.270279
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "1",
+    "maxheight": "default",
+    "maxheight:signed": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 124272543,
+   "bounds": {
+    "minlat": 47.2016111,
+    "minlon": -122.2785756,
+    "maxlat": 47.2026218,
+    "maxlon": -122.2713479
+   },
+   "geometry": [
+    {
+     "lat": 47.2016111,
+     "lon": -122.2713479
+    },
+    {
+     "lat": 47.2026218,
+     "lon": -122.2785756
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "maxheight": "default",
+    "maxheight:signed": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 124272558,
+   "bounds": {
+    "minlat": 47.200797,
+    "minlon": -122.269067,
+    "maxlat": 47.201303,
+    "maxlon": -122.264967
+   },
+   "geometry": [
+    {
+     "lat": 47.200797,
+     "lon": -122.264967
+    },
+    {
+     "lat": 47.200806,
+     "lon": -122.265259
+    },
+    {
+     "lat": 47.200842,
+     "lon": -122.265726
+    },
+    {
+     "lat": 47.200865,
+     "lon": -122.265933
+    },
+    {
+     "lat": 47.200887,
+     "lon": -122.266128
+    },
+    {
+     "lat": 47.200967,
+     "lon": -122.26674
+    },
+    {
+     "lat": 47.201096,
+     "lon": -122.267575
+    },
+    {
+     "lat": 47.201303,
+     "lon": -122.269067
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "destination:lanes": "Tacoma|Tacoma|none;Puyallup;Olympia|Puyallup;Olympia",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "4",
+    "lit": "yes",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "turn:lanes": "none|none|through;slight_right|slight_right"
+   }
+  },
+  {
+   "type": "way",
+   "id": 215881872,
+   "bounds": {
+    "minlat": 47.2432485,
+    "minlon": -122.3398013,
+    "maxlat": 47.2434391,
+    "maxlon": -122.3394095
+   },
+   "geometry": [
+    {
+     "lat": 47.2434391,
+     "lon": -122.3398013
+    },
+    {
+     "lat": 47.2432485,
+     "lon": -122.3394095
+    }
+   ],
+   "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "State Route 167",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source": "https://wsdot.wa.gov/sites/default/files/2019/09/27/SR167-Environmental-ReEvaluation-Appendices.pdf",
+    "toll": "no"
+   }
+  },
+  {
+   "type": "way",
+   "id": 215897129,
+   "bounds": {
+    "minlat": 47.242161,
+    "minlon": -122.3379457,
+    "maxlat": 47.2425178,
+    "maxlon": -122.3372
+   },
+   "geometry": [
+    {
+     "lat": 47.2425178,
+     "lon": -122.3379457
+    },
+    {
+     "lat": 47.242161,
+     "lon": -122.3372
+    }
+   ],
+   "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "State Route 167",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source": "https://wsdot.wa.gov/sites/default/files/2019/09/27/SR167-Environmental-ReEvaluation-Appendices.pdf",
+    "toll": "no"
+   }
+  },
+  {
+   "type": "way",
+   "id": 236501502,
+   "bounds": {
+    "minlat": 47.2031065,
+    "minlon": -122.2852603,
+    "maxlat": 47.2032014,
+    "maxlon": -122.2844472
+   },
+   "geometry": [
+    {
+     "lat": 47.2032014,
+     "lon": -122.2852603
+    },
+    {
+     "lat": 47.2031065,
+     "lon": -122.2844472
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 161;SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 236501503,
+   "bounds": {
+    "minlat": 47.2030453,
+    "minlon": -122.2829424,
+    "maxlat": 47.203201,
+    "maxlon": -122.2816046
+   },
+   "geometry": [
+    {
+     "lat": 47.2030453,
+     "lon": -122.2816046
+    },
+    {
+     "lat": 47.203201,
+     "lon": -122.2829424
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 161;SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 249317220,
+   "bounds": {
+    "minlat": 47.2033668,
+    "minlon": -122.2939952,
+    "maxlat": 47.2043539,
+    "maxlon": -122.2938694
+   },
+   "geometry": [
+    {
+     "lat": 47.2043539,
+     "lon": -122.2938694
+    },
+    {
+     "lat": 47.2041901,
+     "lon": -122.2939428
+    },
+    {
+     "lat": 47.20407,
+     "lon": -122.2939651
+    },
+    {
+     "lat": 47.2038404,
+     "lon": -122.2939777
+    },
+    {
+     "lat": 47.203521,
+     "lon": -122.2939952
+    },
+    {
+     "lat": 47.203445,
+     "lon": -122.293995
+    },
+    {
+     "lat": 47.2033668,
+     "lon": -122.2939949
+    }
+   ],
+   "tags": {
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "North Meridian",
+    "oneway": "yes",
+    "postal_code": "98371",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 249317222,
+   "bounds": {
+    "minlat": 47.1987401,
+    "minlon": -122.2938746,
+    "maxlat": 47.1992977,
+    "maxlon": -122.2937945
+   },
+   "geometry": [
+    {
+     "lat": 47.1992977,
+     "lon": -122.2938746
+    },
+    {
+     "lat": 47.1991191,
+     "lon": -122.2938612
+    },
+    {
+     "lat": 47.1989288,
+     "lon": -122.2938398
+    },
+    {
+     "lat": 47.1988839,
+     "lon": -122.2938331
+    },
+    {
+     "lat": 47.1988725,
+     "lon": -122.2938306
+    },
+    {
+     "lat": 47.1988263,
+     "lon": -122.2938203
+    },
+    {
+     "lat": 47.1987401,
+     "lon": -122.2937945
+    }
+   ],
+   "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "30 mph",
+    "name": "North Meridian",
+    "oneway": "yes",
+    "postal_code": "98371",
+    "ref": "SR 167",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 306071637,
+   "bounds": {
+    "minlat": 47.2981212,
+    "minlon": -122.2557232,
+    "maxlat": 47.3000492,
+    "maxlon": -122.254477
+   },
+   "geometry": [
+    {
+     "lat": 47.3000492,
+     "lon": -122.254477
+    },
+    {
+     "lat": 47.2987374,
+     "lon": -122.2553398
+    },
+    {
+     "lat": 47.2981212,
+     "lon": -122.2557232
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "bus:lanes": "designated||",
+    "change:lanes": "no|not_left|yes",
+    "highway": "motorway",
+    "hov": "yes",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 306071647,
+   "bounds": {
+    "minlat": 47.2793396,
+    "minlon": -122.2585183,
+    "maxlat": 47.2919148,
+    "maxlon": -122.258326
+   },
+   "geometry": [
+    {
+     "lat": 47.2919148,
+     "lon": -122.258326
+    },
+    {
+     "lat": 47.2912779,
+     "lon": -122.2583776
+    },
+    {
+     "lat": 47.2898656,
+     "lon": -122.2584505
+    },
+    {
+     "lat": 47.2897284,
+     "lon": -122.2584485
+    },
+    {
+     "lat": 47.2865553,
+     "lon": -122.2584874
+    },
+    {
+     "lat": 47.285997,
+     "lon": -122.2584976
+    },
+    {
+     "lat": 47.2855607,
+     "lon": -122.2584942
+    },
+    {
+     "lat": 47.2849786,
+     "lon": -122.2584812
+    },
+    {
+     "lat": 47.2845697,
+     "lon": -122.2584795
+    },
+    {
+     "lat": 47.2841303,
+     "lon": -122.2584743
+    },
+    {
+     "lat": 47.2837321,
+     "lon": -122.2584882
+    },
+    {
+     "lat": 47.2836951,
+     "lon": -122.2584879
+    },
+    {
+     "lat": 47.2833583,
+     "lon": -122.2584848
+    },
+    {
+     "lat": 47.2812386,
+     "lon": -122.2585183
+    },
+    {
+     "lat": 47.2793396,
+     "lon": -122.258517
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "bus:lanes": "designated||",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 385206998,
+   "bounds": {
+    "minlat": 47.2018752,
+    "minlon": -122.2939949,
+    "maxlat": 47.2033668,
+    "maxlon": -122.2939865
+   },
+   "geometry": [
+    {
+     "lat": 47.2033668,
+     "lon": -122.2939949
+    },
+    {
+     "lat": 47.2020926,
+     "lon": -122.2939926
+    },
+    {
+     "lat": 47.2018752,
+     "lon": -122.2939865
+    }
+   ],
+   "tags": {
+    "bridge": "yes",
+    "cycleway:right": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "maxweight:signed": "no",
+    "name": "North Meridian",
+    "oneway": "yes",
+    "postal_code": "98371",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 385206999,
+   "bounds": {
+    "minlat": 47.2017641,
+    "minlon": -122.2938249,
+    "maxlat": 47.2033817,
+    "maxlon": -122.2938158
+   },
+   "geometry": [
+    {
+     "lat": 47.2017641,
+     "lon": -122.2938158
+    },
+    {
+     "lat": 47.2033817,
+     "lon": -122.2938249
+    }
+   ],
+   "tags": {
+    "bridge": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "North Meridian",
+    "oneway": "yes",
+    "postal_code": "98371",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "concrete"
+   }
+  },
+  {
+   "type": "way",
+   "id": 440139225,
+   "bounds": {
+    "minlat": 47.1932553,
+    "minlon": -122.170761,
+    "maxlat": 47.2793699,
+    "maxlon": -122.0854919
+   },
+   "geometry": [
+    {
+     "lat": 47.1932553,
+     "lon": -122.0854919
+    },
+    {
+     "lat": 47.1937953,
+     "lon": -122.0875025
+    },
+    {
+     "lat": 47.193839,
+     "lon": -122.0880604
+    },
+    {
+     "lat": 47.1939757,
+     "lon": -122.0884647
+    },
+    {
+     "lat": 47.1940676,
+     "lon": -122.0889651
+    },
+    {
+     "lat": 47.1940921,
+     "lon": -122.0894067
+    },
+    {
+     "lat": 47.1939994,
+     "lon": -122.0898199
+    },
+    {
+     "lat": 47.1939411,
+     "lon": -122.0902491
+    },
+    {
+     "lat": 47.1938816,
+     "lon": -122.0907062
+    },
+    {
+     "lat": 47.1937982,
+     "lon": -122.091123
+    },
+    {
+     "lat": 47.1937713,
+     "lon": -122.0914322
+    },
+    {
+     "lat": 47.193777,
+     "lon": -122.091936
+    },
+    {
+     "lat": 47.1939077,
+     "lon": -122.0924056
+    },
+    {
+     "lat": 47.1941247,
+     "lon": -122.0927891
+    },
+    {
+     "lat": 47.1943178,
+     "lon": -122.0931113
+    },
+    {
+     "lat": 47.1945685,
+     "lon": -122.0933666
+    },
+    {
+     "lat": 47.1949319,
+     "lon": -122.0937188
+    },
+    {
+     "lat": 47.1954248,
+     "lon": -122.0939252
+    },
+    {
+     "lat": 47.1958454,
+     "lon": -122.0939503
+    },
+    {
+     "lat": 47.1963399,
+     "lon": -122.0936563
+    },
+    {
+     "lat": 47.1967962,
+     "lon": -122.0935454
+    },
+    {
+     "lat": 47.1971524,
+     "lon": -122.0937106
+    },
+    {
+     "lat": 47.1974593,
+     "lon": -122.0940448
+    },
+    {
+     "lat": 47.1976492,
+     "lon": -122.0943606
+    },
+    {
+     "lat": 47.1978146,
+     "lon": -122.0948094
+    },
+    {
+     "lat": 47.197888,
+     "lon": -122.0950743
+    },
+    {
+     "lat": 47.1979743,
+     "lon": -122.0953588
+    },
+    {
+     "lat": 47.1981402,
+     "lon": -122.0955706
+    },
+    {
+     "lat": 47.1983444,
+     "lon": -122.0958925
+    },
+    {
+     "lat": 47.1985776,
+     "lon": -122.0961285
+    },
+    {
+     "lat": 47.1997877,
+     "lon": -122.0972228
+    },
+    {
+     "lat": 47.2000356,
+     "lon": -122.0975232
+    },
+    {
+     "lat": 47.2001814,
+     "lon": -122.097888
+    },
+    {
+     "lat": 47.2003126,
+     "lon": -122.0982957
+    },
+    {
+     "lat": 47.2004,
+     "lon": -122.0987678
+    },
+    {
+     "lat": 47.2003846,
+     "lon": -122.0991852
+    },
+    {
+     "lat": 47.2003709,
+     "lon": -122.0994973
+    },
+    {
+     "lat": 47.2003417,
+     "lon": -122.0999265
+    },
+    {
+     "lat": 47.2003272,
+     "lon": -122.1003556
+    },
+    {
+     "lat": 47.2002251,
+     "lon": -122.1007848
+    },
+    {
+     "lat": 47.2000939,
+     "lon": -122.101171
+    },
+    {
+     "lat": 47.1999627,
+     "lon": -122.1015358
+    },
+    {
+     "lat": 47.1998023,
+     "lon": -122.1019006
+    },
+    {
+     "lat": 47.199846,
+     "lon": -122.1023298
+    },
+    {
+     "lat": 47.2000064,
+     "lon": -122.1026731
+    },
+    {
+     "lat": 47.2002543,
+     "lon": -122.1028877
+    },
+    {
+     "lat": 47.2021641,
+     "lon": -122.1041751
+    },
+    {
+     "lat": 47.2024557,
+     "lon": -122.104218
+    },
+    {
+     "lat": 47.2027327,
+     "lon": -122.1042395
+    },
+    {
+     "lat": 47.2030242,
+     "lon": -122.104218
+    },
+    {
+     "lat": 47.2033158,
+     "lon": -122.1041322
+    },
+    {
+     "lat": 47.2045404,
+     "lon": -122.1036494
+    },
+    {
+     "lat": 47.2048319,
+     "lon": -122.1036708
+    },
+    {
+     "lat": 47.2049923,
+     "lon": -122.1036601
+    },
+    {
+     "lat": 47.2051308,
+     "lon": -122.1037245
+    },
+    {
+     "lat": 47.205262,
+     "lon": -122.103821
+    },
+    {
+     "lat": 47.2054004,
+     "lon": -122.1039391
+    },
+    {
+     "lat": 47.2055171,
+     "lon": -122.1040678
+    },
+    {
+     "lat": 47.2056483,
+     "lon": -122.1041751
+    },
+    {
+     "lat": 47.2057066,
+     "lon": -122.1043682
+    },
+    {
+     "lat": 47.2057795,
+     "lon": -122.1045721
+    },
+    {
+     "lat": 47.2061585,
+     "lon": -122.105763
+    },
+    {
+     "lat": 47.2062751,
+     "lon": -122.1061921
+    },
+    {
+     "lat": 47.2064792,
+     "lon": -122.1064925
+    },
+    {
+     "lat": 47.2067124,
+     "lon": -122.1067929
+    },
+    {
+     "lat": 47.2069165,
+     "lon": -122.1070934
+    },
+    {
+     "lat": 47.2071643,
+     "lon": -122.1073079
+    },
+    {
+     "lat": 47.2083742,
+     "lon": -122.1078015
+    },
+    {
+     "lat": 47.2086803,
+     "lon": -122.1078015
+    },
+    {
+     "lat": 47.2089573,
+     "lon": -122.10778
+    },
+    {
+     "lat": 47.2092343,
+     "lon": -122.1077371
+    },
+    {
+     "lat": 47.2095404,
+     "lon": -122.1076727
+    },
+    {
+     "lat": 47.2098465,
+     "lon": -122.1076513
+    },
+    {
+     "lat": 47.210138,
+     "lon": -122.1075654
+    },
+    {
+     "lat": 47.2111292,
+     "lon": -122.1078015
+    },
+    {
+     "lat": 47.211377,
+     "lon": -122.108059
+    },
+    {
+     "lat": 47.2116102,
+     "lon": -122.1084023
+    },
+    {
+     "lat": 47.21196,
+     "lon": -122.1110845
+    },
+    {
+     "lat": 47.2123099,
+     "lon": -122.112329
+    },
+    {
+     "lat": 47.2129803,
+     "lon": -122.113123
+    },
+    {
+     "lat": 47.2132427,
+     "lon": -122.1132946
+    },
+    {
+     "lat": 47.2135342,
+     "lon": -122.1133805
+    },
+    {
+     "lat": 47.2138111,
+     "lon": -122.1133805
+    },
+    {
+     "lat": 47.2141172,
+     "lon": -122.1134019
+    },
+    {
+     "lat": 47.2154581,
+     "lon": -122.1127582
+    },
+    {
+     "lat": 47.2159828,
+     "lon": -122.112329
+    },
+    {
+     "lat": 47.2163035,
+     "lon": -122.1122432
+    },
+    {
+     "lat": 47.216595,
+     "lon": -122.1123505
+    },
+    {
+     "lat": 47.2168573,
+     "lon": -122.1125007
+    },
+    {
+     "lat": 47.2171342,
+     "lon": -122.1126509
+    },
+    {
+     "lat": 47.2174112,
+     "lon": -122.1127582
+    },
+    {
+     "lat": 47.2179941,
+     "lon": -122.1127582
+    },
+    {
+     "lat": 47.218271,
+     "lon": -122.1128869
+    },
+    {
+     "lat": 47.2185771,
+     "lon": -122.1129513
+    },
+    {
+     "lat": 47.2191601,
+     "lon": -122.113123
+    },
+    {
+     "lat": 47.2202531,
+     "lon": -122.1138096
+    },
+    {
+     "lat": 47.2205008,
+     "lon": -122.11411
+    },
+    {
+     "lat": 47.2207486,
+     "lon": -122.114389
+    },
+    {
+     "lat": 47.2209963,
+     "lon": -122.114625
+    },
+    {
+     "lat": 47.2212587,
+     "lon": -122.114861
+    },
+    {
+     "lat": 47.2214897,
+     "lon": -122.1151547
+    },
+    {
+     "lat": 47.2217542,
+     "lon": -122.1150756
+    },
+    {
+     "lat": 47.2219873,
+     "lon": -122.1147752
+    },
+    {
+     "lat": 47.2221476,
+     "lon": -122.114389
+    },
+    {
+     "lat": 47.2222642,
+     "lon": -122.1139598
+    },
+    {
+     "lat": 47.2224523,
+     "lon": -122.1135736
+    },
+    {
+     "lat": 47.2225703,
+     "lon": -122.1131015
+    },
+    {
+     "lat": 47.2227743,
+     "lon": -122.1127796
+    },
+    {
+     "lat": 47.2230512,
+     "lon": -122.1125865
+    },
+    {
+     "lat": 47.2233426,
+     "lon": -122.1125865
+    },
+    {
+     "lat": 47.2236486,
+     "lon": -122.1126938
+    },
+    {
+     "lat": 47.223911,
+     "lon": -122.1129728
+    },
+    {
+     "lat": 47.2241587,
+     "lon": -122.1132088
+    },
+    {
+     "lat": 47.2243761,
+     "lon": -122.1135024
+    },
+    {
+     "lat": 47.2245376,
+     "lon": -122.1134877
+    },
+    {
+     "lat": 47.224829,
+     "lon": -122.1135092
+    },
+    {
+     "lat": 47.2270003,
+     "lon": -122.113874
+    },
+    {
+     "lat": 47.2272917,
+     "lon": -122.1138954
+    },
+    {
+     "lat": 47.2275831,
+     "lon": -122.1138525
+    },
+    {
+     "lat": 47.2278746,
+     "lon": -122.1136594
+    },
+    {
+     "lat": 47.228166,
+     "lon": -122.1136165
+    },
+    {
+     "lat": 47.2284574,
+     "lon": -122.1137452
+    },
+    {
+     "lat": 47.2287051,
+     "lon": -122.1139813
+    },
+    {
+     "lat": 47.2289237,
+     "lon": -122.1142817
+    },
+    {
+     "lat": 47.2291277,
+     "lon": -122.1146035
+    },
+    {
+     "lat": 47.2294774,
+     "lon": -122.1152902
+    },
+    {
+     "lat": 47.2297106,
+     "lon": -122.1155477
+    },
+    {
+     "lat": 47.2299874,
+     "lon": -122.1156121
+    },
+    {
+     "lat": 47.2314153,
+     "lon": -122.1151829
+    },
+    {
+     "lat": 47.2317068,
+     "lon": -122.1151185
+    },
+    {
+     "lat": 47.2319982,
+     "lon": -122.1149898
+    },
+    {
+     "lat": 47.232275,
+     "lon": -122.1148181
+    },
+    {
+     "lat": 47.2325664,
+     "lon": -122.1147537
+    },
+    {
+     "lat": 47.2327704,
+     "lon": -122.1150542
+    },
+    {
+     "lat": 47.2328578,
+     "lon": -122.1154618
+    },
+    {
+     "lat": 47.2329744,
+     "lon": -122.1159125
+    },
+    {
+     "lat": 47.2330764,
+     "lon": -122.1162987
+    },
+    {
+     "lat": 47.2332949,
+     "lon": -122.1167064
+    },
+    {
+     "lat": 47.2335572,
+     "lon": -122.1169853
+    },
+    {
+     "lat": 47.2338194,
+     "lon": -122.1171999
+    },
+    {
+     "lat": 47.2341108,
+     "lon": -122.1173501
+    },
+    {
+     "lat": 47.2344168,
+     "lon": -122.117436
+    },
+    {
+     "lat": 47.2346936,
+     "lon": -122.1174574
+    },
+    {
+     "lat": 47.234985,
+     "lon": -122.1175647
+    },
+    {
+     "lat": 47.2366896,
+     "lon": -122.1191955
+    },
+    {
+     "lat": 47.2368936,
+     "lon": -122.1194959
+    },
+    {
+     "lat": 47.2377386,
+     "lon": -122.1215773
+    },
+    {
+     "lat": 47.2380008,
+     "lon": -122.1218133
+    },
+    {
+     "lat": 47.2382048,
+     "lon": -122.1221352
+    },
+    {
+     "lat": 47.2384088,
+     "lon": -122.1224785
+    },
+    {
+     "lat": 47.2385253,
+     "lon": -122.1228862
+    },
+    {
+     "lat": 47.2387001,
+     "lon": -122.1232724
+    },
+    {
+     "lat": 47.2388458,
+     "lon": -122.1236587
+    },
+    {
+     "lat": 47.2389332,
+     "lon": -122.1240878
+    },
+    {
+     "lat": 47.2390498,
+     "lon": -122.1244741
+    },
+    {
+     "lat": 47.2391955,
+     "lon": -122.1248603
+    },
+    {
+     "lat": 47.2395742,
+     "lon": -122.1256328
+    },
+    {
+     "lat": 47.2398365,
+     "lon": -122.1259546
+    },
+    {
+     "lat": 47.2400696,
+     "lon": -122.1262551
+    },
+    {
+     "lat": 47.2408125,
+     "lon": -122.1264267
+    },
+    {
+     "lat": 47.2411185,
+     "lon": -122.1264911
+    },
+    {
+     "lat": 47.2414244,
+     "lon": -122.1264911
+    },
+    {
+     "lat": 47.2417075,
+     "lon": -122.1263897
+    },
+    {
+     "lat": 47.2420362,
+     "lon": -122.1264267
+    },
+    {
+     "lat": 47.242313,
+     "lon": -122.1264696
+    },
+    {
+     "lat": 47.2425898,
+     "lon": -122.1265555
+    },
+    {
+     "lat": 47.242852,
+     "lon": -122.12677
+    },
+    {
+     "lat": 47.2431142,
+     "lon": -122.1270061
+    },
+    {
+     "lat": 47.2433473,
+     "lon": -122.127285
+    },
+    {
+     "lat": 47.2435076,
+     "lon": -122.1276283
+    },
+    {
+     "lat": 47.2436095,
+     "lon": -122.128036
+    },
+    {
+     "lat": 47.2437552,
+     "lon": -122.1284223
+    },
+    {
+     "lat": 47.2438135,
+     "lon": -122.1288514
+    },
+    {
+     "lat": 47.2438572,
+     "lon": -122.1293235
+    },
+    {
+     "lat": 47.24393,
+     "lon": -122.1297741
+    },
+    {
+     "lat": 47.2440539,
+     "lon": -122.1301732
+    },
+    {
+     "lat": 47.244624,
+     "lon": -122.1308613
+    },
+    {
+     "lat": 47.2449369,
+     "lon": -122.1312829
+    },
+    {
+     "lat": 47.2453044,
+     "lon": -122.1322606
+    },
+    {
+     "lat": 47.2458423,
+     "lon": -122.1327154
+    },
+    {
+     "lat": 47.246424,
+     "lon": -122.1326229
+    },
+    {
+     "lat": 47.2478201,
+     "lon": -122.1312986
+    },
+    {
+     "lat": 47.2485282,
+     "lon": -122.1322182
+    },
+    {
+     "lat": 47.2490363,
+     "lon": -122.1339332
+    },
+    {
+     "lat": 47.2484842,
+     "lon": -122.1352926
+    },
+    {
+     "lat": 47.2485826,
+     "lon": -122.1361861
+    },
+    {
+     "lat": 47.2493258,
+     "lon": -122.1365731
+    },
+    {
+     "lat": 47.2514141,
+     "lon": -122.1351092
+    },
+    {
+     "lat": 47.2522234,
+     "lon": -122.1344799
+    },
+    {
+     "lat": 47.2528162,
+     "lon": -122.1345609
+    },
+    {
+     "lat": 47.2533397,
+     "lon": -122.1349798
+    },
+    {
+     "lat": 47.2537563,
+     "lon": -122.1375022
+    },
+    {
+     "lat": 47.253983,
+     "lon": -122.1384501
+    },
+    {
+     "lat": 47.254397,
+     "lon": -122.1393475
+    },
+    {
+     "lat": 47.2550795,
+     "lon": -122.1400029
+    },
+    {
+     "lat": 47.2555606,
+     "lon": -122.1401858
+    },
+    {
+     "lat": 47.2560361,
+     "lon": -122.140637
+    },
+    {
+     "lat": 47.2565928,
+     "lon": -122.142196
+    },
+    {
+     "lat": 47.2567995,
+     "lon": -122.1428747
+    },
+    {
+     "lat": 47.2570722,
+     "lon": -122.1438985
+    },
+    {
+     "lat": 47.257397,
+     "lon": -122.1444831
+    },
+    {
+     "lat": 47.2584316,
+     "lon": -122.1446962
+    },
+    {
+     "lat": 47.259463,
+     "lon": -122.1446329
+    },
+    {
+     "lat": 47.2629872,
+     "lon": -122.1479088
+    },
+    {
+     "lat": 47.2632047,
+     "lon": -122.1485616
+    },
+    {
+     "lat": 47.2633906,
+     "lon": -122.1500232
+    },
+    {
+     "lat": 47.2629686,
+     "lon": -122.1517533
+    },
+    {
+     "lat": 47.2635469,
+     "lon": -122.1537728
+    },
+    {
+     "lat": 47.2637044,
+     "lon": -122.1541923
+    },
+    {
+     "lat": 47.2643573,
+     "lon": -122.1560135
+    },
+    {
+     "lat": 47.2650766,
+     "lon": -122.1569206
+    },
+    {
+     "lat": 47.2663747,
+     "lon": -122.1572462
+    },
+    {
+     "lat": 47.2680308,
+     "lon": -122.1566648
+    },
+    {
+     "lat": 47.2681939,
+     "lon": -122.1566991
+    },
+    {
+     "lat": 47.2683971,
+     "lon": -122.1567327
+    },
+    {
+     "lat": 47.2684911,
+     "lon": -122.1567435
+    },
+    {
+     "lat": 47.268565,
+     "lon": -122.1567477
+    },
+    {
+     "lat": 47.2686405,
+     "lon": -122.1567431
+    },
+    {
+     "lat": 47.2686953,
+     "lon": -122.1567367
+    },
+    {
+     "lat": 47.2687533,
+     "lon": -122.1567238
+    },
+    {
+     "lat": 47.2688024,
+     "lon": -122.1567076
+    },
+    {
+     "lat": 47.2688479,
+     "lon": -122.1566915
+    },
+    {
+     "lat": 47.268886,
+     "lon": -122.1566739
+    },
+    {
+     "lat": 47.2689437,
+     "lon": -122.1566366
+    },
+    {
+     "lat": 47.2690006,
+     "lon": -122.1565871
+    },
+    {
+     "lat": 47.2690627,
+     "lon": -122.1565343
+    },
+    {
+     "lat": 47.2691343,
+     "lon": -122.1564675
+    },
+    {
+     "lat": 47.2691945,
+     "lon": -122.1564232
+    },
+    {
+     "lat": 47.2692261,
+     "lon": -122.1564124
+    },
+    {
+     "lat": 47.2692604,
+     "lon": -122.1564089
+    },
+    {
+     "lat": 47.2692971,
+     "lon": -122.1564087
+    },
+    {
+     "lat": 47.2693353,
+     "lon": -122.1564162
+    },
+    {
+     "lat": 47.2693801,
+     "lon": -122.1564342
+    },
+    {
+     "lat": 47.2694308,
+     "lon": -122.1564624
+    },
+    {
+     "lat": 47.2698293,
+     "lon": -122.1567295
+    },
+    {
+     "lat": 47.2701526,
+     "lon": -122.1569486
+    },
+    {
+     "lat": 47.2705159,
+     "lon": -122.1572772
+    },
+    {
+     "lat": 47.2709915,
+     "lon": -122.1577341
+    },
+    {
+     "lat": 47.2715369,
+     "lon": -122.1583276
+    },
+    {
+     "lat": 47.2716863,
+     "lon": -122.1585158
+    },
+    {
+     "lat": 47.2717917,
+     "lon": -122.1586358
+    },
+    {
+     "lat": 47.2718387,
+     "lon": -122.1586719
+    },
+    {
+     "lat": 47.2718962,
+     "lon": -122.1587028
+    },
+    {
+     "lat": 47.2719474,
+     "lon": -122.1587145
+    },
+    {
+     "lat": 47.2720088,
+     "lon": -122.1587189
+    },
+    {
+     "lat": 47.2721217,
+     "lon": -122.1587164
+    },
+    {
+     "lat": 47.2722268,
+     "lon": -122.1587046
+    },
+    {
+     "lat": 47.2723175,
+     "lon": -122.1586864
+    },
+    {
+     "lat": 47.2724044,
+     "lon": -122.1586652
+    },
+    {
+     "lat": 47.2724789,
+     "lon": -122.1586309
+    },
+    {
+     "lat": 47.272545,
+     "lon": -122.1585885
+    },
+    {
+     "lat": 47.2726606,
+     "lon": -122.1585229
+    },
+    {
+     "lat": 47.2728465,
+     "lon": -122.1584046
+    },
+    {
+     "lat": 47.2730411,
+     "lon": -122.1582633
+    },
+    {
+     "lat": 47.273166,
+     "lon": -122.1581352
+    },
+    {
+     "lat": 47.2732584,
+     "lon": -122.1580345
+    },
+    {
+     "lat": 47.2733426,
+     "lon": -122.15798
+    },
+    {
+     "lat": 47.2734548,
+     "lon": -122.1579602
+    },
+    {
+     "lat": 47.273605,
+     "lon": -122.1579767
+    },
+    {
+     "lat": 47.2737717,
+     "lon": -122.1580361
+    },
+    {
+     "lat": 47.2738922,
+     "lon": -122.1581286
+    },
+    {
+     "lat": 47.2740067,
+     "lon": -122.1582486
+    },
+    {
+     "lat": 47.2740652,
+     "lon": -122.1583333
+    },
+    {
+     "lat": 47.2741881,
+     "lon": -122.1585126
+    },
+    {
+     "lat": 47.2742556,
+     "lon": -122.1586215
+    },
+    {
+     "lat": 47.2743228,
+     "lon": -122.1587581
+    },
+    {
+     "lat": 47.2743847,
+     "lon": -122.1588963
+    },
+    {
+     "lat": 47.2744421,
+     "lon": -122.1590622
+    },
+    {
+     "lat": 47.2744874,
+     "lon": -122.1592541
+    },
+    {
+     "lat": 47.2745243,
+     "lon": -122.1594641
+    },
+    {
+     "lat": 47.2745406,
+     "lon": -122.1597166
+    },
+    {
+     "lat": 47.2745397,
+     "lon": -122.1599577
+    },
+    {
+     "lat": 47.2745157,
+     "lon": -122.1601703
+    },
+    {
+     "lat": 47.2744845,
+     "lon": -122.1603933
+    },
+    {
+     "lat": 47.2744385,
+     "lon": -122.1606991
+    },
+    {
+     "lat": 47.2744064,
+     "lon": -122.16108
+    },
+    {
+     "lat": 47.2744268,
+     "lon": -122.1613947
+    },
+    {
+     "lat": 47.2744829,
+     "lon": -122.161636
+    },
+    {
+     "lat": 47.2745392,
+     "lon": -122.1617941
+    },
+    {
+     "lat": 47.2746066,
+     "lon": -122.1619377
+    },
+    {
+     "lat": 47.2747132,
+     "lon": -122.162129
+    },
+    {
+     "lat": 47.2748296,
+     "lon": -122.1622995
+    },
+    {
+     "lat": 47.2749325,
+     "lon": -122.1624424
+    },
+    {
+     "lat": 47.2750425,
+     "lon": -122.1625811
+    },
+    {
+     "lat": 47.275147,
+     "lon": -122.1626782
+    },
+    {
+     "lat": 47.2752775,
+     "lon": -122.1627498
+    },
+    {
+     "lat": 47.2754489,
+     "lon": -122.1628214
+    },
+    {
+     "lat": 47.2756762,
+     "lon": -122.1628821
+    },
+    {
+     "lat": 47.2759446,
+     "lon": -122.1629448
+    },
+    {
+     "lat": 47.2762028,
+     "lon": -122.163019
+    },
+    {
+     "lat": 47.2763661,
+     "lon": -122.1630889
+    },
+    {
+     "lat": 47.2764513,
+     "lon": -122.163145
+    },
+    {
+     "lat": 47.2765475,
+     "lon": -122.1632298
+    },
+    {
+     "lat": 47.2766444,
+     "lon": -122.1633499
+    },
+    {
+     "lat": 47.2766999,
+     "lon": -122.1634417
+    },
+    {
+     "lat": 47.2767555,
+     "lon": -122.1635515
+    },
+    {
+     "lat": 47.2767988,
+     "lon": -122.1636722
+    },
+    {
+     "lat": 47.2768364,
+     "lon": -122.1638113
+    },
+    {
+     "lat": 47.2768799,
+     "lon": -122.1640366
+    },
+    {
+     "lat": 47.2770474,
+     "lon": -122.1649974
+    },
+    {
+     "lat": 47.277113,
+     "lon": -122.1653011
+    },
+    {
+     "lat": 47.2771727,
+     "lon": -122.1655638
+    },
+    {
+     "lat": 47.2772827,
+     "lon": -122.1658376
+    },
+    {
+     "lat": 47.2782852,
+     "lon": -122.1681345
+    },
+    {
+     "lat": 47.2788311,
+     "lon": -122.1695794
+    },
+    {
+     "lat": 47.2791578,
+     "lon": -122.1702727
+    },
+    {
+     "lat": 47.2793699,
+     "lon": -122.170761
+    }
+   ],
+   "tags": {
+    "name": "White River",
+    "waterway": "river"
+   }
+  },
+  {
+   "type": "way",
+   "id": 543289945,
+   "bounds": {
+    "minlat": 47.2024871,
+    "minlon": -122.2813425,
+    "maxlat": 47.2026637,
+    "maxlon": -122.280061
+   },
+   "geometry": [
+    {
+     "lat": 47.2026637,
+     "lon": -122.2813425
+    },
+    {
+     "lat": 47.2024871,
+     "lon": -122.280061
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 161;SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 543289949,
+   "bounds": {
+    "minlat": 47.2026637,
+    "minlon": -122.2830334,
+    "maxlat": 47.2028852,
+    "maxlon": -122.2813425
+   },
+   "geometry": [
+    {
+     "lat": 47.2028852,
+     "lon": -122.2830334
+    },
+    {
+     "lat": 47.2026637,
+     "lon": -122.2813425
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 161;SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 543289951,
+   "bounds": {
+    "minlat": 47.203201,
+    "minlon": -122.2836347,
+    "maxlat": 47.2032972,
+    "maxlon": -122.2829424
+   },
+   "geometry": [
+    {
+     "lat": 47.203201,
+     "lon": -122.2829424
+    },
+    {
+     "lat": 47.2032972,
+     "lon": -122.2836347
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 161;SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 543462357,
+   "bounds": {
+    "minlat": 47.2611416,
+    "minlon": -122.2608022,
+    "maxlat": 47.2616262,
+    "maxlon": -122.2606434
+   },
+   "geometry": [
+    {
+     "lat": 47.2611416,
+     "lon": -122.2606434
+    },
+    {
+     "lat": 47.2616262,
+     "lon": -122.2608022
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 543462358,
+   "bounds": {
+    "minlat": 47.2606592,
+    "minlon": -122.2606434,
+    "maxlat": 47.2611416,
+    "maxlon": -122.2604871
+   },
+   "geometry": [
+    {
+     "lat": 47.2606592,
+     "lon": -122.2604871
+    },
+    {
+     "lat": 47.2611416,
+     "lon": -122.2606434
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 543462359,
+   "bounds": {
+    "minlat": 47.2506475,
+    "minlon": -122.2597518,
+    "maxlat": 47.2584284,
+    "maxlon": -122.2573256
+   },
+   "geometry": [
+    {
+     "lat": 47.2506475,
+     "lon": -122.2573256
+    },
+    {
+     "lat": 47.2563443,
+     "lon": -122.2590946
+    },
+    {
+     "lat": 47.2581241,
+     "lon": -122.2596584
+    },
+    {
+     "lat": 47.2584284,
+     "lon": -122.2597518
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 543462360,
+   "bounds": {
+    "minlat": 47.2583767,
+    "minlon": -122.2607674,
+    "maxlat": 47.2605864,
+    "maxlon": -122.260137
+   },
+   "geometry": [
+    {
+     "lat": 47.2605864,
+     "lon": -122.2607674
+    },
+    {
+     "lat": 47.2598338,
+     "lon": -122.2605556
+    },
+    {
+     "lat": 47.2583767,
+     "lon": -122.260137
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 543462361,
+   "bounds": {
+    "minlat": 47.2605864,
+    "minlon": -122.2609162,
+    "maxlat": 47.2611082,
+    "maxlon": -122.2607674
+   },
+   "geometry": [
+    {
+     "lat": 47.2611082,
+     "lon": -122.2609162
+    },
+    {
+     "lat": 47.2605864,
+     "lon": -122.2607674
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 543462362,
+   "bounds": {
+    "minlat": 47.2611082,
+    "minlon": -122.2610649,
+    "maxlat": 47.2616026,
+    "maxlon": -122.2609162
+   },
+   "geometry": [
+    {
+     "lat": 47.2616026,
+     "lon": -122.2610649
+    },
+    {
+     "lat": 47.2611082,
+     "lon": -122.2609162
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 544734840,
+   "bounds": {
+    "minlat": 47.2195335,
+    "minlon": -122.24686,
+    "maxlat": 47.222359,
+    "maxlon": -122.2468394
+   },
+   "geometry": [
+    {
+     "lat": 47.2195335,
+     "lon": -122.2468394
+    },
+    {
+     "lat": 47.2214095,
+     "lon": -122.2468557
+    },
+    {
+     "lat": 47.222359,
+     "lon": -122.24686
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 544734841,
+   "bounds": {
+    "minlat": 47.2177901,
+    "minlon": -122.2468579,
+    "maxlat": 47.2195335,
+    "maxlon": -122.2468394
+   },
+   "geometry": [
+    {
+     "lat": 47.2177901,
+     "lon": -122.2468579
+    },
+    {
+     "lat": 47.2195335,
+     "lon": -122.2468394
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 544734842,
+   "bounds": {
+    "minlat": 47.2068224,
+    "minlon": -122.2474901,
+    "maxlat": 47.2177901,
+    "maxlon": -122.2468119
+   },
+   "geometry": [
+    {
+     "lat": 47.2068224,
+     "lon": -122.2474901
+    },
+    {
+     "lat": 47.2074461,
+     "lon": -122.2471764
+    },
+    {
+     "lat": 47.2080287,
+     "lon": -122.2469629
+    },
+    {
+     "lat": 47.2083025,
+     "lon": -122.2468907
+    },
+    {
+     "lat": 47.2086812,
+     "lon": -122.2468276
+    },
+    {
+     "lat": 47.208886,
+     "lon": -122.2468119
+    },
+    {
+     "lat": 47.212312,
+     "lon": -122.246821
+    },
+    {
+     "lat": 47.212976,
+     "lon": -122.246823
+    },
+    {
+     "lat": 47.2177901,
+     "lon": -122.2468579
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 544734843,
+   "bounds": {
+    "minlat": 47.2070313,
+    "minlon": -122.2478538,
+    "maxlat": 47.2178047,
+    "maxlon": -122.247247
+   },
+   "geometry": [
+    {
+     "lat": 47.2178047,
+     "lon": -122.2472763
+    },
+    {
+     "lat": 47.213795,
+     "lon": -122.247255
+    },
+    {
+     "lat": 47.212986,
+     "lon": -122.247251
+    },
+    {
+     "lat": 47.212343,
+     "lon": -122.247247
+    },
+    {
+     "lat": 47.2088592,
+     "lon": -122.2472627
+    },
+    {
+     "lat": 47.2086571,
+     "lon": -122.2472884
+    },
+    {
+     "lat": 47.2084388,
+     "lon": -122.2473201
+    },
+    {
+     "lat": 47.2080224,
+     "lon": -122.2474175
+    },
+    {
+     "lat": 47.2076536,
+     "lon": -122.2475464
+    },
+    {
+     "lat": 47.2074124,
+     "lon": -122.2476557
+    },
+    {
+     "lat": 47.2070313,
+     "lon": -122.2478538
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 544734844,
+   "bounds": {
+    "minlat": 47.2178047,
+    "minlon": -122.2472763,
+    "maxlat": 47.2195335,
+    "maxlon": -122.2472694
+   },
+   "geometry": [
+    {
+     "lat": 47.2195335,
+     "lon": -122.2472694
+    },
+    {
+     "lat": 47.2178047,
+     "lon": -122.2472763
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 544734845,
+   "bounds": {
+    "minlat": 47.2195335,
+    "minlon": -122.247274,
+    "maxlat": 47.221391,
+    "maxlon": -122.2472694
+   },
+   "geometry": [
+    {
+     "lat": 47.221391,
+     "lon": -122.247274
+    },
+    {
+     "lat": 47.2195335,
+     "lon": -122.2472694
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 623957692,
+   "bounds": {
+    "minlat": 47.2038655,
+    "minlon": -122.2512532,
+    "maxlat": 47.2042992,
+    "maxlon": -122.2502872
+   },
+   "geometry": [
+    {
+     "lat": 47.2038655,
+     "lon": -122.2512532
+    },
+    {
+     "lat": 47.2040222,
+     "lon": -122.2508934
+    },
+    {
+     "lat": 47.2041607,
+     "lon": -122.250593
+    },
+    {
+     "lat": 47.2042992,
+     "lon": -122.2502872
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "bridge": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "concrete"
+   }
+  },
+  {
+   "type": "way",
+   "id": 623957701,
+   "bounds": {
+    "minlat": 47.2941692,
+    "minlon": -122.2573811,
+    "maxlat": 47.2958788,
+    "maxlon": -122.2566801
+   },
+   "geometry": [
+    {
+     "lat": 47.2941692,
+     "lon": -122.2573811
+    },
+    {
+     "lat": 47.2949272,
+     "lon": -122.2571099
+    },
+    {
+     "lat": 47.295363,
+     "lon": -122.2569253
+    },
+    {
+     "lat": 47.2956276,
+     "lon": -122.2567987
+    },
+    {
+     "lat": 47.2958788,
+     "lon": -122.2566801
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "bus:lanes": "designated||",
+    "destination:lanes": "none|none|none;Auburn",
+    "highway": "motorway",
+    "hov": "yes",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "yes",
+    "maxheight": "default",
+    "maxspeed": "60 mph",
+    "motor_vehicle:lanes": "no||",
+    "motorcycle:lanes": "yes||",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "surface": "asphalt",
+    "turn:lanes": "none|none|through;slight_right"
+   }
+  },
+  {
+   "type": "way",
+   "id": 627327934,
+   "bounds": {
+    "minlat": 47.2687104,
+    "minlon": -122.261003,
+    "maxlat": 47.2728276,
+    "maxlon": -122.2592867
+   },
+   "geometry": [
+    {
+     "lat": 47.2728276,
+     "lon": -122.2592867
+    },
+    {
+     "lat": 47.2719355,
+     "lon": -122.2596586
+    },
+    {
+     "lat": 47.2706093,
+     "lon": -122.2602263
+    },
+    {
+     "lat": 47.2694273,
+     "lon": -122.2607073
+    },
+    {
+     "lat": 47.2687104,
+     "lon": -122.261003
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "highway": "motorway",
+    "hov": "yes",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 627327935,
+   "bounds": {
+    "minlat": 47.2507362,
+    "minlon": -122.259472,
+    "maxlat": 47.2562192,
+    "maxlon": -122.2578123
+   },
+   "geometry": [
+    {
+     "lat": 47.2562192,
+     "lon": -122.259472
+    },
+    {
+     "lat": 47.2557031,
+     "lon": -122.259289
+    },
+    {
+     "lat": 47.2507362,
+     "lon": -122.2578123
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 687694016,
+   "bounds": {
+    "minlat": 47.1992552,
+    "minlon": -122.298401,
+    "maxlat": 47.1998831,
+    "maxlon": -122.2958691
+   },
+   "geometry": [
+    {
+     "lat": 47.1998831,
+     "lon": -122.298401
+    },
+    {
+     "lat": 47.1997417,
+     "lon": -122.297819
+    },
+    {
+     "lat": 47.1995966,
+     "lon": -122.2972377
+    },
+    {
+     "lat": 47.1995385,
+     "lon": -122.2970049
+    },
+    {
+     "lat": 47.1994935,
+     "lon": -122.2968247
+    },
+    {
+     "lat": 47.1994049,
+     "lon": -122.2964699
+    },
+    {
+     "lat": 47.1993404,
+     "lon": -122.2962112
+    },
+    {
+     "lat": 47.1992552,
+     "lon": -122.2958691
+    }
+   ],
+   "tags": {
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "4",
+    "maxspeed": "35 mph",
+    "name": "River Road",
+    "old_ref": "US 410",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "tiger:cfcc": "A31",
+    "tiger:county": "Pierce, WA",
+    "tiger:name_base": "River",
+    "tiger:name_base_1": "State Route 167"
+   }
+  },
+  {
+   "type": "way",
+   "id": 687694022,
+   "bounds": {
+    "minlat": 47.1989852,
+    "minlon": -122.2958691,
+    "maxlat": 47.1992552,
+    "maxlon": -122.2947828
+   },
+   "geometry": [
+    {
+     "lat": 47.1992552,
+     "lon": -122.2958691
+    },
+    {
+     "lat": 47.1992245,
+     "lon": -122.2957457
+    },
+    {
+     "lat": 47.1991022,
+     "lon": -122.2952544
+    },
+    {
+     "lat": 47.1989852,
+     "lon": -122.2947828
+    }
+   ],
+   "tags": {
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "4",
+    "maxspeed": "35 mph",
+    "name": "River Road",
+    "old_ref": "US 410",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "tiger:cfcc": "A31",
+    "tiger:county": "Pierce, WA",
+    "tiger:name_base": "River",
+    "tiger:name_base_1": "State Route 167"
+   }
+  },
+  {
+   "type": "way",
+   "id": 687694073,
+   "bounds": {
+    "minlat": 47.2088659,
+    "minlon": -122.342054,
+    "maxlat": 47.213576,
+    "maxlon": -122.3296508
+   },
+   "geometry": [
+    {
+     "lat": 47.213576,
+     "lon": -122.342054
+    },
+    {
+     "lat": 47.2135078,
+     "lon": -122.3419315
+    },
+    {
+     "lat": 47.213365,
+     "lon": -122.341675
+    },
+    {
+     "lat": 47.2123954,
+     "lon": -122.3399306
+    },
+    {
+     "lat": 47.2121542,
+     "lon": -122.3394967
+    },
+    {
+     "lat": 47.211788,
+     "lon": -122.338838
+    },
+    {
+     "lat": 47.211547,
+     "lon": -122.338396
+    },
+    {
+     "lat": 47.2115346,
+     "lon": -122.3383718
+    },
+    {
+     "lat": 47.2114757,
+     "lon": -122.3382575
+    },
+    {
+     "lat": 47.211423,
+     "lon": -122.338155
+    },
+    {
+     "lat": 47.211187,
+     "lon": -122.337658
+    },
+    {
+     "lat": 47.2111601,
+     "lon": -122.3375918
+    },
+    {
+     "lat": 47.210976,
+     "lon": -122.337139
+    },
+    {
+     "lat": 47.210772,
+     "lon": -122.3366
+    },
+    {
+     "lat": 47.210657,
+     "lon": -122.336271
+    },
+    {
+     "lat": 47.210533,
+     "lon": -122.335873
+    },
+    {
+     "lat": 47.210326,
+     "lon": -122.335104
+    },
+    {
+     "lat": 47.21005,
+     "lon": -122.334061
+    },
+    {
+     "lat": 47.2097192,
+     "lon": -122.3328301
+    },
+    {
+     "lat": 47.2095681,
+     "lon": -122.3322677
+    },
+    {
+     "lat": 47.2094395,
+     "lon": -122.3317891
+    },
+    {
+     "lat": 47.2094021,
+     "lon": -122.3316498
+    },
+    {
+     "lat": 47.2092502,
+     "lon": -122.3310841
+    },
+    {
+     "lat": 47.2091838,
+     "lon": -122.3308376
+    },
+    {
+     "lat": 47.2088659,
+     "lon": -122.3296508
+    }
+   ],
+   "tags": {
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "4",
+    "maxspeed": "50 mph",
+    "name": "River Road East",
+    "old_ref": "US 410",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "tiger:cfcc": "A31",
+    "tiger:county": "Pierce, WA",
+    "tiger:name_base": "River",
+    "tiger:name_base_1": "State Route 167",
+    "tiger:name_direction_suffix": "E"
+   }
+  },
+  {
+   "type": "way",
+   "id": 687694074,
+   "bounds": {
+    "minlat": 47.2033817,
+    "minlon": -122.2938249,
+    "maxlat": 47.2034252,
+    "maxlon": -122.2938196
+   },
+   "geometry": [
+    {
+     "lat": 47.2033817,
+     "lon": -122.2938249
+    },
+    {
+     "lat": 47.2034252,
+     "lon": -122.2938196
+    }
+   ],
+   "tags": {
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "North Meridian",
+    "oneway": "yes",
+    "postal_code": "98371",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "concrete"
+   }
+  },
+  {
+   "type": "way",
+   "id": 687694075,
+   "bounds": {
+    "minlat": 47.1987401,
+    "minlon": -122.2947828,
+    "maxlat": 47.1989852,
+    "maxlon": -122.2937945
+   },
+   "geometry": [
+    {
+     "lat": 47.1989852,
+     "lon": -122.2947828
+    },
+    {
+     "lat": 47.1989127,
+     "lon": -122.2944905
+    },
+    {
+     "lat": 47.1987942,
+     "lon": -122.2940125
+    },
+    {
+     "lat": 47.1987401,
+     "lon": -122.2937945
+    }
+   ],
+   "tags": {
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "4",
+    "maxspeed": "35 mph",
+    "name": "River Road",
+    "old_ref": "US 410",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "tiger:cfcc": "A31",
+    "tiger:county": "Pierce, WA",
+    "tiger:name_base": "River",
+    "tiger:name_base_1": "State Route 167"
+   }
+  },
+  {
+   "type": "way",
+   "id": 687694076,
+   "bounds": {
+    "minlat": 47.1995554,
+    "minlon": -122.2939865,
+    "maxlat": 47.2018752,
+    "maxlon": -122.2938808
+   },
+   "geometry": [
+    {
+     "lat": 47.2018752,
+     "lon": -122.2939865
+    },
+    {
+     "lat": 47.2003332,
+     "lon": -122.2939045
+    },
+    {
+     "lat": 47.2000857,
+     "lon": -122.2938935
+    },
+    {
+     "lat": 47.1995554,
+     "lon": -122.2938808
+    }
+   ],
+   "tags": {
+    "cycleway:right": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "30 mph",
+    "name": "North Meridian",
+    "oneway": "yes",
+    "postal_code": "98371",
+    "ref": "SR 167",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 790267285,
+   "bounds": {
+    "minlat": 47.2584284,
+    "minlon": -122.2604871,
+    "maxlat": 47.2606592,
+    "maxlon": -122.2597518
+   },
+   "geometry": [
+    {
+     "lat": 47.2584284,
+     "lon": -122.2597518
+    },
+    {
+     "lat": 47.259881,
+     "lon": -122.2602285
+    },
+    {
+     "lat": 47.2606592,
+     "lon": -122.2604871
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 790267286,
+   "bounds": {
+    "minlat": 47.2562192,
+    "minlon": -122.260137,
+    "maxlat": 47.2583767,
+    "maxlon": -122.259472
+   },
+   "geometry": [
+    {
+     "lat": 47.2583767,
+     "lon": -122.260137
+    },
+    {
+     "lat": 47.2581253,
+     "lon": -122.2600762
+    },
+    {
+     "lat": 47.2569605,
+     "lon": -122.2597242
+    },
+    {
+     "lat": 47.2562192,
+     "lon": -122.259472
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "destination:lanes": "none|none|Stewart Road;Jovita Boulevard East",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "turn:lanes": "||slight_right"
+   }
+  },
+  {
+   "type": "way",
+   "id": 805978135,
+   "bounds": {
+    "minlat": 47.2919148,
+    "minlon": -122.258326,
+    "maxlat": 47.2981212,
+    "maxlon": -122.2557232
+   },
+   "geometry": [
+    {
+     "lat": 47.2981212,
+     "lon": -122.2557232
+    },
+    {
+     "lat": 47.2974805,
+     "lon": -122.2561408
+    },
+    {
+     "lat": 47.2968743,
+     "lon": -122.2565299
+    },
+    {
+     "lat": 47.2965768,
+     "lon": -122.2567166
+    },
+    {
+     "lat": 47.2962511,
+     "lon": -122.2568991
+    },
+    {
+     "lat": 47.295831,
+     "lon": -122.2571278
+    },
+    {
+     "lat": 47.2954014,
+     "lon": -122.2573306
+    },
+    {
+     "lat": 47.2949382,
+     "lon": -122.2575321
+    },
+    {
+     "lat": 47.2945438,
+     "lon": -122.2576856
+    },
+    {
+     "lat": 47.2942456,
+     "lon": -122.2577913
+    },
+    {
+     "lat": 47.2938066,
+     "lon": -122.25793
+    },
+    {
+     "lat": 47.2934144,
+     "lon": -122.258045
+    },
+    {
+     "lat": 47.2931337,
+     "lon": -122.2581109
+    },
+    {
+     "lat": 47.2928517,
+     "lon": -122.2581763
+    },
+    {
+     "lat": 47.2925049,
+     "lon": -122.2582343
+    },
+    {
+     "lat": 47.2919148,
+     "lon": -122.258326
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "bus:lanes": "designated||",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "yes",
+    "maxheight": "default",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 879580195,
+   "bounds": {
+    "minlat": 47.2689811,
+    "minlon": -122.2606848,
+    "maxlat": 47.272796,
+    "maxlon": -122.2591155
+   },
+   "geometry": [
+    {
+     "lat": 47.2689811,
+     "lon": -122.2606848
+    },
+    {
+     "lat": 47.2702323,
+     "lon": -122.2601697
+    },
+    {
+     "lat": 47.272796,
+     "lon": -122.2591155
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "tiger:county": "King, WA"
+   }
+  },
+  {
+   "type": "way",
+   "id": 879596538,
+   "bounds": {
+    "minlat": 47.2732578,
+    "minlon": -122.2591137,
+    "maxlat": 47.2784632,
+    "maxlon": -122.2585555
+   },
+   "geometry": [
+    {
+     "lat": 47.2784632,
+     "lon": -122.2585555
+    },
+    {
+     "lat": 47.2771594,
+     "lon": -122.258562
+    },
+    {
+     "lat": 47.2767492,
+     "lon": -122.2585697
+    },
+    {
+     "lat": 47.2765043,
+     "lon": -122.2585751
+    },
+    {
+     "lat": 47.276267,
+     "lon": -122.2585872
+    },
+    {
+     "lat": 47.2760106,
+     "lon": -122.2585985
+    },
+    {
+     "lat": 47.2756826,
+     "lon": -122.2586107
+    },
+    {
+     "lat": 47.2753497,
+     "lon": -122.2586285
+    },
+    {
+     "lat": 47.2750626,
+     "lon": -122.2586564
+    },
+    {
+     "lat": 47.2748257,
+     "lon": -122.2586888
+    },
+    {
+     "lat": 47.2745381,
+     "lon": -122.2587394
+    },
+    {
+     "lat": 47.2742054,
+     "lon": -122.2588075
+    },
+    {
+     "lat": 47.2736555,
+     "lon": -122.2589693
+    },
+    {
+     "lat": 47.2734114,
+     "lon": -122.259052
+    },
+    {
+     "lat": 47.2732578,
+     "lon": -122.2591137
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "highway": "motorway",
+    "hov": "yes",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 879767651,
+   "bounds": {
+    "minlat": 47.2915962,
+    "minlon": -122.2579226,
+    "maxlat": 47.2941692,
+    "maxlon": -122.2573811
+   },
+   "geometry": [
+    {
+     "lat": 47.2915962,
+     "lon": -122.2579226
+    },
+    {
+     "lat": 47.2920547,
+     "lon": -122.2578743
+    },
+    {
+     "lat": 47.2928764,
+     "lon": -122.2577265
+    },
+    {
+     "lat": 47.2933447,
+     "lon": -122.2576167
+    },
+    {
+     "lat": 47.2937609,
+     "lon": -122.2575066
+    },
+    {
+     "lat": 47.2941692,
+     "lon": -122.2573811
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "highway": "motorway",
+    "hov": "yes",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 906922724,
+   "bounds": {
+    "minlat": 47.2464628,
+    "minlon": -122.3561955,
+    "maxlat": 47.2523036,
+    "maxlon": -122.3457
+   },
+   "geometry": [
+    {
+     "lat": 47.2464628,
+     "lon": -122.3457
+    },
+    {
+     "lat": 47.2466773,
+     "lon": -122.3459743
+    },
+    {
+     "lat": 47.2468958,
+     "lon": -122.3462416
+    },
+    {
+     "lat": 47.2471183,
+     "lon": -122.3465019
+    },
+    {
+     "lat": 47.2473376,
+     "lon": -122.3467475
+    },
+    {
+     "lat": 47.2475604,
+     "lon": -122.3469863
+    },
+    {
+     "lat": 47.2477865,
+     "lon": -122.3472181
+    },
+    {
+     "lat": 47.2498557,
+     "lon": -122.3491373
+    },
+    {
+     "lat": 47.2499935,
+     "lon": -122.3492587
+    },
+    {
+     "lat": 47.250128,
+     "lon": -122.349388
+    },
+    {
+     "lat": 47.2502859,
+     "lon": -122.3495544
+    },
+    {
+     "lat": 47.2504383,
+     "lon": -122.3497316
+    },
+    {
+     "lat": 47.2505849,
+     "lon": -122.3499191
+    },
+    {
+     "lat": 47.2507361,
+     "lon": -122.350124
+    },
+    {
+     "lat": 47.2508817,
+     "lon": -122.3503375
+    },
+    {
+     "lat": 47.2509943,
+     "lon": -122.3505148
+    },
+    {
+     "lat": 47.2511029,
+     "lon": -122.3506972
+    },
+    {
+     "lat": 47.2512076,
+     "lon": -122.3508847
+    },
+    {
+     "lat": 47.2513112,
+     "lon": -122.3510862
+    },
+    {
+     "lat": 47.2514079,
+     "lon": -122.3512951
+    },
+    {
+     "lat": 47.2514834,
+     "lon": -122.3514751
+    },
+    {
+     "lat": 47.2515539,
+     "lon": -122.3516597
+    },
+    {
+     "lat": 47.2516192,
+     "lon": -122.3518483
+    },
+    {
+     "lat": 47.2517283,
+     "lon": -122.3521856
+    },
+    {
+     "lat": 47.2518024,
+     "lon": -122.3524466
+    },
+    {
+     "lat": 47.2518703,
+     "lon": -122.3527113
+    },
+    {
+     "lat": 47.2519311,
+     "lon": -122.3529749
+    },
+    {
+     "lat": 47.2519857,
+     "lon": -122.3532414
+    },
+    {
+     "lat": 47.2520342,
+     "lon": -122.3535106
+    },
+    {
+     "lat": 47.2520675,
+     "lon": -122.3537317
+    },
+    {
+     "lat": 47.2520953,
+     "lon": -122.3539544
+    },
+    {
+     "lat": 47.2521176,
+     "lon": -122.3541786
+    },
+    {
+     "lat": 47.2521343,
+     "lon": -122.3544037
+    },
+    {
+     "lat": 47.252209,
+     "lon": -122.3552138
+    },
+    {
+     "lat": 47.2523036,
+     "lon": -122.3561955
+    }
+   ],
+   "tags": {
+    "highway": "trunk",
+    "name": "State Route 167",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source": "https://wsdot.wa.gov/sites/default/files/2019/09/27/SR167-Environmental-ReEvaluation-Appendices.pdf",
+    "toll": "no"
+   }
+  },
+  {
+   "type": "way",
+   "id": 906935550,
+   "bounds": {
+    "minlat": 47.2425178,
+    "minlon": -122.3394095,
+    "maxlat": 47.2432485,
+    "maxlon": -122.3379457
+   },
+   "geometry": [
+    {
+     "lat": 47.2432485,
+     "lon": -122.3394095
+    },
+    {
+     "lat": 47.2426744,
+     "lon": -122.3382593
+    },
+    {
+     "lat": 47.2425178,
+     "lon": -122.3379457
+    }
+   ],
+   "tags": {
+    "highway": "trunk",
+    "name": "State Route 167",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source": "https://wsdot.wa.gov/sites/default/files/2019/09/27/SR167-Environmental-ReEvaluation-Appendices.pdf",
+    "toll": "no"
+   }
+  },
+  {
+   "type": "way",
+   "id": 906935556,
+   "bounds": {
+    "minlat": 47.2460604,
+    "minlon": -122.3458877,
+    "maxlat": 47.2464346,
+    "maxlon": -122.3453821
+   },
+   "geometry": [
+    {
+     "lat": 47.2464346,
+     "lon": -122.3458877
+    },
+    {
+     "lat": 47.2460604,
+     "lon": -122.3453821
+    }
+   ],
+   "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "State Route 167",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source": "https://wsdot.wa.gov/sites/default/files/2019/09/27/SR167-Environmental-ReEvaluation-Appendices.pdf",
+    "toll": "no"
+   }
+  },
+  {
+   "type": "way",
+   "id": 906935557,
+   "bounds": {
+    "minlat": 47.2460895,
+    "minlon": -122.3457,
+    "maxlat": 47.2464628,
+    "maxlon": -122.3451864
+   },
+   "geometry": [
+    {
+     "lat": 47.2460895,
+     "lon": -122.3451864
+    },
+    {
+     "lat": 47.2464628,
+     "lon": -122.3457
+    }
+   ],
+   "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "State Route 167",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source": "https://wsdot.wa.gov/sites/default/files/2019/09/27/SR167-Environmental-ReEvaluation-Appendices.pdf",
+    "toll": "no"
+   }
+  },
+  {
+   "type": "way",
+   "id": 970883805,
+   "bounds": {
+    "minlat": 47.221391,
+    "minlon": -122.2519425,
+    "maxlat": 47.2353023,
+    "maxlon": -122.247274
+   },
+   "geometry": [
+    {
+     "lat": 47.2353023,
+     "lon": -122.2519425
+    },
+    {
+     "lat": 47.2288995,
+     "lon": -122.2491229
+    },
+    {
+     "lat": 47.2287028,
+     "lon": -122.2490188
+    },
+    {
+     "lat": 47.2285758,
+     "lon": -122.248968
+    },
+    {
+     "lat": 47.2278854,
+     "lon": -122.2486395
+    },
+    {
+     "lat": 47.227417,
+     "lon": -122.248431
+    },
+    {
+     "lat": 47.2270223,
+     "lon": -122.248284
+    },
+    {
+     "lat": 47.22638,
+     "lon": -122.248051
+    },
+    {
+     "lat": 47.225927,
+     "lon": -122.247912
+    },
+    {
+     "lat": 47.225234,
+     "lon": -122.247727
+    },
+    {
+     "lat": 47.224676,
+     "lon": -122.247594
+    },
+    {
+     "lat": 47.224062,
+     "lon": -122.247475
+    },
+    {
+     "lat": 47.223306,
+     "lon": -122.247371
+    },
+    {
+     "lat": 47.222447,
+     "lon": -122.247299
+    },
+    {
+     "lat": 47.222032,
+     "lon": -122.24728
+    },
+    {
+     "lat": 47.221391,
+     "lon": -122.247274
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 970883806,
+   "bounds": {
+    "minlat": 47.2353023,
+    "minlon": -122.2561305,
+    "maxlat": 47.2452075,
+    "maxlon": -122.2519425
+   },
+   "geometry": [
+    {
+     "lat": 47.2452075,
+     "lon": -122.2561305
+    },
+    {
+     "lat": 47.244064,
+     "lon": -122.25575
+    },
+    {
+     "lat": 47.2437872,
+     "lon": -122.2556628
+    },
+    {
+     "lat": 47.2435129,
+     "lon": -122.2555684
+    },
+    {
+     "lat": 47.2431965,
+     "lon": -122.2554463
+    },
+    {
+     "lat": 47.2430367,
+     "lon": -122.2553756
+    },
+    {
+     "lat": 47.2428856,
+     "lon": -122.2553072
+    },
+    {
+     "lat": 47.242278,
+     "lon": -122.255032
+    },
+    {
+     "lat": 47.2360188,
+     "lon": -122.2522695
+    },
+    {
+     "lat": 47.2353023,
+     "lon": -122.2519425
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "destination:lanes": "|none;West Valley Highway;24th Street East",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "turn:lanes": "|through;slight_right"
+   }
+  },
+  {
+   "type": "way",
+   "id": 982794879,
+   "bounds": {
+    "minlat": 47.1992977,
+    "minlon": -122.2938808,
+    "maxlat": 47.1995554,
+    "maxlon": -122.2938746
+   },
+   "geometry": [
+    {
+     "lat": 47.1995554,
+     "lon": -122.2938808
+    },
+    {
+     "lat": 47.1994508,
+     "lon": -122.2938783
+    },
+    {
+     "lat": 47.1992977,
+     "lon": -122.2938746
+    }
+   ],
+   "tags": {
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "maxspeed": "30 mph",
+    "name": "North Meridian",
+    "oneway": "yes",
+    "postal_code": "98371",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 992635577,
+   "bounds": {
+    "minlat": 47.2032014,
+    "minlon": -122.2865251,
+    "maxlat": 47.203354,
+    "maxlon": -122.2852603
+   },
+   "geometry": [
+    {
+     "lat": 47.203354,
+     "lon": -122.2865251
+    },
+    {
+     "lat": 47.2032014,
+     "lon": -122.2852603
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "destination:lanes": "none|none;Olympia;Eatonville",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 161;SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "turn:lanes": "none|through;slight_right"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1051003240,
+   "bounds": {
+    "minlat": 47.246405,
+    "minlon": -122.2571808,
+    "maxlat": 47.2501689,
+    "maxlon": -122.25602
+   },
+   "geometry": [
+    {
+     "lat": 47.246405,
+     "lon": -122.25602
+    },
+    {
+     "lat": 47.2501689,
+     "lon": -122.2571808
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1051003241,
+   "bounds": {
+    "minlat": 47.2413652,
+    "minlon": -122.25602,
+    "maxlat": 47.246405,
+    "maxlon": -122.2541677
+   },
+   "geometry": [
+    {
+     "lat": 47.2413652,
+     "lon": -122.2541677
+    },
+    {
+     "lat": 47.2422675,
+     "lon": -122.2545674
+    },
+    {
+     "lat": 47.24287,
+     "lon": -122.254829
+    },
+    {
+     "lat": 47.243312,
+     "lon": -122.255017
+    },
+    {
+     "lat": 47.243775,
+     "lon": -122.255191
+    },
+    {
+     "lat": 47.244631,
+     "lon": -122.255486
+    },
+    {
+     "lat": 47.246405,
+     "lon": -122.25602
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "destination:lanes": "||none;Pacific;Stewart Road;Milton",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "turn:lanes": "||through;slight_right"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1140710443,
+   "bounds": {
+    "minlat": 47.2319908,
+    "minlon": -122.2541677,
+    "maxlat": 47.2413652,
+    "maxlon": -122.2499832
+   },
+   "geometry": [
+    {
+     "lat": 47.2319908,
+     "lon": -122.2499832
+    },
+    {
+     "lat": 47.2359301,
+     "lon": -122.2517627
+    },
+    {
+     "lat": 47.2402972,
+     "lon": -122.2536954
+    },
+    {
+     "lat": 47.2413652,
+     "lon": -122.2541677
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "no",
+    "maxheight": "15'4\"",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1140710444,
+   "bounds": {
+    "minlat": 47.222359,
+    "minlon": -122.2472429,
+    "maxlat": 47.2250778,
+    "maxlon": -122.24686
+   },
+   "geometry": [
+    {
+     "lat": 47.222359,
+     "lon": -122.24686
+    },
+    {
+     "lat": 47.223,
+     "lon": -122.246901
+    },
+    {
+     "lat": 47.22332,
+     "lon": -122.246931
+    },
+    {
+     "lat": 47.224086,
+     "lon": -122.247045
+    },
+    {
+     "lat": 47.224706,
+     "lon": -122.247159
+    },
+    {
+     "lat": 47.2250778,
+     "lon": -122.2472429
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "no",
+    "maxheight": "15'4\"",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1141349536,
+   "bounds": {
+    "minlat": 47.2793344,
+    "minlon": -122.258333,
+    "maxlat": 47.2843859,
+    "maxlon": -122.2582186
+   },
+   "geometry": [
+    {
+     "lat": 47.2793344,
+     "lon": -122.258333
+    },
+    {
+     "lat": 47.2799915,
+     "lon": -122.2583061
+    },
+    {
+     "lat": 47.2821463,
+     "lon": -122.2582656
+    },
+    {
+     "lat": 47.2829732,
+     "lon": -122.2582513
+    },
+    {
+     "lat": 47.2839463,
+     "lon": -122.258229
+    },
+    {
+     "lat": 47.2843859,
+     "lon": -122.2582186
+    }
+   ],
+   "tags": {
+    "bicycle": "no",
+    "highway": "motorway",
+    "hov": "yes",
+    "hov:lanes": "designated||",
+    "hov:minimum": "2",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1166328472,
+   "bounds": {
+    "minlat": 47.213576,
+    "minlon": -122.3425591,
+    "maxlat": 47.2138593,
+    "maxlon": -122.342054
+   },
+   "geometry": [
+    {
+     "lat": 47.2138593,
+     "lon": -122.3425591
+    },
+    {
+     "lat": 47.213576,
+     "lon": -122.342054
+    }
+   ],
+   "tags": {
+    "cycleway:both": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "5",
+    "lanes:backward": "2",
+    "lanes:forward": "3",
+    "maxspeed": "50 mph",
+    "name": "River Road East",
+    "old_ref": "US 410",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "tiger:cfcc": "A31",
+    "tiger:county": "Pierce, WA",
+    "tiger:name_base": "River",
+    "tiger:name_base_1": "State Route 167",
+    "tiger:name_direction_suffix": "E",
+    "turn:lanes:forward": "left|none|none"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1166328473,
+   "bounds": {
+    "minlat": 47.2138593,
+    "minlon": -122.3436216,
+    "maxlat": 47.2144795,
+    "maxlon": -122.3425591
+   },
+   "geometry": [
+    {
+     "lat": 47.2144795,
+     "lon": -122.3436216
+    },
+    {
+     "lat": 47.2138593,
+     "lon": -122.3425591
+    }
+   ],
+   "tags": {
+    "cycleway:both": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "4",
+    "lanes:backward": "2",
+    "lanes:forward": "2",
+    "maxspeed": "50 mph",
+    "name": "River Road East",
+    "old_ref": "US 410",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "tiger:cfcc": "A31",
+    "tiger:county": "Pierce, WA",
+    "tiger:name_base": "River",
+    "tiger:name_base_1": "State Route 167",
+    "tiger:name_direction_suffix": "E",
+    "turn:lanes:forward": "left|none"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1166328474,
+   "bounds": {
+    "minlat": 47.2144795,
+    "minlon": -122.3462246,
+    "maxlat": 47.2159695,
+    "maxlon": -122.3436216
+   },
+   "geometry": [
+    {
+     "lat": 47.2159695,
+     "lon": -122.3462246
+    },
+    {
+     "lat": 47.2149764,
+     "lon": -122.3444856
+    },
+    {
+     "lat": 47.21473,
+     "lon": -122.344054
+    },
+    {
+     "lat": 47.2144795,
+     "lon": -122.3436216
+    }
+   ],
+   "tags": {
+    "cycleway:both": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "5",
+    "lanes:backward": "2",
+    "lanes:both_ways": "1",
+    "lanes:forward": "2",
+    "maxspeed": "50 mph",
+    "name": "River Road East",
+    "old_ref": "US 410",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "tiger:cfcc": "A31",
+    "tiger:county": "Pierce, WA",
+    "tiger:name_base": "River",
+    "tiger:name_base_1": "State Route 167",
+    "tiger:name_direction_suffix": "E",
+    "turn:lanes:both_ways": "left"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1166328475,
+   "bounds": {
+    "minlat": 47.2159695,
+    "minlon": -122.3465351,
+    "maxlat": 47.2161467,
+    "maxlon": -122.3462246
+   },
+   "geometry": [
+    {
+     "lat": 47.2161467,
+     "lon": -122.3465351
+    },
+    {
+     "lat": 47.2159695,
+     "lon": -122.3462246
+    }
+   ],
+   "tags": {
+    "cycleway:both": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "4",
+    "lanes:backward": "2",
+    "lanes:forward": "2",
+    "maxspeed": "50 mph",
+    "name": "River Road East",
+    "old_ref": "US 410",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "tiger:cfcc": "A31",
+    "tiger:county": "Pierce, WA",
+    "tiger:name_base": "River",
+    "tiger:name_base_1": "State Route 167",
+    "tiger:name_direction_suffix": "E"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1166328476,
+   "bounds": {
+    "minlat": 47.2161467,
+    "minlon": -122.347161,
+    "maxlat": 47.216504,
+    "maxlon": -122.3465351
+   },
+   "geometry": [
+    {
+     "lat": 47.216504,
+     "lon": -122.347161
+    },
+    {
+     "lat": 47.2161467,
+     "lon": -122.3465351
+    }
+   ],
+   "tags": {
+    "cycleway:both": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "5",
+    "lanes:backward": "3",
+    "lanes:forward": "2",
+    "maxspeed": "50 mph",
+    "name": "River Road East",
+    "old_ref": "US 410",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "tiger:cfcc": "A31",
+    "tiger:county": "Pierce, WA",
+    "tiger:name_base": "River",
+    "tiger:name_base_1": "State Route 167",
+    "tiger:name_direction_suffix": "E",
+    "turn:lanes:backward": "left|none|none"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1166328477,
+   "bounds": {
+    "minlat": 47.2173426,
+    "minlon": -122.3544551,
+    "maxlat": 47.2205673,
+    "maxlon": -122.3486229
+   },
+   "geometry": [
+    {
+     "lat": 47.2205673,
+     "lon": -122.3544551
+    },
+    {
+     "lat": 47.220186,
+     "lon": -122.35374
+    },
+    {
+     "lat": 47.2196959,
+     "lon": -122.3528652
+    },
+    {
+     "lat": 47.2194413,
+     "lon": -122.3524109
+    },
+    {
+     "lat": 47.2192851,
+     "lon": -122.3521321
+    },
+    {
+     "lat": 47.218093,
+     "lon": -122.350012
+    },
+    {
+     "lat": 47.2180827,
+     "lon": -122.3499904
+    },
+    {
+     "lat": 47.2173426,
+     "lon": -122.3486229
+    }
+   ],
+   "tags": {
+    "cycleway:both": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "5",
+    "lanes:backward": "2",
+    "lanes:both_ways": "1",
+    "lanes:forward": "2",
+    "maxspeed": "50 mph",
+    "name": "River Road East",
+    "old_ref": "US 410",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "tiger:cfcc": "A31",
+    "tiger:county": "Pierce, WA",
+    "tiger:name_base": "River",
+    "tiger:name_base_1": "State Route 167",
+    "tiger:name_direction_suffix": "E",
+    "turn:lanes:both_ways": "left"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1166328496,
+   "bounds": {
+    "minlat": 47.216504,
+    "minlon": -122.3479353,
+    "maxlat": 47.2169405,
+    "maxlon": -122.347161
+   },
+   "geometry": [
+    {
+     "lat": 47.2169405,
+     "lon": -122.3479353
+    },
+    {
+     "lat": 47.216504,
+     "lon": -122.347161
+    }
+   ],
+   "tags": {
+    "cycleway:both": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "5",
+    "lanes:backward": "2",
+    "lanes:both_ways": "1",
+    "lanes:forward": "2",
+    "maxspeed": "50 mph",
+    "name": "River Road East",
+    "old_ref": "US 410",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "tiger:cfcc": "A31",
+    "tiger:county": "Pierce, WA",
+    "tiger:name_base": "River",
+    "tiger:name_base_1": "State Route 167",
+    "tiger:name_direction_suffix": "E",
+    "turn:lanes:both_ways": "left"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1166328497,
+   "bounds": {
+    "minlat": 47.2171172,
+    "minlon": -122.3486229,
+    "maxlat": 47.2173426,
+    "maxlon": -122.3482374
+   },
+   "geometry": [
+    {
+     "lat": 47.2173426,
+     "lon": -122.3486229
+    },
+    {
+     "lat": 47.2171172,
+     "lon": -122.3482374
+    }
+   ],
+   "tags": {
+    "cycleway:both": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "5",
+    "lanes:backward": "3",
+    "lanes:forward": "2",
+    "maxspeed": "50 mph",
+    "name": "River Road East",
+    "old_ref": "US 410",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "tiger:cfcc": "A31",
+    "tiger:county": "Pierce, WA",
+    "tiger:name_base": "River",
+    "tiger:name_base_1": "State Route 167",
+    "tiger:name_direction_suffix": "E",
+    "turn:lanes:backward": "left|none|none"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1166328498,
+   "bounds": {
+    "minlat": 47.2169405,
+    "minlon": -122.3482374,
+    "maxlat": 47.2171172,
+    "maxlon": -122.3479353
+   },
+   "geometry": [
+    {
+     "lat": 47.2171172,
+     "lon": -122.3482374
+    },
+    {
+     "lat": 47.2169405,
+     "lon": -122.3479353
+    }
+   ],
+   "tags": {
+    "cycleway:both": "no",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "4",
+    "lanes:backward": "2",
+    "lanes:forward": "2",
+    "maxspeed": "50 mph",
+    "name": "River Road East",
+    "old_ref": "US 410",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "tiger:cfcc": "A31",
+    "tiger:county": "Pierce, WA",
+    "tiger:name_base": "River",
+    "tiger:name_base_1": "State Route 167",
+    "tiger:name_direction_suffix": "E"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1292546264,
+   "bounds": {
+    "minlat": 47.2680465,
+    "minlon": -122.2612933,
+    "maxlat": 47.2687104,
+    "maxlon": -122.261003
+   },
+   "geometry": [
+    {
+     "lat": 47.2687104,
+     "lon": -122.261003
+    },
+    {
+     "lat": 47.2680465,
+     "lon": -122.2612933
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1296737980,
+   "bounds": {
+    "minlat": 47.2026165,
+    "minlon": -122.2566699,
+    "maxlat": 47.2026908,
+    "maxlon": -122.2564027
+   },
+   "geometry": [
+    {
+     "lat": 47.2026908,
+     "lon": -122.2564027
+    },
+    {
+     "lat": 47.2026165,
+     "lon": -122.2566699
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "bridge": "yes",
+    "destination:lanes": "none|none;Sumner;Yakima",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "turn:lanes": "none|through;slight_right"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1296737981,
+   "bounds": {
+    "minlat": 47.2010704,
+    "minlon": -122.2608051,
+    "maxlat": 47.2011797,
+    "maxlon": -122.2604184
+   },
+   "geometry": [
+    {
+     "lat": 47.2010704,
+     "lon": -122.2608051
+    },
+    {
+     "lat": 47.2011797,
+     "lon": -122.2604184
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "destination:lanes": "Auburn;Seattle|Auburn;Seattle;Sumner;Yakima|Sumner;Yakima",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "concrete",
+    "turn:lanes": "none|through;slight_right|slight_right"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1354821275,
+   "bounds": {
+    "minlat": 47.1998831,
+    "minlon": -122.3073346,
+    "maxlat": 47.2021707,
+    "maxlon": -122.298401
+   },
+   "geometry": [
+    {
+     "lat": 47.2021707,
+     "lon": -122.3073346
+    },
+    {
+     "lat": 47.2019872,
+     "lon": -122.3066018
+    },
+    {
+     "lat": 47.2018674,
+     "lon": -122.3061238
+    },
+    {
+     "lat": 47.2017481,
+     "lon": -122.3056473
+    },
+    {
+     "lat": 47.201735,
+     "lon": -122.305595
+    },
+    {
+     "lat": 47.2016153,
+     "lon": -122.3051283
+    },
+    {
+     "lat": 47.2015382,
+     "lon": -122.3048258
+    },
+    {
+     "lat": 47.2014857,
+     "lon": -122.3046207
+    },
+    {
+     "lat": 47.2014377,
+     "lon": -122.3044329
+    },
+    {
+     "lat": 47.2013298,
+     "lon": -122.3040114
+    },
+    {
+     "lat": 47.2012374,
+     "lon": -122.3036502
+    },
+    {
+     "lat": 47.2011581,
+     "lon": -122.3033404
+    },
+    {
+     "lat": 47.2009961,
+     "lon": -122.3027071
+    },
+    {
+     "lat": 47.2008735,
+     "lon": -122.3022279
+    },
+    {
+     "lat": 47.200828,
+     "lon": -122.30205
+    },
+    {
+     "lat": 47.2007946,
+     "lon": -122.3019192
+    },
+    {
+     "lat": 47.2005464,
+     "lon": -122.3009483
+    },
+    {
+     "lat": 47.2004341,
+     "lon": -122.3005088
+    },
+    {
+     "lat": 47.2001899,
+     "lon": -122.2995637
+    },
+    {
+     "lat": 47.2001785,
+     "lon": -122.2995237
+    },
+    {
+     "lat": 47.2001072,
+     "lon": -122.2992495
+    },
+    {
+     "lat": 47.1999351,
+     "lon": -122.2985858
+    },
+    {
+     "lat": 47.1998831,
+     "lon": -122.298401
+    }
+   ],
+   "tags": {
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "4",
+    "lit": "yes",
+    "maxspeed": "35 mph",
+    "name": "River Road",
+    "old_ref": "US 410",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "tiger:cfcc": "A31",
+    "tiger:county": "Pierce, WA",
+    "tiger:name_base": "River",
+    "tiger:name_base_1": "State Route 167"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1354821276,
+   "bounds": {
+    "minlat": 47.2021707,
+    "minlon": -122.3082898,
+    "maxlat": 47.2024099,
+    "maxlon": -122.3073346
+   },
+   "geometry": [
+    {
+     "lat": 47.2024099,
+     "lon": -122.3082898
+    },
+    {
+     "lat": 47.2023621,
+     "lon": -122.3080979
+    },
+    {
+     "lat": 47.2022056,
+     "lon": -122.3074738
+    },
+    {
+     "lat": 47.2021707,
+     "lon": -122.3073346
+    }
+   ],
+   "tags": {
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "5",
+    "lanes:backward": "3",
+    "lanes:forward": "2",
+    "lit": "yes",
+    "maxspeed": "35 mph",
+    "name": "River Road",
+    "old_ref": "US 410",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "tiger:cfcc": "A31",
+    "tiger:county": "Pierce, WA",
+    "tiger:name_base": "River",
+    "tiger:name_base_1": "State Route 167",
+    "turn:lanes:backward": "left|none|none"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1354825219,
+   "bounds": {
+    "minlat": 47.20674,
+    "minlon": -122.3291118,
+    "maxlat": 47.2087217,
+    "maxlon": -122.32166
+   },
+   "geometry": [
+    {
+     "lat": 47.2087217,
+     "lon": -122.3291118
+    },
+    {
+     "lat": 47.2084173,
+     "lon": -122.327975
+    },
+    {
+     "lat": 47.208208,
+     "lon": -122.327192
+    },
+    {
+     "lat": 47.2081077,
+     "lon": -122.3268013
+    },
+    {
+     "lat": 47.207838,
+     "lon": -122.3257998
+    },
+    {
+     "lat": 47.2072906,
+     "lon": -122.3237534
+    },
+    {
+     "lat": 47.2072668,
+     "lon": -122.3236473
+    },
+    {
+     "lat": 47.2071371,
+     "lon": -122.3231799
+    },
+    {
+     "lat": 47.207103,
+     "lon": -122.3230523
+    },
+    {
+     "lat": 47.206764,
+     "lon": -122.321751
+    },
+    {
+     "lat": 47.20674,
+     "lon": -122.32166
+    }
+   ],
+   "tags": {
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "4",
+    "maxspeed": "50 mph",
+    "name": "River Road East",
+    "old_ref": "US 410",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "tiger:cfcc": "A31",
+    "tiger:county": "Pierce, WA",
+    "tiger:name_base": "River",
+    "tiger:name_base_1": "State Route 167",
+    "tiger:name_direction_suffix": "E"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1354825220,
+   "bounds": {
+    "minlat": 47.2087217,
+    "minlon": -122.3296508,
+    "maxlat": 47.2088659,
+    "maxlon": -122.3291118
+   },
+   "geometry": [
+    {
+     "lat": 47.2088659,
+     "lon": -122.3296508
+    },
+    {
+     "lat": 47.2087217,
+     "lon": -122.3291118
+    }
+   ],
+   "tags": {
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "5",
+    "lanes:backward": "3",
+    "lanes:forward": "2",
+    "maxspeed": "50 mph",
+    "name": "River Road East",
+    "old_ref": "US 410",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "tiger:cfcc": "A31",
+    "tiger:county": "Pierce, WA",
+    "tiger:name_base": "River",
+    "tiger:name_base_1": "State Route 167",
+    "tiger:name_direction_suffix": "E",
+    "turn:lanes:backward": "left|none|none"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1355135266,
+   "bounds": {
+    "minlat": 47.20603,
+    "minlon": -122.32166,
+    "maxlat": 47.20674,
+    "maxlon": -122.31902
+   },
+   "geometry": [
+    {
+     "lat": 47.20674,
+     "lon": -122.32166
+    },
+    {
+     "lat": 47.2064389,
+     "lon": -122.3205405
+    },
+    {
+     "lat": 47.20603,
+     "lon": -122.31902
+    }
+   ],
+   "tags": {
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "4",
+    "lit": "yes",
+    "maxspeed": "35 mph",
+    "name": "River Road",
+    "old_ref": "US 410",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "tiger:cfcc": "A31",
+    "tiger:county": "Pierce, WA",
+    "tiger:name_base": "River",
+    "tiger:name_base_1": "State Route 167"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1355135267,
+   "bounds": {
+    "minlat": 47.205894,
+    "minlon": -122.31902,
+    "maxlat": 47.20603,
+    "maxlon": -122.3185075
+   },
+   "geometry": [
+    {
+     "lat": 47.20603,
+     "lon": -122.31902
+    },
+    {
+     "lat": 47.205894,
+     "lon": -122.3185075
+    }
+   ],
+   "tags": {
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "5",
+    "lanes:backward": "3",
+    "lanes:forward": "2",
+    "lit": "yes",
+    "maxspeed": "35 mph",
+    "name": "River Road",
+    "old_ref": "US 410",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt",
+    "tiger:cfcc": "A31",
+    "tiger:county": "Pierce, WA",
+    "tiger:name_base": "River",
+    "tiger:name_base_1": "State Route 167",
+    "turn:lanes:backward": "left|none|none"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1444321967,
+   "bounds": {
+    "minlat": 47.2012575,
+    "minlon": -122.2938166,
+    "maxlat": 47.2017641,
+    "maxlon": -122.2938114
+   },
+   "geometry": [
+    {
+     "lat": 47.2012575,
+     "lon": -122.2938166
+    },
+    {
+     "lat": 47.2016182,
+     "lon": -122.2938114
+    },
+    {
+     "lat": 47.2017641,
+     "lon": -122.2938158
+    }
+   ],
+   "tags": {
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "30 mph",
+    "name": "North Meridian",
+    "oneway": "yes",
+    "postal_code": "98371",
+    "ref": "SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1523776721,
+   "bounds": {
+    "minlat": 47.2464346,
+    "minlon": -122.3562101,
+    "maxlat": 47.252227,
+    "maxlon": -122.3458877
+   },
+   "geometry": [
+    {
+     "lat": 47.252227,
+     "lon": -122.3562101
+    },
+    {
+     "lat": 47.2519977,
+     "lon": -122.3538458
+    },
+    {
+     "lat": 47.2519679,
+     "lon": -122.3536129
+    },
+    {
+     "lat": 47.2519322,
+     "lon": -122.3533818
+    },
+    {
+     "lat": 47.2518926,
+     "lon": -122.3531631
+    },
+    {
+     "lat": 47.2518477,
+     "lon": -122.3529467
+    },
+    {
+     "lat": 47.2517975,
+     "lon": -122.3527327
+    },
+    {
+     "lat": 47.2517376,
+     "lon": -122.3525083
+    },
+    {
+     "lat": 47.2516711,
+     "lon": -122.3522879
+    },
+    {
+     "lat": 47.2515982,
+     "lon": -122.352072
+    },
+    {
+     "lat": 47.2515189,
+     "lon": -122.351861
+    },
+    {
+     "lat": 47.251407,
+     "lon": -122.3515832
+    },
+    {
+     "lat": 47.2512887,
+     "lon": -122.3513113
+    },
+    {
+     "lat": 47.2511639,
+     "lon": -122.3510456
+    },
+    {
+     "lat": 47.2510702,
+     "lon": -122.3508664
+    },
+    {
+     "lat": 47.2509725,
+     "lon": -122.350692
+    },
+    {
+     "lat": 47.2508708,
+     "lon": -122.3505226
+    },
+    {
+     "lat": 47.2507577,
+     "lon": -122.3503469
+    },
+    {
+     "lat": 47.2506404,
+     "lon": -122.3501773
+    },
+    {
+     "lat": 47.2505191,
+     "lon": -122.3500141
+    },
+    {
+     "lat": 47.2503938,
+     "lon": -122.3498574
+    },
+    {
+     "lat": 47.2502678,
+     "lon": -122.3497155
+    },
+    {
+     "lat": 47.2501373,
+     "lon": -122.3495831
+    },
+    {
+     "lat": 47.2500023,
+     "lon": -122.3494604
+    },
+    {
+     "lat": 47.2480177,
+     "lon": -122.3476473
+    },
+    {
+     "lat": 47.2477886,
+     "lon": -122.3474268
+    },
+    {
+     "lat": 47.2475626,
+     "lon": -122.3471993
+    },
+    {
+     "lat": 47.2473657,
+     "lon": -122.3469927
+    },
+    {
+     "lat": 47.2471715,
+     "lon": -122.3467808
+    },
+    {
+     "lat": 47.2469799,
+     "lon": -122.3465636
+    },
+    {
+     "lat": 47.2467948,
+     "lon": -122.3463442
+    },
+    {
+     "lat": 47.246613,
+     "lon": -122.3461188
+    },
+    {
+     "lat": 47.2464346,
+     "lon": -122.3458877
+    }
+   ],
+   "tags": {
+    "highway": "trunk",
+    "name": "State Route 167",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source": "https://wsdot.wa.gov/sites/default/files/2019/09/27/SR167-Environmental-ReEvaluation-Appendices.pdf",
+    "toll": "no"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1523946598,
+   "bounds": {
+    "minlat": 47.2434391,
+    "minlon": -122.3453821,
+    "maxlat": 47.2460604,
+    "maxlon": -122.3398013
+   },
+   "geometry": [
+    {
+     "lat": 47.2460604,
+     "lon": -122.3453821
+    },
+    {
+     "lat": 47.2458026,
+     "lon": -122.3450006
+    },
+    {
+     "lat": 47.2455506,
+     "lon": -122.344611
+    },
+    {
+     "lat": 47.2453424,
+     "lon": -122.3442759
+    },
+    {
+     "lat": 47.2451384,
+     "lon": -122.3439352
+    },
+    {
+     "lat": 47.2449388,
+     "lon": -122.3435891
+    },
+    {
+     "lat": 47.2447747,
+     "lon": -122.343316
+    },
+    {
+     "lat": 47.2446074,
+     "lon": -122.3430473
+    },
+    {
+     "lat": 47.2445341,
+     "lon": -122.3429357
+    },
+    {
+     "lat": 47.2444666,
+     "lon": -122.3428166
+    },
+    {
+     "lat": 47.2444052,
+     "lon": -122.3426905
+    },
+    {
+     "lat": 47.2443511,
+     "lon": -122.3425604
+    },
+    {
+     "lat": 47.2443035,
+     "lon": -122.342425
+    },
+    {
+     "lat": 47.2442626,
+     "lon": -122.3422848
+    },
+    {
+     "lat": 47.2442286,
+     "lon": -122.3421407
+    },
+    {
+     "lat": 47.2442017,
+     "lon": -122.3419608
+    },
+    {
+     "lat": 47.2441797,
+     "lon": -122.3418411
+    },
+    {
+     "lat": 47.244169,
+     "lon": -122.341783
+    },
+    {
+     "lat": 47.2441306,
+     "lon": -122.3416077
+    },
+    {
+     "lat": 47.2440866,
+     "lon": -122.3414353
+    },
+    {
+     "lat": 47.2440242,
+     "lon": -122.3412253
+    },
+    {
+     "lat": 47.2439534,
+     "lon": -122.3410212
+    },
+    {
+     "lat": 47.2438746,
+     "lon": -122.3408237
+    },
+    {
+     "lat": 47.243788,
+     "lon": -122.3406333
+    },
+    {
+     "lat": 47.2436671,
+     "lon": -122.3403532
+    },
+    {
+     "lat": 47.2435517,
+     "lon": -122.3400682
+    },
+    {
+     "lat": 47.2434391,
+     "lon": -122.3398013
+    }
+   ],
+   "tags": {
+    "highway": "trunk",
+    "name": "State Route 167",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source": "https://wsdot.wa.gov/sites/default/files/2019/09/27/SR167-Environmental-ReEvaluation-Appendices.pdf",
+    "toll": "no"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1558653792,
+   "bounds": {
+    "minlat": 47.2420986,
+    "minlon": -122.3372,
+    "maxlat": 47.242161,
+    "maxlon": -122.3370672
+   },
+   "geometry": [
+    {
+     "lat": 47.242161,
+     "lon": -122.3372
+    },
+    {
+     "lat": 47.2420986,
+     "lon": -122.3370672
+    }
+   ],
+   "tags": {
+    "highway": "trunk",
+    "name": "State Route 167",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source": "https://wsdot.wa.gov/sites/default/files/2019/09/27/SR167-Environmental-ReEvaluation-Appendices.pdf",
+    "toll": "no"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1558653793,
+   "bounds": {
+    "minlat": 47.244713,
+    "minlon": -122.3451864,
+    "maxlat": 47.2460895,
+    "maxlon": -122.3426905
+   },
+   "geometry": [
+    {
+     "lat": 47.244713,
+     "lon": -122.3426905
+    },
+    {
+     "lat": 47.2448225,
+     "lon": -122.3429495
+    },
+    {
+     "lat": 47.2449392,
+     "lon": -122.3432015
+    },
+    {
+     "lat": 47.2450631,
+     "lon": -122.3434461
+    },
+    {
+     "lat": 47.2451937,
+     "lon": -122.3436829
+    },
+    {
+     "lat": 47.2456871,
+     "lon": -122.3445225
+    },
+    {
+     "lat": 47.2460895,
+     "lon": -122.3451864
+    }
+   ],
+   "tags": {
+    "highway": "trunk",
+    "name": "State Route 167",
+    "oneway": "yes",
+    "ref": "SR 167",
+    "source": "https://wsdot.wa.gov/sites/default/files/2019/09/27/SR167-Environmental-ReEvaluation-Appendices.pdf",
+    "toll": "no"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1559231278,
+   "bounds": {
+    "minlat": 47.2026218,
+    "minlon": -122.2816046,
+    "maxlat": 47.2030453,
+    "maxlon": -122.2785756
+   },
+   "geometry": [
+    {
+     "lat": 47.2026218,
+     "lon": -122.2785756
+    },
+    {
+     "lat": 47.2030453,
+     "lon": -122.2816046
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "maxheight": "default",
+    "maxheight:signed": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "postal_code": "98390",
+    "ref": "SR 161;SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1559231279,
+   "bounds": {
+    "minlat": 47.2023091,
+    "minlon": -122.280061,
+    "maxlat": 47.2024871,
+    "maxlon": -122.2787693
+   },
+   "geometry": [
+    {
+     "lat": 47.2024871,
+     "lon": -122.280061
+    },
+    {
+     "lat": 47.2023091,
+     "lon": -122.2787693
+    }
+   ],
+   "tags": {
+    "bicycle": "yes",
+    "hgv": "designated",
+    "hgv:national_network": "yes",
+    "highway": "motorway",
+    "lanes": "1",
+    "maxheight": "default",
+    "maxheight:signed": "no",
+    "maxspeed": "60 mph",
+    "name": "Valley Freeway",
+    "oneway": "yes",
+    "ref": "SR 161;SR 167",
+    "source:hgv:national_network": "https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-658;https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map",
+    "surface": "asphalt"
+   }
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "schema_version": 1,
+ "source": "docs/data/trail-corridor.md sections 1-4, docs/data/gap-link-routes.json (OSM fetched 2026-09-15)",
+ "joins": [
+  {
+   "id": "A1",
+   "trail_a": "Sumner Link Trail",
+   "trail_b": "Riverwalk Trail",
+   "kind": "shared_osm_node",
+   "osm_node_id": 6486202530,
+   "point": [
+    47.1964871,
+    -122.2510719
+   ],
+   "gap_m": 0.0,
+   "evidence": "Sumner Link Trail south end == Riverwalk Trail east end in the shipped geometry (exact match); OSM node 6486202530 is shared."
+  },
+  {
+   "id": "A2",
+   "trail_a": "Sumner Link Trail",
+   "trail_b": "Lake Tapps Parkway Trail",
+   "kind": "shared_osm_node",
+   "osm_node_id": 2670828792,
+   "point": [
+    47.249982,
+    -122.237497
+   ],
+   "gap_m": 0.0,
+   "trail_a_end": "north",
+   "evidence": "OSM node 2670828792 is shared (Sumner Link way 261467897 / Lake Tapps way 261467941). The shipped simplified Lake Tapps polyline passes this node mid-line, so the app projects the node onto that polyline."
+  }
+ ],
+ "corridors": [
+  {
+   "id": "A",
+   "name": "Puyallup valley corridor",
+   "trails": [
+    "Lake Tapps Parkway Trail",
+    "Sumner Link Trail",
+    "Riverwalk Trail"
+   ],
+   "join_ids": [
+    "A2",
+    "A1"
+   ],
+   "one_way_km_shipped": 18.24,
+   "rideable_one_way_km": 15.87,
+   "note": "Continuous with 0 m road gaps. Rideable length excludes the 2.370 km Sumner Link segment closed to bicycles."
+  }
+ ],
+ "road_links": [
+  {
+   "id": "B1",
+   "trail_a": "Interurban Trail Edgewood",
+   "trail_b": "Interurban Trail Milton",
+   "straight_line_gap_m": 626.5,
+   "road_link_m": 914,
+   "d10_status": "not_compliant",
+   "reason": "Military Road East 118 m at 45 mph with no bicycle facility (grade E) and Enchanted Parkway South 470 m as highway=primary (a D10 never-E road class). Removing primary roads, roads >= 40 mph and footways leaves no path between the two trail ends.",
+   "source": "docs/data/trail-corridor.md section 4 (Corridor B)"
+  },
+  {
+   "id": "C1",
+   "trail_a": "Lake Tapps Parkway Trail",
+   "trail_b": "White River Trail",
+   "straight_line_gap_m": 1402.4,
+   "road_link_m": 1433,
+   "d10_status": "uncertain",
+   "reason": "618 m of East Valley Highway East carries no maxspeed in OSM and no bicycle facility, and 663 m of A Street Southeast is a 35 mph secondary with no facility (grade D, i.e. about 46% of the link, over the 10% D cap). docs/data/trail-corridor.md calls the link compliant but also names the 720 m of 35 mph road in its headline, so the app treats the link as NOT compliant until the rider's override table proves the speeds.",
+   "source": "docs/data/trail-corridor.md section 4 (Corridor A to White River Trail)"
+  }
+ ]
+}

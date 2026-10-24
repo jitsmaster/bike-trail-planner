@@ -1,0 +1,218 @@
+[
+ {
+  "dest": "SumnerLink/BridgeSt",
+  "rid": 9605518,
+  "node": 110713098,
+  "variants": {
+   "use_roads 0.0": [
+    5.867,
+    1092.5
+   ],
+   "use_roads 0.5": [
+    5.867,
+    1092.5
+   ],
+   "use_roads 1.0": [
+    5.867,
+    1092.5
+   ],
+   "bicycle_type city": [
+    5.867,
+    1092.5
+   ],
+   "bicycle_type road": [
+    5.867,
+    799.4
+   ],
+   "shortest true": [
+    5.731,
+    1079.9
+   ],
+   "default (no options)": [
+    5.867,
+    1092.5
+   ]
+  },
+  "unique_shapes": 2
+ },
+ {
+  "dest": "LakeTapps/west",
+  "rid": 9605519,
+  "node": 10900530370,
+  "variants": {
+   "use_roads 0.0": [
+    6.051,
+    1129.0
+   ],
+   "use_roads 0.5": [
+    6.051,
+    1129.0
+   ],
+   "use_roads 1.0": [
+    6.051,
+    1129.0
+   ],
+   "bicycle_type city": [
+    6.051,
+    1129.0
+   ],
+   "bicycle_type road": [
+    6.051,
+    825.9
+   ],
+   "shortest true": [
+    6.019,
+    1130.4
+   ],
+   "default (no options)": [
+    6.051,
+    1129.0
+   ]
+  },
+  "unique_shapes": 2
+ },
+ {
+  "dest": "WhiteRiver/west",
+  "rid": 3508527,
+  "node": 6313900974,
+  "variants": {
+   "use_roads 0.0": [
+    8.187,
+    1559.1
+   ],
+   "use_roads 0.5": [
+    8.187,
+    1559.1
+   ],
+   "use_roads 1.0": [
+    8.187,
+    1559.1
+   ],
+   "bicycle_type city": [
+    8.187,
+    1559.1
+   ],
+   "bicycle_type road": [
+    8.187,
+    1136.5
+   ],
+   "shortest true": [
+    8.156,
+    1559.9
+   ],
+   "default (no options)": [
+    8.187,
+    1559.1
+   ]
+  },
+  "unique_shapes": 2
+ },
+ {
+  "dest": "Riverwalk",
+  "rid": 9605517,
+  "node": 6486202530,
+  "variants": {
+   "use_roads 0.0": [
+    6.88,
+    1298.0
+   ],
+   "use_roads 0.5": [
+    6.88,
+    1298.0
+   ],
+   "use_roads 1.0": [
+    6.838,
+    1290.3
+   ],
+   "bicycle_type city": [
+    6.88,
+    1298.0
+   ],
+   "bicycle_type road": [
+    6.88,
+    951.3
+   ],
+   "shortest true": [
+    6.702,
+    1277.7
+   ],
+   "default (no options)": [
+    6.88,
+    1298.0
+   ]
+  },
+  "unique_shapes": 3
+ },
+ {
+  "dest": "InterurbanMilton",
+  "rid": 6554034,
+  "node": 3213531052,
+  "variants": {
+   "use_roads 0.0": [
+    5.425,
+    1032.4
+   ],
+   "use_roads 0.5": [
+    5.425,
+    1032.4
+   ],
+   "use_roads 1.0": [
+    5.425,
+    1032.4
+   ],
+   "bicycle_type city": [
+    5.425,
+    1032.4
+   ],
+   "bicycle_type road": [
+    5.425,
+    765.9
+   ],
+   "shortest true": [
+    5.425,
+    1032.4
+   ],
+   "default (no options)": [
+    5.425,
+    1032.4
+   ]
+  },
+  "unique_shapes": 1
+ },
+ {
+  "dest": "InterurbanEdgewood",
+  "rid": 8826064,
+  "node": 2646868507,
+  "variants": {
+   "use_roads 0.0": [
+    2.824,
+    529.2
+   ],
+   "use_roads 0.5": [
+    2.824,
+    529.2
+   ],
+   "use_roads 1.0": [
+    2.824,
+    529.2
+   ],
+   "bicycle_type city": [
+    2.824,
+    529.2
+   ],
+   "bicycle_type road": [
+    2.824,
+    386.4
+   ],
+   "shortest true": [
+    2.793,
+    530.1
+   ],
+   "default (no options)": [
+    2.824,
+    529.2
+   ]
+  },
+  "unique_shapes": 2
+ }
+]

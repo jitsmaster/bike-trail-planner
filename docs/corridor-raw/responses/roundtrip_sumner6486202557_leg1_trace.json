@@ -1,0 +1,1827 @@
+{
+ "units": "kilometers",
+ "edges": [
+  {
+   "shoulder": false,
+   "bicycle_network": 1,
+   "cycle_lane": "none",
+   "way_id": 759079447,
+   "surface": "compacted",
+   "unpaved": true,
+   "use": "footway",
+   "traversability": "both",
+   "end_shape_index": 1,
+   "begin_shape_index": 0,
+   "road_class": "service_other",
+   "speed": 14,
+   "length": 0.001,
+   "names": [
+    "Sumner Link Trail"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 1,
+   "cycle_lane": "none",
+   "way_id": 759079447,
+   "surface": "compacted",
+   "unpaved": true,
+   "use": "footway",
+   "traversability": "both",
+   "end_shape_index": 4,
+   "begin_shape_index": 1,
+   "road_class": "service_other",
+   "speed": 14,
+   "length": 0.011,
+   "names": [
+    "Sumner Link Trail"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 1,
+   "cycle_lane": "none",
+   "way_id": 759079446,
+   "surface": "paved",
+   "unpaved": false,
+   "use": "pedestrian_crossing",
+   "traversability": "both",
+   "end_shape_index": 5,
+   "begin_shape_index": 4,
+   "road_class": "service_other",
+   "speed": 18,
+   "length": 0.011,
+   "names": [
+    "Sumner Link Trail"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 98689245,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 6,
+   "begin_shape_index": 5,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.017,
+   "names": [
+    "Bridge Street"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 98689245,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 7,
+   "begin_shape_index": 6,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.009,
+   "names": [
+    "Bridge Street"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 98689245,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 8,
+   "begin_shape_index": 7,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.013,
+   "names": [
+    "Bridge Street"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 98689245,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 9,
+   "begin_shape_index": 8,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.009,
+   "names": [
+    "Bridge Street"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 98689247,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 12,
+   "begin_shape_index": 9,
+   "road_class": "secondary",
+   "speed": 22,
+   "length": 0.11,
+   "names": [
+    "Bridge Street"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12224093,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 15,
+   "begin_shape_index": 12,
+   "road_class": "secondary",
+   "speed": 12,
+   "length": 0.025,
+   "names": [
+    "Valley Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "dedicated",
+   "way_id": 261462315,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 19,
+   "begin_shape_index": 15,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.042,
+   "names": [
+    "Valley Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "dedicated",
+   "way_id": 261462315,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 20,
+   "begin_shape_index": 19,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.003,
+   "names": [
+    "Valley Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "dedicated",
+   "way_id": 261462315,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 21,
+   "begin_shape_index": 20,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.031,
+   "names": [
+    "Valley Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "dedicated",
+   "way_id": 261462315,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 22,
+   "begin_shape_index": 21,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.035,
+   "names": [
+    "Valley Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "dedicated",
+   "way_id": 261462315,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 23,
+   "begin_shape_index": 22,
+   "road_class": "secondary",
+   "speed": 18,
+   "length": 0.07,
+   "names": [
+    "Valley Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12239304,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 26,
+   "begin_shape_index": 23,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.068,
+   "names": [
+    "Sumner Heights Drive East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 1455332787,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 28,
+   "begin_shape_index": 26,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.022,
+   "names": [
+    "West Valley Highway East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 379479277,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 37,
+   "begin_shape_index": 28,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.127,
+   "names": [
+    "Sumner Heights Drive East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 379479277,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 38,
+   "begin_shape_index": 37,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.036,
+   "names": [
+    "Sumner Heights Drive East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12239303,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 43,
+   "begin_shape_index": 38,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.061,
+   "names": [
+    "Sumner Heights Drive East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12239303,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 91,
+   "begin_shape_index": 43,
+   "road_class": "tertiary",
+   "speed": 12,
+   "length": 0.619,
+   "names": [
+    "Sumner Heights Drive East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12239303,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 94,
+   "begin_shape_index": 91,
+   "road_class": "tertiary",
+   "speed": 14,
+   "length": 0.064,
+   "names": [
+    "Sumner Heights Drive East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12239303,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 96,
+   "begin_shape_index": 94,
+   "road_class": "tertiary",
+   "speed": 14,
+   "length": 0.044,
+   "names": [
+    "Sumner Heights Drive East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12239303,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 115,
+   "begin_shape_index": 96,
+   "road_class": "tertiary",
+   "speed": 14,
+   "length": 0.271,
+   "names": [
+    "Sumner Heights Drive East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12239303,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 122,
+   "begin_shape_index": 115,
+   "road_class": "tertiary",
+   "speed": 12,
+   "length": 0.113,
+   "names": [
+    "Sumner Heights Drive East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12239303,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 133,
+   "begin_shape_index": 122,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.146,
+   "names": [
+    "Sumner Heights Drive East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12239303,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 135,
+   "begin_shape_index": 133,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.034,
+   "names": [
+    "Sumner Heights Drive East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12239303,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 136,
+   "begin_shape_index": 135,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.012,
+   "names": [
+    "Sumner Heights Drive East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12239303,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 141,
+   "begin_shape_index": 136,
+   "road_class": "tertiary",
+   "speed": 14,
+   "length": 0.073,
+   "names": [
+    "Sumner Heights Drive East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12239303,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 148,
+   "begin_shape_index": 141,
+   "road_class": "tertiary",
+   "speed": 12,
+   "length": 0.12,
+   "names": [
+    "Sumner Heights Drive East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12239303,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 153,
+   "begin_shape_index": 148,
+   "road_class": "tertiary",
+   "speed": 12,
+   "length": 0.051,
+   "names": [
+    "Sumner Heights Drive East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12239303,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 154,
+   "begin_shape_index": 153,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.022,
+   "names": [
+    "Sumner Heights Drive East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12239303,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 164,
+   "begin_shape_index": 154,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.086,
+   "names": [
+    "Sumner Heights Drive East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12239303,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 165,
+   "begin_shape_index": 164,
+   "road_class": "tertiary",
+   "speed": 14,
+   "length": 0.046,
+   "names": [
+    "Sumner Heights Drive East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12239303,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 169,
+   "begin_shape_index": 165,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.068,
+   "names": [
+    "Sumner Heights Drive East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12238866,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 172,
+   "begin_shape_index": 169,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.079,
+   "names": [
+    "Edgewood Drive East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12243826,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 176,
+   "begin_shape_index": 172,
+   "road_class": "residential",
+   "speed": 22,
+   "length": 0.035,
+   "names": [
+    "127th Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12243826,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 178,
+   "begin_shape_index": 176,
+   "road_class": "residential",
+   "speed": 18,
+   "length": 0.1,
+   "names": [
+    "127th Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12243826,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 179,
+   "begin_shape_index": 178,
+   "road_class": "residential",
+   "speed": 22,
+   "length": 0.056,
+   "names": [
+    "127th Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12243826,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 180,
+   "begin_shape_index": 179,
+   "road_class": "residential",
+   "speed": 22,
+   "length": 0.045,
+   "names": [
+    "127th Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12243826,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 181,
+   "begin_shape_index": 180,
+   "road_class": "residential",
+   "speed": 22,
+   "length": 0.039,
+   "names": [
+    "127th Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12243826,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 182,
+   "begin_shape_index": 181,
+   "road_class": "residential",
+   "speed": 22,
+   "length": 0.02,
+   "names": [
+    "127th Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12243826,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 183,
+   "begin_shape_index": 182,
+   "road_class": "residential",
+   "speed": 25,
+   "length": 0.026,
+   "names": [
+    "127th Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12243826,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 184,
+   "begin_shape_index": 183,
+   "road_class": "residential",
+   "speed": 36,
+   "length": 0.046,
+   "names": [
+    "127th Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12243826,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 189,
+   "begin_shape_index": 184,
+   "road_class": "residential",
+   "speed": 36,
+   "length": 0.088,
+   "names": [
+    "127th Avenue East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12195633,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 195,
+   "begin_shape_index": 189,
+   "road_class": "residential",
+   "speed": 15,
+   "length": 0.139,
+   "names": [
+    "Caldwell Road East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12195633,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 197,
+   "begin_shape_index": 195,
+   "road_class": "residential",
+   "speed": 17,
+   "length": 0.065,
+   "names": [
+    "Caldwell Road East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12195633,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 201,
+   "begin_shape_index": 197,
+   "road_class": "residential",
+   "speed": 15,
+   "length": 0.055,
+   "names": [
+    "Caldwell Road East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12195633,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 211,
+   "begin_shape_index": 201,
+   "road_class": "residential",
+   "speed": 17,
+   "length": 0.19,
+   "names": [
+    "Caldwell Road East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12244301,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 212,
+   "begin_shape_index": 211,
+   "road_class": "residential",
+   "speed": 22,
+   "length": 0.048,
+   "names": [
+    "40th Street East"
+   ]
+  },
+  {
+   "speed_limit": 40,
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12244301,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 213,
+   "begin_shape_index": 212,
+   "road_class": "residential",
+   "speed": 22,
+   "length": 0.225,
+   "names": [
+    "40th Street East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 214,
+   "begin_shape_index": 213,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.072,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 216,
+   "begin_shape_index": 214,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.093,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 217,
+   "begin_shape_index": 216,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.006,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 218,
+   "begin_shape_index": 217,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.027,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 219,
+   "begin_shape_index": 218,
+   "road_class": "tertiary",
+   "speed": 15,
+   "length": 0.056,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 221,
+   "begin_shape_index": 219,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.079,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 222,
+   "begin_shape_index": 221,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.055,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 223,
+   "begin_shape_index": 222,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.016,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 225,
+   "begin_shape_index": 223,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.104,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 226,
+   "begin_shape_index": 225,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.062,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 227,
+   "begin_shape_index": 226,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.081,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 228,
+   "begin_shape_index": 227,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.007,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 229,
+   "begin_shape_index": 228,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.102,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 230,
+   "begin_shape_index": 229,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.051,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 231,
+   "begin_shape_index": 230,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.109,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 232,
+   "begin_shape_index": 231,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.014,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 233,
+   "begin_shape_index": 232,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.073,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 234,
+   "begin_shape_index": 233,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.011,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 235,
+   "begin_shape_index": 234,
+   "road_class": "tertiary",
+   "speed": 31,
+   "length": 0.101,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 236,
+   "begin_shape_index": 235,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.002,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 237,
+   "begin_shape_index": 236,
+   "road_class": "tertiary",
+   "speed": 31,
+   "length": 0.046,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 238,
+   "begin_shape_index": 237,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.048,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 239,
+   "begin_shape_index": 238,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.057,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 240,
+   "begin_shape_index": 239,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.05,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 241,
+   "begin_shape_index": 240,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.027,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 242,
+   "begin_shape_index": 241,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.139,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 243,
+   "begin_shape_index": 242,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.035,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 244,
+   "begin_shape_index": 243,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.007,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 245,
+   "begin_shape_index": 244,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.045,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 246,
+   "begin_shape_index": 245,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.053,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 247,
+   "begin_shape_index": 246,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.098,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 248,
+   "begin_shape_index": 247,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.015,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 249,
+   "begin_shape_index": 248,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.016,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 250,
+   "begin_shape_index": 249,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.015,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 251,
+   "begin_shape_index": 250,
+   "road_class": "tertiary",
+   "speed": 17,
+   "length": 0.058,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 252,
+   "begin_shape_index": 251,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.024,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 253,
+   "begin_shape_index": 252,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.026,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 254,
+   "begin_shape_index": 253,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.014,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 255,
+   "begin_shape_index": 254,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.035,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 256,
+   "begin_shape_index": 255,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.027,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 257,
+   "begin_shape_index": 256,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.071,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 258,
+   "begin_shape_index": 257,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.056,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 259,
+   "begin_shape_index": 258,
+   "road_class": "tertiary",
+   "speed": 18,
+   "length": 0.024,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 260,
+   "begin_shape_index": 259,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.051,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 261,
+   "begin_shape_index": 260,
+   "road_class": "tertiary",
+   "speed": 22,
+   "length": 0.02,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 12193741,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 262,
+   "begin_shape_index": 261,
+   "road_class": "tertiary",
+   "speed": 25,
+   "length": 0.048,
+   "names": [
+    "122nd Avenue East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 1372717282,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 265,
+   "begin_shape_index": 262,
+   "road_class": "residential",
+   "speed": 18,
+   "length": 0.099,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 1372717282,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "road",
+   "traversability": "both",
+   "end_shape_index": 276,
+   "begin_shape_index": 265,
+   "road_class": "residential",
+   "speed": 18,
+   "length": 0.181,
+   "names": [
+    "18th Street East"
+   ]
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 736260642,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "driveway",
+   "traversability": "both",
+   "end_shape_index": 279,
+   "begin_shape_index": 276,
+   "road_class": "service_other",
+   "speed": 15,
+   "length": 0.045
+  },
+  {
+   "shoulder": false,
+   "bicycle_network": 0,
+   "cycle_lane": "none",
+   "way_id": 736260642,
+   "surface": "paved_smooth",
+   "unpaved": false,
+   "use": "driveway",
+   "traversability": "both",
+   "end_shape_index": 280,
+   "begin_shape_index": 279,
+   "road_class": "service_other",
+   "speed": 15,
+   "length": 0.015,
+   "target_percent_along": 0.43
+  }
+ ],
+ "alternate_paths": []
+}

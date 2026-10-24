@@ -1,0 +1,45 @@
+{
+ "schema_version": 2,
+ "source": "docs/SPEC.md section 7b; docs/data/trails.json (bike_access_conflicts); OSM way 419747831",
+ "verified": "2026-09-15 against https://api.openstreetmap.org/api/0.6/way/419747831/history.json",
+ "recheck": "The app re-reads way/<id>.json when the rider taps Re-check trail data (data hygiene only). D15 records this closure as permanent, so the app never tells the rider it will reopen.",
+ "closures": [
+  {
+   "trail": "Sumner Link Trail",
+   "osm_way_id": 419747831,
+   "way_length_m": 2369.7,
+   "tags": {
+    "highway": "unclassified",
+    "name": "Sumner Link Trail",
+    "access": "no",
+    "bicycle": "no",
+    "foot": "no",
+    "segregated": "no"
+   },
+   "previous_tags": {
+    "highway": "cycleway",
+    "bicycle": "designated",
+    "foot": "designated",
+    "segregated": "no"
+   },
+   "closed_since": "2026-06-01",
+   "changeset": 183511084,
+   "changed_by": "fencebuilder2000",
+   "changeset_comment": "Updating to reflect closure",
+   "authority": "City of Sumner trail-closure notice (source=https://sumnerwa.gov/wp-content/uploads/2025/05/TrailClosed-2048x1225.png; notice dated May 2025)",
+   "checked_on": "2026-09-15",
+   "north_end": [
+    47.2355615,
+    -122.2366123
+   ],
+   "south_end": [
+    47.2184449,
+    -122.2311095
+   ],
+   "effect": "A bicycle trip between the two ends of this segment costs 3.383 km, of which 2.491 km is off-trail, including 2.032 km on 142nd Avenue East. Valhalla drops the way from the graph for every costing.",
+   "app_behaviour": "The planner never rides across it and never counts it as rideable trail mileage. It stops at the closure, routes the gap on roads with Valhalla, grades those roads, and continues on the far stub. Routing around it (measured: about 2.02 mi each way via 142nd Avenue East / Tacoma Avenue / 24th Street East) is the normal case, not an edge case. The OSM tags are still re-checked periodically as data hygiene, but no reopening is promised.",
+   "permanent": true,
+   "permanent_reason": "cut off by private property now (user, 2026-09-15); treated as a hard closure (D15)"
+  }
+ ]
+}

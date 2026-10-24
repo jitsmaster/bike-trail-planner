@@ -1,0 +1,1384 @@
+{
+ "data_freshness": {
+  "generated": "2026-09-15T21:45Z",
+  "fresh_overpass_mirror_used": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+  "osm3s.timestamp_osm_base_range": [
+   "2026-09-15T21:32:03Z",
+   "2026-09-15T21:44:04Z"
+  ],
+  "second_independent_source": "https://api.openstreetmap.org/api/0.6 (live OSM API, relation/<id>/full)",
+  "mirrors_rejected_as_stale": [
+   {
+    "host": "overpass.kumi.systems",
+    "timestamp_osm_base": "2026-06-01T08:52:28Z"
+   },
+   {
+    "host": "overpass.private.coffee",
+    "timestamp_osm_base": "2026-07-15T15:22:01Z"
+   }
+  ],
+  "note": "Every response used here was required to carry osm3s.timestamp_osm_base within 3 days of 2026-09-15T21:24Z. HTTP 200 alone was not accepted."
+ },
+ "method": "OSM road graph (Dijkstra, edge weight = length) built from way[\"highway\"] inside a 500 m padded bbox around each gap. Exact Overpass queries: docs/data/trail-corridor.md, Appendix A. 'shortest' = all highways except motorway/trunk/construction; 'd10_compliant' = additionally removes highway=primary/trunk/motorway, footway/steps/path and access=private ways, and any road with maxspeed >= 40 mph and no bicycle facility. Data: OpenStreetMap, fetched 2026-09-15.",
+ "corridor_a_joins": [
+  {
+   "trails": [
+    "Sumner Link Trail",
+    "Riverwalk Trail"
+   ],
+   "gap_m": 0.0,
+   "how": "shared OSM node",
+   "osm_node_id": 6486202530,
+   "lat": 47.1964871,
+   "lon": -122.2510719
+  },
+  {
+   "trails": [
+    "Sumner Link Trail",
+    "Lake Tapps Parkway Trail"
+   ],
+   "gap_m": 0.0,
+   "how": "shared OSM node",
+   "osm_node_id": 2670828792,
+   "lat": 47.249982,
+   "lon": -122.237497,
+   "via_ways": [
+    261467897,
+    261467941
+   ]
+  }
+ ],
+ "gaps": {
+  "edgewood_milton": {
+   "trail_a": "Interurban Trail Edgewood",
+   "trail_b": "Interurban Trail Milton",
+   "straight_line_gap_m": 626.5,
+   "closest_on_a": [
+    47.25835,
+    -122.293487
+   ],
+   "closest_on_b": [
+    47.261062,
+    -122.300768
+   ],
+   "shortest": {
+    "found": true,
+    "route_metres": 914,
+    "to_trail_a_m": 0.2,
+    "to_trail_b_m": 0.3,
+    "link_total_metres": 914,
+    "steps": [
+     {
+      "osm_way_id": 50697841,
+      "metres": 32,
+      "highway": "secondary",
+      "name": "Military Road East",
+      "maxspeed": "45 mph",
+      "surface": "asphalt",
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.25835,
+       -122.293487
+      ],
+      "end": [
+       47.258105,
+       -122.2937
+      ]
+     },
+     {
+      "osm_way_id": 702655126,
+      "metres": 19,
+      "highway": "secondary",
+      "name": "Military Road East",
+      "maxspeed": "45 mph",
+      "surface": "asphalt",
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.258105,
+       -122.2937
+      ],
+      "end": [
+       47.257977,
+       -122.29386
+      ]
+     },
+     {
+      "osm_way_id": 1183624634,
+      "metres": 67,
+      "highway": "secondary",
+      "name": "Military Road East",
+      "maxspeed": "45 mph",
+      "surface": "asphalt",
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.257977,
+       -122.29386
+      ],
+      "end": [
+       47.257604,
+       -122.294555
+      ]
+     },
+     {
+      "osm_way_id": 1223074956,
+      "metres": 14,
+      "highway": "footway",
+      "name": null,
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.257604,
+       -122.294555
+      ],
+      "end": [
+       47.257717,
+       -122.294639
+      ]
+     },
+     {
+      "osm_way_id": 1223074957,
+      "metres": 12,
+      "highway": "footway",
+      "name": null,
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.257717,
+       -122.294639
+      ],
+      "end": [
+       47.257676,
+       -122.294782
+      ]
+     },
+     {
+      "osm_way_id": 1183620085,
+      "metres": 470,
+      "highway": "primary",
+      "name": "Enchanted Parkway South",
+      "maxspeed": "45 mph",
+      "surface": "asphalt",
+      "bicycle": "designated",
+      "cycleway": "lane",
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.257676,
+       -122.294782
+      ],
+      "end": [
+       47.261458,
+       -122.297555
+      ]
+     },
+     {
+      "osm_way_id": 1183620084,
+      "metres": 37,
+      "highway": "primary_link",
+      "name": null,
+      "maxspeed": null,
+      "surface": "asphalt",
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": "1",
+      "access": null,
+      "start": [
+       47.261458,
+       -122.297555
+      ],
+      "end": [
+       47.261309,
+       -122.297981
+      ]
+     },
+     {
+      "osm_way_id": 1183620086,
+      "metres": 48,
+      "highway": "tertiary",
+      "name": "28th Avenue South",
+      "maxspeed": "35 mph",
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": "2",
+      "access": null,
+      "start": [
+       47.261309,
+       -122.297981
+      ],
+      "end": [
+       47.260874,
+       -122.297988
+      ]
+     },
+     {
+      "osm_way_id": 6420938,
+      "metres": 215,
+      "highway": "residential",
+      "name": "South 380th Street",
+      "maxspeed": "25 mph",
+      "surface": "asphalt",
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": "2",
+      "access": null,
+      "start": [
+       47.260874,
+       -122.297988
+      ],
+      "end": [
+       47.261063,
+       -122.300768
+      ]
+     }
+    ]
+   },
+   "d10_compliant": {
+    "found": false,
+    "reason": "no path",
+    "to_trail_a_m": 0.2,
+    "to_trail_b_m": 0.3,
+    "graph_nodes": 1665
+   }
+  },
+  "tapps_whiteriver": {
+   "trail_a": "Lake Tapps Parkway Trail",
+   "trail_b": "White River Trail",
+   "straight_line_gap_m": 1402.4,
+   "closest_on_a": [
+    47.252063,
+    -122.22883
+   ],
+   "closest_on_b": [
+    47.264746,
+    -122.229213
+   ],
+   "shortest": {
+    "found": true,
+    "route_metres": 1431,
+    "to_trail_a_m": 0.3,
+    "to_trail_b_m": 0.5,
+    "link_total_metres": 1432,
+    "steps": [
+     {
+      "osm_way_id": 1326182522,
+      "metres": 161,
+      "highway": "secondary",
+      "name": "East Valley Highway East",
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.252063,
+       -122.228831
+      ],
+      "end": [
+       47.253509,
+       -122.228941
+      ]
+     },
+     {
+      "osm_way_id": 1326182521,
+      "metres": 457,
+      "highway": "secondary",
+      "name": "East Valley Highway East",
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.253509,
+       -122.228941
+      ],
+      "end": [
+       47.257616,
+       -122.229226
+      ]
+     },
+     {
+      "osm_way_id": 687694010,
+      "metres": 419,
+      "highway": "secondary",
+      "name": "A Street Southeast",
+      "maxspeed": "35 mph",
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": "2",
+      "access": null,
+      "start": [
+       47.257616,
+       -122.229226
+      ],
+      "end": [
+       47.261382,
+       -122.229413
+      ]
+     },
+     {
+      "osm_way_id": 985052702,
+      "metres": 60,
+      "highway": "secondary",
+      "name": "A Street Southeast",
+      "maxspeed": "35 mph",
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": "3",
+      "access": null,
+      "start": [
+       47.261382,
+       -122.229413
+      ],
+      "end": [
+       47.261923,
+       -122.229439
+      ]
+     },
+     {
+      "osm_way_id": 906076284,
+      "metres": 43,
+      "highway": "secondary_link",
+      "name": null,
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.261923,
+       -122.229439
+      ],
+      "end": [
+       47.262287,
+       -122.229313
+      ]
+     },
+     {
+      "osm_way_id": 1452260032,
+      "metres": 18,
+      "highway": "footway",
+      "name": null,
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.262287,
+       -122.229313
+      ],
+      "end": [
+       47.262453,
+       -122.229313
+      ]
+     },
+     {
+      "osm_way_id": 1452260031,
+      "metres": 4,
+      "highway": "footway",
+      "name": null,
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.262453,
+       -122.229313
+      ],
+      "end": [
+       47.262489,
+       -122.229313
+      ]
+     },
+     {
+      "osm_way_id": 1452260030,
+      "metres": 6,
+      "highway": "footway",
+      "name": null,
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.262489,
+       -122.229313
+      ],
+      "end": [
+       47.262538,
+       -122.229277
+      ]
+     },
+     {
+      "osm_way_id": 1452260029,
+      "metres": 174,
+      "highway": "footway",
+      "name": null,
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.262538,
+       -122.229277
+      ],
+      "end": [
+       47.264088,
+       -122.229508
+      ]
+     },
+     {
+      "osm_way_id": 674202154,
+      "metres": 88,
+      "highway": "service",
+      "name": null,
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.264088,
+       -122.229508
+      ],
+      "end": [
+       47.264747,
+       -122.229213
+      ]
+     }
+    ]
+   },
+   "d10_compliant": {
+    "found": true,
+    "route_metres": 1432,
+    "to_trail_a_m": 0.3,
+    "to_trail_b_m": 0.5,
+    "link_total_metres": 1433,
+    "steps": [
+     {
+      "osm_way_id": 1326182522,
+      "metres": 161,
+      "highway": "secondary",
+      "name": "East Valley Highway East",
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.252063,
+       -122.228831
+      ],
+      "end": [
+       47.253509,
+       -122.228941
+      ]
+     },
+     {
+      "osm_way_id": 1326182521,
+      "metres": 457,
+      "highway": "secondary",
+      "name": "East Valley Highway East",
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.253509,
+       -122.228941
+      ],
+      "end": [
+       47.257616,
+       -122.229226
+      ]
+     },
+     {
+      "osm_way_id": 687694010,
+      "metres": 419,
+      "highway": "secondary",
+      "name": "A Street Southeast",
+      "maxspeed": "35 mph",
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": "2",
+      "access": null,
+      "start": [
+       47.257616,
+       -122.229226
+      ],
+      "end": [
+       47.261382,
+       -122.229413
+      ]
+     },
+     {
+      "osm_way_id": 985052702,
+      "metres": 60,
+      "highway": "secondary",
+      "name": "A Street Southeast",
+      "maxspeed": "35 mph",
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": "3",
+      "access": null,
+      "start": [
+       47.261382,
+       -122.229413
+      ],
+      "end": [
+       47.261923,
+       -122.229439
+      ]
+     },
+     {
+      "osm_way_id": 985052701,
+      "metres": 45,
+      "highway": "secondary",
+      "name": "A Street Southeast",
+      "maxspeed": "35 mph",
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": "3",
+      "access": null,
+      "start": [
+       47.261923,
+       -122.229439
+      ],
+      "end": [
+       47.26233,
+       -122.229463
+      ]
+     },
+     {
+      "osm_way_id": 906076285,
+      "metres": 10,
+      "highway": "secondary",
+      "name": "A Street Southeast",
+      "maxspeed": "35 mph",
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.26233,
+       -122.229463
+      ],
+      "end": [
+       47.262422,
+       -122.229468
+      ]
+     },
+     {
+      "osm_way_id": 687694008,
+      "metres": 59,
+      "highway": "secondary",
+      "name": "A Street Southeast",
+      "maxspeed": "35 mph",
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": "4",
+      "access": null,
+      "start": [
+       47.262422,
+       -122.229468
+      ],
+      "end": [
+       47.26295,
+       -122.2295
+      ]
+     },
+     {
+      "osm_way_id": 1086889099,
+      "metres": 88,
+      "highway": "secondary",
+      "name": "A Street Southeast",
+      "maxspeed": "35 mph",
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": "4",
+      "access": null,
+      "start": [
+       47.26295,
+       -122.2295
+      ],
+      "end": [
+       47.263739,
+       -122.229583
+      ]
+     },
+     {
+      "osm_way_id": 1086889100,
+      "metres": 39,
+      "highway": "secondary",
+      "name": "A Street Southeast",
+      "maxspeed": "35 mph",
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": "2",
+      "access": null,
+      "start": [
+       47.263739,
+       -122.229583
+      ],
+      "end": [
+       47.264086,
+       -122.229569
+      ]
+     },
+     {
+      "osm_way_id": 674202154,
+      "metres": 93,
+      "highway": "service",
+      "name": null,
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.264086,
+       -122.229569
+      ],
+      "end": [
+       47.264747,
+       -122.229213
+      ]
+     }
+    ]
+   }
+  },
+  "sumnerlink_whiteriver": {
+   "trail_a": "Sumner Link Trail",
+   "trail_b": "White River Trail",
+   "straight_line_gap_m": 1733.4,
+   "closest_on_a": [
+    47.250099,
+    -122.237503
+   ],
+   "closest_on_b": [
+    47.264762,
+    -122.229372
+   ],
+   "shortest": {
+    "found": true,
+    "route_metres": 2176,
+    "to_trail_a_m": 0.2,
+    "to_trail_b_m": 0.3,
+    "link_total_metres": 2176,
+    "steps": [
+     {
+      "osm_way_id": 1437032024,
+      "metres": 11,
+      "highway": "secondary",
+      "name": "Stewart Road",
+      "maxspeed": null,
+      "surface": "asphalt",
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": "5",
+      "access": null,
+      "start": [
+       47.250099,
+       -122.237503
+      ],
+      "end": [
+       47.250099,
+       -122.237362
+      ]
+     },
+     {
+      "osm_way_id": 228600431,
+      "metres": 92,
+      "highway": "secondary",
+      "name": "Stewart Road",
+      "maxspeed": null,
+      "surface": "asphalt",
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": "5",
+      "access": null,
+      "start": [
+       47.250099,
+       -122.237362
+      ],
+      "end": [
+       47.250118,
+       -122.236148
+      ]
+     },
+     {
+      "osm_way_id": 973982375,
+      "metres": 14,
+      "highway": "service",
+      "name": null,
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": "private",
+      "start": [
+       47.250118,
+       -122.236148
+      ],
+      "end": [
+       47.250244,
+       -122.236158
+      ]
+     },
+     {
+      "osm_way_id": 1005421370,
+      "metres": 86,
+      "highway": "footway",
+      "name": null,
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.250244,
+       -122.236158
+      ],
+      "end": [
+       47.25033,
+       -122.23502
+      ]
+     },
+     {
+      "osm_way_id": 261467941,
+      "metres": 471,
+      "highway": "cycleway",
+      "name": "Lake Tapps Parkway Trail",
+      "maxspeed": null,
+      "surface": "concrete",
+      "bicycle": "designated",
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.25033,
+       -122.23502
+      ],
+      "end": [
+       47.251755,
+       -122.229398
+      ]
+     },
+     {
+      "osm_way_id": 759075987,
+      "metres": 24,
+      "highway": "cycleway",
+      "name": "Lake Tapps Parkway Trail",
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": "designated",
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.251755,
+       -122.229398
+      ],
+      "end": [
+       47.251761,
+       -122.229086
+      ]
+     },
+     {
+      "osm_way_id": 759075986,
+      "metres": 49,
+      "highway": "cycleway",
+      "name": "Lake Tapps Parkway Trail",
+      "maxspeed": null,
+      "surface": "asphalt",
+      "bicycle": "designated",
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.251761,
+       -122.229086
+      ],
+      "end": [
+       47.252063,
+       -122.228831
+      ]
+     },
+     {
+      "osm_way_id": 1326182522,
+      "metres": 161,
+      "highway": "secondary",
+      "name": "East Valley Highway East",
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.252063,
+       -122.228831
+      ],
+      "end": [
+       47.253509,
+       -122.228941
+      ]
+     },
+     {
+      "osm_way_id": 1326182521,
+      "metres": 457,
+      "highway": "secondary",
+      "name": "East Valley Highway East",
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.253509,
+       -122.228941
+      ],
+      "end": [
+       47.257616,
+       -122.229226
+      ]
+     },
+     {
+      "osm_way_id": 687694010,
+      "metres": 419,
+      "highway": "secondary",
+      "name": "A Street Southeast",
+      "maxspeed": "35 mph",
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": "2",
+      "access": null,
+      "start": [
+       47.257616,
+       -122.229226
+      ],
+      "end": [
+       47.261382,
+       -122.229413
+      ]
+     },
+     {
+      "osm_way_id": 985052702,
+      "metres": 60,
+      "highway": "secondary",
+      "name": "A Street Southeast",
+      "maxspeed": "35 mph",
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": "3",
+      "access": null,
+      "start": [
+       47.261382,
+       -122.229413
+      ],
+      "end": [
+       47.261923,
+       -122.229439
+      ]
+     },
+     {
+      "osm_way_id": 906076284,
+      "metres": 43,
+      "highway": "secondary_link",
+      "name": null,
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.261923,
+       -122.229439
+      ],
+      "end": [
+       47.262287,
+       -122.229313
+      ]
+     },
+     {
+      "osm_way_id": 1452260032,
+      "metres": 18,
+      "highway": "footway",
+      "name": null,
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.262287,
+       -122.229313
+      ],
+      "end": [
+       47.262453,
+       -122.229313
+      ]
+     },
+     {
+      "osm_way_id": 1452260031,
+      "metres": 4,
+      "highway": "footway",
+      "name": null,
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.262453,
+       -122.229313
+      ],
+      "end": [
+       47.262489,
+       -122.229313
+      ]
+     },
+     {
+      "osm_way_id": 1452260030,
+      "metres": 6,
+      "highway": "footway",
+      "name": null,
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.262489,
+       -122.229313
+      ],
+      "end": [
+       47.262538,
+       -122.229277
+      ]
+     },
+     {
+      "osm_way_id": 1452260029,
+      "metres": 249,
+      "highway": "footway",
+      "name": null,
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.262538,
+       -122.229277
+      ],
+      "end": [
+       47.264762,
+       -122.229537
+      ]
+     },
+     {
+      "osm_way_id": 947658197,
+      "metres": 12,
+      "highway": "footway",
+      "name": null,
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.264762,
+       -122.229537
+      ],
+      "end": [
+       47.264762,
+       -122.229372
+      ]
+     }
+    ]
+   },
+   "d10_compliant": {
+    "found": true,
+    "route_metres": 2192,
+    "to_trail_a_m": 0.2,
+    "to_trail_b_m": 0.3,
+    "link_total_metres": 2192,
+    "steps": [
+     {
+      "osm_way_id": 1437032024,
+      "metres": 11,
+      "highway": "secondary",
+      "name": "Stewart Road",
+      "maxspeed": null,
+      "surface": "asphalt",
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": "5",
+      "access": null,
+      "start": [
+       47.250099,
+       -122.237503
+      ],
+      "end": [
+       47.250099,
+       -122.237362
+      ]
+     },
+     {
+      "osm_way_id": 228600431,
+      "metres": 179,
+      "highway": "secondary",
+      "name": "Stewart Road",
+      "maxspeed": null,
+      "surface": "asphalt",
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": "5",
+      "access": null,
+      "start": [
+       47.250099,
+       -122.237362
+      ],
+      "end": [
+       47.2502,
+       -122.234991
+      ]
+     },
+     {
+      "osm_way_id": 261467941,
+      "metres": 485,
+      "highway": "cycleway",
+      "name": "Lake Tapps Parkway Trail",
+      "maxspeed": null,
+      "surface": "concrete",
+      "bicycle": "designated",
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.2502,
+       -122.234991
+      ],
+      "end": [
+       47.251755,
+       -122.229398
+      ]
+     },
+     {
+      "osm_way_id": 759075987,
+      "metres": 24,
+      "highway": "cycleway",
+      "name": "Lake Tapps Parkway Trail",
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": "designated",
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.251755,
+       -122.229398
+      ],
+      "end": [
+       47.251761,
+       -122.229086
+      ]
+     },
+     {
+      "osm_way_id": 759075986,
+      "metres": 49,
+      "highway": "cycleway",
+      "name": "Lake Tapps Parkway Trail",
+      "maxspeed": null,
+      "surface": "asphalt",
+      "bicycle": "designated",
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.251761,
+       -122.229086
+      ],
+      "end": [
+       47.252063,
+       -122.228831
+      ]
+     },
+     {
+      "osm_way_id": 1326182522,
+      "metres": 161,
+      "highway": "secondary",
+      "name": "East Valley Highway East",
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.252063,
+       -122.228831
+      ],
+      "end": [
+       47.253509,
+       -122.228941
+      ]
+     },
+     {
+      "osm_way_id": 1326182521,
+      "metres": 457,
+      "highway": "secondary",
+      "name": "East Valley Highway East",
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.253509,
+       -122.228941
+      ],
+      "end": [
+       47.257616,
+       -122.229226
+      ]
+     },
+     {
+      "osm_way_id": 687694010,
+      "metres": 419,
+      "highway": "secondary",
+      "name": "A Street Southeast",
+      "maxspeed": "35 mph",
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": "2",
+      "access": null,
+      "start": [
+       47.257616,
+       -122.229226
+      ],
+      "end": [
+       47.261382,
+       -122.229413
+      ]
+     },
+     {
+      "osm_way_id": 985052702,
+      "metres": 60,
+      "highway": "secondary",
+      "name": "A Street Southeast",
+      "maxspeed": "35 mph",
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": "3",
+      "access": null,
+      "start": [
+       47.261382,
+       -122.229413
+      ],
+      "end": [
+       47.261923,
+       -122.229439
+      ]
+     },
+     {
+      "osm_way_id": 985052701,
+      "metres": 45,
+      "highway": "secondary",
+      "name": "A Street Southeast",
+      "maxspeed": "35 mph",
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": "3",
+      "access": null,
+      "start": [
+       47.261923,
+       -122.229439
+      ],
+      "end": [
+       47.26233,
+       -122.229463
+      ]
+     },
+     {
+      "osm_way_id": 906076285,
+      "metres": 10,
+      "highway": "secondary",
+      "name": "A Street Southeast",
+      "maxspeed": "35 mph",
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.26233,
+       -122.229463
+      ],
+      "end": [
+       47.262422,
+       -122.229468
+      ]
+     },
+     {
+      "osm_way_id": 687694008,
+      "metres": 59,
+      "highway": "secondary",
+      "name": "A Street Southeast",
+      "maxspeed": "35 mph",
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": "4",
+      "access": null,
+      "start": [
+       47.262422,
+       -122.229468
+      ],
+      "end": [
+       47.26295,
+       -122.2295
+      ]
+     },
+     {
+      "osm_way_id": 1086889099,
+      "metres": 88,
+      "highway": "secondary",
+      "name": "A Street Southeast",
+      "maxspeed": "35 mph",
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": "4",
+      "access": null,
+      "start": [
+       47.26295,
+       -122.2295
+      ],
+      "end": [
+       47.263739,
+       -122.229583
+      ]
+     },
+     {
+      "osm_way_id": 1086889100,
+      "metres": 39,
+      "highway": "secondary",
+      "name": "A Street Southeast",
+      "maxspeed": "35 mph",
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": "2",
+      "access": null,
+      "start": [
+       47.263739,
+       -122.229583
+      ],
+      "end": [
+       47.264086,
+       -122.229569
+      ]
+     },
+     {
+      "osm_way_id": 674202154,
+      "metres": 93,
+      "highway": "service",
+      "name": null,
+      "maxspeed": null,
+      "surface": null,
+      "bicycle": null,
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.264086,
+       -122.229569
+      ],
+      "end": [
+       47.264747,
+       -122.229213
+      ]
+     },
+     {
+      "osm_way_id": 1283869863,
+      "metres": 12,
+      "highway": "cycleway",
+      "name": "White River Trail",
+      "maxspeed": null,
+      "surface": "asphalt",
+      "bicycle": "designated",
+      "cycleway": null,
+      "lanes": null,
+      "access": null,
+      "start": [
+       47.264747,
+       -122.229213
+      ],
+      "end": [
+       47.264762,
+       -122.229372
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "home": {
+    "lat": 47.240371,
+    "lon": -122.262019,
+    "label": "Home \u2014 12424 18th St E, Edgewood, WA 98372"
+  },
+  "planner": {
+    "origin_warn_km": 0.5,
+    "d_cap_share": 1.0,
+    "d_cap_miles": 1.1,
+    "unverified_ungraded_share": 0.5,
+    "max_waypoints": 9,
+    "max_url_length": 2048,
+    "access_points_per_trail": 6,
+    "min_trail_miles": 0.25,
+    "detour_accept_factor": 1.4,
+    "detour_max_factor": 1.8,
+    "detour_bands": [
+      0.0,
+      0.25,
+      0.4,
+      0.8
+    ],
+    "trail_floor_miles": 2.0,
+    "detour_access_points_per_trail": 4,
+    "max_via_candidates": 8,
+    "quiet_share_target": 0.35,
+    "max_quiet_evals": 6,
+    "quiet_max_vias": 2,
+    "quiet_busy_floor_m": 300.0,
+    "prefer_loop": true,
+    "loop_max_extra_km": 5.0,
+    "loop_via_offsets_m": [500.0, 1000.0, 1336.0, 2000.0, 3000.0],
+    "loop_max_candidates": 6,
+    "loop_max_quiet_vias": 2,
+    "trail_radius_km": 10.0,
+    "traffic_coverage_km": 15.0,
+    "max_fix_age_s": 60,
+    "max_fix_accuracy_m": 50.0
+  },
+  "notes": "Single source for the home origin and the planner thresholds. See docs/SPEC.md sections 6-8 and 7c (D13)."
+}

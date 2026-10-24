@@ -1,0 +1,961 @@
+[
+ {
+  "name": "Lake Tapps Parkway Trail",
+  "osm_relation_id": 9605519,
+  "osm_url": "https://www.openstreetmap.org/relation/9605519",
+  "length_km": 3.016,
+  "rideable_length_km": 3.016,
+  "surface": [
+   "(untagged)",
+   "asphalt",
+   "concrete"
+  ],
+  "surface_m": {
+   "(untagged)": 23.6,
+   "asphalt": 1995.6,
+   "concrete": 996.9
+  },
+  "paved": true,
+  "loop": false,
+  "geometry": [
+   [
+    47.24532,
+    -122.20951
+   ],
+   [
+    47.24443,
+    -122.21174
+   ],
+   [
+    47.24403,
+    -122.21445
+   ],
+   [
+    47.24418,
+    -122.21672
+   ],
+   [
+    47.24514,
+    -122.22104
+   ],
+   [
+    47.24566,
+    -122.22204
+   ],
+   [
+    47.24906,
+    -122.22588
+   ],
+   [
+    47.25012,
+    -122.22695
+   ],
+   [
+    47.25134,
+    -122.22698
+   ],
+   [
+    47.25179,
+    -122.22748
+   ],
+   [
+    47.25202,
+    -122.22818
+   ],
+   [
+    47.25205,
+    -122.22901
+   ],
+   [
+    47.25177,
+    -122.22905
+   ],
+   [
+    47.25148,
+    -122.23076
+   ],
+   [
+    47.25111,
+    -122.23107
+   ],
+   [
+    47.25041,
+    -122.23493
+   ],
+   [
+    47.25011,
+    -122.23495
+   ],
+   [
+    47.24997,
+    -122.23652
+   ],
+   [
+    47.24999,
+    -122.24158
+   ]
+  ],
+  "endpoints": [
+   [
+    47.24532,
+    -122.20951
+   ],
+   [
+    47.24999,
+    -122.24158
+   ]
+  ],
+  "nearest_distance_from_home_km": 1.88,
+  "farthest_distance_from_home_km": 4.01,
+  "member_way_count": 3,
+  "geometry_gaps": [],
+  "bike_access_conflicts": [],
+  "verified": true,
+  "notes": "All 3 member ways are named \"Lake Tapps Parkway Trail\". 23.6 m (way 759075987) has no surface tag."
+ },
+ {
+  "name": "Sumner Link Trail",
+  "osm_relation_id": 9605518,
+  "osm_url": "https://www.openstreetmap.org/relation/9605518",
+  "length_km": 8.46,
+  "rideable_length_km": 6.09,
+  "surface": [
+   "(untagged)",
+   "asphalt",
+   "concrete",
+   "metal_grid",
+   "paved"
+  ],
+  "surface_m": {
+   "(untagged)": 2581.5,
+   "asphalt": 5521.5,
+   "concrete": 172.3,
+   "metal_grid": 49.0,
+   "paved": 135.6
+  },
+  "paved": true,
+  "loop": false,
+  "geometry": [
+   [
+    47.2501,
+    -122.2375
+   ],
+   [
+    47.24698,
+    -122.23751
+   ],
+   [
+    47.24614,
+    -122.23847
+   ],
+   [
+    47.24596,
+    -122.23848
+   ],
+   [
+    47.24583,
+    -122.23626
+   ],
+   [
+    47.24554,
+    -122.23549
+   ],
+   [
+    47.24494,
+    -122.23476
+   ],
+   [
+    47.24478,
+    -122.23476
+   ],
+   [
+    47.24429,
+    -122.23569
+   ],
+   [
+    47.24395,
+    -122.23581
+   ],
+   [
+    47.2428,
+    -122.23556
+   ],
+   [
+    47.24054,
+    -122.23454
+   ],
+   [
+    47.23828,
+    -122.23458
+   ],
+   [
+    47.23702,
+    -122.2361
+   ],
+   [
+    47.2358,
+    -122.23657
+   ],
+   [
+    47.23556,
+    -122.23717
+   ],
+   [
+    47.23552,
+    -122.2339
+   ],
+   [
+    47.23356,
+    -122.23166
+   ],
+   [
+    47.23302,
+    -122.23134
+   ],
+   [
+    47.23109,
+    -122.23083
+   ],
+   [
+    47.22852,
+    -122.23066
+   ],
+   [
+    47.22834,
+    -122.23047
+   ],
+   [
+    47.22822,
+    -122.22924
+   ],
+   [
+    47.22811,
+    -122.22934
+   ],
+   [
+    47.22812,
+    -122.23043
+   ],
+   [
+    47.22801,
+    -122.23075
+   ],
+   [
+    47.2249,
+    -122.23205
+   ],
+   [
+    47.22266,
+    -122.23368
+   ],
+   [
+    47.22195,
+    -122.23314
+   ],
+   [
+    47.22092,
+    -122.23149
+   ],
+   [
+    47.21999,
+    -122.23083
+   ],
+   [
+    47.21921,
+    -122.23062
+   ],
+   [
+    47.21837,
+    -122.23125
+   ],
+   [
+    47.21749,
+    -122.23397
+   ],
+   [
+    47.21708,
+    -122.23671
+   ],
+   [
+    47.21651,
+    -122.2386
+   ],
+   [
+    47.21566,
+    -122.23908
+   ],
+   [
+    47.21412,
+    -122.24071
+   ],
+   [
+    47.21324,
+    -122.24092
+   ],
+   [
+    47.21313,
+    -122.24128
+   ],
+   [
+    47.2119,
+    -122.24222
+   ],
+   [
+    47.20743,
+    -122.24215
+   ],
+   [
+    47.2039,
+    -122.24403
+   ],
+   [
+    47.20351,
+    -122.2443
+   ],
+   [
+    47.2035,
+    -122.24451
+   ],
+   [
+    47.20318,
+    -122.24453
+   ],
+   [
+    47.20229,
+    -122.24781
+   ],
+   [
+    47.20229,
+    -122.24952
+   ],
+   [
+    47.20212,
+    -122.2503
+   ],
+   [
+    47.20139,
+    -122.25208
+   ],
+   [
+    47.20052,
+    -122.25359
+   ],
+   [
+    47.19964,
+    -122.25616
+   ],
+   [
+    47.19926,
+    -122.25598
+   ],
+   [
+    47.19811,
+    -122.25241
+   ],
+   [
+    47.19744,
+    -122.25106
+   ],
+   [
+    47.19749,
+    -122.25002
+   ],
+   [
+    47.19649,
+    -122.25107
+   ]
+  ],
+  "endpoints": [
+   [
+    47.2501,
+    -122.2375
+   ],
+   [
+    47.19649,
+    -122.25107
+   ]
+  ],
+  "nearest_distance_from_home_km": 1.88,
+  "farthest_distance_from_home_km": 4.92,
+  "member_way_count": 42,
+  "geometry_gaps": [],
+  "bike_access_conflicts": [
+   {
+    "osm_way_id": 419747831,
+    "length_m": 2369.7,
+    "highway": "unclassified",
+    "name": "Sumner Link Trail",
+    "tags": {
+     "access": "no",
+     "bicycle": "no",
+     "foot": "no",
+     "highway": "unclassified"
+    }
+   }
+  ],
+  "verified": false,
+  "notes": "OSM relation is a ROUTE, not a single trail: 35 of its 42 member ways are named \"Sumner Link Trail\", 5 are named \"Fryar Avenue\" (highway=tertiary, maxspeed=25 mph, cycleway=lane) and 2 are unnamed connectors. 2.370 km of it (OSM way 419747831, highway=unclassified, access=no, bicycle=no, foot=no) runs along the White River and is closed to bicycles. OSM way history for 419747831: it was highway=cycleway with bicycle=designated from 2016-05-20 to 2025-09-28, and was retagged to access=no/bicycle=no/foot=no plus highway=unclassified on 2026-06-01T17:33:17Z (v7, user fencebuilder2000) with its node geometry unchanged - so a designated cycleway of ten years standing was deliberately closed in June 2026, and the relation (last edited 2025-09-29) still routes over it. The 18.8 km figure previously recorded for this trail was a measurement artifact - see trail-corridor.md. 2.581 km of the shipped line carries no surface tag. Re-verified against fresh OpenStreetMap data on 2026-09-15."
+ },
+ {
+  "name": "Interurban Trail Edgewood",
+  "osm_relation_id": 8826064,
+  "osm_url": "https://www.openstreetmap.org/relation/8826064",
+  "length_km": 1.33,
+  "rideable_length_km": 1.33,
+  "surface": [
+   "asphalt"
+  ],
+  "surface_m": {
+   "asphalt": 1330.2
+  },
+  "paved": true,
+  "loop": false,
+  "geometry": [
+   [
+    47.25607,
+    -122.27733
+   ],
+   [
+    47.25556,
+    -122.2794
+   ],
+   [
+    47.25541,
+    -122.2812
+   ],
+   [
+    47.25596,
+    -122.28844
+   ],
+   [
+    47.2563,
+    -122.28989
+   ],
+   [
+    47.25692,
+    -122.29109
+   ],
+   [
+    47.25829,
+    -122.29304
+   ],
+   [
+    47.25835,
+    -122.29349
+   ]
+  ],
+  "endpoints": [
+   [
+    47.25607,
+    -122.27733
+   ],
+   [
+    47.25835,
+    -122.29349
+   ]
+  ],
+  "nearest_distance_from_home_km": 2.09,
+  "farthest_distance_from_home_km": 3.1,
+  "member_way_count": 3,
+  "geometry_gaps": [],
+  "bike_access_conflicts": [],
+  "verified": true,
+  "notes": "Relation name is \"Interurban Trail Edgewood\"; all 3 member ways are named \"Interurban Trail\". Fully continuous, uniformly asphalt."
+ },
+ {
+  "name": "White River Trail",
+  "osm_relation_id": 3508527,
+  "osm_url": "https://www.openstreetmap.org/relation/3508527",
+  "length_km": 3.8,
+  "rideable_length_km": 3.8,
+  "surface": [
+   "asphalt"
+  ],
+  "surface_m": {
+   "asphalt": 3799.9
+  },
+  "paved": true,
+  "loop": false,
+  "geometry": [
+   [
+    47.26475,
+    -122.22921
+   ],
+   [
+    47.26492,
+    -122.2295
+   ],
+   [
+    47.2657,
+    -122.22951
+   ],
+   [
+    47.2667,
+    -122.22658
+   ],
+   [
+    47.26697,
+    -122.22547
+   ],
+   [
+    47.26694,
+    -122.22498
+   ],
+   [
+    47.26725,
+    -122.22437
+   ],
+   [
+    47.26789,
+    -122.22378
+   ],
+   [
+    47.26863,
+    -122.22349
+   ],
+   [
+    47.27008,
+    -122.22161
+   ],
+   [
+    47.27048,
+    -122.22082
+   ],
+   [
+    47.27074,
+    -122.22068
+   ],
+   [
+    47.27096,
+    -122.2201
+   ],
+   [
+    47.27159,
+    -122.21952
+   ],
+   [
+    47.27266,
+    -122.21788
+   ],
+   [
+    47.27329,
+    -122.21722
+   ],
+   [
+    47.27353,
+    -122.21624
+   ],
+   [
+    47.2743,
+    -122.21462
+   ],
+   [
+    47.27431,
+    -122.21247
+   ],
+   [
+    47.27412,
+    -122.21139
+   ],
+   [
+    47.2743,
+    -122.2107
+   ],
+   [
+    47.2746,
+    -122.20708
+   ],
+   [
+    47.27512,
+    -122.20459
+   ],
+   [
+    47.2757,
+    -122.20281
+   ],
+   [
+    47.27664,
+    -122.20065
+   ],
+   [
+    47.27762,
+    -122.19931
+   ],
+   [
+    47.27879,
+    -122.19849
+   ],
+   [
+    47.27917,
+    -122.19788
+   ],
+   [
+    47.27979,
+    -122.19809
+   ],
+   [
+    47.28133,
+    -122.19677
+   ],
+   [
+    47.28267,
+    -122.19346
+   ],
+   [
+    47.28277,
+    -122.19259
+   ],
+   [
+    47.28292,
+    -122.19251
+   ]
+  ],
+  "endpoints": [
+   [
+    47.26475,
+    -122.22921
+   ],
+   [
+    47.28292,
+    -122.19251
+   ]
+  ],
+  "nearest_distance_from_home_km": 3.65,
+  "farthest_distance_from_home_km": 7.05,
+  "member_way_count": 5,
+  "geometry_gaps": [],
+  "bike_access_conflicts": [],
+  "verified": true,
+  "notes": "All 5 member ways are named \"White River Trail\". Fully continuous, uniformly asphalt."
+ },
+ {
+  "name": "Interurban Trail Milton",
+  "osm_relation_id": 6554034,
+  "osm_url": "https://www.openstreetmap.org/relation/6554034",
+  "length_km": 4.639,
+  "rideable_length_km": 4.639,
+  "surface": [
+   "(gap: no mapped way)",
+   "asphalt"
+  ],
+  "surface_m": {
+   "(gap: no mapped way)": 323.5,
+   "asphalt": 4315.1
+  },
+  "paved": true,
+  "loop": false,
+  "geometry": [
+   [
+    47.26106,
+    -122.30077
+   ],
+   [
+    47.26219,
+    -122.30183
+   ],
+   [
+    47.26265,
+    -122.30273
+   ],
+   [
+    47.26374,
+    -122.30708
+   ],
+   [
+    47.26386,
+    -122.30796
+   ],
+   [
+    47.26374,
+    -122.30907
+   ],
+   [
+    47.26349,
+    -122.30962
+   ],
+   [
+    47.26142,
+    -122.31136
+   ],
+   [
+    47.25689,
+    -122.31756
+   ],
+   [
+    47.25654,
+    -122.3182
+   ],
+   [
+    47.25512,
+    -122.32289
+   ],
+   [
+    47.25464,
+    -122.32343
+   ],
+   [
+    47.25402,
+    -122.32361
+   ],
+   [
+    47.25172,
+    -122.32291
+   ],
+   [
+    47.25029,
+    -122.32309
+   ],
+   [
+    47.24974,
+    -122.32363
+   ],
+   [
+    47.24807,
+    -122.32456
+   ],
+   [
+    47.24804,
+    -122.32481
+   ],
+   [
+    47.24751,
+    -122.32493
+   ],
+   [
+    47.2466,
+    -122.32575
+   ],
+   [
+    47.24582,
+    -122.32709
+   ],
+   [
+    47.24333,
+    -122.33453
+   ],
+   [
+    47.24073,
+    -122.33644
+   ],
+   [
+    47.24073,
+    -122.33615
+   ],
+   [
+    47.23922,
+    -122.33607
+   ],
+   [
+    47.2392,
+    -122.33472
+   ],
+   [
+    47.23933,
+    -122.33435
+   ]
+  ],
+  "endpoints": [
+   [
+    47.26106,
+    -122.30077
+   ],
+   [
+    47.23933,
+    -122.33435
+   ]
+  ],
+  "nearest_distance_from_home_km": 3.72,
+  "farthest_distance_from_home_km": 5.62,
+  "member_way_count": 9,
+  "geometry_gaps": [
+   {
+    "gap_m": 323.5,
+    "from_lat_lon": [
+     47.24073,
+     -122.33644
+    ],
+    "to_lat_lon": [
+     47.24333,
+     -122.33453
+    ]
+   }
+  ],
+  "bike_access_conflicts": [],
+  "verified": false,
+  "notes": "Relation name is \"Interurban Trail Milton\"; all 9 member ways are named \"Milton Interurban Trail\". The relation is in TWO unconnected pieces 323 m apart (47.24333,-122.33453 to 47.24073,-122.33644); the shipped polyline bridges that gap with a straight line."
+ },
+ {
+  "name": "Riverwalk Trail",
+  "osm_relation_id": 9605517,
+  "osm_url": "https://www.openstreetmap.org/relation/9605517",
+  "length_km": 6.764,
+  "rideable_length_km": 6.764,
+  "surface": [
+   "(gap: no mapped way)",
+   "asphalt",
+   "concrete",
+   "concrete:plates",
+   "paved"
+  ],
+  "surface_m": {
+   "(gap: no mapped way)": 93.4,
+   "asphalt": 5006.6,
+   "concrete": 28.7,
+   "concrete:plates": 43.3,
+   "paved": 1591.7
+  },
+  "paved": true,
+  "loop": false,
+  "geometry": [
+   [
+    47.2071,
+    -122.32305
+   ],
+   [
+    47.20685,
+    -122.32097
+   ],
+   [
+    47.20531,
+    -122.31528
+   ],
+   [
+    47.20368,
+    -122.31117
+   ],
+   [
+    47.2026,
+    -122.30387
+   ],
+   [
+    47.20251,
+    -122.29626
+   ],
+   [
+    47.20216,
+    -122.29366
+   ],
+   [
+    47.20153,
+    -122.29154
+   ],
+   [
+    47.20001,
+    -122.28891
+   ],
+   [
+    47.19886,
+    -122.28795
+   ],
+   [
+    47.19857,
+    -122.28827
+   ],
+   [
+    47.19779,
+    -122.2878
+   ],
+   [
+    47.19271,
+    -122.28776
+   ],
+   [
+    47.19271,
+    -122.28291
+   ],
+   [
+    47.19299,
+    -122.28279
+   ],
+   [
+    47.19284,
+    -122.2812
+   ],
+   [
+    47.19314,
+    -122.28048
+   ],
+   [
+    47.19329,
+    -122.27883
+   ],
+   [
+    47.19388,
+    -122.2766
+   ],
+   [
+    47.19419,
+    -122.27639
+   ],
+   [
+    47.19438,
+    -122.27577
+   ],
+   [
+    47.19588,
+    -122.26931
+   ],
+   [
+    47.1974,
+    -122.26396
+   ],
+   [
+    47.19829,
+    -122.26179
+   ],
+   [
+    47.19913,
+    -122.25891
+   ],
+   [
+    47.19905,
+    -122.25819
+   ],
+   [
+    47.19861,
+    -122.25681
+   ],
+   [
+    47.19655,
+    -122.25136
+   ],
+   [
+    47.19603,
+    -122.2516
+   ],
+   [
+    47.19649,
+    -122.25107
+   ]
+  ],
+  "endpoints": [
+   [
+    47.2071,
+    -122.32305
+   ],
+   [
+    47.19649,
+    -122.25107
+   ]
+  ],
+  "nearest_distance_from_home_km": 4.56,
+  "farthest_distance_from_home_km": 5.9,
+  "member_way_count": 10,
+  "geometry_gaps": [
+   {
+    "gap_m": 93.4,
+    "from_lat_lon": [
+     47.19779,
+     -122.2878
+    ],
+    "to_lat_lon": [
+     47.19857,
+     -122.28827
+    ]
+   }
+  ],
+  "bike_access_conflicts": [],
+  "verified": true,
+  "notes": "All 10 member ways are named \"Riverwalk Trail\". The OSM geometry is split by a 93 m unmapped break at 47.19764,-122.28780 (a road crossing); the shipped polyline bridges it with a straight line."
+ }
+]
