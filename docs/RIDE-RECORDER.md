@@ -80,6 +80,9 @@ app/src/main/java/com/biketrailplanner/
   domain/RideTrack.kt          graded ride + RideTrackStore + RideTrackSignature
   domain/RideTrackCodec.kt     encoded polyline + named segments + grades + way ids (payload)
   domain/RideTrackGrader.kt    recorded track -> graded RideTrack (same SafetyGrader as a plan)
+  domain/RideRoad.kt           D64: the ordered road list of a ride + RideStop
+  domain/StopPicker.kt         D64: which points of a ride are worth naming as Google Maps stops
+  data/LiveRideTrack.kt        D65: the recording in progress, for the map (one-way pipe)
   data/Room.kt                 ride_track entity/DAO, AppDatabase v4, RoomRideTrackStore
   data/LocationSource.kt       the seam: AndroidLocationSource + ScriptedLocationSource
   data/RideRecordingStore.kt   persisted "a ride is being recorded" flag
@@ -95,7 +98,10 @@ app/src/test/java/com/biketrailplanner/
   RideRecorderTest.kt          9 tests: distance, jitter, accuracy, gaps, pause, simulator
   RideTrackTest.kt             6 tests: grading, UNGRADED, codec, signature, store order
   RideAutoStopTest.kt          5 tests: the two automatic stop rules
-tools/simulate_ride.py         NMEA playback against the emulator's real location provider
+tools/simulate_ride.py         playback against the emulator's real location provider
+                               (`geo fix` per fix by default; `--shape-file` replays a real route)
+tools/ride_route.py            D64: builds the 1-hour home -> Milton trail -> home round trip and
+                               dumps the RAW ROAD LIST (61 roads, measured 2026-10-25)
 ```
 
 ## 6. Open items
@@ -122,6 +128,27 @@ single GPS fix, so there is no route to draw."*
 Still open:
 - **Nothing blocking.** The graded path was verified on an emulator on 2026-10-10 (section 7); a run on
   the rider's own phone away from the tailnet would be the last nice-to-have.
+
+## 6a. What a ride records now: roads, and the stops chosen from them (D64/D65)
+
+Two additions on top of the fix list, both asked for by the rider on 2026-10-25: *"the only thing you
+need to record are edges (roads)"* and *"real time draw the trip out on the map as we go"*.
+
+**Roads.** The same `trace_attributes` call that grades a ride now also yields its **ordered road
+list** (`domain/RideRoad.kt`): consecutive edges on one OSM way with one name collapse into a road
+stretch, carrying the metre at which it starts. It lives in the existing JSON payload, so there is no
+schema change and an older ride opens with an empty list. The fixes are still stored - they draw the
+line and answer taps (D59/D60) - but the roads are the trip's identity.
+
+**Stops.** `domain/StopPicker.kt` picks at most nine, from the junctions where the road changes,
+scoring the measured bearing change plus street-name and separated-path changes and the far point,
+then dropping any candidate within 120 m of a better one so a corner ridden twice is one stop.
+`domain/GoogleMapsLink.kt` sends them; when the ride ends where it started it omits `origin`, because
+Google Maps rejects a route whose stops repeat.
+
+**Live drawing.** `data/LiveRideTrack.kt` publishes the accepted points as they arrive; the map draws
+them as `MapShape.Live` and **moves the camera only when the newest fix leaves the screen**. The
+recorder still owns the truth (the journal, D62) - this pipe holds nothing durable.
 
 ## 7. Device test result (2026-10-10, Galaxy S23 Ultra, Android 16)
 

@@ -6,6 +6,7 @@ import com.biketrailplanner.AppContainer
 import com.biketrailplanner.data.AddressLookup
 import com.biketrailplanner.data.UserHomeStore
 import com.biketrailplanner.data.DiscoveryMerge
+import com.biketrailplanner.data.RideDebugLog
 import com.biketrailplanner.data.DiscoveryResult
 import com.biketrailplanner.data.OverpassException
 import com.biketrailplanner.domain.Geo
@@ -151,6 +152,11 @@ class PlanViewModel(
         val ridesLoading: Boolean = false,
         /** D59: the ride the rider tapped in the list; it is what the shared map draws. */
         val selectedRide: RideTrack? = null,
+        /**
+         * D64: the ride being recorded right now, so the map draws the trip as it is ridden. Empty
+         * when nothing is being recorded - the last fix is enough to know whether it changed.
+         */
+        val liveRoute: List<LatLon> = emptyList(),
         /** D60: the node or street the rider just tapped on the map. */
         val rideHit: RideHit? = null,
         /** D60: the postal address of the tapped node, when one could be had. */
@@ -244,6 +250,17 @@ class PlanViewModel(
     init {
         viewModelScope.launch {
             _state.value = _state.value.copy(historyCount = container.history.count())
+        }
+        // D64: follow the recording in progress, so the map draws the trip while it is ridden. One
+        // emission per accepted fix; a one-hour ride is ~3 600 of them, not a stream of positions.
+        viewModelScope.launch {
+            container.liveRide.points.collect { points ->
+                if (_state.value.liveRoute.size != points.size ||
+                    _state.value.liveRoute.lastOrNull() != points.lastOrNull()
+                ) {
+                    _state.value = _state.value.copy(liveRoute = points)
+                }
+            }
         }
         refreshSuggestions()
     }
@@ -426,6 +443,10 @@ class PlanViewModel(
      */
     fun selectRide(signature: String) {
         val ride = _state.value.rides.firstOrNull { it.signature == signature } ?: return
+        // D64: selecting a stored ride re-derives its hand-off from the ride's own data, so a change to
+        // the stop algorithm can be judged against an existing ride instead of another hour in the
+        // saddle. Debug builds only, and it cannot fail the selection.
+        RideDebugLog.ride("selected", ride)
         _state.value = _state.value.copy(
             selectedRide = ride,
             rideHit = null,

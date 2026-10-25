@@ -29,6 +29,12 @@ object RideTrackCodec {
         val wayIds: Set<Long>,
         /** Metres the ladder refused. 0.0 for a payload written before this was carried. */
         val rejectedM: Double = 0.0,
+        /**
+         * D64: the ordered roads of the ride. Empty for a payload written before roads were recorded,
+         * which is why this is the one part of the payload that MUST stay optional: an older ride still
+         * has to open, and it simply falls back to evenly spaced stops.
+         */
+        val roads: List<RideRoad> = emptyList(),
     )
 
     fun encode(track: RideTrack): String = buildJsonObject {
@@ -53,6 +59,21 @@ object RideTrackCodec {
             track.byGrade.forEach { (grade, metres) -> if (metres > 0.0) put(grade.name, metres) }
         }
         put("rejectedM", track.rejectedM)
+        // D64: the raw road list, in riding order. Kept in the payload rather than a Room column on
+        // purpose: the payload is already JSON, read leniently, so an older database opens without a
+        // schema migration and a newer one degrades to evenly spaced stops rather than failing.
+        putJsonArray("roads") {
+            track.roads.forEach { road ->
+                addJsonObject {
+                    put("wayId", road.wayId)
+                    put("name", road.name)
+                    road.roadClass?.let { put("roadClass", it) }
+                    road.use?.let { put("use", it) }
+                    put("startM", road.startM)
+                    put("lengthM", road.lengthM)
+                }
+            }
+        }
     }.toString()
 
     fun decode(payload: String): Bulky {
@@ -60,6 +81,19 @@ object RideTrackCodec {
             ?: return Bulky(emptyList(), emptyList(), emptyMap(), emptySet())
         val points = root["points"]?.jsonPrimitive?.content?.let { runCatching { PolylineCodec.decode(it) }.getOrNull() }
             ?: emptyList()
+        val roads = root["roads"]?.jsonArray?.mapNotNull { element ->
+            runCatching {
+                val r = element.jsonObject
+                RideRoad(
+                    wayId = r["wayId"]?.jsonPrimitive?.content?.toLongOrNull() ?: 0L,
+                    name = r["name"]?.jsonPrimitive?.content ?: "(unnamed)",
+                    roadClass = r["roadClass"]?.jsonPrimitive?.content,
+                    use = r["use"]?.jsonPrimitive?.content,
+                    startM = r["startM"]?.jsonPrimitive?.content?.toDoubleOrNull() ?: 0.0,
+                    lengthM = r["lengthM"]?.jsonPrimitive?.content?.toDoubleOrNull() ?: 0.0,
+                )
+            }.getOrNull()
+        } ?: emptyList()
         val named = root["named"]?.jsonArray?.mapNotNull { element ->
             runCatching {
                 val n = element.jsonObject
@@ -82,6 +116,6 @@ object RideTrackCodec {
         val wayIds = root["wayIds"]?.jsonArray?.mapNotNull { it.jsonPrimitive.content.toLongOrNull() }?.toSet()
             ?: emptySet()
         val rejectedM = root["rejectedM"]?.jsonPrimitive?.content?.toDoubleOrNull() ?: 0.0
-        return Bulky(points, named, byGrade, wayIds, rejectedM)
+        return Bulky(points, named, byGrade, wayIds, rejectedM, roads)
     }
 }

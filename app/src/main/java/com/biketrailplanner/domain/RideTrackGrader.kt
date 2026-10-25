@@ -50,6 +50,7 @@ object RideTrackGrader {
             rejectedFixes = ride.rejectedFixes,
             points = ride.points,
             wayIds = segments.flatMap { it.wayIds }.filter { it > 0L }.toSet(),
+            roads = if (trace == null || !trace.ok) emptyList() else roads(trace, ride.distanceM),
             named = named,
             gradedM = breakdown.gradedM,
             ungradedM = breakdown.ungradedM,
@@ -74,6 +75,43 @@ object RideTrackGrader {
             cursor += edge.lengthM
             grader.gradeEdge(edge, poly.pointAt(mid))
         }
+    }
+
+    /**
+     * D64: the raw road list - the ordered edges the trace matched, collapsed into road stretches.
+     *
+     * Two edges on the same OSM way with the same name are one road to the rider (Valhalla splits a
+     * road at every junction and speed change), so they are merged. `startM` is scaled onto the ride's
+     * own length, exactly like [mapEdges] scales its midpoints, so a stop chosen at a road's start is
+     * a point of the ride the rider actually rode and not of the OSM geometry.
+     */
+    fun roads(trace: TraceResult, rideDistanceM: Double): List<RideRoad> {
+        if (trace.edges.isEmpty()) return emptyList()
+        val edgesTotal = trace.edges.sumOf { it.lengthM }
+        if (edgesTotal <= 0.0) return emptyList()
+        val scale = if (rideDistanceM > 0.0) rideDistanceM / edgesTotal else 1.0
+        var cursor = 0.0
+        val out = ArrayList<RideRoad>()
+        for (edge in trace.edges) {
+            val start = cursor * scale
+            val length = edge.lengthM * scale
+            cursor += edge.lengthM
+            val name = edge.names.firstOrNull()?.takeIf { it.isNotBlank() } ?: "(unnamed)"
+            val last = out.lastOrNull()
+            if (last != null && last.wayId == edge.wayId && last.name == name) {
+                out[out.size - 1] = last.copy(lengthM = last.lengthM + length)
+            } else {
+                out += RideRoad(
+                    wayId = edge.wayId,
+                    name = name,
+                    roadClass = edge.roadClass,
+                    use = edge.use,
+                    startM = start,
+                    lengthM = length,
+                )
+            }
+        }
+        return out
     }
 
     private fun ungradedAll(ride: RecordedRide): GradedSegment = GradedSegment(

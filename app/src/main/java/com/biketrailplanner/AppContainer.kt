@@ -14,9 +14,11 @@ import com.biketrailplanner.data.DeepSeekHttpCall
 import com.biketrailplanner.data.DiscoveryMerge
 import com.biketrailplanner.data.DiscoveryResult
 import com.biketrailplanner.data.EncryptedAiKeyStore
+import com.biketrailplanner.data.LiveRideTrack
 import com.biketrailplanner.data.OverpassClient
 import com.biketrailplanner.data.AddressLookup
 import com.biketrailplanner.data.PrefsStrategyCache
+import com.biketrailplanner.data.RideDebugLog
 import com.biketrailplanner.data.PanelSizeStore
 import com.biketrailplanner.data.RegionalMerge
 import com.biketrailplanner.data.RegionalTrailLoader
@@ -118,6 +120,14 @@ class AppContainer(context: Context) {
 
     /** D51: whether a ride is being recorded right now (persisted, so it survives a process death). */
     val rideRecording = RideRecordingStore(appContext)
+
+    /**
+     * D64: the recording in progress, so the shared map can draw it while it happens.
+     *
+     * One instance per process, held here rather than in the service or the view model: the service
+     * writes it, the screen reads it, and neither owns the other. Nothing durable lives in it.
+     */
+    val liveRide = LiveRideTrack()
 
     /** D53: how much of the frame the bottom panel covers, remembered between launches. */
     val panelSize = PanelSizeStore(appContext)
@@ -305,7 +315,6 @@ class AppContainer(context: Context) {
 
     /** D51: stop and save the recording (the notification's Stop action does the same thing). */
     fun stopRideRecording() = RideRecordingService.stop(appContext)
-
     /**
      * D51 debug tool (docs/RIDE-RECORDER.md section 4): arm the in-app simulator for the next
      * recording, so the whole recorder can be exercised on the phone without riding. Release builds
@@ -338,6 +347,9 @@ class AppContainer(context: Context) {
             nowMs = System.currentTimeMillis(),
         )
         rideTracks.save(track)
+        // D64: the saved ride's raw material - the roads it matched, the stops chosen from them and the
+        // exact link the rider would open - in logcat, once, in debug builds only.
+        RideDebugLog.ride("saved", track)
         val names = track.named.map { it.name }.filter { it.isNotBlank() }.distinct().take(3)
         history.record(
             signature = track.signature,

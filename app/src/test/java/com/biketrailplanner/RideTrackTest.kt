@@ -227,6 +227,41 @@ class RideTrackTest {
     }
 
     @Test
+    fun `D64 the ordered road list survives encoding and decoding`() {
+        // Two edges on the same way merge into one road; a third, different way stays separate. This is
+        // the raw material the Maps stops are chosen from, so it must round-trip exactly.
+        val ride = ride()
+        val trace = TraceResult(
+            edges = listOf(
+                RawEdge(7L, "residential", "road", null, false, "none", 0, false, 40, ride.distanceM / 2, listOf("Home Street")),
+                RawEdge(7L, "residential", "road", null, false, "none", 0, false, 40, ride.distanceM / 2, listOf("Home Street")),
+                RawEdge(9L, "service_other", "cycleway", "paved_smooth", false, "none", 1, false, null, 0.0, listOf("The Trail")),
+            ),
+            mode = TraceMode.EDGE_WALK,
+            baseUrl = "test",
+        )
+        val graded = RideTrackGrader.grade(ride, trace, SafetyGrader(), "fp", nowMs = 1L)
+        assertEquals(2, graded.roads.size)
+        assertEquals("Home Street", graded.roads[0].name)
+        assertEquals("the two edges of one way are one road", ride.distanceM, graded.roads[0].lengthM, 1.0)
+        assertTrue("a cycleway is a separated path", graded.roads[1].isSeparatedPath)
+
+        val decoded = RideTrackCodec.decode(RideTrackCodec.encode(graded))
+        assertEquals(graded.roads, decoded.roads)
+        assertEquals("and the geometry is unchanged", graded.points, decoded.points)
+    }
+
+    @Test
+    fun `D64 an older payload without roads still opens`() {
+        // Rides stored before roads were recorded must keep working: no schema change (the roads live in
+        // the JSON payload), and an empty road list simply sends the Maps hand-off to its fallback.
+        val legacy = "{\"points\":\"_p~iF~ps|U_ulLnnqC_mqNvxq`@\",\"wayIds\":[7],\"named\":[],\"byGrade\":{},\"rejectedM\":0.0}"
+        val decoded = RideTrackCodec.decode(legacy)
+        assertEquals(emptyList<Any>(), decoded.roads)
+        assertEquals(setOf(7L), decoded.wayIds)
+    }
+
+    @Test
     fun `the store keeps the newest ride first`() = runBlocking {
         val store = InMemoryRideTrackStore()
         val older = RideTrackGrader.grade(ride(1_000L), trace(edge(40)), SafetyGrader(), "fp", nowMs = 1L)

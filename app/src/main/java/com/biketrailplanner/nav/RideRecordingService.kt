@@ -125,6 +125,9 @@ class RideRecordingService : Service() {
             resumed.forEach(recorder::onFix)
             Log.i(TAG, "resumed from ${resumed.size} journalled fixes")
         }
+        // D64: the map draws the recording from here on. A resumed ride appears on the map at once,
+        // rather than growing from nothing as if the first hour had not happened.
+        container?.liveRide?.publish(recorder.snapshot(now).points)
         // D57: the UI asks whether a ride is being recorded, and the answer has to be about THIS
         // process. The persisted flag alone lies after a process death - see the companion.
         isRecordingNow = true
@@ -144,6 +147,9 @@ class RideRecordingService : Service() {
                     }
                     val at = System.currentTimeMillis()
                     val snapshot = recorder.snapshot(at)
+                    // D64: the map draws it as it happens. Published per fix, but only when the
+                    // recorder actually accepted a new point - a jitter fix is not new geometry.
+                    container?.liveRide?.publish(snapshot.points)
                     if (at - lastNotifiedAtMs >= NOTIFY_EVERY_MS) {
                         lastNotifiedAtMs = at
                         withContext(Dispatchers.Main) { updateNotification(snapshot) }
@@ -205,6 +211,9 @@ class RideRecordingService : Service() {
         }
         collection?.cancel()
         val nowMs = System.currentTimeMillis()
+        // D64: the live line ends where the recording ended. The finished ride is drawn from the store
+        // once it is saved, so keeping the live copy would draw the same line twice.
+        container?.liveRide?.clear()
         // D62: the in-memory recorder is the fast path; the journal is the truth after a process death.
         // This is the branch that used to lose a 16-mile ride - the process had been killed, so the
         // recorder was empty and the ride was discarded as "nothing was recorded".
@@ -246,6 +255,7 @@ class RideRecordingService : Service() {
         collection?.cancel()
         scope.cancel()
         isRecordingNow = false
+        container?.liveRide?.clear()
         super.onDestroy()
     }
 

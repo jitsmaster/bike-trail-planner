@@ -22,6 +22,13 @@ data class RideTrack(
     val points: List<LatLon>,
     /** OSM road way ids the trace found: the identity used for rotation and overlap. */
     val wayIds: Set<Long>,
+    /**
+     * D64: the roads this ride actually ran on, in the order it rode them, with the distance at which
+     * each one starts. This is the ride's identity - "the roads I took" - and the raw material the
+     * Google Maps stops are chosen from ([StopPicker]). Empty for a ride that could not be traced, and
+     * for every ride stored before this field existed (the payload is read leniently).
+     */
+    val roads: List<RideRoad> = emptyList(),
     val named: List<NamedSegment>,
     val gradedM: Double,
     val ungradedM: Double,

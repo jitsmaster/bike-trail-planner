@@ -211,6 +211,7 @@ data class RideTrackEntity(
             rejectedFixes = rejectedFixes,
             points = bulky.points,
             wayIds = bulky.wayIds,
+            roads = bulky.roads,
             named = bulky.named,
             gradedM = gradedM,
             ungradedM = ungradedM,

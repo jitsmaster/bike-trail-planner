@@ -348,11 +348,19 @@ private fun RideCard(ride: RideTrack, selected: Boolean, onSelect: () -> Unit, o
                     modifier = Modifier.fillMaxWidth(),
                 ) { Text("Navigate this ride in Google Maps") }
                 Text(
-                    if (ride.points.size > GoogleMapsLink.MAX_STOPS) {
-                        "Google Maps takes at most 9 stops between the start and the end, so it gets " +
-                            "evenly spaced points from this ride. It picks the streets between them."
-                    } else {
-                        "Google Maps follows its own streets between these stops."
+                    when {
+                        // D64: say what the stops ARE, so the choice is never a mystery.
+                        ride.roads.isNotEmpty() -> {
+                            val stops = GoogleMapsLink.chosenStops(ride)
+                            "Google Maps takes at most ${GoogleMapsLink.MAX_INTERMEDIATE} stops, so this ride " +
+                                "names its turns: " + stops.take(3).joinToString("; ") { it.why } +
+                                (if (stops.size > 3) "; and ${stops.size - 3} more" else "") +
+                                ". It picks the streets between them, and the way back is its own choice."
+                        }
+                        ride.points.size > GoogleMapsLink.MAX_STOPS ->
+                            "Google Maps takes at most 9 stops between the start and the end, so it gets " +
+                                "evenly spaced points from this ride. It picks the streets between them."
+                        else -> "Google Maps follows its own streets between these stops."
                     },
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,

@@ -38,7 +38,7 @@ fall back to `https://valhalla1.openstreetmap.de` only when the rider turns the 
 ```console
 $ export JAVA_HOME=/opt/homebrew/opt/openjdk@17
 $ ./gradlew :app:assembleDebug
-$ ./gradlew :app:testDebugUnitTest        # 422 JVM unit tests, all passing
+$ ./gradlew :app:testDebugUnitTest        # 442 JVM unit tests, all passing
 ```
 
 APK (ABI splits, so each device only downloads its own native libraries):
@@ -166,6 +166,18 @@ $ tools/verify_ui.sh emulator-5554 result
 $ tools/verify_ui.sh emulator-5554 settings
 $ python3 tools/acceptance.py R5CW30PD58H     # end-to-end gate on a real device
 ```
+
+Simulating a ride without riding (D51/D64 - the map draws it live while it happens):
+
+```console
+$ python3 tools/ride_route.py                    # home -> Milton trail -> home, ~1 h, + RAW ROAD LIST
+$ python3 tools/simulate_ride.py --serial emulator-5554 \
+      --shape-file build/sim/ride-shape.json       # replays it into the emulator's GPS, 1 fix/s
+```
+
+`simulate_ride.py` uses `adb emu geo fix` by default because `geo nmea` is accepted but ignored on
+the android-34 `google_apis` image (measured 2026-10-25: the GPS provider stayed on the last `geo fix`
+with `satellites=0` through 60 sentences).
 
 `tools/acceptance.py` is the independent gate (install, launch, plan, banned vocabulary, required
 wording, the light-theme check, and the Google Maps hand-off). On the `pra_test` emulator its

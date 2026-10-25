@@ -59,4 +59,25 @@ class MapShapeTest {
         assertTrue(chosen is MapShape.Planned)
         assertEquals(route, (chosen as MapShape.Planned).route)
     }
+
+    // ------------------------------------------------------------------ D65: the live ride
+
+    @Test
+    fun `a recording in progress outranks both a selected ride and the plan`() {
+        // While the rider is recording, the ride they are ON is the thing to show. Drawing last week's
+        // ride instead would be the D59 complaint again.
+        val live = listOf(LatLon(47.0, -122.0), LatLon(47.005, -122.0))
+        val chosen = MapShapeChoice.of(ride("old"), Fixtures.plannedRoute(), live)
+        assertTrue(chosen is MapShape.Live)
+        assertEquals(live, (chosen as MapShape.Live).points)
+    }
+
+    @Test
+    fun `one live fix is not a line, so the ordinary rules still apply`() {
+        // A single fix has no geometry to draw; blanking the map for it would be worse than showing
+        // the shape the rider was already looking at.
+        val chosen = MapShapeChoice.of(ride("old"), null, listOf(LatLon(47.0, -122.0)))
+        assertTrue(chosen is MapShape.Recorded)
+        assertNull("and no live list at all draws nothing", MapShapeChoice.of(null, null, emptyList()))
+    }
 }

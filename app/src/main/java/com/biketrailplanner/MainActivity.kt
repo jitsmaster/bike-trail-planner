@@ -153,13 +153,16 @@ class MainActivity : ComponentActivity() {
                         // one the rotation picked.
                         // D59: or the recorded ride the rider tapped, when there is one - a selected
                         // ride outranks the plan, so tapping a row really changes what is behind it.
-                        shape = MapShapeChoice.of(state.selectedRide, state.selectedRoute),
+                        shape = MapShapeChoice.of(state.selectedRide, state.selectedRoute, state.liveRoute),
                         origin = state.planningOrigin ?: state.home,
                         modifier = Modifier.fillMaxSize(),
                         onTap = if (state.selectedRide != null) viewModel::onMapTap else null,
                         highlight = state.rideHit,
                         controller = mapController,
                         showZoomControls = state.selectedRide != null,
+                        // D53/D64: the camera fits the ride into the map the rider can see, above
+                        // whatever height the sheet is at.
+                        coveredBottomFraction = state.panelFraction,
                     )
                     Column(Modifier.fillMaxSize()) {
                         // D35 (option A, piece 3a): shown on any screen when the rider is back at the

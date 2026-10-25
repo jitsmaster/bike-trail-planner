@@ -60,6 +60,11 @@ fun RouteMap(
     controller: MapController? = null,
     /** D59: show the +/- buttons. On for the ride screen, where the map is the point. */
     showZoomControls: Boolean = false,
+    /**
+     * D53/D64: how much of the bottom of the frame the sheet covers, 0..1, so the camera can fit the
+     * ride into the part of the map the rider can actually see.
+     */
+    coveredBottomFraction: Float = 0f,
 ) {
     var mapAvailable by remember { mutableStateOf(false) }
     Box(modifier.fillMaxSize().background(androidx.compose.material3.MaterialTheme.colorScheme.surface)) {
@@ -72,6 +77,7 @@ fun RouteMap(
             onTap = onTap,
             highlight = highlight,
             controller = controller,
+            coveredBottomFraction = coveredBottomFraction,
         )
         if (shape == null) {
             if (!mapAvailable && showOriginWhenEmpty) {
@@ -99,7 +105,9 @@ fun RouteMap(
         if (!mapAvailable) {
             when (shape) {
                 is MapShape.Planned -> RouteCanvasOverlay(shape.route, origin, Modifier.fillMaxSize())
-                is MapShape.Recorded -> RideCanvasOverlay(shape.ride, Modifier.fillMaxSize())
+                is MapShape.Recorded -> RideCanvasOverlay(shape.ride.points, Modifier.fillMaxSize())
+                // D64: a recording in progress is the same line, drawn from the fixes so far.
+                is MapShape.Live -> RideCanvasOverlay(shape.points, Modifier.fillMaxSize())
             }
         }
         // D59: the zoom buttons. The rider asked to be able to zoom the recorded ride; the map already
@@ -158,8 +166,7 @@ private fun ZoomControls(controller: MapController, modifier: Modifier = Modifie
 
 /** D59: a recorded ride on a plain surface, for when the basemap cannot load. */
 @Composable
-private fun RideCanvasOverlay(ride: RideTrack, modifier: Modifier = Modifier) {
-    val points = ride.points
+private fun RideCanvasOverlay(points: List<LatLon>, modifier: Modifier = Modifier) {
     if (points.size < 2) return
     Box(modifier) {
         val primary = androidx.compose.material3.MaterialTheme.colorScheme.primary

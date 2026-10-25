@@ -18,6 +18,15 @@ sealed interface MapShape {
 
     /** A ride the rider actually rode: one line, its own start and end. */
     data class Recorded(val ride: RideTrack) : MapShape
+
+    /**
+     * D64: a ride being recorded RIGHT NOW.
+     *
+     * It is a shape of its own rather than a [Recorded] ride because it must be drawn differently:
+     * a recording grows once a second, so the map may not re-fit the camera on every fix (that was
+     * the D60 bug in a different costume), and there is no grade, no label and no street list yet.
+     */
+    data class Live(val points: List<LatLon>) : MapShape
 }
 
 object MapShapeChoice {
@@ -28,8 +37,18 @@ object MapShapeChoice {
      * A selected ride outranks a selected route on purpose. It also wins when it has no drawable
      * geometry: the rider tapped a specific ride, and quietly showing them a different one - the plan -
      * would be a worse answer than showing an empty map with the card explaining why.
+     *
+     * D64: a recording in progress outranks BOTH. While the rider is recording, the thing they are
+     * doing is the ride they are on; the map showing last week's ride instead would be the D59
+     * complaint again. It needs at least two points - one fix is not a line - and an empty [live] list
+     * therefore falls through to the ordinary rules rather than blanking the map.
      */
-    fun of(selectedRide: RideTrack?, selectedRoute: PlannedRoute?): MapShape? = when {
+    fun of(
+        selectedRide: RideTrack?,
+        selectedRoute: PlannedRoute?,
+        live: List<LatLon> = emptyList(),
+    ): MapShape? = when {
+        live.size >= 2 -> MapShape.Live(live)
         selectedRide != null -> MapShape.Recorded(selectedRide)
         selectedRoute != null -> MapShape.Planned(selectedRoute)
         else -> null

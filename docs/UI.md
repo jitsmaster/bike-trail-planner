@@ -205,8 +205,10 @@ sheet** (D53) and the map in the middle - so the map is never covered:
 
 1. **Pill:** *"Your rides"* with `Back`.
 2. **The map is visible on entry**, whichever height the plan panel was left at: the sheet is clamped to
-   half height until the rider adjusts it here. A ride selected in the list is drawn on it as **one
-   line**, start and end marked - *one* colour, not grade colours, because grades are stored per traced
+   half height until the rider adjusts it here. The camera fits a shape into the part of the map the
+   sheet leaves uncovered (D53/D64) - with a fixed margin the 19.5 km ride fitted into a space that was
+   mostly behind the sheet, and the rider could see a strip of it. A ride selected in the list is drawn
+   on it as **one line**, start and end marked - *one* colour, not grade colours, because grades are stored per traced
    street and not per GPS point, and colouring metres that were never assessed would be a claim the data
    cannot support.
 3. **Zoom:** `+` / `-` buttons on the visible map area (top-end - the sheet covers the middle). The map
@@ -216,10 +218,22 @@ sheet** (D53) and the map in the middle - so the map is never covered:
      address.
    - A **street**: the name, the grade, the length and the posted speed.
    - Plus *"About N m from your tap"*, because the answer is approximate and says so.
-5. **Sheet, scrolling:** `Record a ride` (and `Simulate` in debug builds), then the list. Tapping a card
+5. **While recording, the map draws the ride as it happens** (D65): the accepted fixes are drawn as
+   one growing line and the camera moves only when the newest fix leaves the visible area - never a
+   re-fit per fix, which would jerk the map once a second. The line keeps the ride colour, not grade
+   colours, for the reason in 2 above.
+6. **Sheet, scrolling:** `Record a ride` (and `Simulate` in debug builds), then the list. Tapping a card
    selects it - the map draws it and the tap becomes live. Each card carries the date, the segmented
    grade bar, distance, time, GPS gaps, and the honest *"N% of this ride had no speed information"* line.
    `Delete` removes the ride **and its rotation-history row** (D58).
+
+**Where the Google Maps stops come from (D64).** Not an even stride through the GPS points: the ride
+records the **roads** it was on, and the stops are its **key turns** - the junctions where the road
+changes, scored by how far the recorded geometry actually turns there, whether the street name changes,
+whether the ride enters or leaves a separated path, and (on a ride that comes back) the far point.
+Anything within 120 m of a better corner is dropped, so a corner ridden twice is one stop. The ride
+screen says which turns were named and how many were left over: *"names its turns: 18th Street East →
+114th Avenue East, … ; and 4 more"*, and on a loop it says Google chooses the way back.
 
 **The address is third-party.** Valhalla is not a geocoder, so a postal address comes from
 OpenStreetMap's Nominatim, gated behind the rider's existing `allowPublicFallback` switch: whoever has
