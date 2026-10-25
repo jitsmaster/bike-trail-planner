@@ -190,6 +190,7 @@ class StopPickerTest {
         val why = StopPicker.stops(points, roads).single().why
         assertTrue("it says what happened: $why", why.contains("becomes"))
         assertTrue("and does not pretend there was a turn: $why", !why.contains("turn onto"))
+        assertTrue("nor print a number nobody can act on: $why", !why.contains("\u00b0"))
     }
 
     @Test

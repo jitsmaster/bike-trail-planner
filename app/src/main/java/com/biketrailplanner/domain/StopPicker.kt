@@ -123,18 +123,20 @@ object StopPicker {
             if (pathChanged) score += W_PATH_CHANGE
             if (isFar) score += W_FAR_POINT
 
+            // The degrees are only worth printing when the ride actually turned: a rename on a straight
+            // road reading "where the road becomes 18th Street East (1°)" is a number the rider cannot
+            // act on, and "turn onto (0°)" would be the screen describing a turn the ride did not make.
+            val renamedNotTurned = nameChanged && !pathChanged && turn < MIN_TURN_DEG
             val why = buildString {
                 when {
                     isFar -> append("the far point of the ride")
                     pathChanged && road.isSeparatedPath -> append("onto ").append(label(road))
                     pathChanged -> append("off ").append(label(previous))
-                    // A rename on a straight road is a pin, not a turn: saying "turn onto 18th Street
-                    // East (0°)" would be the screen telling the rider something the ride did not do.
-                    nameChanged && turn < MIN_TURN_DEG -> append("where the road becomes ").append(road.name)
+                    renamedNotTurned -> append("where the road becomes ").append(road.name)
                     nameChanged -> append("turn onto ").append(road.name)
                     else -> append("turn on ").append(label(road))
                 }
-                if (!isFar) append(" (").append(turn.toInt()).append("\u00b0)")
+                if (!isFar && !renamedNotTurned) append(" (").append(turn.toInt()).append("\u00b0)")
             }
             candidates += RideStop(
                 point = poly.pointAt(arc),
