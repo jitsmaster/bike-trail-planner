@@ -79,9 +79,15 @@ class RideRawArchive(private val dir: File) {
         /** The directory, relative to the app's files dir, so `adb pull` has a stable path. */
         const val DIR_NAME = "ride-raw"
 
-        /** `2026-10-25-1359-ride.txt`, from the ride's start, so files sort by ride. */
+        /**
+         * `2026-10-25-135907-ride.txt`, from the ride's start, so files sort by ride.
+         *
+         * Seconds, not minutes: measured on the phone 2026-10-26, two rides started inside one minute
+         * and the second archive **overwrote** the first, which is the one thing this file exists to
+         * prevent.
+         */
         fun fileName(startedAtMs: Long): String {
-            val stamp = SimpleDateFormat("yyyy-MM-dd-HHmm", Locale.US).format(Date(startedAtMs))
+            val stamp = SimpleDateFormat("yyyy-MM-dd-HHmmss", Locale.US).format(Date(startedAtMs))
             return "$stamp-ride.txt"
         }
     }

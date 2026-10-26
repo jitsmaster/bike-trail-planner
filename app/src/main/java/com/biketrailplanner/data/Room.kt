@@ -15,6 +15,10 @@ import androidx.room.PrimaryKey
 import androidx.room.Query
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.flowOn
+import kotlinx.coroutines.flow.map
 import com.biketrailplanner.domain.Geo
 import com.biketrailplanner.domain.Grade
 import com.biketrailplanner.domain.LatLon
@@ -258,6 +262,13 @@ interface RideTrackDao {
     @Query("SELECT COUNT(*) FROM ride_track")
     suspend fun count(): Int
 
+    /**
+     * D67: the same rows, as a stream. Adding an observable query is not a schema change, so this needs
+     * no migration and an older database opens unchanged.
+     */
+    @Query("SELECT * FROM ride_track ORDER BY started_at DESC LIMIT :limit")
+    fun observe(limit: Int): Flow<List<RideTrackEntity>>
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsert(row: RideTrackEntity)
 
@@ -446,6 +457,14 @@ class RoomRideTrackStore(
         dao.upsert(RideTrackEntity.of(track))
         dao.trim(RideTrackStore.GLOBAL_CAP)
     }
+
+    /** D67: reactive, so a ride saved while the screen is open shows up by itself. */
+    override fun observe(limit: Int): Flow<List<RideTrack>> =
+        dao.observe(limit)
+            .map { rows -> rows.map { it.toTrack(currentFingerprint) } }
+            // Decoding a ride payload is real work; Room emits on its own executor but the map would
+            // otherwise run on whichever thread collects, which is the UI's.
+            .flowOn(Dispatchers.Default)
 
     override suspend fun delete(signature: String) = dao.delete(signature)
 }

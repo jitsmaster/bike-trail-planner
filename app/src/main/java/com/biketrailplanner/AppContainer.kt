@@ -331,6 +331,24 @@ class AppContainer(context: Context) {
      * ride is never called safe either way.
      */
     suspend fun saveRecordedRide(ride: RecordedRide): RideTrack {
+        // D67: the ride is STORED FIRST, before it is traced.
+        //
+        // The rider stopped a recording and the ride did not appear: the list had been read once, on
+        // screen entry, and - worse - the ride did not exist yet either, because the save waited for a
+        // Valhalla trace that takes as long as the server feels like. A ride is the rider's own work;
+        // it must appear as soon as the recording stops, and get measured afterwards.
+        //
+        // The ungraded row has the same signature as the graded one, so the trace updates it in place
+        // (REPLACE) rather than leaving two rows behind.
+        val quick = RideTrackGrader.grade(
+            ride = ride,
+            trace = null,
+            grader = grader,
+            fingerprint = dataFingerprint,
+            currentFingerprint = dataFingerprint,
+            nowMs = System.currentTimeMillis(),
+        )
+        rideTracks.save(quick)
         // D12: a recorded ride has no route behind it, so it is traced with the same public-fallback
         // policy planning uses. Without this a recorder away from the tailnet could never be graded at
         // all, even when planning on the very same server worked (docs/RIDE-RECORDER.md section 7).
@@ -338,15 +356,20 @@ class AppContainer(context: Context) {
         val trace = runCatching {
             service.trace(shape, BuildConfig.VALHALLA_BASE_URL, allowFallback = allowPublicFallback)
         }.getOrNull()
-        val track = RideTrackGrader.grade(
-            ride = ride,
-            trace = trace,
-            grader = grader,
-            fingerprint = dataFingerprint,
-            currentFingerprint = dataFingerprint,
-            nowMs = System.currentTimeMillis(),
-        )
-        rideTracks.save(track)
+        val tracked = trace != null && trace.ok
+        val track = if (tracked) {
+            RideTrackGrader.grade(
+                ride = ride,
+                trace = trace,
+                grader = grader,
+                fingerprint = dataFingerprint,
+                currentFingerprint = dataFingerprint,
+                nowMs = System.currentTimeMillis(),
+            )
+        } else {
+            quick
+        }
+        if (tracked) rideTracks.save(track)
         // D64: the saved ride's raw material - the roads it matched, the stops chosen from them and the
         // exact link the rider would open - in logcat, once, in debug builds only.
         RideDebugLog.ride("saved", track)

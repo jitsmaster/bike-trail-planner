@@ -269,6 +269,24 @@ class PlanViewModel(
                 }
             }
         }
+        // D67: the rides list is OBSERVED, not read once.
+        //
+        // Measured on the S23 Ultra 2026-10-26: stop a recording, the ride saves, and the screen still
+        // says "No recorded rides yet" until it is left and re-entered, because the list was loaded on
+        // entry and nothing ever asked again. Room reports the insert, so the new ride is simply there.
+        viewModelScope.launch {
+            container.rideTracks.observe().collect { rides ->
+                val selected = _state.value.selectedRide?.signature
+                _state.value = _state.value.copy(
+                    rides = rides,
+                    ridesLoading = false,
+                    // The ride is stored ungraded and then measured in place (D67), so the selected
+                    // copy has to follow the row - otherwise the rider looks at the version that has
+                    // no streets and no measured percentage.
+                    selectedRide = rides.firstOrNull { it.signature == selected } ?: _state.value.selectedRide,
+                )
+            }
+        }
         refreshSuggestions()
     }
 
@@ -316,6 +334,24 @@ class PlanViewModel(
         _state.value = _state.value.copy(targetMiles = clamped.toString())
         refreshHonesty()
         // D26: a different distance is a different request, so the saved trips on offer change too.
+        // D67: the rides list is OBSERVED, not read once.
+        //
+        // Measured on the S23 Ultra 2026-10-26: stop a recording, the ride saves, and the screen still
+        // says "No recorded rides yet" until it is left and re-entered, because the list was loaded on
+        // entry and nothing ever asked again. Room reports the insert, so the new ride is simply there.
+        viewModelScope.launch {
+            container.rideTracks.observe().collect { rides ->
+                val selected = _state.value.selectedRide?.signature
+                _state.value = _state.value.copy(
+                    rides = rides,
+                    ridesLoading = false,
+                    // The ride is stored ungraded and then measured in place (D67), so the selected
+                    // copy has to follow the row - otherwise the rider looks at the version that has
+                    // no streets and no measured percentage.
+                    selectedRide = rides.firstOrNull { it.signature == selected } ?: _state.value.selectedRide,
+                )
+            }
+        }
         refreshSuggestions()
     }
 
@@ -445,7 +481,9 @@ class PlanViewModel(
      * recorder writes to, so a ride that just finished appears here without a restart.
      */
     fun loadRides() {
-        if (_state.value.ridesLoading) return
+        // D67: kept as the screen's "refresh when you open" hook, but the list itself is observed, so
+        // this only has to fetch once if the collector has not delivered yet.
+        if (_state.value.rides.isNotEmpty()) return
         _state.value = _state.value.copy(ridesLoading = true)
         viewModelScope.launch {
             val rides = runCatching { container.rideTracks.all() }.getOrDefault(emptyList())
@@ -671,6 +709,24 @@ class PlanViewModel(
         refreshTrailsNear()
         // D26: the requests saved for THIS start area are the ones worth offering, so a new position
         // re-runs the lookup. It is a local index probe with no network call.
+        // D67: the rides list is OBSERVED, not read once.
+        //
+        // Measured on the S23 Ultra 2026-10-26: stop a recording, the ride saves, and the screen still
+        // says "No recorded rides yet" until it is left and re-entered, because the list was loaded on
+        // entry and nothing ever asked again. Room reports the insert, so the new ride is simply there.
+        viewModelScope.launch {
+            container.rideTracks.observe().collect { rides ->
+                val selected = _state.value.selectedRide?.signature
+                _state.value = _state.value.copy(
+                    rides = rides,
+                    ridesLoading = false,
+                    // The ride is stored ungraded and then measured in place (D67), so the selected
+                    // copy has to follow the row - otherwise the rider looks at the version that has
+                    // no streets and no measured percentage.
+                    selectedRide = rides.firstOrNull { it.signature == selected } ?: _state.value.selectedRide,
+                )
+            }
+        }
         refreshSuggestions()
     }
 

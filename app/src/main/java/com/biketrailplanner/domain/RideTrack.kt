@@ -1,5 +1,7 @@
 package com.biketrailplanner.domain
 
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.flow
 import java.security.MessageDigest
 import java.util.Locale
 
@@ -72,6 +74,19 @@ interface RideTrackStore {
     suspend fun save(track: RideTrack)
 
     suspend fun delete(signature: String)
+
+    /**
+     * D67: the rides, as a stream, so a ride that is saved while the screen is open appears without
+     * anything having to ask again.
+     *
+     * Measured on the phone 2026-10-26: the rider stopped a recording, the ride was saved, and the list
+     * still said "No recorded rides yet" until the screen was left and re-entered - the screen loaded the
+     * list once, on entry, and nothing reloaded it after the save.
+     *
+     * A store that cannot observe (the in-memory one, and any test double) still works: the default is
+     * one read, which is exactly the old behaviour.
+     */
+    fun observe(limit: Int = DEFAULT_LIMIT): Flow<List<RideTrack>> = flow { emit(all(limit)) }
 
     companion object {
         const val DEFAULT_LIMIT = 50

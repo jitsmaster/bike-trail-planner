@@ -207,6 +207,17 @@ A journal left behind by a ride that was never saved is archived too, instead of
 the next ride: two rides spliced into one track that never happened is the one failure this design
 must not have.
 
+## 6c. What you can do with a ride afterwards (D67-D69)
+
+- **It appears at once.** The ride is stored the moment recording stops and measured a moment later;
+  the list is observed, so nothing has to be re-opened to see it.
+- **Navigate in Google Maps.** The ride's key turns become Maps stops (D64).
+- **Save a home-screen icon.** *Save this ride as a home screen icon* asks for a name first, then pins
+  the Maps URL to the launcher under that name (D68). Same ride, same icon - saving again updates it.
+- **Delete asks twice.** A recorded ride cannot be re-created, so `Delete` -> `Delete…` -> `Yes, delete
+  it` (D69). `Keep it` at either step leaves it alone.
+- **The raw fixes are on disk** (section 6b) whatever you do with the ride above.
+
 ## 7. Device test result (2026-10-10, Galaxy S23 Ultra, Android 16)
 
 Driven entirely over `adb` with the debug in-app simulator (the rider cannot ride). `arm64-v8a` debug

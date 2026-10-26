@@ -20,8 +20,11 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
@@ -40,6 +43,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.biketrailplanner.BuildConfig
 import com.biketrailplanner.domain.Formatting
+import com.biketrailplanner.data.RideShortcut
 import com.biketrailplanner.domain.GoogleMapsLink
 import com.biketrailplanner.domain.Grade
 import com.biketrailplanner.domain.PanelSize
@@ -302,7 +306,55 @@ private fun RideCard(ride: RideTrack, selected: Boolean, onSelect: () -> Unit, o
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )
                 }
-                TextButton(onClick = onDelete) { Text("Delete") }
+                // D69: deleting a recorded ride asks TWICE.
+                //
+                // Rider, 2026-10-26: *"double confirm on recorded trip deletions"* - and then, when the
+                // first version asked once: *"it's a single confirm for delete, you need to ask me
+                // twice"*. A recorded ride cannot be re-created from anything - it is the one thing in
+                // this app that is genuinely irreplaceable - so a mis-tap on a phone that is being
+                // handled should never be able to end one. Two questions, worded differently, so the
+                // second one cannot be mistaken for the first not having worked.
+                var deleteStep by remember(ride.signature) { mutableIntStateOf(0) }
+                TextButton(onClick = { deleteStep = 1 }) { Text("Delete") }
+                if (deleteStep == 1) {
+                    AlertDialog(
+                        onDismissRequest = { deleteStep = 1 },
+                        title = { Text("Delete this ride?") },
+                        text = {
+                            Text(
+                                "\u201c" + ride.label + "\u201d from " + dateText(ride.endedAtMs) +
+                                    " will be removed, with the streets it measured.",
+                            )
+                        },
+                        confirmButton = {
+                            TextButton(onClick = { deleteStep = 2 }) { Text("Delete\u2026") }
+                        },
+                        dismissButton = {
+                            TextButton(onClick = { deleteStep = 0 }) { Text("Keep it") }
+                        },
+                    )
+                }
+                if (deleteStep == 2) {
+                    AlertDialog(
+                        onDismissRequest = { deleteStep = 2 },
+                        title = { Text("Delete it for good?") },
+                        text = {
+                            Text(
+                                "This is the last check. " + ride.label + " is a ride you actually rode, " +
+                                    "and it cannot be recovered once it is gone.",
+                            )
+                        },
+                        confirmButton = {
+                            TextButton(onClick = {
+                                deleteStep = 0
+                                onDelete()
+                            }) { Text("Yes, delete it") }
+                        },
+                        dismissButton = {
+                            TextButton(onClick = { deleteStep = 0 }) { Text("Keep it") }
+                        },
+                    )
+                }
             }
             if (ride.hasTrack) {
                 Spacer(Modifier.height(8.dp))
@@ -347,6 +399,78 @@ private fun RideCard(ride: RideTrack, selected: Boolean, onSelect: () -> Unit, o
                     },
                     modifier = Modifier.fillMaxWidth(),
                 ) { Text("Navigate this ride in Google Maps") }
+                // D68: the same hand-off, kept. A rider who liked the route a ride produced does not
+                // want to re-record it to get it back - name it and it lives on the home screen. The
+                // name is asked for first, because "Oct 26 12:48 PM" is a date, not a name.
+                val shortcutUrl = remember(ride.signature) { GoogleMapsLink.url(ride) }
+                if (shortcutUrl != null) {
+                    var naming by remember(ride.signature) { mutableStateOf(false) }
+                    var name by remember(ride.signature) { mutableStateOf(RideShortcut.defaultName(ride)) }
+                    OutlinedButton(
+                        onClick = { naming = true },
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(top = 8.dp),
+                    ) { Text("Save this ride as a home screen icon") }
+                    Text(
+                        "It goes wherever this phone keeps its app icons, and opens this ride in " +
+                            "Google Maps. You choose the name.",
+                        style = MaterialTheme.typography.labelSmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        modifier = Modifier.padding(top = 4.dp),
+                    )
+                    if (naming) {
+                        AlertDialog(
+                            onDismissRequest = { naming = false },
+                            title = { Text("Name this shortcut") },
+                            text = {
+                                Column {
+                                    Text(
+                                        "This is what the icon will say. Short is easier to read " +
+                                            "on a home screen.",
+                                        style = MaterialTheme.typography.bodySmall,
+                                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                    )
+                                    Spacer(Modifier.height(12.dp))
+                                    OutlinedTextField(
+                                        value = name,
+                                        onValueChange = { name = it.take(RideShortcut.MAX_LABEL * 2) },
+                                        singleLine = true,
+                                        label = { Text("Name") },
+                                        modifier = Modifier.fillMaxWidth(),
+                                    )
+                                }
+                            },
+                            confirmButton = {
+                                TextButton(onClick = {
+                                    naming = false
+                                    when (RideShortcut.pin(context, ride, name, shortcutUrl)) {
+                                        RideShortcut.Result.PINNED -> Toast.makeText(
+                                            context,
+                                            name.trim().ifEmpty { "Your ride" } +
+                                                " is on its way to your home screen - confirm it there.",
+                                            Toast.LENGTH_LONG,
+                                        ).show()
+                                        RideShortcut.Result.UNSUPPORTED -> Toast.makeText(
+                                            context,
+                                            "This home screen does not accept icons from apps. " +
+                                                "You can still navigate the ride from here.",
+                                            Toast.LENGTH_LONG,
+                                        ).show()
+                                        RideShortcut.Result.FAILED -> Toast.makeText(
+                                            context,
+                                            "The icon could not be added.",
+                                            Toast.LENGTH_LONG,
+                                        ).show()
+                                    }
+                                }) { Text("Add icon") }
+                            },
+                            dismissButton = {
+                                TextButton(onClick = { naming = false }) { Text("Cancel") }
+                            },
+                        )
+                    }
+                }
                 Text(
                     when {
                         // D64: say what the stops ARE, so the choice is never a mystery.
