@@ -2,7 +2,9 @@ package com.biketrailplanner.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import android.util.Log
 import com.biketrailplanner.AppContainer
+import com.biketrailplanner.BuildConfig
 import com.biketrailplanner.data.AddressLookup
 import com.biketrailplanner.data.UserHomeStore
 import com.biketrailplanner.data.DiscoveryMerge
@@ -259,6 +261,11 @@ class PlanViewModel(
                     _state.value.liveRoute.lastOrNull() != points.lastOrNull()
                 ) {
                     _state.value = _state.value.copy(liveRoute = points)
+                    // D65: the map needs two points before there is a line, so the transition from ONE
+                    // to TWO is the moment live drawing either starts or does not. One line, once.
+                    if (BuildConfig.DEBUG && points.size == 2) {
+                        Log.d("RideLive", "ui: live route is drawable (2 points)")
+                    }
                 }
             }
         }
@@ -421,7 +428,16 @@ class PlanViewModel(
     fun simulateRide() {
         container.enableRideSimulation()
         container.startRideRecording()
-        refreshRecording()
+        // D57: the foreground service comes up asynchronously, so asking "is a ride being recorded?"
+        // immediately answers no - which on a real phone left the banner hidden, the button still
+        // saying "Record a ride", and the rider with no way to stop the ride the app was recording
+        // (measured 2026-10-25). Claim the start, then let the reconcile below take it back if the
+        // service refused.
+        _state.value = _state.value.copy(recordingActive = true)
+        viewModelScope.launch {
+            delay(START_SETTLE_MS)
+            refreshRecording()
+        }
     }
 
     /**

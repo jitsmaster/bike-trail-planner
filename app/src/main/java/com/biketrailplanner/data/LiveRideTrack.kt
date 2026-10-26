@@ -1,5 +1,7 @@
 package com.biketrailplanner.data
 
+import android.util.Log
+import com.biketrailplanner.BuildConfig
 import com.biketrailplanner.domain.LatLon
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -37,6 +39,18 @@ class LiveRideTrack {
         if (track.size == published) return
         published = track.size
         state.value = track.toList()
+        // D61/D65: the same "leave evidence" rule as the fix log. Two lines per recording say whether a
+        // live track ever left the service, and the first fix is the one that decides whether the map
+        // has anything to draw. Without this, "the map did not draw" and "nothing was published" look
+        // identical from outside - which is exactly what happened on the phone on 2026-10-25.
+        if (BuildConfig.DEBUG && (published <= 2 || published % PUBLISH_LOG_EVERY == 0)) {
+            Log.d(TAG, "publish $published point(s)")
+        }
+    }
+
+    private companion object {
+        const val TAG = "RideLive"
+        const val PUBLISH_LOG_EVERY = 100
     }
 
     fun clear() {
