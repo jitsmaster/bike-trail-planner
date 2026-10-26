@@ -71,6 +71,27 @@ The recorder consumes a pure `LocationSource` seam, so the same recorder code is
 accuracy, dropouts) from any `LatLon` shape, so one generator serves the JVM tests and the debug
 simulator, and `tools/simulate_ride.py` generates the same shape for the emulator's own provider.
 
+### The simulator rides a real loop (2026-10-26)
+
+The debug simulator used to ride a **straight line** out and back, so every simulated ride had exactly
+one turn - the 180 at the turnaround - and the stop picker was being judged on a ride with no
+junctions and no name changes. The rider asked for corners: *"in your simulation, do some turns instead
+of going a straight line!"*
+
+`RideSimulation` now carries a **2.6 km loop of real OSM geometry** as an encoded polyline, taken from
+the ways themselves rather than drawn by hand:
+
+```
+18th Street East (west) -> 122nd Avenue East (south) -> 24th Street East (east)
+  -> 125th Avenue Court East (north) -> home
+```
+
+Four ~90-degree corners and six smaller bends, closing on itself at the front door. It rides through
+the real recorder, so the trace at the end matches real streets and the hand-off names real turns -
+measured on the phone: *"turn onto 24th Street East (93°)"*, *"turn onto 20th Street East (76°)"*.
+Away from home the same shape is shifted to the phone's own position, so a simulator run always has
+corners even if the streets are then whatever OSM has there.
+
 ## 5. Files
 
 ```
@@ -149,6 +170,42 @@ Google Maps rejects a route whose stops repeat.
 **Live drawing.** `data/LiveRideTrack.kt` publishes the accepted points as they arrive; the map draws
 them as `MapShape.Live` and **moves the camera only when the newest fix leaves the screen**. The
 recorder still owns the truth (the journal, D62) - this pipe holds nothing durable.
+
+## 6b. The raw archive: every fix is kept, not just the ride (D66)
+
+The journal (D62) survives a process death, but it is **deleted** once the ride is saved - and the
+saved ride is filtered: fixes worse than 50 m are dropped, anything closer than 3 m is treated as
+jitter, and the tracer only keeps the part of the track OSM knows. Before a real trip the rider asked
+for one guarantee: *"make sure the recording at least logs all places I have been to"*.
+
+So on every stop the journal is copied **before the save is attempted** to:
+
+```
+/data/data/com.biketrailplanner/files/ride-raw/2026-10-25-1359-ride.txt
+```
+
+Plain text, one fix per line, in the journal's own encoding:
+
+```
+# ride 2026-10-25 13:59:07, 1826 raw fixes, 3900s span, columns: lat,lon,epochMs,accuracyM,speedMps
+47.24043489,-122.26194572,1792449196905,6.0,4.25
+...
+```
+
+- **Pull it off the phone** with `adb pull /data/data/com.biketrailplanner/files/ride-raw/` (debug
+  build; `adb shell run-as com.biketrailplanner cat files/ride-raw/<file>` also works).
+- **It is also a valid journal**: the header line starts with `#` and fails to parse as a fix, so
+  `RideJournal.decodeAll` skips it and the file can be replayed as fixes without conversion.
+- **Nothing filtered is missing from it.** A 200 m fix, a jitter step, a stretch no tracer matched -
+  all still in the file, because that is what "where I went" means when the shape is decided later.
+- **Bounded**: 50 rides, oldest deleted first. One hour is a few hundred kilobytes.
+- **The save never depends on it.** Archive first, swallow every error, then trace (optional) and
+  store. A ride is saved ungraded when Valhalla cannot be reached - which is the normal case on a real
+  trip, where `127.0.0.1:8002` only exists while the phone is tethered.
+
+A journal left behind by a ride that was never saved is archived too, instead of being appended to by
+the next ride: two rides spliced into one track that never happened is the one failure this design
+must not have.
 
 ## 7. Device test result (2026-10-10, Galaxy S23 Ultra, Android 16)
 

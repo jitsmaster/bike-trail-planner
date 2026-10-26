@@ -38,7 +38,7 @@ fall back to `https://valhalla1.openstreetmap.de` only when the rider turns the 
 ```console
 $ export JAVA_HOME=/opt/homebrew/opt/openjdk@17
 $ ./gradlew :app:assembleDebug
-$ ./gradlew :app:testDebugUnitTest        # 442 JVM unit tests, all passing
+$ ./gradlew :app:testDebugUnitTest        # 450 JVM unit tests, all passing
 ```
 
 APK (ABI splits, so each device only downloads its own native libraries):

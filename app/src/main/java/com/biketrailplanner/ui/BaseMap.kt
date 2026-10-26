@@ -204,7 +204,7 @@ fun BaseMap(
         if (points.size < 2) return@LaunchedEffect
         livePolyline?.remove()
         livePolyline = drawLiveLine(instance, points, rideColor)
-        followIfOffScreen(instance, points, fitPadding())
+        followIfOffScreen(instance, points, coveredBottomFraction, fitPadding())
     }
 
     // D60: a tap on the map. Added and removed with the callback so a screen that stops wanting taps
@@ -340,21 +340,36 @@ private const val TOP_PADDING_PX = 220
 private const val BOTTOM_PADDING_PX = 160
 
 /**
- * D64: move the camera only when the newest fix has left the screen.
+ * D64: move the camera only when the newest fix has left the part of the map the rider can SEE.
  *
  * A recording is redrawn once a second. Re-fitting on every fix would zoom out a little on every fix
  * and make the map unreadable; never moving would let the rider's line walk off the screen. "Re-fit
  * only when it needs to" is the middle: the camera holds still while the rider is in view, then frames
  * the whole ride again when they leave it.
+ *
+ * [coveredBottomFraction] is not decoration. The map is full-screen behind the bottom sheet, so the
+ * projection's visible region is bigger than what the rider can see: the first version asked "is the
+ * newest fix inside the visible region", answered yes for a fix that was **behind the sheet**, and let
+ * the live line disappear under the panel. Measured on the S23 Ultra 2026-10-26 during the first
+ * simulated loop: two legs of a 2.6 km ride were drawn where nobody could see them, and the camera
+ * never moved. The visible region is now cut down to the same rectangles the fit uses.
  */
-private fun followIfOffScreen(map: MapLibreMap, points: List<LatLon>, padding: IntArray) {
+private fun followIfOffScreen(
+    map: MapLibreMap,
+    points: List<LatLon>,
+    coveredBottomFraction: Float,
+    padding: IntArray,
+) {
     val newest = points.lastOrNull() ?: return
     val visible = runCatching { map.projection.visibleRegion.latLngBounds }.getOrNull() ?: return
     val latSpan = visible.latitudeNorth - visible.latitudeSouth
     val lonSpan = visible.longitudeEast - visible.longitudeWest
+    // The sheet's share of the height, clamped exactly like the fit padding so the two agree.
+    val covered = coveredBottomFraction.coerceIn(0f, 0.85f).toDouble()
+    val north = visible.latitudeSouth + latSpan * (1.0 - covered)
     val margin = 0.15
-    val inside = newest.lat > visible.latitudeSouth + margin * latSpan &&
-        newest.lat < visible.latitudeNorth - margin * latSpan &&
+    val inside = newest.lat > visible.latitudeSouth + margin * latSpan * (1.0 - covered) &&
+        newest.lat < north - margin * latSpan * (1.0 - covered) &&
         newest.lon > visible.longitudeWest + margin * lonSpan &&
         newest.lon < visible.longitudeEast - margin * lonSpan
     if (inside) return

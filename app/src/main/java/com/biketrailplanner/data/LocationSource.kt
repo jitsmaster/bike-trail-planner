@@ -5,6 +5,7 @@ import android.content.Context
 import android.location.Location
 import android.location.LocationListener
 import android.location.LocationManager
+import android.os.Build
 import android.os.Bundle
 import android.os.Looper
 import com.biketrailplanner.domain.LatLon
@@ -30,12 +31,24 @@ interface LocationSource {
 }
 
 /**
- * The production source: the platform GPS provider.
+ * The production source: the platform's location providers.
  *
  * This reports `location.time` as the fix time, which is what the recorder compares for gaps, and the
  * platform's own speed when present. It is only ever bound by the foreground recording service, so the
  * OS keeps it alive while the rider is in Google Maps or Velotric - no background-location permission
  * is involved (D51, and the D35/D36 stance).
+ *
+ * **More than one provider is requested on purpose (D66).** GPS alone is the best geometry, and it is
+ * all the ride needs - but it is also the provider that goes silent under a bridge, in a canyon, or
+ * under heavy tree cover, and a silent provider logs *nothing*. A coarse network fix is useless as
+ * geometry (the recorder's 50 m accuracy gate throws it away, exactly as it should) and still worth
+ * having in the raw archive: it is the difference between "I rode through this neighbourhood" and a
+ * blank line. `FUSED_PROVIDER` (API 31+) is requested when available because it already merges the
+ * others; on older versions `NETWORK_PROVIDER` is asked for directly. Duplicates between providers are
+ * harmless: the recorder's 3 m step filter drops them from the track, and the archive is a record of
+ * what arrived, not a de-duplicated product. Measured on the S23 Ultra indoors, 2026-10-25: GPS-only
+ * request, service running, **zero fixes in four minutes** - which is correct and also why the coarse
+ * fallback is worth its noise.
  */
 class AndroidLocationSource(
     context: Context,
@@ -69,16 +82,22 @@ class AndroidLocationSource(
             override fun onProviderEnabled(provider: String) = Unit
             override fun onProviderDisabled(provider: String) = Unit
         }
-        runCatching {
-            manager.requestLocationUpdates(
-                LocationManager.GPS_PROVIDER,
-                intervalMs,
-                minDistanceM,
-                listener,
-                Looper.getMainLooper(),
-            )
-        }.onFailure { close(it); return@callbackFlow }
-        awaitClose { runCatching { manager.removeUpdates(listener) } }
+        val providers = buildList {
+            add(LocationManager.GPS_PROVIDER)
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) add(LocationManager.FUSED_PROVIDER)
+            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.S) add(LocationManager.NETWORK_PROVIDER)
+        }
+        val registered = providers.filter { provider ->
+            runCatching {
+                manager.requestLocationUpdates(provider, intervalMs, minDistanceM, listener, Looper.getMainLooper())
+            }.isSuccess
+        }
+        // GPS is the one that must work; if the platform refuses even that there is no recording to have.
+        if (LocationManager.GPS_PROVIDER !in registered) {
+            close()
+            return@callbackFlow
+        }
+        awaitClose { registered.forEach { provider -> runCatching { manager.removeUpdates(listener) } } }
     }
 }
 

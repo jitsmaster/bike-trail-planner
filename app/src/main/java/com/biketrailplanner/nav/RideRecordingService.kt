@@ -26,6 +26,7 @@ import com.biketrailplanner.data.AndroidLocationSource
 import com.biketrailplanner.data.LocationSource
 import com.biketrailplanner.data.RideRecordingStore
 import com.biketrailplanner.data.RideFixJournal
+import com.biketrailplanner.data.RideRawArchive
 import com.biketrailplanner.data.RideSimulation
 import com.biketrailplanner.data.ScriptedLocationSource
 import com.biketrailplanner.domain.Geo
@@ -43,6 +44,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import java.io.File
 import java.util.Locale
 
 /**
@@ -71,6 +73,8 @@ class RideRecordingService : Service() {
     private var store: RideRecordingStore? = null
     /** D62: the fixes on disk, so a killed process cannot take the ride with it. */
     private var journal: RideFixJournal? = null
+    /** D66: the same fixes, kept AFTER the ride is saved, so nothing the app filtered is lost. */
+    private var rawArchive: RideRawArchive? = null
     private var container: AppContainer? = null
     private var collection: Job? = null
     private var stopping = false
@@ -82,6 +86,7 @@ class RideRecordingService : Service() {
         super.onCreate()
         store = RideRecordingStore(this)
         journal = RideFixJournal(this)
+        rawArchive = RideRawArchive(File(filesDir, RideRawArchive.DIR_NAME))
         container = (application as? BikeTrailPlannerApp)?.container
         ensureChannel()
     }
@@ -119,7 +124,20 @@ class RideRecordingService : Service() {
         startedForeground = true
         // D62: a journal left behind means a previous process died mid-recording. Replay it, so the ride
         // continues from where it was instead of starting again at zero miles.
-        val resumed = if (store?.load()?.active == true) journal?.readAll().orEmpty() else emptyList()
+        val resuming = store?.load()?.active == true
+        val resumed = if (resuming) journal?.readAll().orEmpty() else emptyList()
+        // D66: a journal left behind by a ride that was never saved is NOT this ride's raw material -
+        // appending to it would splice two rides into one, and a later resume would replay the older
+        // one as if it had just happened. Measured on a phone 2026-10-25: a save that failed leaves the
+        // journal in place, so the next ride appended its first fix to yesterday's file.
+        if (!resuming && journal?.hasFixes() == true) {
+            // D66: archive it rather than throw it away. Those fixes are places somebody rode, even if
+            // the ride that produced them was never stored; the cost of keeping them is one text file.
+            val stale = journal?.readAll().orEmpty()
+            val kept = rawArchive?.archive(stale, stale.firstOrNull()?.atEpochMs ?: now)
+            Log.w(TAG, "stale journal from an unsaved ride: ${stale.size} fixes archived to ${kept?.absolutePath}")
+            journal?.clear()
+        }
         recorder.start(resumed.firstOrNull()?.atEpochMs ?: now)
         if (resumed.isNotEmpty()) {
             resumed.forEach(recorder::onFix)
@@ -218,6 +236,16 @@ class RideRecordingService : Service() {
         // This is the branch that used to lose a 16-mile ride - the process had been killed, so the
         // recorder was empty and the ride was discarded as "nothing was recorded".
         val ride = recorder.finish(nowMs) ?: rideFromJournal(journalled, nowMs)
+        // D66: the rider's one hard requirement before a real trip - every place they went is written
+        // down. The journal holds every fix exactly as it arrived, including the ones the recorder
+        // rejected and the ones no tracer will ever match; copy it somewhere permanent BEFORE the save
+        // attempt, so the archive does not depend on the trace, the network or the database.
+        val archived = rawArchive?.archive(journalled, journalled.firstOrNull()?.atEpochMs ?: nowMs)
+        if (archived != null) {
+            Log.i(TAG, "raw fixes archived: ${archived.absolutePath} (${journalled.size} fixes)")
+        } else if (journalled.isEmpty()) {
+            Log.w(TAG, "no journalled fixes to archive")
+        }
         if (ride == null && journalled.isNotEmpty()) Log.w(TAG, "journal held ${journalled.size} fixes but no ride could be built")
         isRecordingNow = false
         store?.clear()
